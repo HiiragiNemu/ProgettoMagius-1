@@ -1,0 +1,57 @@
+name: Verified public resource mirror
+on:
+  workflow_call:
+    inputs:
+      source_repository:
+        type: string
+        required: true
+      implementation_ref:
+        type: string
+        required: true
+    secrets:
+      source_read_token:
+        required: true
+      target_write_token:
+        required: true
+permissions:
+  contents: read
+jobs:
+  mirror:
+    if: github.repository == inputs.source_repository && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Validate immutable implementation reference
+        env:
+          IMPL: ${{ inputs.implementation_ref }}
+        run: '[[ "$IMPL" =~ ^[0-9a-f]{40}$ ]]'
+      - uses: actions/checkout@v4
+        with:
+          repository: HiiragiNemu/ProgettoMagius-1
+          ref: ${{ inputs.implementation_ref }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test allowlist and transport before using credentials
+        run: |
+          python -m unittest discover -s tests -v
+          node distribution/test-worker.mjs
+      - name: Plan player-facing assets
+        env:
+          SOURCE_TOKEN: ${{ secrets.source_read_token }}
+          SOURCE_REPO: ${{ inputs.source_repository }}
+        run: python tools/mirror_release.py --source "$SOURCE_REPO" --target HiiragiNemu/ProgettoMagius-1 --plan
+      - name: Synchronize and anonymously verify
+        env:
+          SOURCE_TOKEN: ${{ secrets.source_read_token }}
+          TARGET_TOKEN: ${{ secrets.target_write_token }}
+          SOURCE_REPO: ${{ inputs.source_repository }}
+        run: python -u tools/mirror_release.py --source "$SOURCE_REPO" --target HiiragiNemu/ProgettoMagius-1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: public-resource-mirror-report
+          path: mirror-report.json
+          if-no-files-found: ignore
+          retention-days: 14
