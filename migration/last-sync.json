@@ -7,168 +7,168 @@
   "assets": [
     {
       "name": "cn_js_delta.zip",
-      "size": 18228640,
       "sha256": "da1b8862a27c09f2593c42831bc9b822e54389e6a3d3ddbed528e4a0127c80bd",
-      "md5": "cd8c51d193621f2736390c3a1fee6b03"
+      "size": 18228640,
+      "unchanged": true
     },
     {
       "name": "magireco-latest-legacy-client.apk",
-      "size": 113667961,
       "sha256": "47e3bce8c2cccd1d53fe0b6b3253772ec61d4ff0860be6be884e1cab3e83151a",
-      "md5": "f78f37ec9973710693e9d4a8c5779aa4"
+      "size": 113667961,
+      "unchanged": true
     },
     {
       "name": "cn_scenario_update.zip",
-      "size": 194067302,
       "sha256": "fe8b069ed36f7dc4450522f024796eea76c830d6003a2c516d2a19c90b6388cf",
-      "md5": "f799e71310f292270d586fa21bb9eed2"
+      "size": 194067302,
+      "unchanged": true
     },
     {
       "name": "cn_js_update.zip",
-      "size": 293977738,
       "sha256": "c248f8d61c3344dfaa40dcfd92f4e1957ec743a114077c7a5d01c5c79cea184d",
-      "md5": "5aab24dffa236569914e1e7a13c0e847"
+      "size": 293977738,
+      "unchanged": true
     },
     {
       "name": "apk-overlay-atlas-e34fdda8.zip",
-      "size": 12042752,
       "sha256": "e34fdda88e0579120ad3ede83bec35b5cc576b04f5c99004b9170a80f4d6de1d",
-      "md5": "bdcf3386ac05d3ee941763133447d3c5"
+      "size": 12042752,
+      "unchanged": true
     },
     {
       "name": "apk-overlay-atlas.zip",
-      "size": 11616408,
       "sha256": "3edc096b5f34a7ab57abab0e524ea8d5126730e3b42f16961a8a8afba53baef2",
-      "md5": "3cced464c6feb7c9b04864a981a9a30a"
+      "size": 11616408,
+      "unchanged": true
     },
     {
       "name": "cn_base_00_db.zip",
-      "size": 7437513,
       "sha256": "1a7f06accd3471f3cc2a434bd55406ad270ba4682d2f03faadf8096a7abb8a26",
-      "md5": "9eea8ff0491d9bd68e0b1a51c12ecf32"
+      "size": 7437513,
+      "unchanged": true
     },
     {
       "name": "cn_base_01_json.zip",
-      "size": 5749047,
       "sha256": "cf3acebc7c207843d7aaf9701cae0922fb3df83498fa4d6e892589fe590ee866",
-      "md5": "825a9bc0a7c299e58eb6f1e7881da0d7"
+      "size": 5749047,
+      "unchanged": true
     },
     {
       "name": "cn_base_02.zip",
-      "size": 957669887,
       "sha256": "310495d71bd90cda15a9891cacd7fc53ffa8e9f2c8c9e0471ee38aae263f8391",
-      "md5": "9718cb733a63f66372055785c5516ee5"
+      "size": 957669887,
+      "unchanged": true
     },
     {
       "name": "cn_base_03.zip",
-      "size": 1422289288,
       "sha256": "3feca234ed824a26f27906d3108c9e83312015603f384dba23729cb73d923930",
-      "md5": "3acbf01900e087d803f1dbdc87128cf5"
+      "size": 1422289288,
+      "unchanged": true
     },
     {
       "name": "cn_base_04.zip",
-      "size": 790972163,
       "sha256": "3f5b12cc976a526b55721d5c1ad70e43af003ca6f8b99e02c9c909380d50362b",
-      "md5": "67df9b4851129dbad9493414bb83a8bd"
+      "size": 790972163,
+      "unchanged": true
     },
     {
       "name": "cn_base_05.zip",
-      "size": 915609476,
       "sha256": "2fa1305b92502b5ab86affb51d36f7f5e1063ebc6d9078151f92fec75125fd43",
-      "md5": "ce8fbaff77422ec22393e0e51c5e9e27"
+      "size": 915609476,
+      "unchanged": true
     },
     {
       "name": "cn_base_06.zip",
-      "size": 1135265479,
       "sha256": "06222b97088eed93f316ec8040280bbccef1015918d37e58d139133ae8c70bd2",
-      "md5": "7232791e8de8463d22e0cbb2cc73611e"
+      "size": 1135265479,
+      "unchanged": true
     },
     {
       "name": "cn_magica_resource.zip",
-      "size": 398763022,
       "sha256": "a613d1e7ac8faf669a5c2cfd14fad57457b3b069796be7cafffdbb45c314ccd8",
-      "md5": "7625546975c727fd9ebdee497ef742b8"
+      "size": 398763022,
+      "unchanged": true
     },
     {
       "name": "cn_scenario_img.zip",
-      "size": 517376952,
       "sha256": "a0ced9fbbaec00f496d745b05123c73b4d78648cb10b02151fcefa7f44c30eaa",
-      "md5": "0a5b5860b86549b27d48a92a1d4b6b59"
+      "size": 517376952,
+      "unchanged": true
     },
     {
       "name": "cn_voice_01.zip",
-      "size": 1985163011,
       "sha256": "c93d2926b9a9a5d24833173e896fd565f0d495aa984c467e649a993b8aa19980",
-      "md5": "964f6e4f2bf93680f13394b59a11d5d1"
+      "size": 1985163011,
+      "unchanged": true
     },
     {
       "name": "cn_voice_02_done.zip",
-      "size": 1801181697,
       "sha256": "b9ce4f858727a274c7124663975864089f5b72a5eb6285643172319d70d2fff0",
-      "md5": "3ff8adc01dca6a5e7af49df6b4cca73a"
+      "size": 1801181697,
+      "unchanged": true
     },
     {
       "name": "movie.zip",
-      "size": 1423520951,
       "sha256": "42f0bcf09cbf8de6d3ccff84807461ba7a681437dd876271f17482d29eda6ecd",
-      "md5": "4b1d9ab134e74667a249fb8653082ca5"
+      "size": 1423520951,
+      "unchanged": true
     },
     {
       "name": "movie2.zip",
-      "size": 1400241490,
       "sha256": "f671f584b8890b1122f73af0cf5811f8732bbb6a6e5b40741b1120f165486bb4",
-      "md5": "4380b7e76ba9511a7f7c1acf7fea51b0"
+      "size": 1400241490,
+      "unchanged": true
     },
     {
       "name": "cn_js_update_manifest.json",
-      "size": 280497,
       "sha256": "20dd6ce04e5c4e212864bf1e958c470d91c7961374ba19f54b4c6792adb51bfc",
-      "md5": "41ae503cab042de35a877e95a47e278a"
+      "size": 280497,
+      "unchanged": true
     },
     {
       "name": "cn_scenario_update_manifest.json",
-      "size": 1617389,
       "sha256": "a11a122a402496f48fd3169311418ba7d3be21c3f5b492decbf09f5078e6f56f",
-      "md5": "43d38c719466b10dcb310f9ddeed768d"
+      "size": 1617389,
+      "unchanged": true
     },
     {
       "name": "cn_js_delta_manifest.json",
-      "size": 43384,
       "sha256": "5518878e554834003c8bbfb2d811bfaab9fbaaeb0eae52f46706a068781d713a",
-      "md5": "4205f0c5e482b2975effbcf03c509266"
+      "size": 43384,
+      "unchanged": true
     },
     {
       "name": "manifest.json",
-      "size": 35035,
       "sha256": "b4ce68926737161f6917f08c6a4094bad762492a2578ddb3e5bcc46bb4a5a537",
-      "md5": "fa8fedf14cdddf69fa3f9779a36a4c35"
+      "size": 35035,
+      "unchanged": true
     },
     {
       "name": "magireco-latest-legacy-client.version.json",
-      "size": 532,
       "sha256": "72bbcfa81f9dc2d0ec671ee7aa156726c59a27c7240eaee63ec7ce506c4a1e57",
-      "md5": "70f73b1b0eb9072668bd6fabffd0b629"
+      "size": 532,
+      "unchanged": true
     },
     {
       "name": "version_js.json",
-      "size": 86,
       "sha256": "63a14a9c33b95c32cdf9ac38ac580fe41b5cb34dea248721db9eda12bc8ab381",
-      "md5": "1abf7101b37ad4a1f13b1a280875213c"
+      "size": 86,
+      "unchanged": true
     },
     {
       "name": "version_scenario.json",
-      "size": 87,
       "sha256": "6a2f6aad9c16acf15132b7b1cb1daa5797df2acfc546d7ef90766d50ee3481cc",
-      "md5": "0a79b3bdb5cd5fc3e6e6e40468ab54fe"
+      "size": 87,
+      "unchanged": true
     },
     {
       "name": "version_js_delta.json",
-      "size": 199,
       "sha256": "b5be9d3fa4aeb635d403e0002c286f6cb3a0e03f290cc5712278922ac9852abb",
-      "md5": "9c6f37967648683485a5e423bbd03bba"
+      "size": 199,
+      "unchanged": true
     }
   ],
-  "checked_at": "2026-09-26T16:25:28Z",
+  "checked_at": "2026-09-26T16:27:12Z",
   "apk_font_replacement_verified": false,
   "existing_apk_private_cutover_verified": false
 }
