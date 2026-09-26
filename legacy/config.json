@@ -1,0 +1,473 @@
+{
+  "schema": 16,
+  "updated": "2026-09-26T14:20:07Z",
+  "comment": "Personal release configuration. Canonical installation markers are unchanged. Client gate is set only after the new APK body and signature are verified.",
+  "settings": {
+    "chunks": 4,
+    "min_chunk_bytes": 8388608,
+    "switch_after_failures": 1,
+    "stall_seconds": 25,
+    "min_speed_kbps": 1200,
+    "cooldown_ms": 60000,
+    "force_aria2": false,
+    "offline_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/tag/latest",
+    "max_downloads": 6
+  },
+  "mirrors": [
+    {
+      "name": "EdgeOne 加速",
+      "base": "https://edgeone.assets.magireco.top/",
+      "weight": 140,
+      "chunks": 8,
+      "enabled": true
+    },
+    {
+      "name": "阿里 ESA 加速",
+      "base": "https://esa.assets.magireco.top/",
+      "weight": 120,
+      "chunks": 8,
+      "enabled": true
+    },
+    {
+      "name": "Cloudflare 中转",
+      "base": "https://magireco-personal-release.pages.dev/",
+      "weight": 100,
+      "chunks": 8,
+      "enabled": true
+    },
+    {
+      "name": "个人 GitHub 直连",
+      "base": "https://github.com/HiiragiNemu/magireco-cn-patch/releases/download/latest/",
+      "weight": 80,
+      "chunks": 4,
+      "enabled": true
+    },
+    {
+      "name": "公开资源仓直连",
+      "base": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/",
+      "weight": 70,
+      "chunks": 4,
+      "enabled": true
+    }
+  ],
+  "watch": {
+    "comment": "给外部监控用，客户端不读这一段。声明有哪几份热更版本 json、以及它们各自对应的包；监控插件里不写死文件名，没有这一段就跳过热更相关探针——不知道该探什么时保持沉默，比拿一份猜的清单去报警好。",
+    "version_files": [
+      "version_scenario.json",
+      "version_js.json"
+    ],
+    "packages": {
+      "version_scenario.json": "cn_scenario_update.zip",
+      "version_js.json": "cn_js_update.zip"
+    }
+  },
+  "ui_credits": {
+    "list": [
+      {
+        "type": "head",
+        "text": "主力人员"
+      },
+      {
+        "type": "item",
+        "text": "MadeInMagius",
+        "url": "https://space.bilibili.com/625821",
+        "span": "MadeInMagius"
+      },
+      {
+        "type": "sub",
+        "text": "核心实现与全中文化补全以及整合汉化。"
+      },
+      {
+        "type": "sub",
+        "text": "剧情翻译与校订：完成 344 个剧情汉化。"
+      },
+      {
+        "type": "sub",
+        "text": "选关对话：汉化 735 条文字内容。"
+      },
+      {
+        "type": "sub",
+        "text": "角色语音文本翻译与校订：共 1,588 条。其中语音字幕 1,335 条、看板语音 784 条，两类重合 531 条。"
+      },
+      {
+        "type": "sub",
+        "text": "战斗技能文本翻译与修订：4,209 项。"
+      },
+      {
+        "type": "sub",
+        "text": "前端界面文本汉化：1,470 项。"
+      },
+      {
+        "type": "sub",
+        "text": "游戏图像资源汉化：258 个图像，包括 162 个 PNG 和 96 个 .vfxt 特效图像文件。"
+      },
+      {
+        "type": "sub",
+        "text": "称号名称与解锁条件汉化整合：967 项，共 1,934 个字段。"
+      },
+      {
+        "type": "sub",
+        "text": "剧情逐句校对：复核 264 条独立文本，修正 245 条；含复刻剧情共覆盖 339 处载体，实际修正 313 处。"
+      },
+      {
+        "type": "sub",
+        "text": "记忆结晶简介校订：5 条（奈叶联动，依据日文原文修正既有 Wiki 译文；原译来源归属保留）。"
+      },
+      {
+        "type": "item",
+        "text": "CyberNova／PhotonFlow",
+        "url": "https://space.bilibili.com/3546962632640645",
+        "span": "CyberNova／PhotonFlow"
+      },
+      {
+        "type": "sub",
+        "text": "国内加速、现代化下载界面与部分下载技术协助，发现了非 Web 页面外战斗场景 Cocos 引擎部分汉化的可能性和早期实现技术，提供了美服 API 抓包资源。目前加速 CN BASE 主资源文件。"
+      },
+      {
+        "type": "head",
+        "text": "其他协助者"
+      },
+      {
+        "type": "item",
+        "text": "圆环记录攻略组",
+        "url": "https://space.bilibili.com/194242416",
+        "span": "圆环记录攻略组"
+      },
+      {
+        "type": "sub",
+        "text": "提供剧情、角色语音及战斗技能相关的权威汉化文本。"
+      },
+      {
+        "type": "sub",
+        "text": "剧情翻译与校订：目前采纳 52 个剧情汉化。"
+      },
+      {
+        "type": "sub",
+        "text": "角色语音文本：共 703 条。其中语音字幕 109 条、看板语音 641 条，两类重合 47 条。"
+      },
+      {
+        "type": "sub",
+        "text": "战斗技能文本：4,114 项。"
+      },
+      {
+        "type": "sub",
+        "text": "其运营的魔法纪录中文 Wiki 编辑者提供称号译名资料：545 项直接采用，420 项结合现有规范人名与称号格式整理。"
+      },
+      {
+        "type": "item",
+        "text": "水银 h2oag",
+        "url": "https://b23.tv/ovvbrNw",
+        "span": "水银 h2oag"
+      },
+      {
+        "type": "sub",
+        "text": "剧情翻译与部分校订：汉化 144 个剧情。"
+      },
+      {
+        "type": "sub",
+        "text": "巡逻区域汉化：22 个区域名称、3 条解锁条件，共 25 个字段。"
+      },
+      {
+        "type": "sub",
+        "text": "阵型技能汉化：12 个名称、13 条效果说明，共 25 个字段。"
+      },
+      {
+        "type": "sub",
+        "text": "Connect 技能汉化：220 个名称、278 条效果说明，共 498 个字段。"
+      },
+      {
+        "type": "item",
+        "text": "segfault",
+        "url": "https://b23.tv/xjXW9DI",
+        "span": "segfault"
+      },
+      {
+        "type": "sub",
+        "text": "国服数据留存。"
+      },
+      {
+        "type": "item",
+        "text": "赞助支持 MADE IN MAGIUS",
+        "url": "https://afdian.com/a/madeinmagius",
+        "span": "MADE IN MAGIUS"
+      },
+      {
+        "type": "item",
+        "text": "赞助支持 CyberNova",
+        "url": "https://afdian.com/a/cybernova",
+        "span": "CyberNova"
+      },
+      {
+        "type": "head",
+        "text": "统计说明"
+      },
+      {
+        "type": "sub",
+        "text": "水银的三个 JSON 按类型、ID 和汉化字段统计，共 548 个字段；不与技能项数相加。数字、纯省略号和运行时重复映射不计，既有后续校订归属保留。"
+      },
+      {
+        "type": "sub",
+        "text": "称号单独按 ID 统计，不并入原有前端 1,470 项。现成译文的整合不重复计为个人原创；修订既有剧情、复刻载体和空白内容不重复增加汉化数量。"
+      },
+      {
+        "type": "sub",
+        "text": "70 个合作剧情目录分别计入各参与者的个人贡献。各人的目录数量含合作重叠，不相加作为全游戏剧情总数。"
+      },
+      {
+        "type": "sub",
+        "text": "所有人采用相同的语音分类：语音字幕为 charaMessageList.message，看板台词为主界面等场景中的 textHome。同一语音在两处出现时，合计只计一次。"
+      },
+      {
+        "type": "sub",
+        "text": "选关对话按对应关卡的 message 字段统计。当前发布包静态表有 1,580 条记录，另有 32 条表外运行时对话，合计覆盖 1,612 个关卡记录：国服来源 600 条、非国服文字 735 条、非国服省略号 159 条、空白 118 条。省略号和空白不计入文字汉化贡献；1,612 是当前已核实的发布数据覆盖量。"
+      },
+      {
+        "type": "sub",
+        "text": "技能按类型与 ID 统计，同一技能的名称和说明不拆成两项。原译与后续实质校订分别保留贡献。"
+      },
+      {
+        "type": "sub",
+        "text": "国服原有译文不计入上述个人汉化贡献。"
+      },
+      {
+        "type": "head",
+        "text": "MadeInMagius的其他网站作品链接"
+      },
+      {
+        "type": "item",
+        "text": "magireader.pages.dev【魔法纪录剧情中日双语阅读网站】",
+        "url": "https://magireader.pages.dev",
+        "span": "magireader.pages.dev"
+      },
+      {
+        "type": "item",
+        "text": "magireco-call-search-cn.pages.dev【魔法少女称呼关系搜索与身高对比网站】",
+        "url": "https://magireco-call-search-cn.pages.dev/",
+        "span": "magireco-call-search-cn.pages.dev"
+      },
+      {
+        "type": "item",
+        "text": "magius3dviewer.pages.dev【MagiaExedra3D网站】",
+        "url": "https://magius3dviewer.pages.dev/",
+        "span": "magius3dviewer.pages.dev"
+      },
+      {
+        "type": "item",
+        "text": "magiaexedralive2dviewer.pages.dev【魔法纪录 MagiaExedra Live2D 和战斗小人网站（有剧情播放功能）】",
+        "url": "https://magiaexedralive2dviewer.pages.dev/",
+        "span": "magiaexedralive2dviewer.pages.dev"
+      },
+      {
+        "type": "item",
+        "text": "madeinmagius-site.pages.dev【MadeInMagius 下载中心和教程网站】",
+        "url": "https://madeinmagius-site.pages.dev/",
+        "span": "madeinmagius-site.pages.dev"
+      }
+    ],
+    "footer": "MadeInMagius：剧情 344 个；选关对话 735 条；角色语音共 1,588 条（字幕 1,335 条、看板语音 784 条，重合 531 条）；战斗技能 4,209 项；前端界面 1,470 项；图像 258 个（PNG 162 个、.vfxt 96 个）。MadeInMagius：记忆结晶简介校订 5 条（原 Wiki 译文归属保留）。CyberNova／PhotonFlow：国内加速、现代化下载界面、部分下载技术、Cocos 战斗场景汉化早期技术与美服 API 抓包资源；目前加速 CN BASE 主资源文件。圆环记录攻略组：剧情 52 个；角色语音共 703 条（字幕 109 条、看板语音 641 条，重合 47 条）；战斗技能 4,114 项。水银 h2oag：剧情 144 个；巡逻区域 25、阵型技能 25、Connect 技能 498 个汉化字段。segfault：国服数据留存。70 个合作剧情分别计入各参与者；国服原有译文不计入个人汉化贡献。 称号汉化整合 967 项（1,934 个字段）；Wiki 现成译名 545 项、规范人名及称号格式整理 420 项、另有 2 项补译。剧情逐句校对 264 条，修正 245 条。",
+    "github_url": "https://github.com/HiiragiNemu/ProgettoMagius-1",
+    "footer_marquee": true
+  },
+  "branch_versions": {
+    "single-thread": {
+      "supported": false,
+      "mainline_apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk"
+    },
+    "single-thread-r2-github": {
+      "supported": false,
+      "mainline_apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk"
+    },
+    "current-download-ui-fixed": {
+      "supported": false,
+      "mainline_apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk"
+    }
+  },
+  "client": {
+    "version": "1.0.193",
+    "apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk",
+    "sha256": "47e3bce8c2cccd1d53fe0b6b3253772ec61d4ff0860be6be884e1cab3e83151a",
+    "size": 113667961,
+    "note": "双线路下载：个人 Pages 发布与个人 GitHub Release；客户端校验包名、签名、大小和 SHA-256 后安装。EdgeOne 路由保留为兼容入口，边缘资产需同步到同一版本。"
+  },
+  "contribution_stats": {
+    "schema": 3,
+    "as_of": "2026-09-26T13:58:25.876236+00:00",
+    "story": {
+      "MadeInMagius": 344,
+      "圆环记录攻略组": 52,
+      "水银h2oag": 144
+    },
+    "collaborative_story_directories": 70,
+    "voice": {
+      "MadeInMagius": {
+        "subtitle": 1335,
+        "home": 784,
+        "overlap": 531,
+        "unique_total": 1588
+      },
+      "圆环记录攻略组": {
+        "subtitle": 109,
+        "home": 641,
+        "overlap": 47,
+        "unique_total": 703
+      },
+      "水银h2oag": {
+        "subtitle": 0,
+        "home": 0,
+        "overlap": 0,
+        "unique_total": 0
+      },
+      "new_credit_for_reusing_existing_translation": 0,
+      "distinct_costume_recording_adaptation": "16 existing Chinese source contributions carried into distinct recordings; 14 substantial expansions also credit Made. Not 16 newly authored Wiki translations."
+    },
+    "battle_skills": {
+      "MadeInMagius": 4209,
+      "圆环记录攻略组": 4114
+    },
+    "selection_dialogue": {
+      "total": 1612,
+      "static_table_total": 1580,
+      "additional_runtime_ids": 32,
+      "official": 600,
+      "made_words": 735,
+      "made_ellipsis": 159,
+      "empty": 118
+    },
+    "frontend_interface_entries": 1470,
+    "images": {
+      "total": 258,
+      "png": 162,
+      "vfxt": 96,
+      "sumo_png_included": 74,
+      "restored_official_png_excluded": 22
+    },
+    "home_coverage": {
+      "unique_voice_ids": 12582,
+      "empty": 5500,
+      "nonempty": 7082
+    },
+    "voice_subtitle_field": "charaMessageList.message",
+    "home_voice_field": "textHome",
+    "selection_dialogue_field": "sectionList.message",
+    "selection_total_scope": "当前发布数据覆盖量；省略号和空白不计入文字汉化贡献。",
+    "counting_rule": "同一语音跨字幕和看板去重；合作剧情分别计入参与者；技能按类型与ID统计；国服原有译文不计入个人汉化贡献。",
+    "updates_20260923": {
+      "as_of": "2026-09-22T19:52:53.401775+00:00",
+      "title_localization": {
+        "records": 967,
+        "fields": 1934,
+        "id_based_not_globally_unique_sentences": true,
+        "name_sources": {
+          "wiki-title-exact": 545,
+          "canonical-character-and-wiki-title-pattern": 420,
+          "reviewed-translation-after-wiki-miss": 2
+        },
+        "newly_added_runtime_keys": 967,
+        "preexisting_runtime_entries_changed": 0,
+        "personal_work": "Translation integration and review; not 967 individually authored original translations",
+        "wiki_work": "545 exact archive names plus format references used by 420 character-derived names",
+        "original_translation_after_source_miss": 2,
+        "keep_separate_from_old_frontend_1470_scope": true
+      },
+      "scenario_proofreading": {
+        "reviewed_unique": 264,
+        "reviewed_carriers": 339,
+        "corrected_unique": 245,
+        "corrected_carriers": 313,
+        "new_story_credit": 0,
+        "new_voice_credit": 0,
+        "publication": "scenario3300"
+      },
+      "no_new_voice_story_skill_image_credit": true,
+      "blank_or_ellipsis_credit": 0
+    },
+    "updates_20260924": {
+      "image_png_counts": {
+        "new": 80,
+        "changed": 82,
+        "unchanged": 1202
+      },
+      "restored_cn_originals": 22,
+      "new_image_translation_credit": 0,
+      "title_format_corrected_ids": 66,
+      "repeated_title_name_rules": 12,
+      "new_title_ID_credit": 0,
+      "water_non_story": {
+        "attribution": "用户确认的贡献分配，2026-09-26",
+        "files": [
+          {
+            "file": "magica/js/libs/patrolAreaList.json",
+            "type": "巡逻区域",
+            "records": 22,
+            "fields": {
+              "areaName": 22,
+              "conditionDescription": 3
+            },
+            "translatedFields": 25,
+            "sha256": "8612736de1996285f0a57dec16ef28b10044f6f39300ea581525887e3337fec7"
+          },
+          {
+            "file": "magica/js/libs/placeSkillMap.json",
+            "type": "阵型技能",
+            "records": 14,
+            "fields": {
+              "shortDescription": 13,
+              "name": 12
+            },
+            "translatedFields": 25,
+            "sha256": "5fb8d46de8aed49a5b494cf1ef27c5ef8963e0134afce6c3e5fb422ac9760bc5"
+          },
+          {
+            "file": "magica/js/libs/cardSkillMap.json",
+            "type": "Connect技能",
+            "records": 282,
+            "fields": {
+              "shortDescription": 278,
+              "name": 220
+            },
+            "translatedFields": 498,
+            "sha256": "d464fe44667e9efa2ee757a24bc129ee5e486562eea7d932a2af053c8a49c108"
+          }
+        ],
+        "effective_field_count": 548,
+        "record_count": 318,
+        "excluded_nontext_fields": 2,
+        "counting_rule": "按文件类型、ID、字段去重；重复译句在不同 ID 中各计一个字段；运行时映射与其他拷贝不重复计入。数字 0 和省略号不计。",
+        "revision_rule": "按用户确认的类型、ID、汉化字段统计，保留既有后续校订贡献。",
+        "new_original_translation_credit": 0
+      },
+      "battle_text": {
+        "native_exact_bindings_added": 184,
+        "semantic_corrections": 1,
+        "new_skill_ID_credit": 0,
+        "new_voice_credit": 0
+      },
+      "wiki_attribution": {
+        "display_group": "圆环记录攻略组",
+        "source_community": "魔法纪录中文 Wiki 编辑者",
+        "rule": "按运营关系并列展示资料来源；不推定每名 Wiki 编辑者都是攻略组成员；称号资料只统计一次。",
+        "sources": [
+          "https://magireco.moe/wiki/magirecowiki:圆环记录攻略组",
+          "https://magireco.moe/wiki/首页"
+        ]
+      }
+    },
+    "updates_20260926": {
+      "memoria_description_proofreading": {
+        "contributor": "MadeInMagius",
+        "category": "记忆结晶简介校订",
+        "count": 5,
+        "pieceIds": [
+          1356,
+          1358,
+          1361,
+          1362,
+          1365
+        ],
+        "newOriginalTranslationCount": 0,
+        "originalTranslationSource": "魔法纪录中文 Wiki 编辑者；保留原译归属",
+        "audit": "magica/i18n_audit/nanoha_memoria_review_20260926/review.json"
+      }
+    }
+  }
+}
