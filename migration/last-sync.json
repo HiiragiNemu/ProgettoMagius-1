@@ -7,9 +7,9 @@
   "assets": [
     {
       "name": "cn_js_delta.zip",
-      "size": 33166632,
       "sha256": "44f103bfe14589199a95d93ab1a1e5c1daeea0ee635e017682c429fcd555bfdd",
-      "md5": "1cd26f899864f81351dc94b31be523b8"
+      "size": 33166632,
+      "unchanged": true
     },
     {
       "name": "magireco-latest-legacy-client.apk",
@@ -25,9 +25,9 @@
     },
     {
       "name": "cn_js_update.zip",
-      "size": 287846730,
       "sha256": "bffc1acc31f65c24cc2f9042a492e4f18c5ba9e41806ed725e1e0730c60a7a9d",
-      "md5": "db88c1938cf4f8276f5e3644547ba14f"
+      "size": 287846730,
+      "unchanged": true
     },
     {
       "name": "apk-overlay-atlas-e34fdda8.zip",
@@ -121,9 +121,9 @@
     },
     {
       "name": "cn_js_update_manifest.json",
-      "size": 281250,
       "sha256": "e60b77abe0bef51b564fd232c97f4b16c23904d421bc6336dd98eb0b1b1d588b",
-      "md5": "098db71f87b863b928a1bb39a8330bc4"
+      "size": 281250,
+      "unchanged": true
     },
     {
       "name": "cn_scenario_update_manifest.json",
@@ -133,15 +133,15 @@
     },
     {
       "name": "cn_js_delta_manifest.json",
-      "size": 45285,
       "sha256": "0272a54fe626415bc2fe7a586acbc608f2358f8268788551fb39996ed0605a29",
-      "md5": "2069a8b027df60a10d92df8a749eb87a"
+      "size": 45285,
+      "unchanged": true
     },
     {
       "name": "manifest.json",
-      "size": 35176,
       "sha256": "dcadc9dff3e628333f8517575a3236036d298aa5ab511500886000e225908b41",
-      "md5": "52e44ef1e949c25a709079a63af97672"
+      "size": 35176,
+      "unchanged": true
     },
     {
       "name": "magireco-latest-legacy-client.version.json",
@@ -151,9 +151,9 @@
     },
     {
       "name": "version_js.json",
-      "size": 87,
       "sha256": "798f7a14e38fdd4569c04ab18b342775bd920c0885a3854d0394b87f44207b26",
-      "md5": "3dd72c65082feeb3b4b760f9bf1c2d38"
+      "size": 87,
+      "unchanged": true
     },
     {
       "name": "version_scenario.json",
@@ -163,12 +163,12 @@
     },
     {
       "name": "version_js_delta.json",
-      "size": 199,
       "sha256": "99df7972ac46762e69ce8e250c410478d055b1fa562f1c1c323801086fa0c2b2",
-      "md5": "0f254c6c1dcf6a5dd082d38de046efe0"
+      "size": 199,
+      "unchanged": true
     }
   ],
-  "checked_at": "2026-09-26T17:58:40Z",
+  "checked_at": "2026-09-26T19:14:03Z",
   "apk_font_replacement_verified": false,
   "existing_apk_private_cutover_verified": false
 }
