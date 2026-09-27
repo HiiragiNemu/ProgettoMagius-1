@@ -200,9 +200,14 @@ def public_config(config, target):
         if isinstance(item, dict) and 'mainline_apk_url' in item:
             item['mainline_apk_url'] = base + APK
     existing = [m for m in out.get('mirrors', []) if m.get('base') != base]
-    # Preserve existing acceleration and old entries. The public mirror is an extra fallback.
+    # Acceleration first, public transport next, legacy source last.
+    for mirror in existing:
+        if '/magireco-cn-patch/releases/' in mirror.get('base', ''):
+            mirror['weight'] = 10
+            mirror['name'] = '旧仓应急入口'
     out['mirrors'] = existing + [{'name': '公开资源仓直连', 'base': base,
-                                  'weight': 70, 'chunks': 4, 'enabled': True}]
+                                  'weight': 90, 'chunks': 4, 'enabled': True}]
+    out['mirrors'].sort(key=lambda mirror: -mirror.get('weight', 0))
     if 'ui_credits' in out:
         out['ui_credits']['github_url'] = 'https://github.com/' + target
     return out

@@ -36,16 +36,16 @@
       "enabled": true
     },
     {
-      "name": "个人 GitHub 直连",
-      "base": "https://github.com/HiiragiNemu/magireco-cn-patch/releases/download/latest/",
-      "weight": 80,
+      "name": "公开资源仓直连",
+      "base": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/",
+      "weight": 90,
       "chunks": 4,
       "enabled": true
     },
     {
-      "name": "公开资源仓直连",
-      "base": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/",
-      "weight": 70,
+      "name": "旧仓应急入口",
+      "base": "https://github.com/HiiragiNemu/magireco-cn-patch/releases/download/latest/",
+      "weight": 10,
       "chunks": 4,
       "enabled": true
     }
