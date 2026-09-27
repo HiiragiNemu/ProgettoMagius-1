@@ -13,9 +13,9 @@
     },
     {
       "name": "magireco-latest-legacy-client.apk",
-      "size": 103809588,
       "sha256": "0371079686657e476aa21e58dfc259f673defb30b61d0033640f282f6e39ad9c",
-      "md5": "7f67fb769e9bc7c22670178fe2b9af99"
+      "size": 103809588,
+      "unchanged": true
     },
     {
       "name": "cn_scenario_update.zip",
@@ -145,9 +145,9 @@
     },
     {
       "name": "magireco-latest-legacy-client.version.json",
-      "size": 532,
       "sha256": "db115a23139c79d0e181445ea7218f5e8088efb490f157a2bcec30fa36eea185",
-      "md5": "8dddf4595087f6e76cdc5c6f00f91b54"
+      "size": 532,
+      "unchanged": true
     },
     {
       "name": "version_js.json",
@@ -168,7 +168,7 @@
       "unchanged": true
     }
   ],
-  "checked_at": "2026-09-27T00:27:32Z",
+  "checked_at": "2026-09-27T00:34:54Z",
   "apk_font_replacement_verified": false,
   "existing_apk_private_cutover_verified": false
 }
