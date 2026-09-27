@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updated": "2026-09-27T14:05:53Z",
+  "updated": "2026-09-27T14:52:11Z",
   "comment": "Personal release configuration. Canonical installation markers are unchanged. Client gate is set only after the new APK body and signature are verified.",
   "settings": {
     "chunks": 4,
@@ -283,9 +283,9 @@
     }
   },
   "client": {
-    "version": "1.0.197",
+    "version": "1.0.198",
     "apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk",
-    "sha256": "379ea05a8acc8a2137100abc014c571b5d7ef5f51f02c54b925e3e68bf3b9f0c",
+    "sha256": "45f8926ec7e952401b92ff6bf3438e44bf84caade4b01aedd3d588bf2c89d4eb",
     "size": 103813684,
     "note": "双线路下载：个人 Pages 发布与个人 GitHub Release；客户端校验包名、签名、大小和 SHA-256 后安装。EdgeOne 路由保留为兼容入口，边缘资产需同步到同一版本。"
   },

@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "status": "assets_verified",
-  "source_config_blob": "c286ebd0f0dddee821ccb2e87a3ada880ea56243",
+  "source_config_blob": "974bfc455f64809acc2705cb1d914bedf74aed7b",
   "asset_count": 27,
-  "client_version": "1.0.197",
+  "client_version": "1.0.198",
   "assets": [
     {
       "name": "cn_js_delta.zip",
@@ -13,7 +13,7 @@
     },
     {
       "name": "magireco-latest-legacy-client.apk",
-      "sha256": "379ea05a8acc8a2137100abc014c571b5d7ef5f51f02c54b925e3e68bf3b9f0c",
+      "sha256": "45f8926ec7e952401b92ff6bf3438e44bf84caade4b01aedd3d588bf2c89d4eb",
       "size": 103813684,
       "unchanged": true
     },
@@ -145,7 +145,7 @@
     },
     {
       "name": "magireco-latest-legacy-client.version.json",
-      "sha256": "b9e6ef67a209cd0ab00cccd06829cef3b37380ad8e890529bdd25609037c6796",
+      "sha256": "7c2a6192b7f604c0e8cd21eff85145d5f7eb0da84f1f457cfda31ca1b431b40f",
       "size": 532,
       "unchanged": true
     },
@@ -168,7 +168,7 @@
       "unchanged": true
     }
   ],
-  "checked_at": "2026-09-27T14:51:07Z",
+  "checked_at": "2026-09-27T14:52:29Z",
   "apk_font_replacement_verified": false,
   "existing_apk_private_cutover_verified": false
 }
