@@ -1,0 +1,41 @@
+name: Recheck Reader release and L2D navigation
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/recheck-reader-release-20260930.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Verify public release and migrated navigation
+        run: |
+          python -u - <<'PY'
+          import hashlib,json,time,urllib.request,urllib.error
+          from pathlib import Path
+          out=Path('result');out.mkdir()
+          targets={'release':'https://magireader.pages.dev/api/adv/release','viewer':'https://magiaexedralive2dviewer.pages.dev/?advRenderer=pixi-v2&bridge=1&story=102303&section=102303-1_riRcZ','config':'https://magireader.pages.dev/api/proofreading/config'}
+          results=[]
+          for name,url in targets.items():
+              started=time.monotonic()
+              try:
+                  try:r=urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Reader-PostRegistration-Probe'}),timeout=60)
+                  except urllib.error.HTTPError as e:r=e
+                  with r:
+                      b=r.read(1024*1024);(out/(name+'.body')).write_bytes(b)
+                      record={'name':name,'status':r.status,'url':r.url,'seconds':round(time.monotonic()-started,3),'headers':{k:v for k,v in r.headers.items() if k.lower()!='set-cookie'},'sha256':hashlib.sha256(b).hexdigest()}
+                      if name in ('release','config'):record['body']=json.loads(b)
+                      if name=='viewer':record['old_warning_present']='最新 Reader 发布检查暂不可用'.encode() in b
+                      results.append(record)
+              except Exception as e:results.append({'name':name,'error':str(e)})
+          (out/'report.json').write_text(json.dumps(results,ensure_ascii=False,indent=2))
+          print(json.dumps(results,ensure_ascii=False,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reader-l2d-release-recheck-20260930
+          path: result/
+          retention-days: 7
