@@ -19,8 +19,8 @@
     },
     {
       "name": "cn_scenario_update.zip",
-      "size": 193600689,
-      "sha256": "0bac26e6944b3589dc46cbbfc01bf1c125cfaa2aa4e26acb6dc5f1d71dfadee9",
+      "size": 193596333,
+      "sha256": "96d752ffb8b32ed123e1dcb6a5170295f9e1c5b0d3b7afa387fd8f0a17f37eda",
       "unchanged": false
     },
     {
@@ -128,7 +128,7 @@
     {
       "name": "cn_scenario_update_manifest.json",
       "size": 1759731,
-      "sha256": "1400a8ab6d91a599009a799d1f245701ba56b0113c76b71bda0ac2a01ec1961e",
+      "sha256": "52bc105a2fd8105aa77604224c49b926857648ea1213e27914f8d5111affeb32",
       "unchanged": false
     },
     {
@@ -140,7 +140,7 @@
     {
       "name": "manifest.json",
       "size": 35176,
-      "sha256": "1118fc82c6237334ee070038f7a143e4c756d08ad3548467b76835fafed6da9c",
+      "sha256": "e11b3a102bb9e359bf5b844b65dfb6bf1ab021c7bb223a0dd16f0102033526d1",
       "unchanged": false
     },
     {
@@ -158,7 +158,7 @@
     {
       "name": "version_scenario.json",
       "size": 88,
-      "sha256": "b75235ff88b0a77992fdc8808e18ab8a1fecd5a39a1907800321852bea2125ac",
+      "sha256": "84e6ce931c4c659bbed726f654e951b34f118518f968b2cff8ca1825797fdc0b",
       "unchanged": false
     },
     {
@@ -168,10 +168,10 @@
       "md5": "9fd4ff5511c85b95f6114c69d0159662"
     }
   ],
-  "checked_at": "2026-09-29T14:55:34Z",
+  "checked_at": "2026-09-29T18:07:10Z",
   "apk_font_replacement_verified": false,
   "existing_apk_private_cutover_verified": false,
-  "scenario_version": 3305,
-  "scenario_quality_batch": "20260929-04",
-  "scenario_source_commit": "d2f36b63a94410af1f5b6083fe19852912be4010"
+  "scenario_version": 3306,
+  "scenario_quality_batch": "20260930-05",
+  "scenario_source_commit": "a9ab195cab166e05a489db3bcd2823de1dd0a20b"
 }
