@@ -46,15 +46,28 @@ def snapshot(assets):return {n:tuple(a.get(k) for k in ('id','size','digest','up
 def anonymous_check(api,tag,files,output):
  release=api.call('releases/tags/'+tag);assets=api.assets(release)
  for p in files:
-  target=Path(output)/p.name;download(assets[p.name]['browser_download_url'],target)
-  assert identity(target)==identity(p),'Anonymous downloaded asset differs: '+p.name
+  target=Path(output)/p.name;expected=identity(p)
+  # GitHub's mutable release path can briefly serve an older redirect/body.
+  # Verify the normal, unauthenticated URL on every attempt; a cache-busted
+  # URL or a matching API digest alone is not sufficient to open the gate.
+  for attempt in range(13):
+   download(assets[p.name]['browser_download_url'],target)
+   actual=identity(target)
+   if actual==expected:break
+   print('PUBLIC_URL_NOT_YET_CONSISTENT',tag,p.name,attempt+1,
+         'expected',expected,'received',actual,flush=True)
+   if attempt==12:raise RuntimeError('Public URL did not converge: '+p.name)
+   current=api.assets(api.call('releases/tags/'+tag))
+   if current.get(p.name,{}).get('digest')!='sha256:'+expected['sha256']:
+    raise RuntimeError('Release changed during public verification: '+p.name)
+   time.sleep(10)
  print('ANONYMOUS_VERIFIED',tag,[p.name for p in files],flush=True)
 
 def archive(api,tag,out):
  try:release=api.call('releases/tags/'+tag)
  except urllib.error.HTTPError as error:
   if error.code!=404:raise
-  release=api.call('releases','POST',{'tag_name':tag,'name':'Scenario 3307: exact names and faithful pronoun repair','body':'Four complete stories (320 fields reviewed, 294 revised), plus 81 exact speaker labels across 27 scripts. Earlier corrected content retained. Source commits and checksums in story-quality-report.json.','draft':False,'prerelease':False,'make_latest':'false'})
+  release=api.call('releases','POST',{'tag_name':tag,'name':'Scenario 3307: four faithful stories and speaker repairs','body':'Four complete stories (320 fields reviewed, 294 revised), plus 81 exact speaker labels across 27 scripts. Earlier corrected content retained. Source commits and checksums in story-quality-report.json.','draft':False,'prerelease':False,'make_latest':'false'})
  existing=api.assets(release)
  for name in NAMES+('story-quality-report.json',):
   p=out/name
