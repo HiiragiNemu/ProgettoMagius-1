@@ -1,0 +1,52 @@
+name: Snapshot public Reader text read only
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/snapshot-public-reader-text-20260930.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Capture public catalogue and text with bounded concurrency
+        run: |
+          python -u - <<'PY'
+          import concurrent.futures,hashlib,json,time,urllib.request,urllib.error
+          from pathlib import Path,PurePosixPath
+          root=Path('snapshot');root.mkdir();base='https://magireader.pages.dev'
+          def raw(url,limit=8*1024*1024):
+              req=urllib.request.Request(url,headers={'User-Agent':'MagiReader-ReadOnly-Narrator-Audit','Accept-Encoding':'identity'})
+              with urllib.request.urlopen(req,timeout=20) as r:
+                  b=r.read(limit+1);assert len(b)<=limit;return b
+          before=json.loads(raw(base+'/api/proofreading/config'))
+          index_raw=raw(base+'/story_index.json',20*1024*1024);index=json.loads(index_raw)
+          (root/'story_index.json').write_bytes(index_raw)
+          paths=sorted({r['path_cn'] for r in index if r.get('game')=='magireco' and r.get('path_cn','').startswith('/data/') and r['path_cn'].endswith('.txt')})
+          def get(path):
+              try:
+                  p=PurePosixPath(path);assert '..' not in p.parts
+                  b=raw(base+urllib.parse.quote(path,safe='/'))
+                  dst=root/'website/public'/str(p).lstrip('/');dst.parent.mkdir(parents=True,exist_ok=True);dst.write_bytes(b)
+                  return {'path':path,'size':len(b),'git_blob':hashlib.sha1(b'blob '+str(len(b)).encode()+b'\0'+b).hexdigest()}
+              except Exception as e:return {'path':path,'error':str(e)}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+              results=[]
+              for i,r in enumerate(pool.map(get,paths),1):
+                  results.append(r)
+                  if i%200==0:print('PUBLIC_TEXT_PROGRESS',i,len(paths),flush=True)
+          after=json.loads(raw(base+'/api/proofreading/config'))
+          report={'before_revision':before.get('source_revision'),'after_revision':after.get('source_revision'),'same_revision':before.get('source_revision')==after.get('source_revision'),'files':results,'success':sum('error' not in x for x in results),'public_only':True,'repository_or_deployment_modified':False}
+          try:report['release_after']=json.loads(raw(base+'/api/adv/release'))
+          except Exception as e:report['release_error']=str(e)
+          (root/'snapshot.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+          print('SNAPSHOT_COMPLETE',json.dumps({k:v for k,v in report.items() if k!='files'},ensure_ascii=False),flush=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: public-reader-text-20260930
+          path: snapshot/
+          retention-days: 7
