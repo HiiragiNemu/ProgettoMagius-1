@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "checked_at": "2026-09-29T18:08:28Z",
+  "scenario_version": 3306,
+  "expected": {"version": 3306, "size": 193596333, "md5": "a9c40728c4ba015da1bf110e689a9cb3"},
+  "results": [
+    {"url":"https://edgeone.assets.magireco.top/version_scenario.json","status":200,"version":3289,"size":193930737,"md5":"f10aa23753b2a4c27ebfb9dce7cfb1af","matches":false,"seconds":0.259},
+    {"url":"https://esa.assets.magireco.top/version_scenario.json","status":200,"version":3289,"size":193930737,"md5":"f10aa23753b2a4c27ebfb9dce7cfb1af","matches":false,"seconds":0.146},
+    {"url":"https://magireco-personal-release.pages.dev/version_scenario.json","status":200,"version":3306,"size":193596333,"md5":"a9c40728c4ba015da1bf110e689a9cb3","matches":true,"seconds":0.886,"release_authority":"HiiragiNemu/ProgettoMagius-1"},
+    {"url":"https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/version_scenario.json","status":200,"version":3306,"size":193596333,"md5":"a9c40728c4ba015da1bf110e689a9cb3","matches":true,"seconds":1.1}
+  ],
+  "legacy_cdn_fresh_query_still_3289": true,
+  "all_mirror_versions_identical": false,
+  "canonical_public_delivery_verified": true,
+  "current_client_source_review": {
+    "repository":"HiiragiNemu/magirecocn-legacy-client",
+    "update_sources_blob":"f47d690460c2783b717becc8dfb76f6ed6496430",
+    "public_resources_blob":"7ae0298ae37d5f87d2c7dfda45cbdfed930bc17c",
+    "public_source_enabled":true,
+    "collects_parallel_responses_not_first_success":true,
+    "selects_highest_valid_hot_version":true,
+    "package_sources_must_match_version_size_md5":true,
+    "note":"Source-level verification, not an assertion that every installed historical APK or every device network was tested. Stale CDN metadata must not be described as serving 3306. No client binary or mirror configuration was changed."
+  },
+  "publication_receipt":"story-quality/releases/3306.json",
+  "workflow_run":36609594858,
+  "device_rendering_verified":false
+}
