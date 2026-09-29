@@ -1,0 +1,41 @@
+name: Publish verified scenario quality batch 3307
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-story-quality-3307.yml'
+      - 'story-quality/20260930-06/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: public-resource-mirror
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify 39 exact-field, text and control regressions
+        run: |
+          python -m unittest discover -s story-quality/20260930-06 -p 'test_*.py' -v
+          python -m py_compile story-quality/20260930-06/*.py
+      - name: Build faithful batch, preserve prior revisions and anonymously verify public delivery
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -u story-quality/20260930-06/publish_scenario_3307.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: scenario-3307-delivery-receipt
+          path: |
+            scenario3307/candidate/story-quality-report.json
+            scenario3307/candidate/version_scenario.json
+          if-no-files-found: warn
+          retention-days: 30
