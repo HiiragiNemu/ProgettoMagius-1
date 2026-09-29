@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "batch": "20260929-puella-care-adv-names",
+  "version": 3302,
+  "status": "published_and_anonymously_verified",
+  "reader_commit": "f7d1736c17af5f5632c0d9310e752f622299c055",
+  "cn_patch_commit": "8ea2c8f49bede8624226a2389fdcbd199c1839ad",
+  "base_version": 3301,
+  "base_package": {
+    "size": 193602196,
+    "sha256": "b6f59e6012a8cf9ab0d5cc26c6d183902fc675370f2ebb1003dd71627ba23c6e",
+    "md5": "fa3abe85453c8239b8ff0f0f3f08fbeb"
+  },
+  "package": {
+    "size": 193602165,
+    "sha256": "4f0a0586252bb74fddac9d8ddc8748f0b93e794bb9e415f6868f81f451b5f681",
+    "md5": "0b108121e4cbaec36c13a0eb5195b7a1"
+  },
+  "changed_scripts": 4,
+  "changed_fields": 62,
+  "name_replacements": {
+    "みたま": 6,
+    "リヴィア": 36,
+    "ヨヅル": 20
+  },
+  "unchanged_files": 14229,
+  "archive_files": 14233,
+  "files": [
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-14_32rIq.json",
+      "before": "f453e1715ae379159010f00a995c4c44b1666217",
+      "git_blob": "482289ab29949e9f7c4ee6d83e078d04ff920009",
+      "changed_fields": 8
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-15_32rIq.json",
+      "before": "c19954865c73649efe58c2b490f73fad449688d0",
+      "git_blob": "7a1ca636c779a52d9fc3ac91f078f0ca93458e1e",
+      "changed_fields": 15
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/103201-10_7xz7k.json",
+      "before": "f834ab6ec55853be10db5afe1472a708c17ecd21",
+      "git_blob": "5ac208266a3db25abc13f3339774c8174478466b",
+      "changed_fields": 16
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-20_32rIq.json",
+      "before": "5305c052d8ff72f8307d07ddf3138084af2b3f06",
+      "git_blob": "2d5e9eb6691dffcb7f7ab9d440289720d1af9eec",
+      "changed_fields": 23
+    }
+  ],
+  "prior_14_story_corrections_preserved": true,
+  "dialogue_and_runtime_controls_unchanged": true,
+  "device_rendering_verified": false,
+  "whole_corpus_review_complete": false,
+  "public_release": "latest",
+  "immutable_release": "scenario-3302",
+  "published_at": "2026-09-29T08:28:10Z",
+  "unrelated_release_assets_unchanged": true,
+  "public_assets": [
+    {
+      "id": 597690334,
+      "name": "cn_scenario_update.zip",
+      "size": 193602165,
+      "digest": "sha256:4f0a0586252bb74fddac9d8ddc8748f0b93e794bb9e415f6868f81f451b5f681",
+      "updated_at": "2026-09-29T08:27:59Z"
+    },
+    {
+      "id": 597690587,
+      "name": "cn_scenario_update_manifest.json",
+      "size": 1759732,
+      "digest": "sha256:dea74206bc96ecd52b52b93cb948bdc93f21807e27696725dc3c84501a4c2df0",
+      "updated_at": "2026-09-29T08:28:01Z"
+    },
+    {
+      "id": 597690606,
+      "name": "manifest.json",
+      "size": 35176,
+      "digest": "sha256:f71142018598a5c19b9ce8df9f9600adb6a614480e8609e1d3088db97ed58d83",
+      "updated_at": "2026-09-29T08:28:02Z"
+    },
+    {
+      "id": 597690821,
+      "name": "version_scenario.json",
+      "size": 88,
+      "digest": "sha256:78eeb8cbe83d254913a9db82353ba0ffbac94f92efe4d65fa89827a8ae71d0a3",
+      "updated_at": "2026-09-29T08:28:09Z"
+    }
+  ]
+}
