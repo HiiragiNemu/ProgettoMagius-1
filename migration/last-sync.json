@@ -19,9 +19,9 @@
     },
     {
       "name": "cn_scenario_update.zip",
-      "sha256": "fe8b069ed36f7dc4450522f024796eea76c830d6003a2c516d2a19c90b6388cf",
-      "size": 194067302,
-      "unchanged": true
+      "size": 193602196,
+      "sha256": "b6f59e6012a8cf9ab0d5cc26c6d183902fc675370f2ebb1003dd71627ba23c6e",
+      "unchanged": false
     },
     {
       "name": "cn_js_update.zip",
@@ -127,9 +127,9 @@
     },
     {
       "name": "cn_scenario_update_manifest.json",
-      "sha256": "a11a122a402496f48fd3169311418ba7d3be21c3f5b492decbf09f5078e6f56f",
-      "size": 1617389,
-      "unchanged": true
+      "size": 1759732,
+      "sha256": "37f3868d34d90b7c54e82f64a466169d4353c1af37571244fe333b8841957391",
+      "unchanged": false
     },
     {
       "name": "cn_js_delta_manifest.json",
@@ -139,9 +139,9 @@
     },
     {
       "name": "manifest.json",
-      "sha256": "dcadc9dff3e628333f8517575a3236036d298aa5ab511500886000e225908b41",
       "size": 35176,
-      "unchanged": true
+      "sha256": "15bbce758f0532bb5a0c89e736f07477c6dd0605500bf886a16b8d9bde5b89bf",
+      "unchanged": false
     },
     {
       "name": "magireco-latest-legacy-client.version.json",
@@ -157,9 +157,9 @@
     },
     {
       "name": "version_scenario.json",
-      "sha256": "6a2f6aad9c16acf15132b7b1cb1daa5797df2acfc546d7ef90766d50ee3481cc",
-      "size": 87,
-      "unchanged": true
+      "size": 88,
+      "sha256": "88ba066d7d13ee882e051cb50bd8b8e6e617e3b4ecc07cec807caa05ce4fcc0b",
+      "unchanged": false
     },
     {
       "name": "version_js_delta.json",
@@ -168,7 +168,10 @@
       "md5": "9fd4ff5511c85b95f6114c69d0159662"
     }
   ],
-  "checked_at": "2026-09-27T21:42:38Z",
+  "checked_at": "2026-09-29T04:52:25Z",
   "apk_font_replacement_verified": false,
-  "existing_apk_private_cutover_verified": false
+  "existing_apk_private_cutover_verified": false,
+  "scenario_version": 3301,
+  "scenario_quality_batch": "20260929-01",
+  "scenario_source_commit": "541a6b40e32023fdc339b2a332706f9c0d4a42f1"
 }
