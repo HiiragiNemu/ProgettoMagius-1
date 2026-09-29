@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "batch": "20260929-03",
+  "version": 3304,
+  "status": "published_and_anonymously_verified",
+  "reader_commit": "7b8dc4495cbf8e04b97c5a135b98689b2ec51fca",
+  "cn_patch_commit": "8979c9c712bb86e5e652309648f7583a15ca1d4e",
+  "jp_source_commit": "30f2aefb06b1d68b2e7097e815235bae03b78fb1",
+  "import_commit": "3d463befe7a10d4cb72034378ce2a6f23c377abb",
+  "base_version": 3303,
+  "base_package": {
+    "size": 193601199,
+    "sha256": "c233528d1f8703a9de75fdbe16163ca3920bac1f97d371a583b75bc37c72b355",
+    "md5": "207195e7c30eba489a7b4ab829da7989"
+  },
+  "package": {
+    "size": 193600934,
+    "sha256": "5774fdedaafd4d42ccbddd6c0f8de995a8e71d425267d1fe280a5af3de874b00",
+    "md5": "a7d2c5121a99d4ea40b14249d00691d0"
+  },
+  "changed_scripts": 7,
+  "fully_reviewed_scripts": 7,
+  "reviewed_dialogue_fields": 545,
+  "changed_dialogue_fields": 512,
+  "changed_name_fields": 0,
+  "unchanged_files": 14226,
+  "archive_files": 14233,
+  "prior_26_script_corrections_preserved": true,
+  "runtime_controls_unchanged": true,
+  "untranslated_puella_care_adv_labels": 0,
+  "device_rendering_verified": false,
+  "whole_corpus_review_complete": false,
+  "source_committed_at": "2026-09-29T12:10:10Z",
+  "metadata_timestamp_basis": "source_commit",
+  "files": [
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_7/710261-1.json",
+      "git_blob": "16cd02c110751250273347829e1f5273d9c0f061",
+      "before": "20676a714a1ab08ee0d00d61b3b74d08480d03fe",
+      "changed_fields": 81,
+      "reviewed_fields": 86,
+      "name_only": false
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_7/710262-1.json",
+      "git_blob": "65ced194060397eb68a0b72650cb037149b913a7",
+      "before": "9f37a92e50b053454a693719d858f57a0e805df2",
+      "changed_fields": 66,
+      "reviewed_fields": 73,
+      "name_only": false
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_7/710271-1.json",
+      "git_blob": "e5136af8cae120a5deaf71c5a849a752aeb337e3",
+      "before": "b57b0f118318fe487e0890ea8b973fadd8ad7c27",
+      "changed_fields": 86,
+      "reviewed_fields": 90,
+      "name_only": false
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_7/710272-1.json",
+      "git_blob": "0382eb0daa36f57fb81f09724e283f423fef81f6",
+      "before": "352fa00920c113d9c55538b637e3a83891458a20",
+      "changed_fields": 69,
+      "reviewed_fields": 74,
+      "name_only": false
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_7/710391-1.json",
+      "git_blob": "dfec2e7d3130a47d1706d588a42bf8f80c47c170",
+      "before": "d31385e3706e58398167af77f3b29e3eee5ff8d9",
+      "changed_fields": 66,
+      "reviewed_fields": 71,
+      "name_only": false
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_7/710401-1.json",
+      "git_blob": "99b9070795f791fdf99a5fc0160a4b9d43ba3951",
+      "before": "480f25b490646adfddb1fc0befcee9edb4f3f70d",
+      "changed_fields": 74,
+      "reviewed_fields": 75,
+      "name_only": false
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_7/710402-1.json",
+      "git_blob": "e220ccf357910d407cc5a33cd58e352271098c04",
+      "before": "93c7fbdea16632f62aa4644669246af69c8a7604",
+      "changed_fields": 70,
+      "reviewed_fields": 76,
+      "name_only": false
+    }
+  ],
+  "public_release": "latest",
+  "immutable_release": "scenario-3304",
+  "verified_at": "2026-09-29T12:36:03Z",
+  "unrelated_release_assets_unchanged": true,
+  "public_assets": [
+    {
+      "id": 598181414,
+      "name": "cn_scenario_update.zip",
+      "size": 193600934,
+      "digest": "sha256:5774fdedaafd4d42ccbddd6c0f8de995a8e71d425267d1fe280a5af3de874b00",
+      "updated_at": "2026-09-29T12:35:56Z"
+    },
+    {
+      "id": 598181618,
+      "name": "cn_scenario_update_manifest.json",
+      "size": 1759731,
+      "digest": "sha256:10cc57cd76b8a6080c3127975feae7f15d26687d9fe5fc4f40bdb83fcb4eea0d",
+      "updated_at": "2026-09-29T12:35:57Z"
+    },
+    {
+      "id": 598181649,
+      "name": "manifest.json",
+      "size": 35176,
+      "digest": "sha256:f69317c9b608cfd918e72b16c8fba4827757b7df13ac93181de6f412e8cafb37",
+      "updated_at": "2026-09-29T12:35:58Z"
+    },
+    {
+      "id": 598181766,
+      "name": "version_scenario.json",
+      "size": 88,
+      "digest": "sha256:47ff575fba0dcd960416088f6056cd4ed9345d0d4aae352abc8fcbfee49bd29c",
+      "updated_at": "2026-09-29T12:36:02Z"
+    }
+  ]
+}
