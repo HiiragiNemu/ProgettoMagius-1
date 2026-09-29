@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "version": 3308,
+  "checked_at": "2026-09-29T21:55:48Z",
+  "expected": {
+    "version": 3308,
+    "size": 193596304,
+    "md5": "465ec5ff37142c292600973cae595982"
+  },
+  "results": [
+    {
+      "url": "https://magireco-personal-release.pages.dev/version_scenario.json",
+      "http": 200,
+      "data": {
+        "version": 3308,
+        "size": 193596304,
+        "md5": "465ec5ff37142c292600973cae595982"
+      },
+      "matches": true,
+      "seconds": 0.859
+    },
+    {
+      "url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/version_scenario.json",
+      "http": 200,
+      "data": {
+        "version": 3308,
+        "size": 193596304,
+        "md5": "465ec5ff37142c292600973cae595982"
+      },
+      "matches": true,
+      "seconds": 1.0
+    },
+    {
+      "url": "https://edgeone.assets.magireco.top/version_scenario.json",
+      "http": 200,
+      "data": {
+        "version": 3289,
+        "size": 193930737,
+        "md5": "f10aa23753b2a4c27ebfb9dce7cfb1af"
+      },
+      "matches": false,
+      "seconds": 0.163
+    },
+    {
+      "url": "https://esa.assets.magireco.top/version_scenario.json",
+      "http": 200,
+      "data": {
+        "version": 3289,
+        "size": 193930737,
+        "md5": "f10aa23753b2a4c27ebfb9dce7cfb1af"
+      },
+      "matches": false,
+      "seconds": 0.102
+    }
+  ],
+  "workflow_run": 36635948895,
+  "all_devices_verified": false
+}
