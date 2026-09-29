@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "version": 3307,
+  "checked_at": "2026-09-29T19:33:20Z",
+  "expected": {
+    "version": 3307,
+    "size": 193596341,
+    "md5": "ab63ab4ce6a5130704b514af872b5771"
+  },
+  "results": [
+    {
+      "url": "https://edgeone.assets.magireco.top/version_scenario.json",
+      "status": 200,
+      "data": {
+        "version": 3289,
+        "size": 193930737,
+        "md5": "f10aa23753b2a4c27ebfb9dce7cfb1af"
+      },
+      "matches": false,
+      "seconds": 0.169,
+      "authority": null
+    },
+    {
+      "url": "https://esa.assets.magireco.top/version_scenario.json",
+      "status": 200,
+      "data": {
+        "version": 3289,
+        "size": 193930737,
+        "md5": "f10aa23753b2a4c27ebfb9dce7cfb1af"
+      },
+      "matches": false,
+      "seconds": 0.089,
+      "authority": null
+    },
+    {
+      "url": "https://magireco-personal-release.pages.dev/version_scenario.json",
+      "status": 200,
+      "data": {
+        "version": 3307,
+        "size": 193596341,
+        "md5": "ab63ab4ce6a5130704b514af872b5771"
+      },
+      "matches": true,
+      "seconds": 0.854,
+      "authority": "HiiragiNemu/ProgettoMagius-1"
+    },
+    {
+      "url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/version_scenario.json",
+      "status": 200,
+      "data": {
+        "version": 3307,
+        "size": 193596341,
+        "md5": "ab63ab4ce6a5130704b514af872b5771"
+      },
+      "matches": true,
+      "seconds": 0.988,
+      "authority": null
+    }
+  ],
+  "successful_publication_run": 36619744425,
+  "first_attempt_run": 36619332262,
+  "first_attempt_restored_3306_before_version_gate": true,
+  "canonical_download_retry_fix": "7e59386b7ca81dc4405ab0e1c981c64ac35a9b8e",
+  "local_public_retry_tests_passed": 3,
+  "scenario_regressions_passed": 39,
+  "all_devices_verified": false
+}
