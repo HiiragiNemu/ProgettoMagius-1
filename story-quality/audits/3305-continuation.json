@@ -1,0 +1,2072 @@
+{
+  "schema": 1,
+  "status": "anonymously_downloaded_and_verified",
+  "version": 3305,
+  "package": {
+    "size": 193600689,
+    "sha256": "0bac26e6944b3589dc46cbbfc01bf1c125cfaa2aa4e26acb6dc5f1d71dfadee9",
+    "md5": "285325ac18e12a1bfd52f98d31678252"
+  },
+  "verified_at": "2026-09-29T15:35:30Z",
+  "verified_corrected_scripts": 37,
+  "source_commits": [
+    {
+      "version": 3301,
+      "reader_commit": "8e02baee9ecbbd528a35d839e8b9d56f7426e765",
+      "cn_patch_commit": "541a6b40e32023fdc339b2a332706f9c0d4a42f1"
+    },
+    {
+      "version": 3302,
+      "reader_commit": "f7d1736c17af5f5632c0d9310e752f622299c055",
+      "cn_patch_commit": "8ea2c8f49bede8624226a2389fdcbd199c1839ad"
+    },
+    {
+      "version": 3303,
+      "reader_commit": "30f2aefb06b1d68b2e7097e815235bae03b78fb1",
+      "cn_patch_commit": "8c619ee4f47fefcff24be110f31d12ae54e064b7"
+    },
+    {
+      "version": 3304,
+      "reader_commit": "7b8dc4495cbf8e04b97c5a135b98689b2ec51fca",
+      "cn_patch_commit": "8979c9c712bb86e5e652309648f7583a15ca1d4e"
+    },
+    {
+      "version": 3305,
+      "reader_commit": "a45c6fc6f5ef7cd796b59a7d49b452b3c3b4cc23",
+      "cn_patch_commit": "d2f36b63a94410af1f5b6083fe19852912be4010"
+    }
+  ],
+  "adv_json_files_scanned": 10468,
+  "puella_care_name_residuals": 0,
+  "multi_dialogue_nodes": [
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310371-3.json",
+      "group": "group_1",
+      "index": 16,
+      "keys": [
+        "textLeft",
+        "textRight"
+      ]
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/501102-1_4vShM.json",
+      "group": "group_1",
+      "index": 7,
+      "keys": [
+        "textLeft",
+        "textRight"
+      ]
+    }
+  ],
+  "preassigned_narration_name_nodes": 432,
+  "other_kana_name_candidates": [
+    {
+      "name": "梅丽莎･ド･ヴィニョル",
+      "count": 224,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/518210-14_WSjWo.json",
+          "group": "group_1",
+          "index": 7,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/518210-14_WSjWo.json",
+          "group": "group_1",
+          "index": 35,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/518210-14_WSjWo.json",
+          "group": "group_1",
+          "index": 41,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "いろは",
+      "count": 164,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 25,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 29,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 30,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "ももこ",
+      "count": 147,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 9,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 10,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 64,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "やちよ",
+      "count": 140,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 36,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 37,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103102-14_32rIq.json",
+          "group": "group_1",
+          "index": 57,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "フェイト·Ｔ·ハラオウン",
+      "count": 124,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340533-1.json",
+          "group": "group_1",
+          "index": 23,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340533-1.json",
+          "group": "group_1",
+          "index": 27,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340523-2.json",
+          "group": "group_1",
+          "index": 16,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "高町 なのは",
+      "count": 107,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340533-1.json",
+          "group": "group_1",
+          "index": 7,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340533-1.json",
+          "group": "group_1",
+          "index": 26,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340533-1.json",
+          "group": "group_1",
+          "index": 31,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "ひめな",
+      "count": 99,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-16_32rIq.json",
+          "group": "group_1",
+          "index": 1,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-16_32rIq.json",
+          "group": "group_1",
+          "index": 11,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-16_32rIq.json",
+          "group": "group_1",
+          "index": 14,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "レナ",
+      "count": 98,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 66,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-16_32rIq.json",
+          "group": "group_1",
+          "index": 35,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103101-2_32rIq.json",
+          "group": "group_1",
+          "index": 82,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "かえで",
+      "count": 87,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 67,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103101-2_32rIq.json",
+          "group": "group_1",
+          "index": 83,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103103-10_32rIq.json",
+          "group": "group_1",
+          "index": 6,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "フェリシア",
+      "count": 66,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 44,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 46,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 47,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "みたま",
+      "count": 64,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 6,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 13,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 14,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "タツ",
+      "count": 62,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103102-11_32rIq.json",
+          "group": "group_1",
+          "index": 5,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103102-11_32rIq.json",
+          "group": "group_1",
+          "index": 6,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103102-11_32rIq.json",
+          "group": "group_1",
+          "index": 11,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "八神 はやて",
+      "count": 55,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340522-2.json",
+          "group": "group_1",
+          "index": 45,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340521-3.json",
+          "group": "group_1",
+          "index": 29,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340512-3.json",
+          "group": "group_1",
+          "index": 33,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "うい",
+      "count": 53,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 16,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 17,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 51,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "五十鈴れん",
+      "count": 53,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/5170104-34_pVeLS.json",
+          "group": "group_1",
+          "index": 49,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/5170104-34_pVeLS.json",
+          "group": "group_1",
+          "index": 56,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/5170104-34_pVeLS.json",
+          "group": "group_1",
+          "index": 74,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "はぐむ",
+      "count": 51,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 63,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 78,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-19_32rIq.json",
+          "group": "group_1",
+          "index": 25,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "みふゆ",
+      "count": 48,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 71,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 72,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 73,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "智珠 らんか",
+      "count": 35,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-6_km1wv.json",
+          "group": "group_1",
+          "index": 22,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-6_km1wv.json",
+          "group": "group_1",
+          "index": 31,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103102-14_32rIq.json",
+          "group": "group_1",
+          "index": 27,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "八神 はやて？",
+      "count": 34,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340533-1.json",
+          "group": "group_1",
+          "index": 12,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340532-1.json",
+          "group": "group_1",
+          "index": 13,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340532-1.json",
+          "group": "group_1",
+          "index": 22,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "かごめ",
+      "count": 27,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/102403-1_OPwuk.json",
+          "group": "group_1",
+          "index": 1,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-19_32rIq.json",
+          "group": "group_1",
+          "index": 1,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/102405-1_OPwuk.json",
+          "group": "group_1",
+          "index": 1,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "アマビエ小阿鲁",
+      "count": 27,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/311201-2.json",
+          "group": "group_1",
+          "index": 30,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/311201-2.json",
+          "group": "group_1",
+          "index": 32,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/311201-2.json",
+          "group": "group_1",
+          "index": 34,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "ちはる",
+      "count": 25,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-6_km1wv.json",
+          "group": "group_1",
+          "index": 9,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-6_km1wv.json",
+          "group": "group_1",
+          "index": 10,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-6_km1wv.json",
+          "group": "group_1",
+          "index": 16,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "ミユリ",
+      "count": 23,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-19_32rIq.json",
+          "group": "group_1",
+          "index": 34,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-16_32rIq.json",
+          "group": "group_1",
+          "index": 16,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-16_32rIq.json",
+          "group": "group_1",
+          "index": 40,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "カメ拉玛ン",
+      "count": 22,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/520920-9_T9o9t.json",
+          "group": "group_1",
+          "index": 22,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/520920-9_T9o9t.json",
+          "group": "group_1",
+          "index": 26,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/520920-10_T9o9t.json",
+          "group": "group_1",
+          "index": 32,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "アオ",
+      "count": 21,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103104-12_32rIq.json",
+          "group": "group_1",
+          "index": 23,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103104-12_32rIq.json",
+          "group": "group_1",
+          "index": 27,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103104-12_32rIq.json",
+          "group": "group_1",
+          "index": 28,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "ちはるの母",
+      "count": 20,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103003-6_km1wv.json",
+          "group": "group_1",
+          "index": 39,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103003-6_km1wv.json",
+          "group": "group_1",
+          "index": 40,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103003-6_km1wv.json",
+          "group": "group_1",
+          "index": 41,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "ラビ",
+      "count": 20,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103205-5_7xz7k.json",
+          "group": "group_1",
+          "index": 182,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 4,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 7,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "左利手的希拉略ス",
+      "count": 18,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/310533-2.json",
+          "group": "group_1",
+          "index": 35,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/310533-2.json",
+          "group": "group_1",
+          "index": 36,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/310533-2.json",
+          "group": "group_1",
+          "index": 37,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "ひかる",
+      "count": 17,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103104-12_32rIq.json",
+          "group": "group_1",
+          "index": 49,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103104-12_32rIq.json",
+          "group": "group_1",
+          "index": 50,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103104-12_32rIq.json",
+          "group": "group_1",
+          "index": 52,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "アレクサンドラ",
+      "count": 16,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 26,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 27,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 30,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "静香の母",
+      "count": 16,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103003-4_km1wv.json",
+          "group": "group_1",
+          "index": 8,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103003-4_km1wv.json",
+          "group": "group_1",
+          "index": 10,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103003-4_km1wv.json",
+          "group": "group_1",
+          "index": 11,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "さな",
+      "count": 15,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 50,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-19_32rIq.json",
+          "group": "group_1",
+          "index": 65,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-19_32rIq.json",
+          "group": "group_1",
+          "index": 70,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "御園 かりん",
+      "count": 14,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-8_km1wv.json",
+          "group": "group_1",
+          "index": 3,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-8_km1wv.json",
+          "group": "group_1",
+          "index": 6,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-8_km1wv.json",
+          "group": "group_1",
+          "index": 9,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "三輪 みつね",
+      "count": 13,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-2_km1wv.json",
+          "group": "group_1",
+          "index": 64,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103003-13_km1wv.json",
+          "group": "group_1",
+          "index": 35,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103003-13_km1wv.json",
+          "group": "group_1",
+          "index": 36,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "すなお",
+      "count": 13,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-6_km1wv.json",
+          "group": "group_1",
+          "index": 5,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-6_km1wv.json",
+          "group": "group_1",
+          "index": 18,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-6_km1wv.json",
+          "group": "group_1",
+          "index": 20,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "タケ",
+      "count": 11,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-6_km1wv.json",
+          "group": "group_1",
+          "index": 17,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-6_km1wv.json",
+          "group": "group_1",
+          "index": 19,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-6_km1wv.json",
+          "group": "group_1",
+          "index": 21,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "夏目 かこ",
+      "count": 11,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340522-2.json",
+          "group": "group_1",
+          "index": 25,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340521-4.json",
+          "group": "group_1",
+          "index": 6,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340521-4.json",
+          "group": "group_1",
+          "index": 12,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "みかげ",
+      "count": 10,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 74,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 75,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 76,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "十七夜の弟",
+      "count": 10,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103103-9_32rIq.json",
+          "group": "group_1",
+          "index": 71,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103103-9_32rIq.json",
+          "group": "group_1",
+          "index": 76,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103103-9_32rIq.json",
+          "group": "group_1",
+          "index": 78,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "都 ひなの",
+      "count": 9,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 79,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 80,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 81,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "時雨の祖父",
+      "count": 9,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-3_km1wv.json",
+          "group": "group_1",
+          "index": 7,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-3_km1wv.json",
+          "group": "group_1",
+          "index": 16,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-3_km1wv.json",
+          "group": "group_1",
+          "index": 17,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "キュゥべえ",
+      "count": 9,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-20_32rIq.json",
+          "group": "group_1",
+          "index": 70,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-20_32rIq.json",
+          "group": "group_1",
+          "index": 72,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-20_32rIq.json",
+          "group": "group_1",
+          "index": 73,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "三栗 あやめ",
+      "count": 9,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340522-2.json",
+          "group": "group_1",
+          "index": 17,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340522-2.json",
+          "group": "group_1",
+          "index": 33,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340522-2.json",
+          "group": "group_1",
+          "index": 42,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "老师役の少女僧人",
+      "count": 7,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/310513-3.json",
+          "group": "group_1",
+          "index": 4,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/519110-3_JJ7AF.json",
+          "group": "group_1",
+          "index": 26,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/519110-3_JJ7AF.json",
+          "group": "group_1",
+          "index": 46,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "加賀見 まさら",
+      "count": 7,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340523-5.json",
+          "group": "group_1",
+          "index": 62,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340523-5.json",
+          "group": "group_1",
+          "index": 67,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340523-5.json",
+          "group": "group_1",
+          "index": 79,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "青葉 ちか",
+      "count": 6,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-6_km1wv.json",
+          "group": "group_1",
+          "index": 60,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-6_km1wv.json",
+          "group": "group_1",
+          "index": 61,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-6_km1wv.json",
+          "group": "group_1",
+          "index": 62,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "アオの声",
+      "count": 6,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103104-10_32rIq.json",
+          "group": "group_1",
+          "index": 2,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103104-10_32rIq.json",
+          "group": "group_1",
+          "index": 3,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103104-10_32rIq.json",
+          "group": "group_1",
+          "index": 6,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "風の伝道師の谣",
+      "count": 6,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103305-14_eP5wU.json",
+          "group": "group_1",
+          "index": 45,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103305-14_eP5wU.json",
+          "group": "group_1",
+          "index": 47,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/5192117-47_LFy22.json",
+          "group": "group_1",
+          "index": 7,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "時雨の母",
+      "count": 6,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-3_km1wv.json",
+          "group": "group_1",
+          "index": 9,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-3_km1wv.json",
+          "group": "group_1",
+          "index": 10,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-3_km1wv.json",
+          "group": "group_1",
+          "index": 15,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "满の派遣元",
+      "count": 6,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/520010-10_ABe8j.json",
+          "group": "group_1",
+          "index": 71,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/520010-10_ABe8j.json",
+          "group": "group_1",
+          "index": 73,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/520010-10_ABe8j.json",
+          "group": "group_1",
+          "index": 75,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "うらら",
+      "count": 5,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 2,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-1_32rIq.json",
+          "group": "group_1",
+          "index": 3,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103102-14_32rIq.json",
+          "group": "group_1",
+          "index": 90,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "みんな",
+      "count": 5,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103103-10_32rIq.json",
+          "group": "group_1",
+          "index": 49,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-3_km1wv.json",
+          "group": "group_1",
+          "index": 11,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/506301-17_3X7EZ.json",
+          "group": "group_1",
+          "index": 121,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "蛍の声",
+      "count": 5,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/516710-3_flUel.json",
+          "group": "group_1",
+          "index": 4,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/516710-3_flUel.json",
+          "group": "group_1",
+          "index": 5,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/516710-3_flUel.json",
+          "group": "group_1",
+          "index": 7,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "カメ拉玛ン的声音",
+      "count": 4,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/520920-10_T9o9t.json",
+          "group": "group_1",
+          "index": 25,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/520920-10_T9o9t.json",
+          "group": "group_1",
+          "index": 26,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/519320-10_cape9.json",
+          "group": "group_1",
+          "index": 25,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "高町 なのは？",
+      "count": 4,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/506301-17_3X7EZ.json",
+          "group": "group_1",
+          "index": 30,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/506301-17_3X7EZ.json",
+          "group": "group_1",
+          "index": 53,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/506301-17_3X7EZ.json",
+          "group": "group_1",
+          "index": 76,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "鶴乃の声",
+      "count": 3,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103102-2_32rIq.json",
+          "group": "group_1",
+          "index": 47,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-15_32rIq.json",
+          "group": "group_1",
+          "index": 34,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-15_32rIq.json",
+          "group": "group_1",
+          "index": 35,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "リインフォースII",
+      "count": 3,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340531-1.json",
+          "group": "group_1",
+          "index": 11,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340531-1.json",
+          "group": "group_1",
+          "index": 32,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340532-3.json",
+          "group": "group_1",
+          "index": 22,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "水名の士兵",
+      "count": 3,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/518320-7_cyov4.json",
+          "group": "group_1",
+          "index": 21,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/518320-7_cyov4.json",
+          "group": "group_1",
+          "index": 23,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/518320-18_cyov4.json",
+          "group": "group_1",
+          "index": 3,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "ちはるの母の声",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103003-4_km1wv.json",
+          "group": "group_1",
+          "index": 32,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103003-4_km1wv.json",
+          "group": "group_1",
+          "index": 34,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "結菜の声",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-14_km1wv.json",
+          "group": "group_1",
+          "index": 61,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103102-13_32rIq.json",
+          "group": "group_1",
+          "index": 71,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "フェリシアの声",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103003-13_km1wv.json",
+          "group": "group_1",
+          "index": 105,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-13_32rIq.json",
+          "group": "group_1",
+          "index": 2,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "十七夜＆みたま",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103102-2_32rIq.json",
+          "group": "group_1",
+          "index": 53,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103201-10_7xz7k.json",
+          "group": "group_1",
+          "index": 75,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "れいら",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103201-10_7xz7k.json",
+          "group": "group_1",
+          "index": 33,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103201-10_7xz7k.json",
+          "group": "group_1",
+          "index": 60,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "ななか",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103201-10_7xz7k.json",
+          "group": "group_1",
+          "index": 35,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103201-10_7xz7k.json",
+          "group": "group_1",
+          "index": 56,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "こころ",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103201-10_7xz7k.json",
+          "group": "group_1",
+          "index": 36,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103201-10_7xz7k.json",
+          "group": "group_1",
+          "index": 58,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "まなか",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103201-10_7xz7k.json",
+          "group": "group_1",
+          "index": 39,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103201-10_7xz7k.json",
+          "group": "group_1",
+          "index": 55,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "ひなの",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103201-10_7xz7k.json",
+          "group": "group_1",
+          "index": 40,
+          "key": "nameNarration"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103201-10_7xz7k.json",
+          "group": "group_1",
+          "index": 53,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "いろは＆結菜",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103102-13_32rIq.json",
+          "group": "group_1",
+          "index": 83,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/514210-5_jzBJX.json",
+          "group": "group_1",
+          "index": 59,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "美凪 ささら",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340532-1.json",
+          "group": "group_1",
+          "index": 14,
+          "key": "nameRight"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340531-3.json",
+          "group": "group_1",
+          "index": 47,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "フェイト？",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340521-2.json",
+          "group": "group_1",
+          "index": 9,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/506301-15_3X7EZ.json",
+          "group": "group_1",
+          "index": 61,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "蛍＆あかり",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/517510-34_o5ttP.json",
+          "group": "group_1",
+          "index": 47,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/514810-34_YfjCD.json",
+          "group": "group_1",
+          "index": 47,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "七瀬 ゆきか",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/511953-3_54dSn.json",
+          "group": "group_1",
+          "index": 25,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/515153-3_v12wo.json",
+          "group": "group_1",
+          "index": 25,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "ミカ的声音",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/520120-10_NUp9u.json",
+          "group": "group_1",
+          "index": 23,
+          "key": "nameCenter"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/520120-10_NUp9u.json",
+          "group": "group_1",
+          "index": 28,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "赫露伽教の蒙古士兵",
+      "count": 2,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/519120-2_pKgJT.json",
+          "group": "group_1",
+          "index": 16,
+          "key": "nameLeft"
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/519120-2_pKgJT.json",
+          "group": "group_1",
+          "index": 18,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "ほむら",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_7/720063-1.json",
+          "group": "group_1",
+          "index": 25,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "ちか",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-6_km1wv.json",
+          "group": "group_1",
+          "index": 7,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "樹里の声",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-6_km1wv.json",
+          "group": "group_1",
+          "index": 19,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "ひかるの声",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103104-12_32rIq.json",
+          "group": "group_1",
+          "index": 48,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "眞尾 ひみか",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103102-14_32rIq.json",
+          "group": "group_1",
+          "index": 1,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "矢宵 かのこ",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103102-14_32rIq.json",
+          "group": "group_1",
+          "index": 4,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "胡桃 まなか",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103102-14_32rIq.json",
+          "group": "group_1",
+          "index": 6,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "静香の母の声",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103003-4_km1wv.json",
+          "group": "group_1",
+          "index": 33,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "ねむ",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-14_km1wv.json",
+          "group": "group_1",
+          "index": 40,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "やちよの声",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-12_32rIq.json",
+          "group": "group_1",
+          "index": 10,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "那由他の声",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/102505-9_lDVQb.json",
+          "group": "group_1",
+          "index": 56,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "月夜の声",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103101-7_32rIq.json",
+          "group": "group_1",
+          "index": 55,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "いろは＆鶴乃",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-5_km1wv.json",
+          "group": "group_1",
+          "index": 46,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "みかげの声",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103004-16_km1wv.json",
+          "group": "group_1",
+          "index": 10,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "かえでの声",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-8_km1wv.json",
+          "group": "group_1",
+          "index": 44,
+          "key": "nameRight"
+        }
+      ]
+    },
+    {
+      "name": "ひめなの声",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-15_32rIq.json",
+          "group": "group_1",
+          "index": 27,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "フェリシア＆鶴乃",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-15_32rIq.json",
+          "group": "group_1",
+          "index": 57,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "十七夜の弟の声",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103103-9_32rIq.json",
+          "group": "group_1",
+          "index": 67,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "時雨の母の声",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103001-3_km1wv.json",
+          "group": "group_1",
+          "index": 5,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "那由他＆みかげ",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103204-5_7xz7k.json",
+          "group": "group_1",
+          "index": 8,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "燦の声",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-5_32rIq.json",
+          "group": "group_1",
+          "index": 85,
+          "key": "nameLeft"
+        }
+      ]
+    },
+    {
+      "name": "レイジングハート",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340511-4.json",
+          "group": "group_1",
+          "index": 23,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "静香の声",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/513906-6_ceiHF.json",
+          "group": "group_1",
+          "index": 63,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "ミズキ的声音",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/520120-10_NUp9u.json",
+          "group": "group_1",
+          "index": 25,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "コピーたち",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/506301-15_3X7EZ.json",
+          "group": "group_1",
+          "index": 75,
+          "key": "nameCenter"
+        }
+      ]
+    },
+    {
+      "name": "やちよ＆いろはちゃん",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/516101-2_DpzxE.json",
+          "group": "group_1",
+          "index": 10,
+          "key": "nameNarration"
+        }
+      ]
+    },
+    {
+      "name": "バルディッシュ",
+      "count": 1,
+      "examples": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/506301-3_TFOmk.json",
+          "group": "group_1",
+          "index": 22,
+          "key": "nameNarration"
+        }
+      ]
+    }
+  ],
+  "candidate_warning": "Candidates require contextual/Japanese review; not automatically errors or approved replacements.",
+  "whole_corpus_review_complete": false,
+  "player_assets_modified": false,
+  "private_sources_accessed": false
+}
