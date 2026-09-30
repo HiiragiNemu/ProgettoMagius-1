@@ -1,0 +1,36 @@
+name: Publish verified duplicate text repairs 3312
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/publish-story-quality-3312.yml', 'story-quality/20260930-cn-origin-duplicates/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: public-resource-mirror
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s story-quality/20260930-cn-origin-duplicates -p 'test_*.py' -v
+      - name: Verify every source member and public bytes before version gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -u story-quality/20260930-cn-origin-duplicates/publish_scenario_3312.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: scenario-3312-source-origin-receipt
+          path: |
+            scenario3312/candidate/story-quality-report.json
+            scenario3312/candidate/version_scenario.json
+          if-no-files-found: warn
+          retention-days: 30
