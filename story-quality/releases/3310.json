@@ -1,0 +1,1359 @@
+{
+  "schema": 1,
+  "batch": "20260930-jp-controls-01",
+  "version": 3310,
+  "status": "published_and_anonymously_verified",
+  "reader_commit": "149208c9a6bbcc99d2536cf294cb4f2d3c272bb9",
+  "cn_patch_commit": "6b5181088a400c36976018b5b8da6eba776ad3e6",
+  "base_version": 3309,
+  "base_package": {
+    "size": 193596363,
+    "sha256": "a15fff4aa5448c6ed22673948602aaa244e16d4dd2bd84fecec00fc7c84da937",
+    "md5": "e649b6d1b1134b55e544c49f9698e7a0"
+  },
+  "package": {
+    "size": 193597022,
+    "sha256": "8874875b0de95a0366a9d96c6bc6b11602a42c6e03970ae961599eeb65651175",
+    "md5": "0a8d0a27179d643c4880a1bf518d90b1"
+  },
+  "files": [
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_2/205401-3_5x1pz.json",
+      "before": "24e6964d792d33679501b10f69ad67f385dbc90e",
+      "repository_before": "24e6964d792d33679501b10f69ad67f385dbc90e",
+      "git_blob": "a919fbb11d178629702c32aae84430b3dc921061",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_6/606301-5_CzvlG.json",
+      "before": "fff627a961513c1539c1b1f55ec538cbe0553ca8",
+      "repository_before": "fff627a961513c1539c1b1f55ec538cbe0553ca8",
+      "git_blob": "3627a74d6ad60c6ef55ee80dacab8b38909acc58",
+      "display_fields": 1,
+      "actor_id_values": 11
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_6/626401-5_IoGHx.json",
+      "before": "eff514b19a2a607679cf89a34948887475d53cce",
+      "repository_before": "eff514b19a2a607679cf89a34948887475d53cce",
+      "git_blob": "d299e785d14fe8ba11671ea3e3878c9c57b5767e",
+      "display_fields": 2,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_6/606301-7_cYxcm.json",
+      "before": "7dc5fe15f63a634c98c96a22f89c3b011464e28c",
+      "repository_before": "7dc5fe15f63a634c98c96a22f89c3b011464e28c",
+      "git_blob": "116ef607b6895ec8a5d0a4ada0f67c19c2a5da8a",
+      "display_fields": 1,
+      "actor_id_values": 4
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_6/641801-1_tkMTI.json",
+      "before": "27e30d9639d3227a60efcf44a60c531588a59de0",
+      "repository_before": "27e30d9639d3227a60efcf44a60c531588a59de0",
+      "git_blob": "44cf11e21d87d9d5afb26485dab0f626910053fe",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_6/646301-1_L40sg.json",
+      "before": "2ec9b7288cf2d6e665b5d253efc3b6c185527fbc",
+      "repository_before": "2ec9b7288cf2d6e665b5d253efc3b6c185527fbc",
+      "git_blob": "0685abfe772cb5c8cdc8143485b066e90b6a08d7",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_9/910115-030.json",
+      "before": "9e6bc5066f08aa91706ec52baeaaf5252e3bf762",
+      "repository_before": "9e6bc5066f08aa91706ec52baeaaf5252e3bf762",
+      "git_blob": "ba3fc6dca094e4c8694244be035d953400d64830",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_9/907122-050.json",
+      "before": "4a9ea1c6d07c9e88d3ed19aec2c539264333f8ea",
+      "repository_before": "4a9ea1c6d07c9e88d3ed19aec2c539264333f8ea",
+      "git_blob": "4100bb0855e7c1b8cdd1aa37492cbc596e93fa6c",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_9/905120-020.json",
+      "before": "16a998b1ee7112651381bad1cced013f4cca5078",
+      "repository_before": "16a998b1ee7112651381bad1cced013f4cca5078",
+      "git_blob": "0ed8ddfb2afd0575670b6eddd78139e67fcf85d6",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_9/910113-010.json",
+      "before": "4e3ae39f55f6dc85a55a84dd5a211b1f4a01bd54",
+      "repository_before": "4e3ae39f55f6dc85a55a84dd5a211b1f4a01bd54",
+      "git_blob": "e4174ab1ce078da3e1b41cc75808e7c810867700",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_9/907132-020.json",
+      "before": "2b28435d01bcf24bd1ac9aedff1d5895ce861fad",
+      "repository_before": "2b28435d01bcf24bd1ac9aedff1d5895ce861fad",
+      "git_blob": "cc0e77688774a409653346ba022e3e318be5fb24",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_9/913202-035_mami.json",
+      "before": "7f61d58847723c5f982131bc946cedc39120c103",
+      "repository_before": "7f61d58847723c5f982131bc946cedc39120c103",
+      "git_blob": "559328fa03b23fdb3487373737bfe9876707065a",
+      "display_fields": 2,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_9/901332-020.json",
+      "before": "7c67415b9ec1d8c566c9d9f9e3ca5bc998915885",
+      "repository_before": "7c67415b9ec1d8c566c9d9f9e3ca5bc998915885",
+      "git_blob": "11ffc6644369a6f749f91b1f0c1b91b6f7f40943",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_9/905103-020_homura.json",
+      "before": "fa49e6cc8790bdd43e3bbc9eaa8cae4c7095a13e",
+      "repository_before": "fa49e6cc8790bdd43e3bbc9eaa8cae4c7095a13e",
+      "git_blob": "81caf5328a4018c287e28fae910b9f9b79071ca0",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_9/911105-020.json",
+      "before": "bc35a25b903ea35e886c9d8a0e8ea456cf394a64",
+      "repository_before": "bc35a25b903ea35e886c9d8a0e8ea456cf394a64",
+      "git_blob": "b83f896cd875941d6676b3bc0fbfd8a02f86ecd4",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_9/903117-030.json",
+      "before": "5ff06f26cfa9d1a82afd99ad9f424fd1ae9d35a9",
+      "repository_before": "5ff06f26cfa9d1a82afd99ad9f424fd1ae9d35a9",
+      "git_blob": "7a218ec997e20aa6a050a75dcb56d3e09e0762ea",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_9/903103-040.json",
+      "before": "4eb74e31460f1bf27593aae56b624d93ff977d75",
+      "repository_before": "4eb74e31460f1bf27593aae56b624d93ff977d75",
+      "git_blob": "78bf2824435ca7c9f526f88af524aa55357bb8b3",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_7/710151-1.json",
+      "before": "497adc4247219ce8ad0fb2f86707b2faa3887983",
+      "repository_before": "497adc4247219ce8ad0fb2f86707b2faa3887983",
+      "git_blob": "726928975022abac4fb75c0b9a72d2da252524c0",
+      "display_fields": 1,
+      "actor_id_values": 15
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102302-23_ZdxJi.json",
+      "before": "a152fc306d4fd1713c2b9196a5eafb228c1285c6",
+      "repository_before": "a152fc306d4fd1713c2b9196a5eafb228c1285c6",
+      "git_blob": "1575621a4f450fd89bc5db7f173b835e0afd5de9",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102302-18_ZdxJi.json",
+      "before": "0c137cafd0d26b14baa3b5a15196f8b08f3ef593",
+      "repository_before": "0c137cafd0d26b14baa3b5a15196f8b08f3ef593",
+      "git_blob": "139db9689272744d6572733447fd29846e92b47b",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102302-7_ZdxJi.json",
+      "before": "cc7cb630a77397232d84b1b20554976193796c9e",
+      "repository_before": "cc7cb630a77397232d84b1b20554976193796c9e",
+      "git_blob": "f7c164f627f58ae49b0c54c599814fe73a6ec465",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/101506-4_BdcGe.json",
+      "before": "5fe62ee5d0b67061f510360d2dfdb793ae350ec4",
+      "repository_before": "5fe62ee5d0b67061f510360d2dfdb793ae350ec4",
+      "git_blob": "f1b6109c56ab2fc24a7771a82a708b4632f83c63",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/103205-5_7xz7k.json",
+      "before": "c6485a2ad744e04d4e53b0999b91690180846fbb",
+      "repository_before": "c6485a2ad744e04d4e53b0999b91690180846fbb",
+      "git_blob": "6ff9f7c869d75b6a04b0c7966b154fd8f28c9214",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102301-20_Z9WSZ.json",
+      "before": "caae39f5ce8642d3a1aa355bebbbe2c26a1025ae",
+      "repository_before": "caae39f5ce8642d3a1aa355bebbbe2c26a1025ae",
+      "git_blob": "9928fdac3b55ef6ff3913b4e973b83079ef27d2f",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102203-7_RwJVJ.json",
+      "before": "07d794d73c8ad4aa4340edcb76c00c9055ba7582",
+      "repository_before": "07d794d73c8ad4aa4340edcb76c00c9055ba7582",
+      "git_blob": "48ea613a0464b83717add4b934e598bc1159bcdc",
+      "display_fields": 3,
+      "actor_id_values": 27
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102301-10_Z9WSZ.json",
+      "before": "f48c9f6ef5576f4c2da075e85f39fadf7586d544",
+      "repository_before": "f48c9f6ef5576f4c2da075e85f39fadf7586d544",
+      "git_blob": "15061ff7bd04c8681efb27e3844930a7c39529d2",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102301-12_Z9WSZ.json",
+      "before": "c6113c6753a2bd34b3300ae8f1a691a8c776f58e",
+      "repository_before": "c6113c6753a2bd34b3300ae8f1a691a8c776f58e",
+      "git_blob": "ce62440c265d3599685562be0dca5d91a78f248c",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102301-11_Z9WSZ.json",
+      "before": "6c55ba5b2c9e9b9eeaedb838d501b58ce4d4bb88",
+      "repository_before": "6c55ba5b2c9e9b9eeaedb838d501b58ce4d4bb88",
+      "git_blob": "024b2f5a6c25e182824df234153af8241428c744",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102301-17_Z9WSZ.json",
+      "before": "7eeeb6111b786d3151372ad11cf2e61b55ca0cca",
+      "repository_before": "7eeeb6111b786d3151372ad11cf2e61b55ca0cca",
+      "git_blob": "c36333b8ae9ae5e2560b30a43697d0fe5ae5471c",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102704-1_yKMiv.json",
+      "before": "5ea9866f0e5ddf2944a1173ff8fc775a90c7724b",
+      "repository_before": "5ea9866f0e5ddf2944a1173ff8fc775a90c7724b",
+      "git_blob": "0489eabbb7dc759a756aeb9f472918a421ce3e8e",
+      "display_fields": 66,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/101802-21_a7FVS.json",
+      "before": "aa1106729b5bea7f0a7f70b527680d93655e4662",
+      "repository_before": "20c9dcff7756153199d25d7047f60fd8f1967456",
+      "git_blob": "95f56a05cb92760be1c2aa6d036c252aa2974e7b",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102301-2_Z9WSZ.json",
+      "before": "dcfccee550ecdcfa2b1b8003b07394336f132258",
+      "repository_before": "dcfccee550ecdcfa2b1b8003b07394336f132258",
+      "git_blob": "087ff055ad3d5fa049649f4be529e63d5297ef3c",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102302-20_ZdxJi.json",
+      "before": "6a6c529d1aae35d3c39179deb47958249e102c5e",
+      "repository_before": "6a6c529d1aae35d3c39179deb47958249e102c5e",
+      "git_blob": "9516ac44811caa9e1303b9393a82395761841e1d",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102302-4_ZdxJi.json",
+      "before": "7e9991ecec58741b3d8c0fe0a9a5ef0ce6486739",
+      "repository_before": "7e9991ecec58741b3d8c0fe0a9a5ef0ce6486739",
+      "git_blob": "be8b47e780280e085fe34da1e1de730508ce7787",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102302-5_ZdxJi.json",
+      "before": "caca3f914a65c5b047a82bab83a23e84f751a0d8",
+      "repository_before": "caca3f914a65c5b047a82bab83a23e84f751a0d8",
+      "git_blob": "4e96272c0b9dba7e8f1a00eadf747d45084f7f5b",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/101704-1_YTq8g.json",
+      "before": "0792d4cf824e2a194142dc0e208b781b042b1312",
+      "repository_before": "2749277680b966d1023118224e413dfb410c87fa",
+      "git_blob": "c72c0ea0b601b8439a5138484c6535909678ba11",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102302-14_ZdxJi.json",
+      "before": "5799be2777a1d11c360f779de067e6781ea69951",
+      "repository_before": "5799be2777a1d11c360f779de067e6781ea69951",
+      "git_blob": "a673ea4d9c6314e962fca70f62ee2cf3742652d4",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/320091-3.json",
+      "before": "6b560f525e295b4b088529c33b5bc99113602df9",
+      "repository_before": "6b560f525e295b4b088529c33b5bc99113602df9",
+      "git_blob": "30197ef0fb03fbc5d8871f83a3a5e2e355670dcd",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310203-2.json",
+      "before": "29b3e185417489aa91b2813f1844c2903a5c01bb",
+      "repository_before": "29b3e185417489aa91b2813f1844c2903a5c01bb",
+      "git_blob": "d21cf1b408e0d91ddce9facacd106827b4d3ce6a",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310012-2.json",
+      "before": "def2004a27c14db89de7ee8b181f1c0cbcdfa202",
+      "repository_before": "def2004a27c14db89de7ee8b181f1c0cbcdfa202",
+      "git_blob": "93fbe3462490303628e7a474e2e0a86b8a4cd476",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/340211-3.json",
+      "before": "769c1aeaeee5927001f52a11e7578526f44170d0",
+      "repository_before": "769c1aeaeee5927001f52a11e7578526f44170d0",
+      "git_blob": "bd9e0fb37355d0a3e2c86047cf0d772d82e6cda5",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310161-4.json",
+      "before": "fdc001b02b5d2a309413603ed96ba60f8e55f097",
+      "repository_before": "fdc001b02b5d2a309413603ed96ba60f8e55f097",
+      "git_blob": "ea95a63949ef08a592bdb0c688baef0238df5df7",
+      "display_fields": 1,
+      "actor_id_values": 7
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310152-1.json",
+      "before": "08b5d2dcc800b7b314584d6db2969e1001355693",
+      "repository_before": "08b5d2dcc800b7b314584d6db2969e1001355693",
+      "git_blob": "5f139e2a6db9b0fdba2cd1dd321eee9730f9696c",
+      "display_fields": 1,
+      "actor_id_values": 17
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/311203-2.json",
+      "before": "92dfcad50c4749a4d6a4ab3c42b3b281ed7eb9e9",
+      "repository_before": "92dfcad50c4749a4d6a4ab3c42b3b281ed7eb9e9",
+      "git_blob": "54cc3cf898dfb52e44db203c350721d99158881f",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_4/400014-1.json",
+      "before": "8bb53a6a5f373381b339284fafa02ec5c6e62e26",
+      "repository_before": "8bb53a6a5f373381b339284fafa02ec5c6e62e26",
+      "git_blob": "59fbc237a8051dc57627ba9c5b15eee0d1ec6741",
+      "display_fields": 7,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_4/400010-1.json",
+      "before": "fd14be6acdfffade42955eeac055ac7a2c4eaae2",
+      "repository_before": "fd14be6acdfffade42955eeac055ac7a2c4eaae2",
+      "git_blob": "016296715c414148405fc0d35e3eb7a3421e48ba",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/518310-18_sw8iW.json",
+      "before": "20c8d1724a174850c21662c6b4d6c3be3a6b0323",
+      "repository_before": "20c8d1724a174850c21662c6b4d6c3be3a6b0323",
+      "git_blob": "ba73c9defb0731479369a65b65b1576aa3bd9dcd",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/520010-4_ABe8j.json",
+      "before": "aac32a86d5b8e6be4d79305253915fb155548bb8",
+      "repository_before": "aac32a86d5b8e6be4d79305253915fb155548bb8",
+      "git_blob": "cc472f4d3c772753458a3de2dedbcea646a76965",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515170-20_v12wo.json",
+      "before": "4e006ba0df7572a3bd2a449dff5b2af0bf5f7ae3",
+      "repository_before": "4e006ba0df7572a3bd2a449dff5b2af0bf5f7ae3",
+      "git_blob": "cb81579a6ae04ac3aac06676b6b6ecbe40a1b4ff",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/518520-4_ahr5t.json",
+      "before": "96171d59c3781d135c750d20a02ab3e9bb7a53da",
+      "repository_before": "96171d59c3781d135c750d20a02ab3e9bb7a53da",
+      "git_blob": "5507e17952c0d84cdcd095eee9f569fd758cc4fd",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/508010-6.json",
+      "before": "66416fc6336137629f32b95d2dc93c4864383745",
+      "repository_before": "66416fc6336137629f32b95d2dc93c4864383745",
+      "git_blob": "955f6669db715bfb0c4187fb8009c0931eae5239",
+      "display_fields": 1,
+      "actor_id_values": 17
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510071-4.json",
+      "before": "97312f71334b70f1b764f83d76668556338ce392",
+      "repository_before": "97312f71334b70f1b764f83d76668556338ce392",
+      "git_blob": "9f2f23b30eb62745717a3542547955bfae4f746b",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510071-7.json",
+      "before": "0b1910c41e72e11343fba09e4661f97af048a9d6",
+      "repository_before": "0b1910c41e72e11343fba09e4661f97af048a9d6",
+      "git_blob": "84db2ef0f4973e106acbf6a8d869ed455b82df4c",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515123-23_UtBgR.json",
+      "before": "8bd513d1ceb2bbc6187741b99d17b3872f6b325c",
+      "repository_before": "8bd513d1ceb2bbc6187741b99d17b3872f6b325c",
+      "git_blob": "12f67ec1d47902280c852e0ff39d153ab0893fb6",
+      "display_fields": 2,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/517089-19_pVeLS.json",
+      "before": "98fa7fd58ba182088200de7e164cd4347dbfae06",
+      "repository_before": "98fa7fd58ba182088200de7e164cd4347dbfae06",
+      "git_blob": "93672b04f4d2de5d4187cf65576cd950418f7114",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/504010-12.json",
+      "before": "96f09757e91c734aa7a74b72f804c9143a75f1da",
+      "repository_before": "96f09757e91c734aa7a74b72f804c9143a75f1da",
+      "git_blob": "869b18ca29be4f789a5bbe382ad933375fb917f4",
+      "display_fields": 4,
+      "actor_id_values": 89
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515420-2_yto8E.json",
+      "before": "ed3fd6fdecf3985f8fd4e367ac61b1b6b033405f",
+      "repository_before": "ed3fd6fdecf3985f8fd4e367ac61b1b6b033405f",
+      "git_blob": "36fe634f8f38e543451deab2880533bcdd276f30",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/519110-15_JJ7AF.json",
+      "before": "7a54a725b9963235adbbbaa0e8bb637fc2c94f31",
+      "repository_before": "7a54a725b9963235adbbbaa0e8bb637fc2c94f31",
+      "git_blob": "1da4cb89b811383e577e7e5f450d91243643fb5c",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515109-9_UtBgR.json",
+      "before": "43c2139007ffa494acc5d710f30e275770cb6009",
+      "repository_before": "43c2139007ffa494acc5d710f30e275770cb6009",
+      "git_blob": "cd1cd226a2839c8837f7b23e3324cd0928e11d04",
+      "display_fields": 3,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515920-10_BK8zF.json",
+      "before": "dacca64452995a93625502a8c839ea549a70c75b",
+      "repository_before": "dacca64452995a93625502a8c839ea549a70c75b",
+      "git_blob": "5cfd79653dca1656ff8dc241831870610806a454",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/509210-7_ejUmE.json",
+      "before": "20557464e47fbd16116152d3f4383c4f3aa64dc8",
+      "repository_before": "20557464e47fbd16116152d3f4383c4f3aa64dc8",
+      "git_blob": "63de089c0d1bb08ad58973b8ee28a0b55f3c3ee3",
+      "display_fields": 1,
+      "actor_id_values": 9
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/517024-24_KaCgt.json",
+      "before": "edb42b6a64c2e4fb0d26d5c45605e0f0eedceb35",
+      "repository_before": "edb42b6a64c2e4fb0d26d5c45605e0f0eedceb35",
+      "git_blob": "49fa76b7db2c71e560a4ba2deaf97b9b27c5f8d8",
+      "display_fields": 3,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/517910-1_ti4cD.json",
+      "before": "ef5d7b0b854e5ca5c133ec9672909e59e6cd2616",
+      "repository_before": "ef5d7b0b854e5ca5c133ec9672909e59e6cd2616",
+      "git_blob": "5e214f3883f838d16f806d9a56813a2ad72fc2a9",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/519601-21_BPssF.json",
+      "before": "f6189803bf2d81e59214e00fa4448579a80fd2f4",
+      "repository_before": "f6189803bf2d81e59214e00fa4448579a80fd2f4",
+      "git_blob": "226312e768e7714621b6e6345b4be96e3dadf213",
+      "display_fields": 10,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/519910-7_qQMKo.json",
+      "before": "7763412ec04f6e9fa7ca36564cbf3b659a34fd61",
+      "repository_before": "7763412ec04f6e9fa7ca36564cbf3b659a34fd61",
+      "git_blob": "df73edb230abf344e0bc79ffa161e103aed5b920",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/511110-8_Qep4x.json",
+      "before": "0c7c0becb0cabe54891413d94573b82db3e9a4fb",
+      "repository_before": "0c7c0becb0cabe54891413d94573b82db3e9a4fb",
+      "git_blob": "5fa0321684bc3c511422fd183006df3057b09850",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/508020-5.json",
+      "before": "b9d224029bf67b937ebcf13c9a5fb43394673ef6",
+      "repository_before": "b9d224029bf67b937ebcf13c9a5fb43394673ef6",
+      "git_blob": "b4f0ed3f51220bcc845b9094cb5a8181a6975618",
+      "display_fields": 1,
+      "actor_id_values": 20
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/508020-1.json",
+      "before": "e7a89b9ec06b924b7dd11e4c3e8efe5450d03d95",
+      "repository_before": "e7a89b9ec06b924b7dd11e4c3e8efe5450d03d95",
+      "git_blob": "245a824dff9e50292415b62b04d36f14b278f909",
+      "display_fields": 1,
+      "actor_id_values": 19
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/512202-1_Kum8H.json",
+      "before": "cb9656ffd0eaedc0faca39e714cc67a35032a23c",
+      "repository_before": "cb9656ffd0eaedc0faca39e714cc67a35032a23c",
+      "git_blob": "94fa24b8c2bb4f2a18dbcbba687d842728238fe6",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/518320-16_cyov4.json",
+      "before": "0c3a150d6b76a8ab61887e0241055ebd48b69189",
+      "repository_before": "0c3a150d6b76a8ab61887e0241055ebd48b69189",
+      "git_blob": "7ed5d7ee0a085e51f995641f900caab97dbe78f1",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/516010-0.json",
+      "before": "2234d399cc460992a00e679af304168671adc2a3",
+      "repository_before": "2234d399cc460992a00e679af304168671adc2a3",
+      "git_blob": "e0d2f25d4f2fab3f9b9196e891403be08f9b7646",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/519020-13_QIB0F.json",
+      "before": "2a5ccae57cde3c9da522779de8d749d42ad1d2a8",
+      "repository_before": "2a5ccae57cde3c9da522779de8d749d42ad1d2a8",
+      "git_blob": "69fe33a3730e00e63bcf8c257f2b3b79b4e3809b",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515164-14_v12wo.json",
+      "before": "557d4ae085fcad164f865b67204753f2166296c4",
+      "repository_before": "557d4ae085fcad164f865b67204753f2166296c4",
+      "git_blob": "1657c423fa61da061e886982b192b9869af962ba",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/517110-6_ptdpz.json",
+      "before": "51d19a4b26cdef4af8f1d3e1daf02a461b03def0",
+      "repository_before": "51d19a4b26cdef4af8f1d3e1daf02a461b03def0",
+      "git_blob": "4ee72d480d7d59185fc48ad85d16c1f2d0fdfe97",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/503610-3.json",
+      "before": "305f97fa802045da848b13b52359409fa182ac44",
+      "repository_before": "305f97fa802045da848b13b52359409fa182ac44",
+      "git_blob": "aaccfd3439659b52821763cef9354947785034da",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515159-9_v12wo.json",
+      "before": "dabd06f37050fbb32ee59ac28b043d16b5e6703f",
+      "repository_before": "dabd06f37050fbb32ee59ac28b043d16b5e6703f",
+      "git_blob": "0a150b5421aee683c7d0f783dd65826245b44913",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/508020-7.json",
+      "before": "a456573b1d9697e1338acbf86661cdcce168db0b",
+      "repository_before": "a456573b1d9697e1338acbf86661cdcce168db0b",
+      "git_blob": "85bebc581276dcac7205ecd6e095b068eadbf5cd",
+      "display_fields": 4,
+      "actor_id_values": 33
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/519110-3_JJ7AF.json",
+      "before": "c1c51690f2dec24c5c840eb449710b288faee9db",
+      "repository_before": "c1c51690f2dec24c5c840eb449710b288faee9db",
+      "git_blob": "8257d8db1ed6ac95b588dafb3d3fa7d5ae3cb621",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/508010-4.json",
+      "before": "f9bc457810e92357b20302e8ff30c26bcef9314d",
+      "repository_before": "f9bc457810e92357b20302e8ff30c26bcef9314d",
+      "git_blob": "5ba55f79744266753a402d2b90075a664cbab28c",
+      "display_fields": 1,
+      "actor_id_values": 17
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/518110-8_9Vluy.json",
+      "before": "42085064348f0d8777892972b99b3b9c44ac224f",
+      "repository_before": "42085064348f0d8777892972b99b3b9c44ac224f",
+      "git_blob": "fb43021f73a9ed47582f5c2e203423a386b22378",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/517035-35_KaCgt.json",
+      "before": "2813f689ea69f6f3789539e3c673ee2237e5e38e",
+      "repository_before": "2813f689ea69f6f3789539e3c673ee2237e5e38e",
+      "git_blob": "408cb06281a73b3496631d3e8f251c457ead936b",
+      "display_fields": 2,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/503610-5.json",
+      "before": "c0ce64cebd180da9a04d97a04022dbf1956a1a41",
+      "repository_before": "c0ce64cebd180da9a04d97a04022dbf1956a1a41",
+      "git_blob": "fc90eff874e36d2a265d96d199a89dbe08372a91",
+      "display_fields": 2,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/520420-1_qofw8.json",
+      "before": "68195cde3e34bcc6a3f3ab0af4a7128a483d0fb4",
+      "repository_before": "68195cde3e34bcc6a3f3ab0af4a7128a483d0fb4",
+      "git_blob": "8efe4b4afa2d1187ec4f45cc12c548680703eb8d",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510071-5.json",
+      "before": "c0ce64cebd180da9a04d97a04022dbf1956a1a41",
+      "repository_before": "c0ce64cebd180da9a04d97a04022dbf1956a1a41",
+      "git_blob": "fc90eff874e36d2a265d96d199a89dbe08372a91",
+      "display_fields": 2,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/516410-1_FQhRT.json",
+      "before": "5ba1491a25c08446699b6055d3540a0a54df3645",
+      "repository_before": "5ba1491a25c08446699b6055d3540a0a54df3645",
+      "git_blob": "37a80cfd8f0f016b4e48cb3034c7a626b1368e02",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510031-7.json",
+      "before": "3b5b01b7f95f1a131d36870e912e1eb6ac6380a0",
+      "repository_before": "3b5b01b7f95f1a131d36870e912e1eb6ac6380a0",
+      "git_blob": "e53f2980d77b69c7b17a8de58de80e5f6978218f",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/508010-7.json",
+      "before": "2f74bd4bee361a67c411f28792e1bc1071865b88",
+      "repository_before": "2f74bd4bee361a67c411f28792e1bc1071865b88",
+      "git_blob": "0ee849ba31114b2bc3526e1bb9da0d5a802f252c",
+      "display_fields": 1,
+      "actor_id_values": 18
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515920-7_BK8zF.json",
+      "before": "9a2fe6f134b842ff7c0b21b9012b893743e4e7a6",
+      "repository_before": "9a2fe6f134b842ff7c0b21b9012b893743e4e7a6",
+      "git_blob": "7d7cce566a5c470a33a746e00b10968b3608fc11",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/517026-26_KaCgt.json",
+      "before": "c89025c8600fc013ae23d6f714ad0b80e8c30e7a",
+      "repository_before": "c89025c8600fc013ae23d6f714ad0b80e8c30e7a",
+      "git_blob": "0393869a52055a81d1f06d9c06617f66afbf1390",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/505901-39.json",
+      "before": "dbb5a07d6e72b4d78d5353f61139b78c3be1c7cb",
+      "repository_before": "dbb5a07d6e72b4d78d5353f61139b78c3be1c7cb",
+      "git_blob": "e5552458b596da17279e8787e2290fc9777733e7",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/505420-10.json",
+      "before": "17c94eb357bba4970ddbceff47d79c7c74aaf848",
+      "repository_before": "17c94eb357bba4970ddbceff47d79c7c74aaf848",
+      "git_blob": "b1a3ebec9a01464f557d44ff2a2f5e25dbe538d7",
+      "display_fields": 1,
+      "actor_id_values": 13
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515910-14_35Bxz.json",
+      "before": "3e2cabd32a09244bf8343aab1c89373f720718d5",
+      "repository_before": "3e2cabd32a09244bf8343aab1c89373f720718d5",
+      "git_blob": "11897cfd75cc9e171a08e272b5ea376789526a91",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/520120-2_NUp9u.json",
+      "before": "fd933869ce158d7ff74c5001669423f69f4ad34d",
+      "repository_before": "fd933869ce158d7ff74c5001669423f69f4ad34d",
+      "git_blob": "e4234215bf8b875d9fedc4233f220aa74c87dd5e",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515131-31_UtBgR.json",
+      "before": "3602eb6e46584e3bcc6740ea11a6c2bb2d8da06b",
+      "repository_before": "3602eb6e46584e3bcc6740ea11a6c2bb2d8da06b",
+      "git_blob": "0483a354626fd1e1fc1dbd555465fb7c165a7e01",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/503610-4.json",
+      "before": "97312f71334b70f1b764f83d76668556338ce392",
+      "repository_before": "97312f71334b70f1b764f83d76668556338ce392",
+      "git_blob": "9f2f23b30eb62745717a3542547955bfae4f746b",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/518510-5_VY6we.json",
+      "before": "8d486aba9844d4c738bf0743bc3a951a124849ee",
+      "repository_before": "8d486aba9844d4c738bf0743bc3a951a124849ee",
+      "git_blob": "5f807618e84fbf7d4c66e8b8e2df50fb2a35d194",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/518510-0.json",
+      "before": "2234d399cc460992a00e679af304168671adc2a3",
+      "repository_before": "2234d399cc460992a00e679af304168671adc2a3",
+      "git_blob": "e0d2f25d4f2fab3f9b9196e891403be08f9b7646",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510031-6.json",
+      "before": "45908b7a20fcd936125aedd042152f7442282b50",
+      "repository_before": "45908b7a20fcd936125aedd042152f7442282b50",
+      "git_blob": "b153f182899fa81d7324d0be7b59194ff989a04a",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510031-1.json",
+      "before": "055dd1bf0d18547fa07dec8d8995aa910c1b8dd8",
+      "repository_before": "055dd1bf0d18547fa07dec8d8995aa910c1b8dd8",
+      "git_blob": "8ef830b61d2e5a70013bac4fd46e443f926ba991",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/518110-3_9Vluy.json",
+      "before": "72795264555b88ac77936c2dea62d52e4df228dc",
+      "repository_before": "72795264555b88ac77936c2dea62d52e4df228dc",
+      "git_blob": "5bf9432e6e35a2b3fb970a19e6c872d6b1be130e",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/5170108-38_pVeLS.json",
+      "before": "128697828ff877ca65ef5d4f6da9d61b8cb16363",
+      "repository_before": "128697828ff877ca65ef5d4f6da9d61b8cb16363",
+      "git_blob": "650fe43570139028458778b69a8b7344d38f3110",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510051-39.json",
+      "before": "dbb5a07d6e72b4d78d5353f61139b78c3be1c7cb",
+      "repository_before": "dbb5a07d6e72b4d78d5353f61139b78c3be1c7cb",
+      "git_blob": "e5552458b596da17279e8787e2290fc9777733e7",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510071-3.json",
+      "before": "305f97fa802045da848b13b52359409fa182ac44",
+      "repository_before": "305f97fa802045da848b13b52359409fa182ac44",
+      "git_blob": "aaccfd3439659b52821763cef9354947785034da",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/508010-1.json",
+      "before": "74ceb7abc02c4218dcaecf351295bb577448d1b0",
+      "repository_before": "74ceb7abc02c4218dcaecf351295bb577448d1b0",
+      "git_blob": "d4a838caa69dbc491e99cf005698354303e5a6e0",
+      "display_fields": 2,
+      "actor_id_values": 27
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/5170107-37_pVeLS.json",
+      "before": "3dbce08a8a47235b3cea7ad71c219a0d61024a3f",
+      "repository_before": "3dbce08a8a47235b3cea7ad71c219a0d61024a3f",
+      "git_blob": "09331d2e17030cfbb2323afb49ff7a63c4c6053c",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/517031-31_KaCgt.json",
+      "before": "822ec946070ea8b8b2ba878790e314f4e17bef91",
+      "repository_before": "822ec946070ea8b8b2ba878790e314f4e17bef91",
+      "git_blob": "809a66fd885a8a60b34b91f9855ccd6a97db8f63",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/520820-9_6HXJQ.json",
+      "before": "d37a082ef04ee5dce43274cd7f3e10b5132787e5",
+      "repository_before": "d37a082ef04ee5dce43274cd7f3e10b5132787e5",
+      "git_blob": "ee0379b510281e522ed1678b23b9de5f3d3cbeef",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/503510-6.json",
+      "before": "45908b7a20fcd936125aedd042152f7442282b50",
+      "repository_before": "45908b7a20fcd936125aedd042152f7442282b50",
+      "git_blob": "b153f182899fa81d7324d0be7b59194ff989a04a",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/519010-8_JSAqV.json",
+      "before": "760e2d76c3a47ec54493d620a2d5d20bd4699941",
+      "repository_before": "760e2d76c3a47ec54493d620a2d5d20bd4699941",
+      "git_blob": "870db3fad8f38cc97473bfc91f2966a8dc37b8b2",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/508020-4.json",
+      "before": "36da2ea847146eead3160a239d5d68eddd1ce59b",
+      "repository_before": "36da2ea847146eead3160a239d5d68eddd1ce59b",
+      "git_blob": "cffdd70caa07c709f7561de67917f4ad2574be2b",
+      "display_fields": 1,
+      "actor_id_values": 30
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/505420-9.json",
+      "before": "2aadda0f5d3b5d143c1ac6a8c04436cd170fcf59",
+      "repository_before": "2aadda0f5d3b5d143c1ac6a8c04436cd170fcf59",
+      "git_blob": "239950f288407f6679ea47b308db7d36410ac935",
+      "display_fields": 2,
+      "actor_id_values": 29
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515132-32_UtBgR.json",
+      "before": "8a797cbbaffcd04c8d466bf68cbb3799a5e3a416",
+      "repository_before": "8a797cbbaffcd04c8d466bf68cbb3799a5e3a416",
+      "git_blob": "0ff745877a65008d4a60d2c7e86d290b45949f41",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/506909-9_Arnzs.json",
+      "before": "4788dab90c6b8314ce9c3997e91e01fec680ea28",
+      "repository_before": "c4c73cf762ce8858223b4f8761d01cb61c1c5068",
+      "git_blob": "bc44e09626d0448faa799b1bf3a36d4f19e14a7c",
+      "display_fields": 2,
+      "actor_id_values": 19
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/5192108-38_LFy22.json",
+      "before": "0a2684949e6549717df18aae09f20bc6bf4bb704",
+      "repository_before": "0a2684949e6549717df18aae09f20bc6bf4bb704",
+      "git_blob": "11fbe27bc2ac46e0bdb79d804dd30b74a69ef8c8",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/520610-8_KC2kq.json",
+      "before": "19e3f83e4b62cd4bbdd5bca7a059f301cb2b2c8a",
+      "repository_before": "19e3f83e4b62cd4bbdd5bca7a059f301cb2b2c8a",
+      "git_blob": "14a0335ee0a593a97d4e84f36a1059e075aaf098",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515128-28_UtBgR.json",
+      "before": "b2ce3b7bfaafbfe2df0d05388e282860f2a6e329",
+      "repository_before": "b2ce3b7bfaafbfe2df0d05388e282860f2a6e329",
+      "git_blob": "8bb6d640292e8701272fdfe51ef3ac5c9f51627d",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/519810-2.json",
+      "before": "cee43ef2fef7888ae9f45a21dd61762e97300423",
+      "repository_before": "cee43ef2fef7888ae9f45a21dd61762e97300423",
+      "git_blob": "7833d00dee906d24516d12bd1439d3ca40d145de",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515119-19_UtBgR.json",
+      "before": "a26760bad07a5e30f98f026ef3faeded60aacfe0",
+      "repository_before": "a26760bad07a5e30f98f026ef3faeded60aacfe0",
+      "git_blob": "45029c3e22f9644640d932bbcfe9dfd4490f20c1",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515124-24_UtBgR.json",
+      "before": "7ea7dd1b6966c80b9af2a536622d4f75fc1a77e8",
+      "repository_before": "7ea7dd1b6966c80b9af2a536622d4f75fc1a77e8",
+      "git_blob": "7ed93201e50b6e8eff6de1ee9bd89a3b8d69b7f8",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/520520-8_LNbJr.json",
+      "before": "c85e17a84ea7a13666b273cd5735293f673c4df5",
+      "repository_before": "c85e17a84ea7a13666b273cd5735293f673c4df5",
+      "git_blob": "0a836c469ce43ab206d2075f44b8af18ad9ce523",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/506905-5_ifs6e.json",
+      "before": "30ec4b13af6abea7a79733efa8d357e060ec45c5",
+      "repository_before": "5117880e76200f9a2f8878ce187bcbefd69cf3ee",
+      "git_blob": "895d8b06a4499971954e54a5f619ec853862f543",
+      "display_fields": 1,
+      "actor_id_values": 12
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/508010-3.json",
+      "before": "d4e57cd1c3e0bce5f093234951b51452b5990032",
+      "repository_before": "d4e57cd1c3e0bce5f093234951b51452b5990032",
+      "git_blob": "d0583fd7cc5c0b34db98f28d46c073fed498c659",
+      "display_fields": 2,
+      "actor_id_values": 27
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/503610-7.json",
+      "before": "0b1910c41e72e11343fba09e4661f97af048a9d6",
+      "repository_before": "0b1910c41e72e11343fba09e4661f97af048a9d6",
+      "git_blob": "84db2ef0f4973e106acbf6a8d869ed455b82df4c",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/520520-5_LNbJr.json",
+      "before": "88756c4f3f5f939728fa14b4ea2375b4e3e9bd11",
+      "repository_before": "88756c4f3f5f939728fa14b4ea2375b4e3e9bd11",
+      "git_blob": "f1c9745ec013874fa37846423dc3bd515d187728",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/520510-5_bXUCP.json",
+      "before": "8b143117bf68c63e5f697362041360a4c5ee0005",
+      "repository_before": "8b143117bf68c63e5f697362041360a4c5ee0005",
+      "git_blob": "f715fe53471cfdad03826aa8cd1b9443874710c5",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510088-1.json",
+      "before": "9e57345c75f2123c28202e45a00d774bb4ff2510",
+      "repository_before": "9e57345c75f2123c28202e45a00d774bb4ff2510",
+      "git_blob": "1105d16e8f6172f0eeebf3087194ba47e1333157",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/515105-5_UtBgR.json",
+      "before": "c4709943d576b8a329266a81f12264c4faf32a0c",
+      "repository_before": "c4709943d576b8a329266a81f12264c4faf32a0c",
+      "git_blob": "bcd724ae37afe413c7651904edf28822fa1bb111",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/503510-1.json",
+      "before": "055dd1bf0d18547fa07dec8d8995aa910c1b8dd8",
+      "repository_before": "055dd1bf0d18547fa07dec8d8995aa910c1b8dd8",
+      "git_blob": "8ef830b61d2e5a70013bac4fd46e443f926ba991",
+      "display_fields": 1,
+      "actor_id_values": 0
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/508010-2.json",
+      "before": "3fa2229994f454251db75daf892e50a3980392f3",
+      "repository_before": "3fa2229994f454251db75daf892e50a3980392f3",
+      "git_blob": "10eab4947c91fb403544ea6c2826fb0c78278a8e",
+      "display_fields": 2,
+      "actor_id_values": 28
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/517090-20_pVeLS.json",
+      "before": "2656c6a7170157189145d4aa7ab4cb037f2310ef",
+      "repository_before": "2656c6a7170157189145d4aa7ab4cb037f2310ef",
+      "git_blob": "2300edba34be7477dc85e5261ed324efd6f135cd",
+      "display_fields": 1,
+      "actor_id_values": 0
+    }
+  ],
+  "changed_runtime_scripts": 130,
+  "control_pass_display_string_fields": 233,
+  "authorized_previous_name_fields_now_delivered": 17,
+  "authorized_previous_body_fields_now_delivered": 4,
+  "source_carry_details": {
+    "madomagi/resource/scenario/json/adv/scenario_5/506905-5_ifs6e.json": {
+      "package_before": "30ec4b13af6abea7a79733efa8d357e060ec45c5",
+      "repository_before": "5117880e76200f9a2f8878ce187bcbefd69cf3ee",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "nameCenter"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            77,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            81,
+            "nameCenter"
+          ],
+          "白翼",
+          "白羽"
+        ]
+      ],
+      "authorization": "previous explicit maintainer instruction 白翼→白羽, already committed in both source repositories"
+    },
+    "madomagi/resource/scenario/json/adv/scenario_5/506909-9_Arnzs.json": {
+      "package_before": "4788dab90c6b8314ce9c3997e91e01fec680ea28",
+      "repository_before": "c4c73cf762ce8858223b4f8761d01cb61c1c5068",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            5,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            14,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            16,
+            "textRight"
+          ],
+          "观鸟我以前也是白翼，@怎么没像你们这样。",
+          "观鸟我以前也是白羽，@怎么没像你们这样。"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            23,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "nameNarration"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "nameNarration"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "narration"
+          ],
+          "―白翼―@你们要舍弃音梦大人的@性命了吗……",
+          "―白羽―@你们要舍弃音梦大人的@性命了吗……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "nameNarration"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "narration"
+          ],
+          "―白翼―@从哪里冒出来的！",
+          "―白羽―@从哪里冒出来的！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "nameNarration"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "narration"
+          ],
+          "―白翼―@唔！",
+          "―白羽―@唔！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            45,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            57,
+            "nameCenter"
+          ],
+          "白翼",
+          "白羽"
+        ]
+      ],
+      "authorization": "previous explicit maintainer instruction 白翼→白羽, already committed in both source repositories"
+    },
+    "madomagi/resource/scenario/json/adv/scenario_1/101704-1_YTq8g.json": {
+      "package_before": "0792d4cf824e2a194142dc0e208b781b042b1312",
+      "repository_before": "2749277680b966d1023118224e413dfb410c87fa",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            5,
+            "nameCenter"
+          ],
+          "白翼",
+          "白羽"
+        ]
+      ],
+      "authorization": "previous explicit maintainer instruction 白翼→白羽, already committed in both source repositories"
+    },
+    "madomagi/resource/scenario/json/adv/scenario_1/101802-21_a7FVS.json": {
+      "package_before": "aa1106729b5bea7f0a7f70b527680d93655e4662",
+      "repository_before": "20c9dcff7756153199d25d7047f60fd8f1967456",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            127,
+            "nameRight"
+          ],
+          "白翼",
+          "白羽"
+        ]
+      ],
+      "authorization": "previous explicit maintainer instruction 白翼→白羽, already committed in both source repositories"
+    }
+  },
+  "changed_actor_id_values": 488,
+  "new_source_based_utterances": 2,
+  "unchanged_files": 14103,
+  "previous_corrected_scripts": 238,
+  "previous_byte_identical": 234,
+  "previous_exact_extensions": [
+    "madomagi/resource/scenario/json/adv/scenario_1/103205-5_7xz7k.json",
+    "madomagi/resource/scenario/json/adv/scenario_5/519110-3_JJ7AF.json",
+    "madomagi/resource/scenario/json/adv/scenario_5/515920-7_BK8zF.json",
+    "madomagi/resource/scenario/json/adv/scenario_5/515910-14_35Bxz.json"
+  ],
+  "accepted_v4_files_unchanged": 43,
+  "reader_visible_identical_files": 124,
+  "reader_intended_display_change_files": 7,
+  "reader_txt_files": 16,
+  "regression_tests": 18,
+  "new_undefined_actor_references": 0,
+  "whole_corpus_review_complete": false,
+  "device_gameplay_verified": false,
+  "remaining_complex_control_candidates": 25,
+  "public_release": "latest",
+  "immutable_release": "scenario-3310",
+  "unrelated_release_assets_unchanged": true,
+  "verified_at": "2026-09-30T12:29:16Z",
+  "public_assets": [
+    {
+      "id": 600871361,
+      "name": "cn_scenario_update.zip",
+      "size": 193597022,
+      "digest": "sha256:8874875b0de95a0366a9d96c6bc6b11602a42c6e03970ae961599eeb65651175",
+      "updated_at": "2026-09-30T12:28:43Z"
+    },
+    {
+      "id": 600871622,
+      "name": "cn_scenario_update_manifest.json",
+      "size": 1759731,
+      "digest": "sha256:8b326ddbf725e9a3b68a289f1daa044df3ca4256b69f18a583fae3ee67dd3b0d",
+      "updated_at": "2026-09-30T12:28:44Z"
+    },
+    {
+      "id": 600871659,
+      "name": "manifest.json",
+      "size": 35176,
+      "digest": "sha256:f0b943de4b1fb3a7bfd1ef8158a33347a0d8026f6ee60a25f9081a61b8d7b9ab",
+      "updated_at": "2026-09-30T12:28:45Z"
+    },
+    {
+      "id": 600872651,
+      "name": "version_scenario.json",
+      "size": 88,
+      "digest": "sha256:924d0b5f8ececf8e79a2755231cb5f8331ef2e687f4b61f026896decb54b63a6",
+      "updated_at": "2026-09-30T12:29:15Z"
+    }
+  ]
+}
