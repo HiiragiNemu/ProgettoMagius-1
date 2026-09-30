@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "batch": "20260930-cn-origin-duplicates",
+  "version": 3312,
+  "status": "published_and_anonymously_verified",
+  "reader_commit": "0982d3040c13839eb3e2a60b463370008351270f",
+  "cn_patch_commit": "78d7d40385180164d581dbec382493317179e7fe",
+  "base_version": 3311,
+  "base_package": {
+    "size": 193597583,
+    "sha256": "b0a1d47d61c883dc0a25f83d6aa134c697fbc189dfb5e52de3b7bd7efced9fe6",
+    "md5": "36982a0946fdd3c388966e7585d67af6"
+  },
+  "package": {
+    "size": 193597638,
+    "sha256": "744259eabf4b04ef947ed4f29caba6f0fc6bfe7e27b84d76bc477e1a5603da05",
+    "md5": "da491967340f178c66b3da2fc5466157"
+  },
+  "files": [
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102301-4_Z9WSZ.json",
+      "before": "e7d2e305a6fc3ca4435dce40a35d852e56ca9d66",
+      "git_blob": "fd86b8d7ea98a4be88f613889313629502d1cabd",
+      "fields": 1
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510911-2_RK87H.json",
+      "before": "635442953aa02677faf990c493e7a58b19deb2f0",
+      "git_blob": "5822031fc555081167be4ff6c2540dfa5a8f51c9",
+      "fields": 57
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510924-2_RK87H.json",
+      "before": "c92a35b49caa6d96cc808fc9dbc8399ca7ea2c63",
+      "git_blob": "8258efe4aadb49ceedb58a43dc73b9f906e9019e",
+      "fields": 53
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510941-1_RK87H.json",
+      "before": "fee586ca43433c0258e149bc1c233766f35f407b",
+      "git_blob": "2e6c6e432697cf8cfb48d6dc71ef432ce3c2446f",
+      "fields": 57
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510934-2_RK87H.json",
+      "before": "73cd45ff356e49cc3c6907e2f3910023da90826e",
+      "git_blob": "2f805f1d4cd1b9ee83a44023780f8f10fabf7975",
+      "fields": 32
+    }
+  ],
+  "changed_runtime_scripts": 5,
+  "reviewed_repeated_scene_fields": 229,
+  "synchronized_chinese_fields": 199,
+  "missing_opening_bracket_repairs": 1,
+  "new_jp_execution_layout_migrations": 0,
+  "unchanged_files": 14228,
+  "previous_corrected_scripts": 368,
+  "previous_byte_identical": 368,
+  "previous_exact_extensions": [],
+  "protected_v4_unchanged": 43,
+  "non_text_json_structure_unchanged": true,
+  "scenario_tests": 12,
+  "nonadv_files_audited": 3878,
+  "nonadv_files_changed": 0,
+  "official_cn_provenance_independently_verified": false,
+  "whole_corpus_complete": false,
+  "game_device_verified": false,
+  "public_release": "latest",
+  "immutable_release": "scenario-3312",
+  "unrelated_release_assets_unchanged": true,
+  "verified_at": "2026-09-30T14:50:54Z",
+  "public_assets": [
+    {
+      "id": 601157956,
+      "name": "cn_scenario_update.zip",
+      "size": 193597638,
+      "digest": "sha256:744259eabf4b04ef947ed4f29caba6f0fc6bfe7e27b84d76bc477e1a5603da05",
+      "updated_at": "2026-09-30T14:50:25Z"
+    },
+    {
+      "id": 601158324,
+      "name": "cn_scenario_update_manifest.json",
+      "size": 1759732,
+      "digest": "sha256:d19d06e3598adce356ba232c0a7d3d0a206178fb058b174efa5c0f3f00f168b4",
+      "updated_at": "2026-09-30T14:50:26Z"
+    },
+    {
+      "id": 601158384,
+      "name": "manifest.json",
+      "size": 35176,
+      "digest": "sha256:2784ac5b050820d0abcedee0e961cc1874ad9f4daf6432f5a29dd0bfe9037f2b",
+      "updated_at": "2026-09-30T14:50:28Z"
+    },
+    {
+      "id": 601159191,
+      "name": "version_scenario.json",
+      "size": 88,
+      "digest": "sha256:6dfdf38b79dbfdc6054a79688c9dd857fc0144b8f07c222d02053cd8a6e96c2f",
+      "updated_at": "2026-09-30T14:50:52Z"
+    }
+  ]
+}
