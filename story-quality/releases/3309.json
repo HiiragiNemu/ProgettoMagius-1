@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "batch": "20260930-act2-supplement",
+  "version": 3309,
+  "status": "published_and_anonymously_verified",
+  "reader_commit": "f280b61751e2a91688bc3a7897730ce93c7bd918",
+  "cn_patch_commit": "a70976ee9316a9bda5270a5ae6d5b543a4505039",
+  "base_version": 3308,
+  "base_package": {
+    "size": 193596304,
+    "sha256": "f4343f23c3816f4d6eaab6690779bf6fe468b79f9fb9b7d85d173f829c9314b2",
+    "md5": "465ec5ff37142c292600973cae595982"
+  },
+  "package": {
+    "size": 193596363,
+    "sha256": "a15fff4aa5448c6ed22673948602aaa244e16d4dd2bd84fecec00fc7c84da937",
+    "md5": "e649b6d1b1134b55e544c49f9698e7a0"
+  },
+  "files": [
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-11_32rIq.json",
+      "before": "1e0486eb7b269dc6d64e25bec97932fc8f5c8046",
+      "git_blob": "19e13d054db9d36b17624f4278120ea1bae5b2d7",
+      "name_fields": 0,
+      "body_fields": 41
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_1/102502-1_lDVQb.json",
+      "before": "0dfcd44eb998b081a8a5861a11ea8a6c67713282",
+      "git_blob": "c111919044f4fa1bfc34bd3ac508acc5512f551d",
+      "name_fields": 0,
+      "body_fields": 52
+    }
+  ],
+  "changed_runtime_scripts": 2,
+  "fully_reviewed_stories": 2,
+  "reviewed_dialogue_fields": 107,
+  "changed_dialogue_fields": 93,
+  "changed_name_fields": 0,
+  "regression_tests": 9,
+  "reader_name_fields": 0,
+  "reader_txt_files": 4,
+  "unchanged_files": 14231,
+  "previous_corrected_scripts": 236,
+  "previous_byte_identical": 236,
+  "previous_exact_extensions": [],
+  "prior_corrections_preserved": true,
+  "non_display_json_fields_unchanged": true,
+  "whole_corpus_review_complete": false,
+  "device_rendering_verified": false,
+  "existing_human_payload_positions_restored": 50,
+  "fallback_section_fields_reviewed": 49,
+  "fallback_section_fields_revised": 41,
+  "model_identity_structure_changed": false,
+  "original_human_authorship_claimed_for_fallback": false,
+  "audited_name_fields": [
+    "nameLeft",
+    "nameCenter",
+    "nameRight",
+    "nameNarration",
+    "nameFnarration"
+  ],
+  "remaining_kana_name_fields": 0,
+  "name_audited_json_files": 14233,
+  "public_release": "latest",
+  "immutable_release": "scenario-3309",
+  "unrelated_release_assets_unchanged": true,
+  "verified_at": "2026-09-30T05:18:35Z",
+  "public_assets": [
+    {
+      "id": 600105469,
+      "name": "cn_scenario_update.zip",
+      "size": 193596363,
+      "digest": "sha256:a15fff4aa5448c6ed22673948602aaa244e16d4dd2bd84fecec00fc7c84da937",
+      "updated_at": "2026-09-30T05:18:21Z"
+    },
+    {
+      "id": 600105670,
+      "name": "cn_scenario_update_manifest.json",
+      "size": 1759731,
+      "digest": "sha256:abe158a5a8f628c1bdadfca3100d41af67651ee5f6ab327f5b616fd667c957f9",
+      "updated_at": "2026-09-30T05:18:23Z"
+    },
+    {
+      "id": 600105677,
+      "name": "manifest.json",
+      "size": 35176,
+      "digest": "sha256:4e6048ce15861608c81314b43e10aaac9d686e8c14c1017e81bb90e6692c117c",
+      "updated_at": "2026-09-30T05:18:24Z"
+    },
+    {
+      "id": 600105822,
+      "name": "version_scenario.json",
+      "size": 88,
+      "digest": "sha256:44c2a775141b80d37d0f552e239c39e7a638181586f385381af30923e0a8445b",
+      "updated_at": "2026-09-30T05:18:34Z"
+    }
+  ]
+}
