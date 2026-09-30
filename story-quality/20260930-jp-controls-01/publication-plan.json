@@ -9568,5 +9568,249 @@
   },
   "changed_runtime_scripts": 130,
   "changed_scalar_fields": 721,
-  "generated_at": "2026-09-30T12:20:49Z"
+  "generated_at": "2026-09-30T12:20:49Z",
+  "authorized_source_carry": {
+    "madomagi/resource/scenario/json/adv/scenario_5/506905-5_ifs6e.json": {
+      "package_before": "30ec4b13af6abea7a79733efa8d357e060ec45c5",
+      "repository_before": "5117880e76200f9a2f8878ce187bcbefd69cf3ee",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "nameCenter"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            77,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            81,
+            "nameCenter"
+          ],
+          "白翼",
+          "白羽"
+        ]
+      ],
+      "authorization": "previous explicit maintainer instruction 白翼→白羽, already committed in both source repositories"
+    },
+    "madomagi/resource/scenario/json/adv/scenario_5/506909-9_Arnzs.json": {
+      "package_before": "4788dab90c6b8314ce9c3997e91e01fec680ea28",
+      "repository_before": "c4c73cf762ce8858223b4f8761d01cb61c1c5068",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            5,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            14,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            16,
+            "textRight"
+          ],
+          "观鸟我以前也是白翼，@怎么没像你们这样。",
+          "观鸟我以前也是白羽，@怎么没像你们这样。"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            23,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "nameNarration"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "nameNarration"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "narration"
+          ],
+          "―白翼―@你们要舍弃音梦大人的@性命了吗……",
+          "―白羽―@你们要舍弃音梦大人的@性命了吗……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "nameNarration"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "narration"
+          ],
+          "―白翼―@从哪里冒出来的！",
+          "―白羽―@从哪里冒出来的！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "nameNarration"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "narration"
+          ],
+          "―白翼―@唔！",
+          "―白羽―@唔！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            45,
+            "nameLeft"
+          ],
+          "白翼",
+          "白羽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            57,
+            "nameCenter"
+          ],
+          "白翼",
+          "白羽"
+        ]
+      ],
+      "authorization": "previous explicit maintainer instruction 白翼→白羽, already committed in both source repositories"
+    },
+    "madomagi/resource/scenario/json/adv/scenario_1/101704-1_YTq8g.json": {
+      "package_before": "0792d4cf824e2a194142dc0e208b781b042b1312",
+      "repository_before": "2749277680b966d1023118224e413dfb410c87fa",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            5,
+            "nameCenter"
+          ],
+          "白翼",
+          "白羽"
+        ]
+      ],
+      "authorization": "previous explicit maintainer instruction 白翼→白羽, already committed in both source repositories"
+    },
+    "madomagi/resource/scenario/json/adv/scenario_1/101802-21_a7FVS.json": {
+      "package_before": "aa1106729b5bea7f0a7f70b527680d93655e4662",
+      "repository_before": "20c9dcff7756153199d25d7047f60fd8f1967456",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            127,
+            "nameRight"
+          ],
+          "白翼",
+          "白羽"
+        ]
+      ],
+      "authorization": "previous explicit maintainer instruction 白翼→白羽, already committed in both source repositories"
+    }
+  },
+  "source_carry_counts": {
+    "name": 17,
+    "text": 4
+  }
 }

@@ -38,8 +38,16 @@ def build(base,out,plan,previous):
    if info.filename in prior:assert blob(raw)==prior[info.filename]
    if info.filename in plan['protected_v4']:assert blob(raw)==plan['protected_v4'][info.filename]
    if info.filename in specs:
-    spec=specs[info.filename];assert blob(raw)==spec['before'];revised=apply(raw,spec['operations']);assert blob(revised)==spec['after'];no_added_undefined_references(raw,revised)
-    records.append({'path':info.filename,'before':spec['before'],'git_blob':spec['after'],'display_fields':sum(isinstance(op[1],str) for op in spec['operations']),'actor_id_values':sum(type(op[1]) is int for op in spec['operations'])})
+    spec=specs[info.filename];working=raw
+    if info.filename in plan.get('authorized_source_carry',{}):
+     carry=plan['authorized_source_carry'][info.filename]
+     assert blob(raw)==carry['package_before']
+     for address,before,after in carry['operations']:
+      assert isinstance(before,str) and before.replace('白翼','白羽')==after and before!=after
+     working=apply(raw,carry['operations'])
+     assert blob(working)==carry['repository_before']
+    assert blob(working)==spec['before'];revised=apply(working,spec['operations']);assert blob(revised)==spec['after'];no_added_undefined_references(raw,revised)
+    records.append({'path':info.filename,'before':blob(raw),'repository_before':spec['before'],'git_blob':spec['after'],'display_fields':sum(isinstance(op[1],str) for op in spec['operations']),'actor_id_values':sum(type(op[1]) is int for op in spec['operations'])})
     if info.filename in prior:changed_prior.append(info.filename)
    if info.is_dir():assert raw==b'';new.writestr(copy.copy(info),revised)
    else:
@@ -56,5 +64,5 @@ def build(base,out,plan,previous):
  g=json.loads((base/NAMES[2]).read_bytes());cs=g[NAMES[0]]['chunk_size']
  with (out/NAMES[0]).open('rb') as stream:chunks=[hashlib.md5(b).hexdigest() for b in iter(lambda:stream.read(cs),b'')]
  g[NAMES[0]]={'size':package['size'],'chunk_size':cs,'chunks':chunks};save(out/NAMES[2],g);assert metadata(out,3310)==package
- report={'schema':1,'batch':plan['batch'],'version':3310,'status':'built_and_validated','reader_commit':plan['reader_commit'],'cn_patch_commit':plan['cn_patch_commit'],'base_version':3309,'base_package':baseline,'package':package,'files':records,'changed_runtime_scripts':130,'changed_display_string_fields':233,'changed_actor_id_values':488,'new_source_based_utterances':2,'unchanged_files':14103,'previous_corrected_scripts':238,'previous_byte_identical':238-len(changed_prior),'previous_exact_extensions':changed_prior,'accepted_v4_files_unchanged':43,'reader_visible_identical_files':124,'reader_intended_display_change_files':7,'reader_txt_files':16,'regression_tests':18,'new_undefined_actor_references':0,'whole_corpus_review_complete':False,'device_gameplay_verified':False,'remaining_complex_control_candidates':25}
+ report={'schema':1,'batch':plan['batch'],'version':3310,'status':'built_and_validated','reader_commit':plan['reader_commit'],'cn_patch_commit':plan['cn_patch_commit'],'base_version':3309,'base_package':baseline,'package':package,'files':records,'changed_runtime_scripts':130,'control_pass_display_string_fields':233,'authorized_previous_name_fields_now_delivered':17,'authorized_previous_body_fields_now_delivered':4,'source_carry_details':plan.get('authorized_source_carry',{}),'changed_actor_id_values':488,'new_source_based_utterances':2,'unchanged_files':14103,'previous_corrected_scripts':238,'previous_byte_identical':238-len(changed_prior),'previous_exact_extensions':changed_prior,'accepted_v4_files_unchanged':43,'reader_visible_identical_files':124,'reader_intended_display_change_files':7,'reader_txt_files':16,'regression_tests':18,'new_undefined_actor_references':0,'whole_corpus_review_complete':False,'device_gameplay_verified':False,'remaining_complex_control_candidates':25}
  save(out/'story-quality-report.json',report);return report
