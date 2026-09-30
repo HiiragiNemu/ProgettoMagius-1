@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "batch": "20260930-haiyiguang-controls-02",
+  "version": 3311,
+  "status": "published_and_anonymously_verified",
+  "reader_commit": "54af872e57c79443b22f5a5c4b6c41bbb5935c72",
+  "cn_patch_commit": "ac2d4ece37f3ca5377df47f7dceffa0c9c47ce95",
+  "base_version": 3310,
+  "base_package": {
+    "size": 193597022,
+    "sha256": "8874875b0de95a0366a9d96c6bc6b11602a42c6e03970ae961599eeb65651175",
+    "md5": "0a8d0a27179d643c4880a1bf518d90b1"
+  },
+  "package": {
+    "size": 193597583,
+    "sha256": "b0a1d47d61c883dc0a25f83d6aa134c697fbc189dfb5e52de3b7bd7efced9fe6",
+    "md5": "36982a0946fdd3c388966e7585d67af6"
+  },
+  "files": [
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/311201-2.json",
+      "before": "b471eacdfa9efd09157a502f5c8d08b085dada23",
+      "git_blob": "b9806dec47577f36f0a083491f71671e9e0ef068",
+      "mode": "exact_name"
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/311203-3.json",
+      "before": "46ef2965d169afb3a7dce41a37ecb0d54d0d41ab",
+      "git_blob": "589d7cdcadaeeffbdc1b80bb13ce2aab2471a878",
+      "mode": "exact_name"
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/519720-8_2csyG.json",
+      "before": "4a8652a2d1388af6683fbd17a0190f666cd9b462",
+      "git_blob": "893d8db7d5f5ba36f4ee0f638e4c29bfcecc72be",
+      "mode": "exact_name"
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/521820-9_PRBzD.json",
+      "before": "aa9a4a6c2a56ee7a0b1be1da8517ce89e388dc86",
+      "git_blob": "02a84479a9a0da7a65c87fb7ebd1b8c6ee89cc37",
+      "mode": "exact_name"
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/519720-10_2csyG.json",
+      "before": "58293983a91d36aac2efa7c0f2ee4a21973fbd46",
+      "git_blob": "e29bf4dc1cf0eda6ed05b75def9f37d7a52df290",
+      "mode": "exact_name"
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510083-2.json",
+      "before": "ff234cc352832d844a97ce655549502091a9d59e",
+      "git_blob": "2c74f2cbd1978ba40d5358d8d6bff2fdd49ebbaa",
+      "mode": "reviewed_jp_layout"
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/521820-8_PRBzD.json",
+      "before": "3985c0bc0599c9214e0751af691b7dc4c3a1639d",
+      "git_blob": "6401910b85868cccc1ab621ecf6ca5af6563f331",
+      "mode": "exact_name"
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/521820-10_PRBzD.json",
+      "before": "55ffcfabba11e4aa4e7c18ea60a8d92ae24a8bb3",
+      "git_blob": "acc1afc921e75ca4c19afc485f9e83773967c9a1",
+      "mode": "exact_name"
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/519720-9_2csyG.json",
+      "before": "a80ff054f4c3a115c7589d199f2ef589a0616a01",
+      "git_blob": "dec2e05ffd9e9b65c78da077cf0f336ee3a0ff4c",
+      "mode": "exact_name"
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510082-2.json",
+      "before": "3421aca78e99f64c8adffc5089e10fa5adf04841",
+      "git_blob": "85edb39852c0c51b968311c568d9bb2f36711dc9",
+      "mode": "reviewed_jp_layout"
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510084-1.json",
+      "before": "343fafebd08ac7f2c6e4a85adb7c5c8c54658d79",
+      "git_blob": "053bd0659d619b0f0209ede859ae6d3afb99dd02",
+      "mode": "reviewed_jp_layout"
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_5/510081-2.json",
+      "before": "7234a223a89ae463d4becdc4620d8637456a1026",
+      "git_blob": "9491c21837117278b547ff645f0341417ade48ac",
+      "mode": "reviewed_jp_layout"
+    }
+  ],
+  "changed_runtime_scripts": 12,
+  "maintainer_name": "海异光小阿鲁",
+  "renamed_fields": 27,
+  "reviewed_complete_scenes": 4,
+  "reviewed_jp_events": 229,
+  "source_corrected_payloads": 58,
+  "unchanged_chinese_payloads_reused": 171,
+  "unchanged_files": 14221,
+  "previous_corrected_scripts": 364,
+  "previous_byte_identical": 356,
+  "previous_exact_extensions": [
+    "madomagi/resource/scenario/json/adv/scenario_3/311201-2.json",
+    "madomagi/resource/scenario/json/adv/scenario_3/311203-3.json",
+    "madomagi/resource/scenario/json/adv/scenario_5/519720-8_2csyG.json",
+    "madomagi/resource/scenario/json/adv/scenario_5/521820-9_PRBzD.json",
+    "madomagi/resource/scenario/json/adv/scenario_5/519720-10_2csyG.json",
+    "madomagi/resource/scenario/json/adv/scenario_5/521820-8_PRBzD.json",
+    "madomagi/resource/scenario/json/adv/scenario_5/521820-10_PRBzD.json",
+    "madomagi/resource/scenario/json/adv/scenario_5/519720-9_2csyG.json"
+  ],
+  "protected_v4_unchanged": 43,
+  "old_name_residuals_in_player_package": 0,
+  "remaining_control_candidates": 8,
+  "remaining_control_files": 5,
+  "regression_tests": 18,
+  "reader_device_test_completed": false,
+  "game_device_verified": false,
+  "whole_corpus_complete": false,
+  "public_release": "latest",
+  "immutable_release": "scenario-3311",
+  "unrelated_release_assets_unchanged": true,
+  "verified_at": "2026-09-30T13:34:06Z",
+  "public_assets": [
+    {
+      "id": 601001734,
+      "name": "cn_scenario_update.zip",
+      "size": 193597583,
+      "digest": "sha256:b0a1d47d61c883dc0a25f83d6aa134c697fbc189dfb5e52de3b7bd7efced9fe6",
+      "updated_at": "2026-09-30T13:33:55Z"
+    },
+    {
+      "id": 601001934,
+      "name": "cn_scenario_update_manifest.json",
+      "size": 1759732,
+      "digest": "sha256:0052d310fd441821cb5ed953e407fd71e5456a3ce8fdbc1fca938dcbb5da09cb",
+      "updated_at": "2026-09-30T13:33:56Z"
+    },
+    {
+      "id": 601001974,
+      "name": "manifest.json",
+      "size": 35176,
+      "digest": "sha256:bc6a55ad21d1951eff0ebb2c6e8b668d7d0fa9a4d780ba4edebbd4f2c7a1b2e6",
+      "updated_at": "2026-09-30T13:33:57Z"
+    },
+    {
+      "id": 601002182,
+      "name": "version_scenario.json",
+      "size": 88,
+      "digest": "sha256:3bde521c59cf0efb358c8d3a58f0d8638b7285ba79e655bdeae7c1a760becb40",
+      "updated_at": "2026-09-30T13:34:04Z"
+    }
+  ]
+}
