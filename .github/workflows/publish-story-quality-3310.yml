@@ -1,0 +1,37 @@
+name: Publish reviewed Japanese control batch 3310
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/publish-story-quality-3310.yml', 'story-quality/20260930-jp-controls-01/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: public-resource-mirror
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run exact scalar and Chinese preservation regressions
+        run: python -m unittest discover -s story-quality/20260930-jp-controls-01 -p 'test_*.py' -v
+      - name: Build and verify immutable archive then publish version last
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -u story-quality/20260930-jp-controls-01/publish_scenario_3310.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: scenario-3310-exact-control-receipt
+          path: |
+            scenario3310/candidate/story-quality-report.json
+            scenario3310/candidate/version_scenario.json
+          if-no-files-found: warn
+          retention-days: 30
