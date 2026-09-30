@@ -1,0 +1,947 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51008_singleraid_kazumi/51008_memory04.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51008_singleraid_kazumi/51008_memory04.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_21291.jpg",
+                "bgm": "bgm01_anime03",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 302001,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "眞尾 ひみか",
+                "textCenter": "みんなー！@きのこ鍋の準備できたよー！",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302001
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801300,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "ひみかの弟",
+                "nameRight": "ひみかの妹",
+                "textLeft": "うわーい！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801200,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "食べよ食べよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 801300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 801200
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302001,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "かずみ",
+                "narration": "記憶喪失のわたしが出会った@ふたりの魔法少女…",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "眞尾ひみかちゃん"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302001,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "眞尾 ひみか",
+                "narrationEffect": "out",
+                "textCenter": "はいはい！@今取り分けるから！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "かずみ",
+                "narration": "そして、矢宵かのこちゃん",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300101,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "矢宵 かのこ",
+                "narrationEffect": "out",
+                "textCenter": "[chara:300101:effect_emotion_joy_0][se:7222_happy]きのこ鍋…至高！"
+            },
+            {
+                "nameNarration": "かずみ",
+                "narration": "ふたりから色々な話を聞いた…@魔法少女のこと…魔女のこと…",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "もう少し話をしようということになって…@ご飯に誘われたの！"
+            },
+            {
+                "bg": "bg_adv_11091.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302001,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 300101,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "眞尾 ひみか",
+                "nameRight": "矢宵 かのこ",
+                "narrationEffect": "out",
+                "textLeft": "じゃあ、きのこ鍋でも@つつきながら…！",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300101,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "あ、ひみか！@それはまだ早いって…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 302001,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "まーまー！@デッサン用のは取り分けて！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300101
+                    }
+                ],
+                "textRight": "えー！でも…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302001
+                    }
+                ],
+                "textLeft": "…美味しいですよ@間違いなく…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 401101,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "かずみ",
+                "textRight": "うんうん…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_042.exp.json",
+                        "id": 300101,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "矢宵 かのこ",
+                "textLeft": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300101,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "矢宵 かのこ",
+                "textLeft": "[chara:300101:effect_emotion_joy_0][se:7222_happy]…しょーがないなー！"
+            },
+            {
+                "nameNarration": "かずみ",
+                "narration": "…さっきチャーハンを食べたけど…@…これは別腹ってことで…！",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "bg": "bg_adv_21291.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302001,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "眞尾 ひみか",
+                "nameRight": "矢宵 かのこ",
+                "narrationEffect": "out",
+                "textLeft": "…でも、結局消えちゃいましたね@ソウルジェムの反応…",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300101,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "矢宵 かのこ",
+                "textRight": "うん…@急にね～…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401101,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "かずみ",
+                "textLeft": "わたしの髪の毛も@シュンって…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300101,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "（カッコよかったのに…！）",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302001,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "眞尾 ひみか",
+                "textLeft": "それにしても…@やっぱり関係あると思いますよね",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302001
+                    }
+                ],
+                "textLeft": "かずみちゃんの髪の毛と@私たちの反応は…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300101,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "でも、知らなかったんだよね@…魔法少女のこと…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "かずみ",
+                "textLeft": "…うん…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302001,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "眞尾 ひみか",
+                "textLeft": "う～ん…@記憶喪失が関係を…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801300,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひみかの弟",
+                "textRight": "おかわりー！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801200,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひみかの妹",
+                "textRight": "わたしもー！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302001,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "あー、はいはい！@ちょっと待ってね！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401101,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "かずみ",
+                "textRight": "…家族、多いんだね…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302001,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "まあね～、ウチはいわゆる@大家族ってやつで…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302001,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "こら！@つまみ食いは禁止でしょ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801300,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひみかの弟",
+                "textRight": "…バレたか"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302001,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "…食事の時はこんな感じで@大騒ぎだよ…毎度ね！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "かずみ",
+                "textRight": "そっか…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 401101
+                    }
+                ],
+                "textRight": "でも、賑やかでいいね！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 302001,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "…ふふ、まあね！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302001
+                    }
+                ],
+                "textLeft": "たまにひとりで食べると@なーんか物足んないんだよね～"
+            },
+            {
+                "nameNarration": "",
+                "narration": "＜…かずみ…思い出して…＞",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401101,
+                        "motion": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "[flashEffect:flashWhite2]…あっ…"
+            },
+            {
+                "bg": "bg_adv_21081.jpg",
+                "bgm": "bgm03_story03",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401101,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "かずみ",
+                "nameRight": "？？？",
+                "textLeft": "ごはんだよー！",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401301,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "筋トレ終わりに@ナイスタイミング！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401201,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "？？？",
+                "textRight": "私も、ちょうど原稿が@一息ついたとこ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "？？？",
+                "textRight": "よーし、じゃあ@いただきまーす！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "？？？",
+                "textRight": "いただきます"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 401101,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "今日は、お肉が特売だったから@ビーフストロガノフを作ったの！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401101
+                    }
+                ],
+                "textLeft": "立花さんの味の再現に@挑戦してみたんだけど…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401101
+                    }
+                ],
+                "textLeft": "…どうかな？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401301,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "？？？",
+                "textRight": "…うん、美味しい！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401201,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "？？？",
+                "textRight": "よく煮込まれて、味も染みてて@牛肉が柔らかくて…ギューね！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 401101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "ギューッ!?@あははっ、大成功だねっ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401101,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "よし！@わたしもいただきまーす！"
+            },
+            {
+                "bg": "bg_adv_21291.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401101,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "矢宵 かのこ",
+                "nameRight": "かずみ",
+                "textRight": "…………",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 300101
+                    }
+                ],
+                "textLeft": "どうかしたの？"
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "id": 401101,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "…うん@今、何か思い出したような…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "え？何何？@何を思い出したの？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401101,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "…っ…ダメ、わかんない…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302001,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "眞尾 ひみか",
+                "textLeft": "…そっか…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302001,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "まあ、無理しないほうがいいよ！@食べよ食べよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401101,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "うん、そうだね…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401101
+                    }
+                ],
+                "textRight": "…ご飯を粗末に扱うのは@悪人だもんね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "矢宵 かのこ",
+                "textLeft": "ん…今なんて言った？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401101,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "…あ…@ご飯を粗末に扱うのは悪人って…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300101,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "…それ…それって…@どこかで…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 300101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "あ！小説！@御崎海香の！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401101
+                    }
+                ],
+                "textRight": "みさき…うみか…？"
+            },
+            {
+                "nameNarration": "",
+                "narration": "＜…思い出して！…かずみ…！＞",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300101
+                    }
+                ],
+                "narrationEffect": "out",
+                "textLeft": "ああ@御崎海香っていうのは…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_042.exp.json",
+                        "id": 300101,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "その…う…@ベストセラーの…うう…"
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300101,
+                        "motion": 0,
+                        "tear": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "小説家なのぉぉぉぉ！@うわぁぁぁぁん！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401101,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:401101:effect_emotion_surprise_0][se:7226_shock]うわっ！　ど、どうしたの？@なんで泣いてるの…!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302001,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "眞尾 ひみか",
+                "textLeft": "…泣く…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302001,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "あー、まさか…！"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

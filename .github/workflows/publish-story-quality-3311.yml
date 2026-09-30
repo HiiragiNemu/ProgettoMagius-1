@@ -1,0 +1,37 @@
+name: Publish Haiyiguang and reviewed scene batch 3311
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/publish-story-quality-3311.yml', 'story-quality/20260930-haiyiguang-controls-02/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: public-resource-mirror
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test exact names and immutable Japanese layout replay
+        run: python -m unittest discover -s story-quality/20260930-haiyiguang-controls-02 -p 'test_batch.py' -v
+      - name: Build, verify prior revisions and publish data before version gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -u story-quality/20260930-haiyiguang-controls-02/publish_scenario_3311.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: scenario-3311-delivery-receipt
+          path: |
+            scenario3311/candidate/story-quality-report.json
+            scenario3311/candidate/version_scenario.json
+          if-no-files-found: warn
+          retention-days: 30

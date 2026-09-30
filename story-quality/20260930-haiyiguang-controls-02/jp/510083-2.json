@@ -1,0 +1,477 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51008_singleraid_kazumi/51008_scene03.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51008_singleraid_kazumi/51008_scene03.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_21152.jpg",
+                "bgm": "bgm01_battle02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 201,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "鶴乃",
+                "textCenter": "わたしの名前は由比鶴乃！",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100301,
+                        "motion": 101
+                    }
+                ],
+                "textCenter": "神浜最強の魔法少女が見参！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100301,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401201,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "御崎 海香",
+                "nameRight": "鶴乃",
+                "textLeft": "あなたは…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100301,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "ただの通りすがりの者です…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "[chara:100301:effect_emotion_joy_0][se:7222_happy]…ってやつ！@一度言ってみたかった～！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100301,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "…っと！@それはともかくとして…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301,
+                        "motion": 101
+                    }
+                ],
+                "textRight": "見るからに危機的状況だよね…@ここは私がヘルプするよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401301,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "牧 カオル",
+                "textLeft": "あ、ちょっと…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "まーまー@そこで休んでて！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "…ちょっとそこのキミ！@物陰から攻撃してるキミ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100301
+                    }
+                ],
+                "textRight": "何があったかは知らないけど@これは見過ごせないよ…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 101
+                    }
+                ],
+                "textRight": "わたしが相手してあげるから！@さあ、ドーンと来なさい！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401201,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "御崎 海香",
+                "textLeft": "あの、鶴乃さん…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "心配しないで！任せて！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "わたし、腕にはちょっと@自信アリだから！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100301,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "さっきも言ったでしょ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 101
+                    }
+                ],
+                "textRight": "わたしは最強の魔法少女！@…って！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301
+                    }
+                ],
+                "textRight": "…さー@わたしはいつでもOKだよ！"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100300,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textRight": "どっからでも@かかって来なさいっ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401102,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "？？？",
+                "textLeft": "…………"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100300,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "…あれ…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401102,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeSmall][surround:4011A04]…リーミティ・エステールニ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401201,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "御崎 海香",
+                "textLeft": "[bgEffect:shakeSmall]きゃあっ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100300,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "[flashEffect:flashWhite2][bgEffect:shakeSmall]ちょ、ちょっと！@何しちゃってんのさ、この～！"
+            },
+            {
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401201,
+                        "motion": 100
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "やめて！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100300
+                    }
+                ],
+                "textRight": "…へ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100300,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "…あのー@今、やめてって言ったの？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401201,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "やめて…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "牧 カオル",
+                "textRight": "戦っちゃダメだ！@その子は敵じゃない！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "私たちの親友…かずみなの！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401102,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "かずみ？",
+                "textLeft": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100300,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "鶴乃",
+                "textRight": "…かずみ？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "…………"
+            },
+            {
+                "bg": "bg_adv_21211.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 401101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "かずみ",
+                "textCenter": "…はむ…@うん、ごちそうさまでした！",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "bg": "bg_adv_21152.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100300,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401102,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "鶴乃",
+                "textRight": "ああっ、思い出した！",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "この子…@記憶喪失の食いしん坊だ！"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

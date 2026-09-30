@@ -1,0 +1,614 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51008_singleraid_kazumi/51008_scene02.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51008_singleraid_kazumi/51008_scene02.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_14042.jpg",
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 401200,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "御崎 海香",
+                "nameRight": "牧 カオル",
+                "textRight": "[flashEffect:flashRed2][surround:4011A03][chara:401300:effect_shake][bgEffect:shakeLarge]うわぁっ！",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401200,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "カオル！@大丈夫!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "そういう“カラダ”を@もらったからね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 401200,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "そういうの笑えないんだけど？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "ああ、笑えないよ@次喰らったらヤバい！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "って言ってるそばから…@来るっ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401200,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "[flashEffect:flashRed2][surround:4011A07][chara:401200:effect_shake][bgEffect:shakeLarge]くっ…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401200,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "このままじゃマズい@耐えきれないわ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "海香！@魔法で何か読み取れないの？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 401200
+                    }
+                ],
+                "textLeft": "イクス・フィーレが通じない"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300
+                    }
+                ],
+                "textRight": "どういうこと!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401200
+                    }
+                ],
+                "textLeft": "情報が断片化されてる"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401200
+                    }
+                ],
+                "textLeft": "まるで@暗号化されたプロテクトだわ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "チッ…！@どうなってるの、この町は…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300
+                    }
+                ],
+                "textRight": "誰が、なんのために魔法少女を@あたしたちに仕向けてるんだ!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401200,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "まったく、謎だらけで困るわね@でも…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 401200
+                    }
+                ],
+                "textLeft": "今は謎にかまけてる場合じゃない@肝心なことはふたつ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401200,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "ひとつは、私たちは敵に襲われて@ピンチだってこと"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "もうひとつは…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401200
+                    }
+                ],
+                "textLeft": "そんな私たちにできることは…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401200,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "逃げる！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "だよな！"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_21152.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 401201,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "7003_wind",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401201
+                    }
+                ],
+                "textLeft": "…はぁはぁはぁ…@けっこう、遠くまで来たわね…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401301,
+                        "motion": 1,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "気配もなくなったし、撒けたかな"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401201,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "けれど…油断はできないわ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401301,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "ああ、ここは神浜@アウェイのピッチ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401301
+                    }
+                ],
+                "textRight": "迷子が迷子を捜してるなんて@笑っちゃうけどさ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 401201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "まずは、この町の魔法少女から@話を聞きましょう"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401201
+                    }
+                ],
+                "textLeft": "この状況…この町の事情が@関係しているのかも…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401301,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "敵も味方も見分けがつかないのに@いや…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401301
+                    }
+                ],
+                "textRight": "みんな敵かもしれないのに@誰に話を聞くわけ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "そうね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401301,
+                        "motion": 0
+                    }
+                ],
+                "surround": "stop",
+                "textRight": "…ちょっと待った！"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "id": 401301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401301
+                    }
+                ],
+                "textRight": "…マジかよ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "気付かなかった…@いつの間に!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401301,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "「敵」だ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401201,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[flashEffect:flashRed2][surround:4011A03][chara:401201:effect_shake][bgEffect:shakeLarge]きゃぁっ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401301,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "海香！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "…だ、大丈夫…@かすっただけよ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401301,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "くそっ！@全然引き離せていなかったか…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401301,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "海香、ふた手に分かれよう！@ここは、あたしが時間を稼ぐ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401201
+                    }
+                ],
+                "textLeft": "ふたりでもギリギリなのに@どう戦うつもり？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401301
+                    }
+                ],
+                "textRight": "共倒れしたら@かずみがひとりぼっちになる！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 401201,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "だからって…！"
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "？？？",
+                "narration": "「ちょっと待ったー！」",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401301,
+                        "motion": 400
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401201,
+                        "motion": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "え…!?"
+            },
+            {
+                "nameNarration": "？？？",
+                "narration": "「あからさまに禍々しいオーラを@ビリビリと出しちゃって…！」",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "「そこのおふたりさん！」"
+            },
+            {
+                "narration": "「知らない顔だけど@どうやら魔法少女のようだね」"
+            },
+            {
+                "narration": "「ピンチだったら手を貸すよ！」"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401201,
+                        "motion": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "textLeft": "誰!?"
+            },
+            {
+                "bgm": "bgm01_battle02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100301,
+                        "motion": 201,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "鶴乃",
+                "textCenter": "[chara:100301:effect_emotion_angry_1][se:7218_anger]じゃーん！",
+                "turnChangeIn": "rollInFast",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301
+                    }
+                ],
+                "textCenter": "わたしの名前は由比鶴乃！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100301,
+                        "motion": 101
+                    }
+                ],
+                "textCenter": "神浜最強の魔法少女が見参！"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}
