@@ -22,7 +22,7 @@
     "export row count processed-runtime-scripts.tsv",
     "export row count legacy-registered-stories.tsv"
   ],
-  "ledger_sha256": "c9fbe47a1121b3b1a62508829e759fb4365f583b5ecd54e1a728219eaba3a557",
+  "ledger_sha256": "1d4a094cae0db70bfd83f58d72506ff6e3eb5c0e0c6e76f9ea66253b1920e470",
   "source_summary": {
     "schema": 1,
     "reader_revision": "0d04f7adc9db140a1f7fac1183c5d346353b7899",
