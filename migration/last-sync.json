@@ -19,8 +19,8 @@
     },
     {
       "name": "cn_scenario_update.zip",
-      "size": 193609018,
-      "sha256": "17f67f928bfaa445fe28a3b6e8b8cd92ea9a4d59b5a10b10a8b82ebed35f4afd",
+      "size": 193611524,
+      "sha256": "29aa370870368a00bad57f1aae9f9fe35146e973efaf8d2e44407bf5ab01a1ea",
       "unchanged": false
     },
     {
@@ -127,8 +127,8 @@
     },
     {
       "name": "cn_scenario_update_manifest.json",
-      "size": 1759733,
-      "sha256": "a57c1d7c4e4aa6248dbfee641d62074b271a72c7ce6b0d48f233ff58f086b500",
+      "size": 1759734,
+      "sha256": "e443047333ca8a5c77df724ed6e902c860a2ff41927435fa6c8aabe999a4e949",
       "unchanged": false
     },
     {
@@ -140,7 +140,7 @@
     {
       "name": "manifest.json",
       "size": 35176,
-      "sha256": "3ab10e54bf82d0e3c9533214ca1bb1347b11d323d45eecbaab3ed55f9c6b9c87",
+      "sha256": "c8c87a61a206023b47fc92b05b7940998722bc900018f849b8423e8683a88571",
       "unchanged": false
     },
     {
@@ -158,7 +158,7 @@
     {
       "name": "version_scenario.json",
       "size": 88,
-      "sha256": "d064fd36c76810f0e907759aadaa75c09b402a3b9b06a14a0bf628b8ead14668",
+      "sha256": "02d8edbaf14c607e41befabd5a77631d1547022242569550c74e70ed0d55beae",
       "unchanged": false
     },
     {
@@ -168,10 +168,10 @@
       "md5": "9fd4ff5511c85b95f6114c69d0159662"
     }
   ],
-  "checked_at": "2026-10-01T21:25:42Z",
+  "checked_at": "2026-10-01T22:33:07Z",
   "apk_font_replacement_verified": false,
   "existing_apk_private_cutover_verified": false,
-  "scenario_version": 3319,
-  "scenario_quality_batch": "20261002-semantic-batch07-ai-only",
-  "scenario_source_commit": "ba8966482523031dbe7e110cfd177902ba6e9a99"
+  "scenario_version": 3320,
+  "scenario_quality_batch": "20261002-semantic-batch08-ai-only",
+  "scenario_source_commit": "f8b3ee980ba73b7d8f0b160f6b5f49855c447a64"
 }
