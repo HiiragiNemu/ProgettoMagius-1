@@ -3399,5 +3399,198 @@
       "unrelated_release_assets_unchanged": true,
       "verified_at": "2026-10-01T13:46:03Z"
     }
+  },
+  {
+    "version": 3318,
+    "batch": "20261002-semantic-batch06-ai-only",
+    "period": "after_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 72,
+    "scripts_with_body_correction": 72,
+    "distinct_body_addresses_this_batch": 2523,
+    "raw_leaf_diff_counts": {
+      "body": 2523,
+      "speaker_name": 14
+    },
+    "reader_commit": "0d04f7adc9db140a1f7fac1183c5d346353b7899",
+    "cn_patch_commit": "ed09e4b5b2a25968e7db51f8b3d78cec2c8e4423",
+    "receipt_path": "story-quality/releases/3318.json",
+    "stories_touched": [
+      {
+        "story_id": "311071",
+        "title": "第1话 明明想独自占有 独り占めしたいのに",
+        "source_identity": "character_story/1107 - 灯花·音梦（圣夜ver.）（灯花・ねむ（聖夜ver.））/311071_1-4",
+        "category": "character_story",
+        "folder": "1107 - 灯花·音梦（圣夜ver.）（灯花・ねむ（聖夜ver.））"
+      },
+      {
+        "story_id": "311103",
+        "title": "第3话 本应选择的幸福 選んだはずの幸福",
+        "source_identity": "character_story/1110 - 十咎桃子（修女ver.）（十咎 ももこ（シスターver.））/311103_1-4",
+        "category": "character_story",
+        "folder": "1110 - 十咎桃子（修女ver.）（十咎 ももこ（シスターver.））"
+      },
+      {
+        "story_id": "311102",
+        "title": "第2话 本应斩断的留恋 断ち切ったはずの未練",
+        "source_identity": "character_story/1110 - 十咎桃子（修女ver.）（十咎 ももこ（シスターver.））/311102_1-4",
+        "category": "character_story",
+        "folder": "1110 - 十咎桃子（修女ver.）（十咎 ももこ（シスターver.））"
+      },
+      {
+        "story_id": "311131",
+        "title": "第1话 用压岁钱洗刷污名 汚名返上はお年玉で",
+        "source_identity": "character_story/1113 - 龙城明日香（新春龙神ver.）（竜城 明日香（新春龍神ver.））/311131_1-4",
+        "category": "character_story",
+        "folder": "1113 - 龙城明日香（新春龙神ver.）（竜城 明日香（新春龍神ver.））"
+      },
+      {
+        "story_id": "311122",
+        "title": "第2话 迷失方向的自我认同 迷走するアイデンティティ",
+        "source_identity": "character_story/1112 - 花凛·阿莉娜（万圣ver.）（かりん・アリナ（ハロウィンver.））/311122_1-4",
+        "category": "character_story",
+        "folder": "1112 - 花凛·阿莉娜（万圣ver.）（かりん・アリナ（ハロウィンver.））"
+      },
+      {
+        "story_id": "311072",
+        "title": "第2话 初次萌生的感情 初めての感情",
+        "source_identity": "character_story/1107 - 灯花·音梦（圣夜ver.）（灯花・ねむ（聖夜ver.））/311072_1-4",
+        "category": "character_story",
+        "folder": "1107 - 灯花·音梦（圣夜ver.）（灯花・ねむ（聖夜ver.））"
+      },
+      {
+        "story_id": "311132",
+        "title": "第2话 电光石火却徒劳无功 電光石火の空回り",
+        "source_identity": "character_story/1113 - 龙城明日香（新春龙神ver.）（竜城 明日香（新春龍神ver.））/311132_1-4",
+        "category": "character_story",
+        "folder": "1113 - 龙城明日香（新春龙神ver.）（竜城 明日香（新春龍神ver.））"
+      },
+      {
+        "story_id": "340241",
+        "title": "第1话 与母亲的回忆 母との思い出",
+        "source_identity": "character_story/4024 - 米诺（ミヌゥ）/340241_1-4",
+        "category": "character_story",
+        "folder": "4024 - 米诺（ミヌゥ）"
+      },
+      {
+        "story_id": "311133",
+        "title": "第3话 画龙却一再缺少点睛 画竜点睛を欠きまくる",
+        "source_identity": "character_story/1113 - 龙城明日香（新春龙神ver.）（竜城 明日香（新春龍神ver.））/311133_1-4",
+        "category": "character_story",
+        "folder": "1113 - 龙城明日香（新春龙神ver.）（竜城 明日香（新春龍神ver.））"
+      },
+      {
+        "story_id": "311161",
+        "title": "第1话 吸血鬼的违和感 吸血鬼の違和感",
+        "source_identity": "character_story/1116 - 和泉十七夜（吸血鬼ver.）（和泉 十七夜（ヴァンパイアver.））/311161_1-4",
+        "category": "character_story",
+        "folder": "1116 - 和泉十七夜（吸血鬼ver.）（和泉 十七夜（ヴァンパイアver.））"
+      },
+      {
+        "story_id": "340242",
+        "title": "第2话 献给母亲的愿望 母に捧げる願い",
+        "source_identity": "character_story/4024 - 米诺（ミヌゥ）/340242_1-4",
+        "category": "character_story",
+        "folder": "4024 - 米诺（ミヌゥ）"
+      },
+      {
+        "story_id": "311162",
+        "title": "第2话 奔跑的吸血鬼女仆 走るメイド吸血鬼",
+        "source_identity": "character_story/1116 - 和泉十七夜（吸血鬼ver.）（和泉 十七夜（ヴァンパイアver.））/311162_1-4",
+        "category": "character_story",
+        "folder": "1116 - 和泉十七夜（吸血鬼ver.）（和泉 十七夜（ヴァンパイアver.））"
+      },
+      {
+        "story_id": "311101",
+        "title": "第1话 本应忘却的感情 忘れたはずの感情",
+        "source_identity": "character_story/1110 - 十咎桃子（修女ver.）（十咎 ももこ（シスターver.））/311101_1-4",
+        "category": "character_story",
+        "folder": "1110 - 十咎桃子（修女ver.）（十咎 ももこ（シスターver.））"
+      },
+      {
+        "story_id": "311121",
+        "title": "第1话 什么才叫万圣节气氛 ハロウィン感とは何か",
+        "source_identity": "character_story/1112 - 花凛·阿莉娜（万圣ver.）（かりん・アリナ（ハロウィンver.））/311121_1-4",
+        "category": "character_story",
+        "folder": "1112 - 花凛·阿莉娜（万圣ver.）（かりん・アリナ（ハロウィンver.））"
+      },
+      {
+        "story_id": "311073",
+        "title": "第3话 发自内心的礼物 心からの贈り物",
+        "source_identity": "character_story/1107 - 灯花·音梦（圣夜ver.）（灯花・ねむ（聖夜ver.））/311073_1-4",
+        "category": "character_story",
+        "folder": "1107 - 灯花·音梦（圣夜ver.）（灯花・ねむ（聖夜ver.））"
+      },
+      {
+        "story_id": "340243",
+        "title": "第3话 一切都是为了母亲 すべては母のために",
+        "source_identity": "character_story/4024 - 米诺（ミヌゥ）/340243_1-4",
+        "category": "character_story",
+        "folder": "4024 - 米诺（ミヌゥ）"
+      },
+      {
+        "story_id": "311163",
+        "title": "第3话 十七夜的答案 十七夜の答え",
+        "source_identity": "character_story/1116 - 和泉十七夜（吸血鬼ver.）（和泉 十七夜（ヴァンパイアver.））/311163_1-4",
+        "category": "character_story",
+        "folder": "1116 - 和泉十七夜（吸血鬼ver.）（和泉 十七夜（ヴァンパイアver.））"
+      },
+      {
+        "story_id": "311123",
+        "title": "第3话 王与侍从之间的距离 王と従者のディスタンス",
+        "source_identity": "character_story/1112 - 花凛·阿莉娜（万圣ver.）（かりん・アリナ（ハロウィンver.））/311123_1-4",
+        "category": "character_story",
+        "folder": "1112 - 花凛·阿莉娜（万圣ver.）（かりん・アリナ（ハロウィンver.））"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20261002-semantic-batch06-ai-only",
+      "version": 3318,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "0d04f7adc9db140a1f7fac1183c5d346353b7899",
+      "cn_patch_commit": "ed09e4b5b2a25968e7db51f8b3d78cec2c8e4423",
+      "base_version": 3317,
+      "base_package": {
+        "size": 193606255,
+        "sha256": "bd71c4da2459f25b23133cbea2cf76fc1a4a05fc74c00cc9af009b89719d0c04",
+        "md5": "0edcd2868752c3c384400b8fe7318d4e"
+      },
+      "package": {
+        "size": 193607913,
+        "sha256": "73f3ad012ad63ee8955edfb646a713c2294d1ac2e97aa77d5e10e260336b95e6",
+        "md5": "82c59f550c988ac32b289faa27212238"
+      },
+      "changed_runtime_scripts": 72,
+      "full_scenes_read": 72,
+      "reviewed_complete_scenes": 72,
+      "complete_indexed_chapters": 18,
+      "pending_source_adjudication": [],
+      "reviewed_fields": 3822,
+      "changed_chinese_fields": 2537,
+      "body_fields_changed": 2523,
+      "speaker_labels_changed": 14,
+      "new_jp_execution_layout_migrations": 0,
+      "unchanged_files": 14161,
+      "previous_corrected_scripts": 563,
+      "previous_byte_identical": 563,
+      "previous_exact_extensions": [],
+      "protected_v4_unchanged": 43,
+      "non_text_json_structure_unchanged": true,
+      "restored_previously_empty_display_fields": 1,
+      "additional_missing_display_contract_tests": 9,
+      "scenario_tests": 23,
+      "reviewed_execution_identities_preserved": 72,
+      "reader_txt_files": 36,
+      "reader_txt_field_spans": 5094,
+      "nonadv_files_changed": 0,
+      "official_cn_provenance_independently_verified": false,
+      "whole_corpus_complete": false,
+      "game_device_verified": false,
+      "public_release": "latest",
+      "immutable_release": "scenario-3318",
+      "unrelated_release_assets_unchanged": true,
+      "verified_at": "2026-10-01T18:26:55Z"
+    }
   }
 ]

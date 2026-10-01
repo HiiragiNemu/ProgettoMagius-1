@@ -22,24 +22,27 @@
     "export row count processed-runtime-scripts.tsv",
     "export row count legacy-registered-stories.tsv"
   ],
-  "ledger_sha256": "53040bc7d0a588fb1ddda2a7bf181154fc3a45aa15f9fcd9fdaa258ce305c000",
+  "ledger_sha256": "c9fbe47a1121b3b1a62508829e759fb4365f583b5ecd54e1a728219eaba3a557",
   "source_summary": {
     "schema": 1,
-    "reader_revision": "7ed87382b32bde946d567286eddb40160c79d363",
-    "patch_revision": "917248bf72a15f4440c02c081df541997e5ad819",
-    "public_revision": "3e558e060293cdc2ad178ad2c9a77b85af410d90",
-    "last_published_scenario_version": 3317,
+    "reader_revision": "0d04f7adc9db140a1f7fac1183c5d346353b7899",
+    "patch_revision": "ed09e4b5b2a25968e7db51f8b3d78cec2c8e4423",
+    "public_revision": "cf2b70fc2606801b574c3d4632daaf743def6d34",
+    "last_published_scenario_version": 3318,
     "takeover_boundary_reader_main": "5f7cab788d32a2cc9cfe7db005be3e67fe621945",
     "confirmed_ai_runtime_scripts": 1079,
-    "confirmed_ai_fully_reviewed": 275,
-    "confirmed_ai_pending": 804,
+    "confirmed_ai_fully_reviewed": 347,
+    "confirmed_ai_pending": 732,
     "pending_unindexed_included": 24,
     "completed_before_takeover": 48,
-    "completed_after_takeover": 227,
-    "published_unique_runtime_scripts_modified": 563,
-    "published_unique_runtime_scripts_with_body_correction": 245,
-    "published_unique_body_addresses_corrected": 7664,
-    "published_body_correction_events": 7664,
+    "completed_after_takeover": 299,
+    "published_unique_runtime_scripts_modified": 635,
+    "published_unique_runtime_scripts_with_body_correction": 317,
+    "published_unique_body_addresses_corrected": 10187,
+    "published_body_correction_events": 10187,
+    "body_address_metric_is_not_newly_translated_sentence_count": true,
+    "body_address_metric_includes_source_text_alignment_and_wording_repairs": true,
+    "historical_body_events_with_changed_embedded_tag_sequence": 5,
     "periods": {
       "before_20261001_takeover": {
         "unique_modified_runtime_scripts": 378,
@@ -47,12 +50,12 @@
         "unique_body_corrected_addresses": 3268
       },
       "after_20261001_takeover": {
-        "unique_modified_runtime_scripts": 194,
-        "unique_body_corrected_runtime_scripts": 194,
-        "unique_body_corrected_addresses": 4396
+        "unique_modified_runtime_scripts": 266,
+        "unique_body_corrected_runtime_scripts": 266,
+        "unique_body_corrected_addresses": 6919
       }
     },
-    "full_read_evidence_histories_retained": 285,
+    "full_read_evidence_histories_retained": 357,
     "legacy_applied_candidate_claim": 507,
     "legacy_unique_registered_ids": 498,
     "legacy_current_semantic_completion_assumed": 0,
