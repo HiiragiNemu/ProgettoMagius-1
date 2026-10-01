@@ -1,0 +1,3403 @@
+[
+  {
+    "version": 3301,
+    "batch": "20260929-01",
+    "period": "before_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 14,
+    "scripts_with_body_correction": 14,
+    "distinct_body_addresses_this_batch": 956,
+    "raw_leaf_diff_counts": {
+      "body": 956
+    },
+    "reader_commit": "8e02baee9ecbbd528a35d839e8b9d56f7426e765",
+    "cn_patch_commit": "541a6b40e32023fdc339b2a332706f9c0d4a42f1",
+    "receipt_path": "story-quality/releases/3301.json",
+    "stories_touched": [
+      {
+        "story_id": "710253",
+        "title": "",
+        "source_identity": "costume_story/1025 - 时女静香（時女 静香）/710253_1",
+        "category": "costume_story",
+        "folder": "1025 - 时女静香（時女 静香）"
+      },
+      {
+        "story_id": "710263",
+        "title": "",
+        "source_identity": "costume_story/1026 - 广江千春（広江 ちはる）/710263_1",
+        "category": "costume_story",
+        "folder": "1026 - 广江千春（広江 ちはる）"
+      },
+      {
+        "story_id": "710341",
+        "title": "",
+        "source_identity": "costume_story/1034 - 三浦旭（三浦 旭）/710341_1",
+        "category": "costume_story",
+        "folder": "1034 - 三浦旭（三浦 旭）"
+      },
+      {
+        "story_id": "710273",
+        "title": "",
+        "source_identity": "costume_story/1027 - 土岐沙绪（土岐 すなお）/710273_1",
+        "category": "costume_story",
+        "folder": "1027 - 土岐沙绪（土岐 すなお）"
+      },
+      {
+        "story_id": "511001",
+        "title": "",
+        "source_identity": "event_story/5110 - 御魂的特训 静香篇/511001_1-10",
+        "category": "event_story",
+        "folder": "5110 - 御魂的特训 静香篇"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20260929-01",
+      "status": "published_and_anonymously_verified",
+      "version": 3301,
+      "reader_commit": "8e02baee9ecbbd528a35d839e8b9d56f7426e765",
+      "cn_patch_commit": "541a6b40e32023fdc339b2a332706f9c0d4a42f1",
+      "jp_source_commit": "1fd8c1274d615b7d0167b0c1aec2e1a32ad79b4a",
+      "import_commit": "3d463befe7a10d4cb72034378ce2a6f23c377abb",
+      "bundle_sha256": "115a95d36996fb60e00a7110d15b42021c19a9c5f618b0c41a593ebc555a824c",
+      "base_package": {
+        "size": 194067302,
+        "sha256": "fe8b069ed36f7dc4450522f024796eea76c830d6003a2c516d2a19c90b6388cf",
+        "md5": "f799e71310f292270d586fa21bb9eed2"
+      },
+      "package": {
+        "size": 193602196,
+        "sha256": "b6f59e6012a8cf9ab0d5cc26c6d183902fc675370f2ebb1003dd71627ba23c6e",
+        "md5": "fa3abe85453c8239b8ff0f0f3f08fbeb"
+      },
+      "story_groups": 5,
+      "changed_scripts": 14,
+      "reviewed_fields": 1004,
+      "changed_fields": 956,
+      "unchanged_files": 14219,
+      "archive_files": 14233,
+      "non_text_runtime_unchanged": true,
+      "control_tags_unchanged": true,
+      "whole_corpus_review_complete": false,
+      "pending_sample_ids": [
+        "710251-1",
+        "710251-2",
+        "710251-3",
+        "710251-4",
+        "710251-5",
+        "710251-6",
+        "710252-1"
+      ],
+      "generated_at": "2026-09-29T04:51:39Z",
+      "public_release": "latest",
+      "immutable_release": "scenario-3301",
+      "published_at": "2026-09-29T04:52:24Z",
+      "unrelated_release_assets_unchanged": true
+    }
+  },
+  {
+    "version": 3302,
+    "batch": "20260929-puella-care-adv-names",
+    "period": "before_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 4,
+    "scripts_with_body_correction": 0,
+    "distinct_body_addresses_this_batch": 0,
+    "raw_leaf_diff_counts": {
+      "speaker_name": 62
+    },
+    "reader_commit": "f7d1736c17af5f5632c0d9310e752f622299c055",
+    "cn_patch_commit": "8ea2c8f49bede8624226a2389fdcbd199c1839ad",
+    "receipt_path": "story-quality/releases/3302.json",
+    "stories_touched": [
+      {
+        "story_id": "103105",
+        "title": "第5话 哀歌跨越伦理 哀歌は倫理を飛び越える",
+        "source_identity": "main_story/1031-21 - 第II部 第10章 - 集結の百禍編/103105_1-20",
+        "category": "main_story",
+        "folder": "1031-21 - 第II部 第10章 - 集結の百禍編"
+      },
+      {
+        "story_id": "103201",
+        "title": "第1话 无数叹息 幾多の嘆き",
+        "source_identity": "main_story/1032-22 - 第II部 第11章 - 集結の百禍編/103201_1-17",
+        "category": "main_story",
+        "folder": "1032-22 - 第II部 第11章 - 集結の百禍編"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20260929-puella-care-adv-names",
+      "version": 3302,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "f7d1736c17af5f5632c0d9310e752f622299c055",
+      "cn_patch_commit": "8ea2c8f49bede8624226a2389fdcbd199c1839ad",
+      "base_version": 3301,
+      "base_package": {
+        "size": 193602196,
+        "sha256": "b6f59e6012a8cf9ab0d5cc26c6d183902fc675370f2ebb1003dd71627ba23c6e",
+        "md5": "fa3abe85453c8239b8ff0f0f3f08fbeb"
+      },
+      "package": {
+        "size": 193602165,
+        "sha256": "4f0a0586252bb74fddac9d8ddc8748f0b93e794bb9e415f6868f81f451b5f681",
+        "md5": "0b108121e4cbaec36c13a0eb5195b7a1"
+      },
+      "changed_scripts": 4,
+      "changed_fields": 62,
+      "name_replacements": {
+        "みたま": 6,
+        "リヴィア": 36,
+        "ヨヅル": 20
+      },
+      "unchanged_files": 14229,
+      "archive_files": 14233,
+      "prior_14_story_corrections_preserved": true,
+      "dialogue_and_runtime_controls_unchanged": true,
+      "device_rendering_verified": false,
+      "whole_corpus_review_complete": false,
+      "public_release": "latest",
+      "immutable_release": "scenario-3302",
+      "published_at": "2026-09-29T08:28:10Z",
+      "unrelated_release_assets_unchanged": true
+    }
+  },
+  {
+    "version": 3303,
+    "batch": "20260929-02",
+    "period": "before_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 8,
+    "scripts_with_body_correction": 7,
+    "distinct_body_addresses_this_batch": 487,
+    "raw_leaf_diff_counts": {
+      "body": 487,
+      "speaker_name": 1
+    },
+    "reader_commit": "30f2aefb06b1d68b2e7097e815235bae03b78fb1",
+    "cn_patch_commit": "8c619ee4f47fefcff24be110f31d12ae54e064b7",
+    "receipt_path": "story-quality/releases/3303.json",
+    "stories_touched": [
+      {
+        "story_id": "710251",
+        "title": "情人节故事 2021 バレンタインストーリー2021",
+        "source_identity": "costume_story/1025 - 时女静香（時女 静香）/710251_1-6",
+        "category": "costume_story",
+        "folder": "1025 - 时女静香（時女 静香）"
+      },
+      {
+        "story_id": "710252",
+        "title": "",
+        "source_identity": "costume_story/1025 - 时女静香（時女 静香）/710252_1",
+        "category": "costume_story",
+        "folder": "1025 - 时女静香（時女 静香）"
+      },
+      {
+        "story_id": "102605",
+        "title": "第5话 镜子深处映出的事物 鏡の奥に映るもの",
+        "source_identity": "main_story/1026-16 - 第II部 第5章 - 集結の百禍編/102605_1-17",
+        "category": "main_story",
+        "folder": "1026-16 - 第II部 第5章 - 集結の百禍編"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20260929-02",
+      "version": 3303,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "30f2aefb06b1d68b2e7097e815235bae03b78fb1",
+      "cn_patch_commit": "8c619ee4f47fefcff24be110f31d12ae54e064b7",
+      "jp_source_commit": "f7d1736c17af5f5632c0d9310e752f622299c055",
+      "base_version": 3302,
+      "base_package": {
+        "size": 193602165,
+        "sha256": "4f0a0586252bb74fddac9d8ddc8748f0b93e794bb9e415f6868f81f451b5f681",
+        "md5": "0b108121e4cbaec36c13a0eb5195b7a1"
+      },
+      "package": {
+        "size": 193601199,
+        "sha256": "c233528d1f8703a9de75fdbe16163ca3920bac1f97d371a583b75bc37c72b355",
+        "md5": "207195e7c30eba489a7b4ab829da7989"
+      },
+      "changed_scripts": 8,
+      "fully_reviewed_scripts": 7,
+      "reviewed_dialogue_fields": 522,
+      "changed_dialogue_fields": 487,
+      "changed_name_fields": 1,
+      "unchanged_files": 14225,
+      "archive_files": 14233,
+      "prior_18_script_corrections_preserved": true,
+      "runtime_controls_unchanged": true,
+      "untranslated_puella_care_adv_labels": 0,
+      "device_rendering_verified": false,
+      "whole_corpus_review_complete": false,
+      "public_release": "latest",
+      "immutable_release": "scenario-3303",
+      "verified_at": "2026-09-29T09:27:22Z",
+      "unrelated_release_assets_unchanged": true
+    }
+  },
+  {
+    "version": 3304,
+    "batch": "20260929-03",
+    "period": "before_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 7,
+    "scripts_with_body_correction": 7,
+    "distinct_body_addresses_this_batch": 512,
+    "raw_leaf_diff_counts": {
+      "body": 512
+    },
+    "reader_commit": "7b8dc4495cbf8e04b97c5a135b98689b2ec51fca",
+    "cn_patch_commit": "8979c9c712bb86e5e652309648f7583a15ca1d4e",
+    "receipt_path": "story-quality/releases/3304.json",
+    "stories_touched": [
+      {
+        "story_id": "710261",
+        "title": "",
+        "source_identity": "costume_story/1026 - 广江千春（広江 ちはる）/710261_1",
+        "category": "costume_story",
+        "folder": "1026 - 广江千春（広江 ちはる）"
+      },
+      {
+        "story_id": "710262",
+        "title": "",
+        "source_identity": "costume_story/1026 - 广江千春（広江 ちはる）/710262_1",
+        "category": "costume_story",
+        "folder": "1026 - 广江千春（広江 ちはる）"
+      },
+      {
+        "story_id": "710271",
+        "title": "",
+        "source_identity": "costume_story/1027 - 土岐沙绪（土岐 すなお）/710271_1",
+        "category": "costume_story",
+        "folder": "1027 - 土岐沙绪（土岐 すなお）"
+      },
+      {
+        "story_id": "710272",
+        "title": "",
+        "source_identity": "costume_story/1027 - 土岐沙绪（土岐 すなお）/710272_1",
+        "category": "costume_story",
+        "folder": "1027 - 土岐沙绪（土岐 すなお）"
+      },
+      {
+        "story_id": "710391",
+        "title": "",
+        "source_identity": "costume_story/1039 - 佐和月出里（佐和 月出里）/710391_1",
+        "category": "costume_story",
+        "folder": "1039 - 佐和月出里（佐和 月出里）"
+      },
+      {
+        "story_id": "710401",
+        "title": "",
+        "source_identity": "costume_story/1040 - 篠目夜鹤（篠目 ヨヅル）/710401_1",
+        "category": "costume_story",
+        "folder": "1040 - 篠目夜鹤（篠目 ヨヅル）"
+      },
+      {
+        "story_id": "710402",
+        "title": "",
+        "source_identity": "costume_story/1040 - 篠目夜鹤（篠目 ヨヅル）/710402_1",
+        "category": "costume_story",
+        "folder": "1040 - 篠目夜鹤（篠目 ヨヅル）"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20260929-03",
+      "version": 3304,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "7b8dc4495cbf8e04b97c5a135b98689b2ec51fca",
+      "cn_patch_commit": "8979c9c712bb86e5e652309648f7583a15ca1d4e",
+      "jp_source_commit": "30f2aefb06b1d68b2e7097e815235bae03b78fb1",
+      "import_commit": "3d463befe7a10d4cb72034378ce2a6f23c377abb",
+      "base_version": 3303,
+      "base_package": {
+        "size": 193601199,
+        "sha256": "c233528d1f8703a9de75fdbe16163ca3920bac1f97d371a583b75bc37c72b355",
+        "md5": "207195e7c30eba489a7b4ab829da7989"
+      },
+      "package": {
+        "size": 193600934,
+        "sha256": "5774fdedaafd4d42ccbddd6c0f8de995a8e71d425267d1fe280a5af3de874b00",
+        "md5": "a7d2c5121a99d4ea40b14249d00691d0"
+      },
+      "changed_scripts": 7,
+      "fully_reviewed_scripts": 7,
+      "reviewed_dialogue_fields": 545,
+      "changed_dialogue_fields": 512,
+      "changed_name_fields": 0,
+      "unchanged_files": 14226,
+      "archive_files": 14233,
+      "prior_26_script_corrections_preserved": true,
+      "runtime_controls_unchanged": true,
+      "untranslated_puella_care_adv_labels": 0,
+      "device_rendering_verified": false,
+      "whole_corpus_review_complete": false,
+      "source_committed_at": "2026-09-29T12:10:10Z",
+      "metadata_timestamp_basis": "source_commit",
+      "public_release": "latest",
+      "immutable_release": "scenario-3304",
+      "verified_at": "2026-09-29T12:36:03Z",
+      "unrelated_release_assets_unchanged": true
+    }
+  },
+  {
+    "version": 3305,
+    "batch": "20260929-04",
+    "period": "before_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 4,
+    "scripts_with_body_correction": 4,
+    "distinct_body_addresses_this_batch": 298,
+    "raw_leaf_diff_counts": {
+      "body": 298
+    },
+    "reader_commit": "a45c6fc6f5ef7cd796b59a7d49b452b3c3b4cc23",
+    "cn_patch_commit": "d2f36b63a94410af1f5b6083fe19852912be4010",
+    "receipt_path": "story-quality/releases/3305.json",
+    "stories_touched": [
+      {
+        "story_id": "730471",
+        "title": "",
+        "source_identity": "costume_story/3047 - 青叶知花（青葉 ちか）/730471_1",
+        "category": "costume_story",
+        "folder": "3047 - 青叶知花（青葉 ちか）"
+      },
+      {
+        "story_id": "710361",
+        "title": "",
+        "source_identity": "costume_story/1036 - 有爱丽（有愛 うらら）/710361_1",
+        "category": "costume_story",
+        "folder": "1036 - 有爱丽（有愛 うらら）"
+      },
+      {
+        "story_id": "730581",
+        "title": "",
+        "source_identity": "costume_story/3058 - 南津凉子（南津 涼子）/730581_1",
+        "category": "costume_story",
+        "folder": "3058 - 南津凉子（南津 涼子）"
+      },
+      {
+        "story_id": "710331",
+        "title": "",
+        "source_identity": "costume_story/1033 - 冰室拉比（氷室 ラビ）/710331_1",
+        "category": "costume_story",
+        "folder": "1033 - 冰室拉比（氷室 ラビ）"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20260929-04",
+      "version": 3305,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "a45c6fc6f5ef7cd796b59a7d49b452b3c3b4cc23",
+      "cn_patch_commit": "d2f36b63a94410af1f5b6083fe19852912be4010",
+      "jp_source_commit": "6ccac1d340f9cc411258d78aa02fe59fd1ded34b",
+      "import_commit": "3d463befe7a10d4cb72034378ce2a6f23c377abb",
+      "base_version": 3304,
+      "base_package": {
+        "size": 193600934,
+        "sha256": "5774fdedaafd4d42ccbddd6c0f8de995a8e71d425267d1fe280a5af3de874b00",
+        "md5": "a7d2c5121a99d4ea40b14249d00691d0"
+      },
+      "package": {
+        "size": 193600689,
+        "sha256": "0bac26e6944b3589dc46cbbfc01bf1c125cfaa2aa4e26acb6dc5f1d71dfadee9",
+        "md5": "285325ac18e12a1bfd52f98d31678252"
+      },
+      "changed_scripts": 4,
+      "fully_reviewed_scripts": 4,
+      "reviewed_dialogue_fields": 312,
+      "changed_dialogue_fields": 298,
+      "changed_name_fields": 0,
+      "colour_display_text_changes": 2,
+      "regression_tests": 9,
+      "unchanged_files": 14229,
+      "archive_files": 14233,
+      "prior_33_script_corrections_preserved": true,
+      "runtime_controls_unchanged": true,
+      "untranslated_puella_care_adv_labels": 0,
+      "device_rendering_verified": false,
+      "whole_corpus_review_complete": false,
+      "public_release": "latest",
+      "immutable_release": "scenario-3305",
+      "verified_at": "2026-09-29T14:55:34Z",
+      "unrelated_release_assets_unchanged": true
+    }
+  },
+  {
+    "version": 3306,
+    "batch": "20260930-05",
+    "period": "before_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 160,
+    "scripts_with_body_correction": 1,
+    "distinct_body_addresses_this_batch": 1,
+    "raw_leaf_diff_counts": {
+      "speaker_name": 2123,
+      "body": 1
+    },
+    "reader_commit": "3c4439fc7a6a7896f5c6f72f111aedd433ea01ab",
+    "cn_patch_commit": "a9ab195cab166e05a489db3bcd2823de1dd0a20b",
+    "receipt_path": "story-quality/releases/3306.json",
+    "stories_touched": [
+      {
+        "story_id": "720063",
+        "title": "",
+        "source_identity": "costume_story/2006 - 佐仓杏子（佐倉 杏子）/720063_1",
+        "category": "costume_story",
+        "folder": "2006 - 佐仓杏子（佐倉 杏子）"
+      },
+      {
+        "story_id": "103003",
+        "title": "第3话 被道出的目的 語られた目的",
+        "source_identity": "main_story/1030-20 - 第II部 第9章 - 集結の百禍編/103003_1-13",
+        "category": "main_story",
+        "folder": "1030-20 - 第II部 第9章 - 集結の百禍編"
+      },
+      {
+        "story_id": "103004",
+        "title": "第4话 迈向魔法少女至上主义 魔法少女至上主義へ",
+        "source_identity": "main_story/1030-20 - 第II部 第9章 - 集結の百禍編/103004_1-18",
+        "category": "main_story",
+        "folder": "1030-20 - 第II部 第9章 - 集結の百禍編"
+      },
+      {
+        "story_id": "103104",
+        "title": "第4话 愤怒孕育的感情尽头 怒りが生んだ感情の末",
+        "source_identity": "main_story/1031-21 - 第II部 第10章 - 集結の百禍編/103104_1-13",
+        "category": "main_story",
+        "folder": "1031-21 - 第II部 第10章 - 集結の百禍編"
+      },
+      {
+        "story_id": "102403",
+        "title": "第3话 自古传承的矜持 古より連なる矜持",
+        "source_identity": "main_story/1024-14 - 第II部 第3章 - 集結の百禍編/102403_1-22",
+        "category": "main_story",
+        "folder": "1024-14 - 第II部 第3章 - 集結の百禍編"
+      },
+      {
+        "story_id": "103205",
+        "title": "第5话 让一切得以存续的话语 すべてを生かす言葉",
+        "source_identity": "main_story/1032-22 - 第II部 第11章 - 集結の百禍編/103205_1-5",
+        "category": "main_story",
+        "folder": "1032-22 - 第II部 第11章 - 集結の百禍編"
+      },
+      {
+        "story_id": "103105",
+        "title": "第5话 哀歌跨越伦理 哀歌は倫理を飛び越える",
+        "source_identity": "main_story/1031-21 - 第II部 第10章 - 集結の百禍編/103105_1-20",
+        "category": "main_story",
+        "folder": "1031-21 - 第II部 第10章 - 集結の百禍編"
+      },
+      {
+        "story_id": "103102",
+        "title": "第2话 循着已握住的意志 つかんだ意思を手繰る",
+        "source_identity": "main_story/1031-21 - 第II部 第10章 - 集結の百禍編/103102_1-14",
+        "category": "main_story",
+        "folder": "1031-21 - 第II部 第10章 - 集結の百禍編"
+      },
+      {
+        "story_id": "main_story_103001_1-10_8d1221787c",
+        "title": "第1话 决意的香气 決意の香り",
+        "source_identity": "main_story/1030-20 - 第II部 第9章 - 集結の百禍編/103001_1-10",
+        "category": "main_story",
+        "folder": "1030-20 - 第II部 第9章 - 集結の百禍編"
+      },
+      {
+        "story_id": "102405",
+        "title": "第5话 回首便见光芒 振り返れば光",
+        "source_identity": "main_story/1024-14 - 第II部 第3章 - 集結の百禍編/102405_1-9",
+        "category": "main_story",
+        "folder": "1024-14 - 第II部 第3章 - 集結の百禍編"
+      },
+      {
+        "story_id": "main_story_103001_1-9_231c2699aa",
+        "title": "",
+        "source_identity": "main_story/1030-20 - 第II部 第9章 - 集結の百禍編/103001_1-9",
+        "category": "main_story",
+        "folder": "1030-20 - 第II部 第9章 - 集結の百禍編"
+      },
+      {
+        "story_id": "103101",
+        "title": "第1话 探寻思虑之线 思惑の糸を探って",
+        "source_identity": "main_story/1031-21 - 第II部 第10章 - 集結の百禍編/103101_1-18",
+        "category": "main_story",
+        "folder": "1031-21 - 第II部 第10章 - 集結の百禍編"
+      },
+      {
+        "story_id": "103103",
+        "title": "第3话 相连的悲叹历史与…… 結ばれた悲嘆の歴史と…",
+        "source_identity": "main_story/1031-21 - 第II部 第10章 - 集結の百禍編/103103_1-16",
+        "category": "main_story",
+        "folder": "1031-21 - 第II部 第10章 - 集結の百禍編"
+      },
+      {
+        "story_id": "103002",
+        "title": "第2话 水面下的脚步声 水面下の足音",
+        "source_identity": "main_story/1030-20 - 第II部 第9章 - 集結の百禍編/103002_1-16",
+        "category": "main_story",
+        "folder": "1030-20 - 第II部 第9章 - 集結の百禍編"
+      },
+      {
+        "story_id": "102505",
+        "title": "第5话 由离别缔结的羁绊 別れが結んだ繋がり",
+        "source_identity": "main_story/1025-15 - 第II部 第4章 - 集結の百禍編/102505_1-12",
+        "category": "main_story",
+        "folder": "1025-15 - 第II部 第4章 - 集結の百禍編"
+      },
+      {
+        "story_id": "103201",
+        "title": "第1话 无数叹息 幾多の嘆き",
+        "source_identity": "main_story/1032-22 - 第II部 第11章 - 集結の百禍編/103201_1-17",
+        "category": "main_story",
+        "folder": "1032-22 - 第II部 第11章 - 集結の百禍編"
+      },
+      {
+        "story_id": "103204",
+        "title": "第4话 欢迎来到绝念 諦念にようこそ",
+        "source_identity": "main_story/1032-22 - 第II部 第11章 - 集結の百禍編/103204_1-17",
+        "category": "main_story",
+        "folder": "1032-22 - 第II部 第11章 - 集結の百禍編"
+      },
+      {
+        "story_id": "102304",
+        "title": "第4话 寻找父亲…… 父を探して…",
+        "source_identity": "main_story/1023-13 - 第II部 第2章 - 集結の百禍編/102304_1-21",
+        "category": "main_story",
+        "folder": "1023-13 - 第II部 第2章 - 集結の百禍編"
+      },
+      {
+        "story_id": "340533",
+        "title": "第3话 疾风的答案 はやてちゃんの答え",
+        "source_identity": "character_story/4053 - 八神疾风（八神 はやて）/340533_1-4",
+        "category": "character_story",
+        "folder": "4053 - 八神疾风（八神 はやて）"
+      },
+      {
+        "story_id": "340523",
+        "title": "第3话 相连的羁绊 つながる絆",
+        "source_identity": "character_story/4052 - 菲特（フェイト）/340523_1-5",
+        "category": "character_story",
+        "folder": "4052 - 菲特（フェイト）"
+      },
+      {
+        "story_id": "310311",
+        "title": "第1话 察觉到神明之时 神様に気づいたとき",
+        "source_identity": "character_story/1031 - 神乐灿（神楽 燦）/310311_1-4",
+        "category": "character_story",
+        "folder": "1031 - 神乐灿（神楽 燦）"
+      },
+      {
+        "story_id": "340532",
+        "title": "第2话 疾风的亲手料理 はやてちゃんの手料理",
+        "source_identity": "character_story/4053 - 八神疾风（八神 はやて）/340532_1-4",
+        "category": "character_story",
+        "folder": "4053 - 八神疾风（八神 はやて）"
+      },
+      {
+        "story_id": "310321",
+        "title": "第1话 美由与灿大人的相识 ミユと燦様の馴れ初め",
+        "source_identity": "character_story/1032 - 游狩美由利（遊狩 ミユリ）/310321_1-4",
+        "category": "character_story",
+        "folder": "1032 - 游狩美由利（遊狩 ミユリ）"
+      },
+      {
+        "story_id": "340522",
+        "title": "第2话 无尽镜层 果てしないミラーズ",
+        "source_identity": "character_story/4052 - 菲特（フェイト）/340522_1-4",
+        "category": "character_story",
+        "folder": "4052 - 菲特（フェイト）"
+      },
+      {
+        "story_id": "340511",
+        "title": "第1话 许下小小愿望 メイク・ア・リトル・ウィッシ",
+        "source_identity": "character_story/4051 - 高町奈叶（高町 なのは）/340511_1-4",
+        "category": "character_story",
+        "folder": "4051 - 高町奈叶（高町 なのは）"
+      },
+      {
+        "story_id": "340521",
+        "title": "第1话 爱机 愛機",
+        "source_identity": "character_story/4052 - 菲特（フェイト）/340521_1-4",
+        "category": "character_story",
+        "folder": "4052 - 菲特（フェイト）"
+      },
+      {
+        "story_id": "340512",
+        "title": "第2话 准备就绪 スタンバイ・レディ",
+        "source_identity": "character_story/4051 - 高町奈叶（高町 なのは）/340512_1-4",
+        "category": "character_story",
+        "folder": "4051 - 高町奈叶（高町 なのは）"
+      },
+      {
+        "story_id": "340513",
+        "title": "第3话 智慧与战术 ウィズダム＆タクティクス",
+        "source_identity": "character_story/4051 - 高町奈叶（高町 なのは）/340513_1-4",
+        "category": "character_story",
+        "folder": "4051 - 高町奈叶（高町 なのは）"
+      },
+      {
+        "story_id": "310313",
+        "title": "第3话 即使失去一切 全てを失っても",
+        "source_identity": "character_story/1031 - 神乐灿（神楽 燦）/310313_1-4",
+        "category": "character_story",
+        "folder": "1031 - 神乐灿（神楽 燦）"
+      },
+      {
+        "story_id": "310371",
+        "title": "第1话 唯一的一面 たったひとつの側面",
+        "source_identity": "character_story/1037 - 里见那由他（里見 那由他）/310371_1-4",
+        "category": "character_story",
+        "folder": "1037 - 里见那由他（里見 那由他）"
+      },
+      {
+        "story_id": "340531",
+        "title": "第1话 好多疾风 はやてちゃんがいっぱい",
+        "source_identity": "character_story/4053 - 八神疾风（八神 はやて）/340531_1-4",
+        "category": "character_story",
+        "folder": "4053 - 八神疾风（八神 はやて）"
+      },
+      {
+        "story_id": "310312",
+        "title": "第2话 不再依赖奇迹 奇跡にはもう頼らない",
+        "source_identity": "character_story/1031 - 神乐灿（神楽 燦）/310312_1-4",
+        "category": "character_story",
+        "folder": "1031 - 神乐灿（神楽 燦）"
+      },
+      {
+        "story_id": "515910",
+        "title": "",
+        "source_identity": "event_story/5159 - 思念的传承者们～魔法少女贞德～/515910_0-16",
+        "category": "event_story",
+        "folder": "5159 - 思念的传承者们～魔法少女贞德～"
+      },
+      {
+        "story_id": "506301",
+        "title": "",
+        "source_identity": "event_story/5063 - Magia Clash! ～魔法少女奈叶 Detonation～/506301_0-18",
+        "category": "event_story",
+        "folder": "5063 - Magia Clash! ～魔法少女奈叶 Detonation～"
+      },
+      {
+        "story_id": "514210",
+        "title": "",
+        "source_identity": "event_story/5142 - 穿越时间的盛宴/514210_0-10",
+        "category": "event_story",
+        "folder": "5142 - 穿越时间的盛宴"
+      },
+      {
+        "story_id": "515920",
+        "title": "",
+        "source_identity": "event_story/5159 - 思念的传承者们～魔法少女贞德～/515920_1-11",
+        "category": "event_story",
+        "folder": "5159 - 思念的传承者们～魔法少女贞德～"
+      },
+      {
+        "story_id": "516710",
+        "title": "",
+        "source_identity": "event_story/5167 - 恋是△ 爱是●/516710_1-10",
+        "category": "event_story",
+        "folder": "5167 - 恋是△ 爱是●"
+      },
+      {
+        "story_id": "518210",
+        "title": "",
+        "source_identity": "event_story/5182 - 思念的传承者们～魔法少女贞德～/518210_0-16",
+        "category": "event_story",
+        "folder": "5182 - 思念的传承者们～魔法少女贞德～"
+      },
+      {
+        "story_id": "event_story_5170100-09_30-39_1afa4b8cbb",
+        "title": "",
+        "source_identity": "event_story/5170 - 七彩夏日绘～笔记中记录的日常～/5170100-09_30-39",
+        "category": "event_story",
+        "folder": "5170 - 七彩夏日绘～笔记中记录的日常～"
+      },
+      {
+        "story_id": "513901-09",
+        "title": "",
+        "source_identity": "event_story/5139 - 激荡之海的呼唤/513901-09_0-9",
+        "category": "event_story",
+        "folder": "5139 - 激荡之海的呼唤"
+      },
+      {
+        "story_id": "511951-59",
+        "title": "",
+        "source_identity": "event_story/5119 - Angels on the Road～驯鹿圣诞老人兴隆记～/511951-59_1-9",
+        "category": "event_story",
+        "folder": "5119 - Angels on the Road～驯鹿圣诞老人兴隆记～"
+      },
+      {
+        "story_id": "518320",
+        "title": "",
+        "source_identity": "event_story/5183 - Puella Historia 神滨战神子篇/518320_1-20",
+        "category": "event_story",
+        "folder": "5183 - Puella Historia 神滨战神子篇"
+      },
+      {
+        "story_id": "513920-25",
+        "title": "",
+        "source_identity": "event_story/5139 - 激荡之海的呼唤/513920-25_20-25",
+        "category": "event_story",
+        "folder": "5139 - 激荡之海的呼唤"
+      },
+      {
+        "story_id": "519910",
+        "title": "",
+        "source_identity": "event_story/5199 - Paradise Shift～归还的物语～/519910_0-10",
+        "category": "event_story",
+        "folder": "5199 - Paradise Shift～归还的物语～"
+      },
+      {
+        "story_id": "520110",
+        "title": "",
+        "source_identity": "event_story/5201 - Agent Magica～魔法纪录×Lycoris Recoil～/520110_0-10",
+        "category": "event_story",
+        "folder": "5201 - Agent Magica～魔法纪录×Lycoris Recoil～"
+      },
+      {
+        "story_id": "519920",
+        "title": "",
+        "source_identity": "event_story/5199 - Paradise Shift～归还的物语～/519920_1-10",
+        "category": "event_story",
+        "folder": "5199 - Paradise Shift～归还的物语～"
+      },
+      {
+        "story_id": "519120",
+        "title": "",
+        "source_identity": "event_story/5191 - Puella Historia 藏地的罗刹女篇/519120_1-15",
+        "category": "event_story",
+        "folder": "5191 - Puella Historia 藏地的罗刹女篇"
+      },
+      {
+        "story_id": "513951-59",
+        "title": "",
+        "source_identity": "event_story/5139 - 激荡之海的呼唤/513951-59_51-59",
+        "category": "event_story",
+        "folder": "5139 - 激荡之海的呼唤"
+      },
+      {
+        "story_id": "event_story_515410_0-10_30db81d12b",
+        "title": "",
+        "source_identity": "event_story/5154 - 时女拾遗物语～唤来元旦日出吧！～/515410_0-10",
+        "category": "event_story",
+        "folder": "5154 - 时女拾遗物语～唤来元旦日出吧！～"
+      },
+      {
+        "story_id": "event_story_515410_1-10_0cf97aa279",
+        "title": "",
+        "source_identity": "event_story/5154 - 时女拾遗物语～唤来元旦日出吧！～/515410_1-10",
+        "category": "event_story",
+        "folder": "5154 - 时女拾遗物语～唤来元旦日出吧！～"
+      },
+      {
+        "story_id": "521010",
+        "title": "",
+        "source_identity": "event_story/5210 - 阿莉娜的工作室～Factor of Despair～（一期）/521010_0-6",
+        "category": "event_story",
+        "folder": "5210 - 阿莉娜的工作室～Factor of Despair～（一期）"
+      }
+    ],
+    "reported_counts": {
+      "batch": "20260930-05",
+      "base_version": 3305,
+      "target_version": 3306,
+      "reader_commit": "3c4439fc7a6a7896f5c6f72f111aedd433ea01ab",
+      "cn_patch_commit": "a9ab195cab166e05a489db3bcd2823de1dd0a20b",
+      "changed_name_fields": 2123,
+      "changed_dialogue_fields": 1,
+      "changed_runtime_scripts": 160,
+      "generated_at": "2026-09-29T18:05:39Z",
+      "schema": 1,
+      "version": 3306,
+      "status": "published_and_anonymously_verified",
+      "base_package": {
+        "size": 193600689,
+        "sha256": "0bac26e6944b3589dc46cbbfc01bf1c125cfaa2aa4e26acb6dc5f1d71dfadee9",
+        "md5": "285325ac18e12a1bfd52f98d31678252"
+      },
+      "package": {
+        "size": 193596333,
+        "sha256": "96d752ffb8b32ed123e1dcb6a5170295f9e1c5b0d3b7afa387fd8f0a17f37eda",
+        "md5": "a9c40728c4ba015da1bf110e689a9cb3"
+      },
+      "unchanged_files": 14073,
+      "prior_corrected_scripts": 37,
+      "prior_scripts_byte_identical": 34,
+      "prior_scripts_additional_name_repairs": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-15_32rIq.json",
+          "additional_untranslated_names": 30
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103201-10_7xz7k.json",
+          "additional_untranslated_names": 12
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-20_32rIq.json",
+          "additional_untranslated_names": 25
+        }
+      ],
+      "prior_corrections_preserved": true,
+      "non_display_json_fields_unchanged": true,
+      "whole_corpus_review_complete": false,
+      "device_rendering_verified": false,
+      "public_release": "latest",
+      "immutable_release": "scenario-3306",
+      "unrelated_release_assets_unchanged": true,
+      "verified_at": "2026-09-29T18:07:10Z"
+    }
+  },
+  {
+    "version": 3307,
+    "batch": "20260930-06",
+    "period": "before_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 27,
+    "scripts_with_body_correction": 4,
+    "distinct_body_addresses_this_batch": 294,
+    "raw_leaf_diff_counts": {
+      "body": 294,
+      "speaker_name": 81
+    },
+    "reader_commit": "c9fa878d3312dae96b46fde64d64e84d85b1a93d",
+    "cn_patch_commit": "9e82b8808d1bdc045b03da8a9f9ddd3d4f029eaa",
+    "receipt_path": "story-quality/releases/3307.json",
+    "stories_touched": [
+      {
+        "story_id": "710291",
+        "title": "",
+        "source_identity": "costume_story/1029 - 宫尾时雨（宮尾 時雨）/710291_1",
+        "category": "costume_story",
+        "folder": "1029 - 宫尾时雨（宮尾 時雨）"
+      },
+      {
+        "story_id": "710321",
+        "title": "",
+        "source_identity": "costume_story/1032 - 游狩美由利（遊狩 ミユリ）/710321_1",
+        "category": "costume_story",
+        "folder": "1032 - 游狩美由利（遊狩 ミユリ）"
+      },
+      {
+        "story_id": "710301",
+        "title": "",
+        "source_identity": "costume_story/1030 - 安积育梦（安積 はぐむ）/710301_1",
+        "category": "costume_story",
+        "folder": "1030 - 安积育梦（安積 はぐむ）"
+      },
+      {
+        "story_id": "710281",
+        "title": "",
+        "source_identity": "costume_story/1028 - 蓝家姬奈（藍家 ひめな）/710281_1",
+        "category": "costume_story",
+        "folder": "1028 - 蓝家姬奈（藍家 ひめな）"
+      },
+      {
+        "story_id": "103305",
+        "title": "第5话 既然如此,就让我看看奇迹 それなら奇跡を見せて",
+        "source_identity": "main_story/1033-23 - 第II部 第12章 - 集結の百禍編/103305_1-19",
+        "category": "main_story",
+        "folder": "1033-23 - 第II部 第12章 - 集結の百禍編"
+      },
+      {
+        "story_id": "103105",
+        "title": "第5话 哀歌跨越伦理 哀歌は倫理を飛び越える",
+        "source_identity": "main_story/1031-21 - 第II部 第10章 - 集結の百禍編/103105_1-20",
+        "category": "main_story",
+        "folder": "1031-21 - 第II部 第10章 - 集結の百禍編"
+      },
+      {
+        "story_id": "340511",
+        "title": "第1话 许下小小愿望 メイク・ア・リトル・ウィッシ",
+        "source_identity": "character_story/4051 - 高町奈叶（高町 なのは）/340511_1-4",
+        "category": "character_story",
+        "folder": "4051 - 高町奈叶（高町 なのは）"
+      },
+      {
+        "story_id": "310533",
+        "title": "第3话 恋爱即是战争 恋は戦争である",
+        "source_identity": "character_story/1053 - 阿玛琉莉丝（アマリュリス）/310533_1-4",
+        "category": "character_story",
+        "folder": "1053 - 阿玛琉莉丝（アマリュリス）"
+      },
+      {
+        "story_id": "310513",
+        "title": "第3话 两人的牢笼 ふたりの檻",
+        "source_identity": "character_story/1051 - 赫露迦（ヘルカ）/310513_1-4",
+        "category": "character_story",
+        "folder": "1051 - 赫露迦（ヘルカ）"
+      },
+      {
+        "story_id": "519601-03",
+        "title": "",
+        "source_identity": "event_story/5196 - Puella Historia 罗马治世的恋人篇/519601-03_0-1",
+        "category": "event_story",
+        "folder": "5196 - Puella Historia 罗马治世的恋人篇"
+      },
+      {
+        "story_id": "519601",
+        "title": "",
+        "source_identity": "event_story/5196 - Puella Historia 罗马治世的恋人篇/519601_0-22",
+        "category": "event_story",
+        "folder": "5196 - Puella Historia 罗马治世的恋人篇"
+      },
+      {
+        "story_id": "514810-15",
+        "title": "",
+        "source_identity": "event_story/5148 - Dream Halloween Festa～阿莉娜前辈！做个好孩子！～/514810-15_34-50",
+        "category": "event_story",
+        "folder": "5148 - Dream Halloween Festa～阿莉娜前辈！做个好孩子！～"
+      },
+      {
+        "story_id": "514810",
+        "title": "",
+        "source_identity": "event_story/5148 - Dream Halloween Festa～阿莉娜前辈！做个好孩子！～/514810_34-35",
+        "category": "event_story",
+        "folder": "5148 - Dream Halloween Festa～阿莉娜前辈！做个好孩子！～"
+      },
+      {
+        "story_id": "event_story_520010_0-10_b794b18096",
+        "title": "",
+        "source_identity": "event_story/5200 - 想「普通」地活着的伊并满/520010_0-10",
+        "category": "event_story",
+        "folder": "5200 - 想「普通」地活着的伊并满"
+      },
+      {
+        "story_id": "event_story_520010_1-10_57ef279790",
+        "title": "",
+        "source_identity": "event_story/5200 - 想「普通」地活着的伊并满/520010_1-10",
+        "category": "event_story",
+        "folder": "5200 - 想「普通」地活着的伊并满"
+      },
+      {
+        "story_id": "event_story_519110_0-15_efc1720637",
+        "title": "",
+        "source_identity": "event_story/5191 - Puella Historia 藏地的罗刹女篇/519110_0-15",
+        "category": "event_story",
+        "folder": "5191 - Puella Historia 藏地的罗刹女篇"
+      },
+      {
+        "story_id": "event_story_519110_1-15_1c8c08d2a9",
+        "title": "",
+        "source_identity": "event_story/5191 - Puella Historia 藏地的罗刹女篇/519110_1-15",
+        "category": "event_story",
+        "folder": "5191 - Puella Historia 藏地的罗刹女篇"
+      },
+      {
+        "story_id": "519602",
+        "title": "",
+        "source_identity": "event_story/5196 - Puella Historia 罗马治世的恋人篇/519602_1-9",
+        "category": "event_story",
+        "folder": "5196 - Puella Historia 罗马治世的恋人篇"
+      },
+      {
+        "story_id": "520120",
+        "title": "",
+        "source_identity": "event_story/5201 - Agent Magica～魔法纪录×Lycoris Recoil～/520120_1-10",
+        "category": "event_story",
+        "folder": "5201 - Agent Magica～魔法纪录×Lycoris Recoil～"
+      },
+      {
+        "story_id": "519320",
+        "title": "",
+        "source_identity": "event_story/5193 - 为明天的幸福献上花束/519320_1-10",
+        "category": "event_story",
+        "folder": "5193 - 为明天的幸福献上花束"
+      },
+      {
+        "story_id": "event_story_5170110-17_40-47_b5263040d7",
+        "title": "",
+        "source_identity": "event_story/5170 - 七彩夏日绘～笔记中记录的日常～/5170110-17_40-47",
+        "category": "event_story",
+        "folder": "5170 - 七彩夏日绘～笔记中记录的日常～"
+      },
+      {
+        "story_id": "506301",
+        "title": "",
+        "source_identity": "event_story/5063 - Magia Clash! ～魔法少女奈叶 Detonation～/506301_0-18",
+        "category": "event_story",
+        "folder": "5063 - Magia Clash! ～魔法少女奈叶 Detonation～"
+      },
+      {
+        "story_id": "516101-08",
+        "title": "",
+        "source_identity": "event_story/5161 - 神滨SPA大冒险 席卷沙滩的恶魔怨叹/516101-08_0-3",
+        "category": "event_story",
+        "folder": "5161 - 神滨SPA大冒险 席卷沙滩的恶魔怨叹"
+      },
+      {
+        "story_id": "516101",
+        "title": "",
+        "source_identity": "event_story/5161 - 神滨SPA大冒险 席卷沙滩的恶魔怨叹/516101_0-4",
+        "category": "event_story",
+        "folder": "5161 - 神滨SPA大冒险 席卷沙滩的恶魔怨叹"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20260930-06",
+      "version": 3307,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "c9fa878d3312dae96b46fde64d64e84d85b1a93d",
+      "cn_patch_commit": "9e82b8808d1bdc045b03da8a9f9ddd3d4f029eaa",
+      "base_version": 3306,
+      "base_package": {
+        "size": 193596333,
+        "sha256": "96d752ffb8b32ed123e1dcb6a5170295f9e1c5b0d3b7afa387fd8f0a17f37eda",
+        "md5": "a9c40728c4ba015da1bf110e689a9cb3"
+      },
+      "package": {
+        "size": 193596341,
+        "sha256": "6417cf19a6713d708ebbe79df889c0b6a1594f2aed750e95f192dbf5fcda9faf",
+        "md5": "ab63ab4ce6a5130704b514af872b5771"
+      },
+      "changed_runtime_scripts": 27,
+      "fully_reviewed_stories": 4,
+      "reviewed_dialogue_fields": 320,
+      "changed_dialogue_fields": 294,
+      "changed_name_fields": 81,
+      "regression_tests": 39,
+      "reader_name_fields": 214,
+      "reader_txt_files": 64,
+      "unchanged_files": 14206,
+      "previous_corrected_scripts": 194,
+      "previous_byte_identical": 190,
+      "previous_exact_extensions": [
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_1/103105-20_32rIq.json",
+          "previous_git_blob": "0d460e38746f5891ff15ce6fdcc35679ff796531",
+          "new_git_blob": "2df8bd670e89c22b716aa91223f7d79ac3a400ef",
+          "additional_exact_fields": 9
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_3/340511-4.json",
+          "previous_git_blob": "ae9a8f7c92f2d68205de718675eb364453a769f8",
+          "new_git_blob": "3f4b26679345390cba0df53135addebb5e79c2e4",
+          "additional_exact_fields": 1
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/506301-15_3X7EZ.json",
+          "previous_git_blob": "85aee47af5f571bcd40948547e62bb00b74b000a",
+          "new_git_blob": "b01ede7628d718fbbeacee47806872824ab4299f",
+          "additional_exact_fields": 1
+        },
+        {
+          "path": "madomagi/resource/scenario/json/adv/scenario_5/506301-3_TFOmk.json",
+          "previous_git_blob": "522b01941422d0e56b22d7b27d773cf0480aaf50",
+          "new_git_blob": "09b66c476ea8f076f9d8d15bce1628c376dfab4f",
+          "additional_exact_fields": 1
+        }
+      ],
+      "prior_corrections_preserved": true,
+      "non_display_json_fields_unchanged": true,
+      "whole_corpus_review_complete": false,
+      "device_rendering_verified": false,
+      "public_release": "latest",
+      "immutable_release": "scenario-3307",
+      "unrelated_release_assets_unchanged": true,
+      "verified_at": "2026-09-29T19:31:47Z"
+    }
+  },
+  {
+    "version": 3308,
+    "batch": "20260930-07",
+    "period": "before_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 19,
+    "scripts_with_body_correction": 7,
+    "distinct_body_addresses_this_batch": 222,
+    "raw_leaf_diff_counts": {
+      "body": 222,
+      "speaker_name": 31
+    },
+    "reader_commit": "3201c963cb144d1ce554547eb3b288a27b9610d0",
+    "cn_patch_commit": "8a78062b17529861d98a45877879ac46833943e5",
+    "receipt_path": "story-quality/releases/3308.json",
+    "stories_touched": [
+      {
+        "story_id": "730091",
+        "title": "",
+        "source_identity": "costume_story/3009 - 胡桃爱香（胡桃 まなか）/730091_1",
+        "category": "costume_story",
+        "folder": "3009 - 胡桃爱香（胡桃 まなか）"
+      },
+      {
+        "story_id": "730061",
+        "title": "",
+        "source_identity": "costume_story/3006 - 木崎衣美里（木崎 衣美里）/730061_1",
+        "category": "costume_story",
+        "folder": "3006 - 木崎衣美里（木崎 衣美里）"
+      },
+      {
+        "story_id": "730071",
+        "title": "",
+        "source_identity": "costume_story/3007 - 保澄雫（保澄 雫）/730071_1",
+        "category": "costume_story",
+        "folder": "3007 - 保澄雫（保澄 雫）"
+      },
+      {
+        "story_id": "730161",
+        "title": "",
+        "source_identity": "costume_story/3016 - 粟根心（粟根 こころ）/730161_1",
+        "category": "costume_story",
+        "folder": "3016 - 粟根心（粟根 こころ）"
+      },
+      {
+        "story_id": "730151",
+        "title": "",
+        "source_identity": "costume_story/3015 - 相野未都（相野 みと）/730151_1",
+        "category": "costume_story",
+        "folder": "3015 - 相野未都（相野 みと）"
+      },
+      {
+        "story_id": "730011",
+        "title": "",
+        "source_identity": "costume_story/3001 - 矢宵鹿乃子（矢宵 かのこ）/730011_1",
+        "category": "costume_story",
+        "folder": "3001 - 矢宵鹿乃子（矢宵 かのこ）"
+      },
+      {
+        "story_id": "730441",
+        "title": "",
+        "source_identity": "costume_story/3044 - 智珠兰华（智珠 らんか）/730441_1",
+        "category": "costume_story",
+        "folder": "3044 - 智珠兰华（智珠 らんか）"
+      },
+      {
+        "story_id": "340033",
+        "title": "第3话 由麻会保护你的 アタシが守ってやるから",
+        "source_identity": "character_story/4003 - 千岁由麻（千歳 ゆま）/340033_1-6",
+        "category": "character_story",
+        "folder": "4003 - 千岁由麻（千歳 ゆま）"
+      },
+      {
+        "story_id": "311201",
+        "title": "第1话 被目击的夏天 目撃されて夏",
+        "source_identity": "character_story/1120 - 佐鸟笼目（百鬼夜行ver.）（佐鳥 かごめ（百鬼夜行ver.））/311201_1-4",
+        "category": "character_story",
+        "folder": "1120 - 佐鸟笼目（百鬼夜行ver.）（佐鳥 かごめ（百鬼夜行ver.））"
+      },
+      {
+        "story_id": "311203",
+        "title": "第3话 百鬼夜行的夏天 百鬼夜行で夏",
+        "source_identity": "character_story/1120 - 佐鸟笼目（百鬼夜行ver.）（佐鳥 かごめ（百鬼夜行ver.））/311203_1-4",
+        "category": "character_story",
+        "folder": "1120 - 佐鸟笼目（百鬼夜行ver.）（佐鳥 かごめ（百鬼夜行ver.））"
+      },
+      {
+        "story_id": "519720",
+        "title": "",
+        "source_identity": "event_story/5197 - 笼目的百怪波澜～炎夏之宴～/519720_1-10",
+        "category": "event_story",
+        "folder": "5197 - 笼目的百怪波澜～炎夏之宴～"
+      },
+      {
+        "story_id": "518801-08",
+        "title": "",
+        "source_identity": "event_story/5188 - 神滨SPA大冒险 席卷沙滩的恶魔怨叹/518801-08_0-3",
+        "category": "event_story",
+        "folder": "5188 - 神滨SPA大冒险 席卷沙滩的恶魔怨叹"
+      },
+      {
+        "story_id": "518802",
+        "title": "",
+        "source_identity": "event_story/5188 - 神滨SPA大冒险 席卷沙滩的恶魔怨叹/518802_1-2",
+        "category": "event_story",
+        "folder": "5188 - 神滨SPA大冒险 席卷沙滩的恶魔怨叹"
+      },
+      {
+        "story_id": "517620",
+        "title": "",
+        "source_identity": "event_story/5176 - 暗夜色万圣节染上恋爱的颜色!～连起来呀・东西边的恋爱最前线！～/517620_1-10",
+        "category": "event_story",
+        "folder": "5176 - 暗夜色万圣节染上恋爱的颜色!～连起来呀・东西边的恋爱最前线！～"
+      },
+      {
+        "story_id": "516101-08",
+        "title": "",
+        "source_identity": "event_story/5161 - 神滨SPA大冒险 席卷沙滩的恶魔怨叹/516101-08_0-3",
+        "category": "event_story",
+        "folder": "5161 - 神滨SPA大冒险 席卷沙滩的恶魔怨叹"
+      },
+      {
+        "story_id": "516102",
+        "title": "",
+        "source_identity": "event_story/5161 - 神滨SPA大冒险 席卷沙滩的恶魔怨叹/516102_1-2",
+        "category": "event_story",
+        "folder": "5161 - 神滨SPA大冒险 席卷沙滩的恶魔怨叹"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20260930-07",
+      "version": 3308,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "3201c963cb144d1ce554547eb3b288a27b9610d0",
+      "cn_patch_commit": "8a78062b17529861d98a45877879ac46833943e5",
+      "base_version": 3307,
+      "base_package": {
+        "size": 193596341,
+        "sha256": "6417cf19a6713d708ebbe79df889c0b6a1594f2aed750e95f192dbf5fcda9faf",
+        "md5": "ab63ab4ce6a5130704b514af872b5771"
+      },
+      "package": {
+        "size": 193596304,
+        "sha256": "f4343f23c3816f4d6eaab6690779bf6fe468b79f9fb9b7d85d173f829c9314b2",
+        "md5": "465ec5ff37142c292600973cae595982"
+      },
+      "changed_runtime_scripts": 19,
+      "fully_reviewed_stories": 7,
+      "reviewed_dialogue_fields": 453,
+      "changed_dialogue_fields": 222,
+      "changed_name_fields": 31,
+      "regression_tests": 93,
+      "reader_name_fields": 42,
+      "reader_txt_files": 74,
+      "unchanged_files": 14214,
+      "previous_corrected_scripts": 217,
+      "previous_byte_identical": 217,
+      "previous_exact_extensions": [],
+      "prior_corrections_preserved": true,
+      "non_display_json_fields_unchanged": true,
+      "whole_corpus_review_complete": false,
+      "device_rendering_verified": false,
+      "audited_name_fields": [
+        "nameLeft",
+        "nameCenter",
+        "nameRight",
+        "nameNarration",
+        "nameFnarration"
+      ],
+      "remaining_kana_name_fields": 0,
+      "name_audited_json_files": 14233,
+      "public_release": "latest",
+      "immutable_release": "scenario-3308",
+      "unrelated_release_assets_unchanged": true,
+      "verified_at": "2026-09-29T21:52:04Z"
+    }
+  },
+  {
+    "version": 3309,
+    "batch": "20260930-act2-supplement",
+    "period": "before_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 2,
+    "scripts_with_body_correction": 2,
+    "distinct_body_addresses_this_batch": 93,
+    "raw_leaf_diff_counts": {
+      "body": 93
+    },
+    "reader_commit": "f280b61751e2a91688bc3a7897730ce93c7bd918",
+    "cn_patch_commit": "a70976ee9316a9bda5270a5ae6d5b543a4505039",
+    "receipt_path": "story-quality/releases/3309.json",
+    "stories_touched": [
+      {
+        "story_id": "102502",
+        "title": "第2话 反复重现的那段时光 繰り返すあの頃",
+        "source_identity": "main_story/1025-15 - 第II部 第4章 - 集結の百禍編/102502_1-11",
+        "category": "main_story",
+        "folder": "1025-15 - 第II部 第4章 - 集結の百禍編"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20260930-act2-supplement",
+      "version": 3309,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "f280b61751e2a91688bc3a7897730ce93c7bd918",
+      "cn_patch_commit": "a70976ee9316a9bda5270a5ae6d5b543a4505039",
+      "base_version": 3308,
+      "base_package": {
+        "size": 193596304,
+        "sha256": "f4343f23c3816f4d6eaab6690779bf6fe468b79f9fb9b7d85d173f829c9314b2",
+        "md5": "465ec5ff37142c292600973cae595982"
+      },
+      "package": {
+        "size": 193596363,
+        "sha256": "a15fff4aa5448c6ed22673948602aaa244e16d4dd2bd84fecec00fc7c84da937",
+        "md5": "e649b6d1b1134b55e544c49f9698e7a0"
+      },
+      "changed_runtime_scripts": 2,
+      "fully_reviewed_stories": 2,
+      "reviewed_dialogue_fields": 107,
+      "changed_dialogue_fields": 93,
+      "changed_name_fields": 0,
+      "regression_tests": 9,
+      "reader_name_fields": 0,
+      "reader_txt_files": 4,
+      "unchanged_files": 14231,
+      "previous_corrected_scripts": 236,
+      "previous_byte_identical": 236,
+      "previous_exact_extensions": [],
+      "prior_corrections_preserved": true,
+      "non_display_json_fields_unchanged": true,
+      "whole_corpus_review_complete": false,
+      "device_rendering_verified": false,
+      "existing_human_payload_positions_restored": 50,
+      "fallback_section_fields_reviewed": 49,
+      "fallback_section_fields_revised": 41,
+      "model_identity_structure_changed": false,
+      "original_human_authorship_claimed_for_fallback": false,
+      "audited_name_fields": [
+        "nameLeft",
+        "nameCenter",
+        "nameRight",
+        "nameNarration",
+        "nameFnarration"
+      ],
+      "remaining_kana_name_fields": 0,
+      "name_audited_json_files": 14233,
+      "public_release": "latest",
+      "immutable_release": "scenario-3309",
+      "unrelated_release_assets_unchanged": true,
+      "verified_at": "2026-09-30T05:18:35Z"
+    }
+  },
+  {
+    "version": 3310,
+    "batch": "20260930-jp-controls-01",
+    "period": "before_20261001_takeover",
+    "category": "runtime_alignment",
+    "runtime_scripts_modified": 130,
+    "scripts_with_body_correction": 0,
+    "distinct_body_addresses_this_batch": 0,
+    "raw_leaf_diff_counts": {
+      "body": 237,
+      "runtime_structure": 488,
+      "speaker_name": 17
+    },
+    "reader_commit": "149208c9a6bbcc99d2536cf294cb4f2d3c272bb9",
+    "cn_patch_commit": "6b5181088a400c36976018b5b8da6eba776ad3e6",
+    "receipt_path": "story-quality/releases/3310.json",
+    "stories_touched": [
+      {
+        "story_id": "205401",
+        "title": "第1话 新天地的洗礼 新天地の洗礼",
+        "source_identity": "main_story/2054 - 支线剧情(AS) 第I部 第4章/205401_1-4",
+        "category": "main_story",
+        "folder": "2054 - 支线剧情(AS) 第I部 第4章"
+      },
+      {
+        "story_id": "606301",
+        "title": "",
+        "source_identity": "login_story/6063 - 2019两周年纪念 成为环的神滨/606301_1-10",
+        "category": "login_story",
+        "folder": "6063 - 2019两周年纪念 成为环的神滨"
+      },
+      {
+        "story_id": "626401",
+        "title": "",
+        "source_identity": "login_story/6264 - 神乐灿想变得坦率/626401_1-10",
+        "category": "login_story",
+        "folder": "6264 - 神乐灿想变得坦率"
+      },
+      {
+        "story_id": "641801",
+        "title": "",
+        "source_identity": "login_story/6418 - 2024新年 大凶是雪融化的预感/641801_1-7",
+        "category": "login_story",
+        "folder": "6418 - 2024新年 大凶是雪融化的预感"
+      },
+      {
+        "story_id": "646301",
+        "title": "",
+        "source_identity": "login_story/6463 - 心是一年一万年/646301_1-10",
+        "category": "login_story",
+        "folder": "6463 - 心是一年一万年"
+      },
+      {
+        "story_id": "scene0_main_910115_030_66bdadea",
+        "title": "",
+        "source_identity": "Scene0主线/film9/910115_030",
+        "category": "scene0_main",
+        "folder": "film9"
+      },
+      {
+        "story_id": "scene0_main_907122_010-050_f74636a9",
+        "title": "",
+        "source_identity": "Scene0主线/film6/907122_010-050",
+        "category": "scene0_main",
+        "folder": "film6"
+      },
+      {
+        "story_id": "scene0_main_905101-905132_010-020_1053a8d9",
+        "title": "",
+        "source_identity": "Scene0主线/film4/905101-905132_010-020",
+        "category": "scene0_main",
+        "folder": "film4"
+      },
+      {
+        "story_id": "scene0_main_905120_010-020_51d0934a",
+        "title": "",
+        "source_identity": "Scene0主线/film4/905120_010-020",
+        "category": "scene0_main",
+        "folder": "film4"
+      },
+      {
+        "story_id": "scene0_main_910101-910132_010-020_b4eff3a1",
+        "title": "",
+        "source_identity": "Scene0主线/film9/910101-910132_010-020",
+        "category": "scene0_main",
+        "folder": "film9"
+      },
+      {
+        "story_id": "scene0_main_910113_010_8141475c",
+        "title": "",
+        "source_identity": "Scene0主线/film9/910113_010",
+        "category": "scene0_main",
+        "folder": "film9"
+      },
+      {
+        "story_id": "scene0_main_907101-907132_010-020_d7c4dc80",
+        "title": "",
+        "source_identity": "Scene0主线/film6/907101-907132_010-020",
+        "category": "scene0_main",
+        "folder": "film6"
+      },
+      {
+        "story_id": "scene0_main_907132_020_bd4050b1",
+        "title": "",
+        "source_identity": "Scene0主线/film6/907132_020",
+        "category": "scene0_main",
+        "folder": "film6"
+      },
+      {
+        "story_id": "scene0_main_913202_030-035_e5aed286",
+        "title": "",
+        "source_identity": "Scene0主线/film12Mami Time/913202_030-035",
+        "category": "scene0_main",
+        "folder": "film12Mami Time"
+      },
+      {
+        "story_id": "scene0_main_901304-901332_020-020_a8364172",
+        "title": "",
+        "source_identity": "Scene0主线/film0/901304-901332_020-020",
+        "category": "scene0_main",
+        "folder": "film0"
+      },
+      {
+        "story_id": "scene0_main_901332_010-020_b35bf379",
+        "title": "",
+        "source_identity": "Scene0主线/film0/901332_010-020",
+        "category": "scene0_main",
+        "folder": "film0"
+      },
+      {
+        "story_id": "scene0_sub_905103_020_050b34ba",
+        "title": "",
+        "source_identity": "Scene0支线/film4/905103_020",
+        "category": "scene0_sub",
+        "folder": "film4"
+      },
+      {
+        "story_id": "scene0_main_911103-911105_060-020_a161bc53",
+        "title": "",
+        "source_identity": "Scene0主线/film10/911103-911105_060-020",
+        "category": "scene0_main",
+        "folder": "film10"
+      },
+      {
+        "story_id": "scene0_main_911105_010-020_afd9819f",
+        "title": "",
+        "source_identity": "Scene0主线/film10/911105_010-020",
+        "category": "scene0_main",
+        "folder": "film10"
+      },
+      {
+        "story_id": "scene0_main_903117_020-030_b36122f8",
+        "title": "",
+        "source_identity": "Scene0主线/film2/903117_020-030",
+        "category": "scene0_main",
+        "folder": "film2"
+      },
+      {
+        "story_id": "scene0_main_903103_010-050_4cfad250",
+        "title": "",
+        "source_identity": "Scene0主线/film2/903103_010-050",
+        "category": "scene0_main",
+        "folder": "film2"
+      },
+      {
+        "story_id": "710151",
+        "title": "",
+        "source_identity": "costume_story/1015 - 环忧（環 うい）/710151_1",
+        "category": "costume_story",
+        "folder": "1015 - 环忧（環 うい）"
+      },
+      {
+        "story_id": "102302",
+        "title": "第2话 敌人环伺 アラウンドエネミー",
+        "source_identity": "main_story/1023-13 - 第II部 第2章 - 集結の百禍編/102302_1-23",
+        "category": "main_story",
+        "folder": "1023-13 - 第II部 第2章 - 集結の百禍編"
+      },
+      {
+        "story_id": "101506",
+        "title": "第6话 阿莉娜的作品 アリナの作品",
+        "source_identity": "main_story/1015-05 - 第I部 第5章/101506_1-13",
+        "category": "main_story",
+        "folder": "1015-05 - 第I部 第5章"
+      },
+      {
+        "story_id": "103205",
+        "title": "第5话 让一切得以存续的话语 すべてを生かす言葉",
+        "source_identity": "main_story/1032-22 - 第II部 第11章 - 集結の百禍編/103205_1-5",
+        "category": "main_story",
+        "folder": "1032-22 - 第II部 第11章 - 集結の百禍編"
+      },
+      {
+        "story_id": "102301",
+        "title": "第1话 各怀心思的哞哞牧场 思惑モーモーファーム",
+        "source_identity": "main_story/1023-13 - 第II部 第2章 - 集結の百禍編/102301_1-20",
+        "category": "main_story",
+        "folder": "1023-13 - 第II部 第2章 - 集結の百禍編"
+      },
+      {
+        "story_id": "102203",
+        "title": "第3话 追逐梦想的少女们 夢追いの少女たち",
+        "source_identity": "main_story/1022-12 - 第II部 第1章 - 集結の百禍編/102203_1-19",
+        "category": "main_story",
+        "folder": "1022-12 - 第II部 第1章 - 集結の百禍編"
+      },
+      {
+        "story_id": "102704",
+        "title": "第4话 活过的意义 生きた意味",
+        "source_identity": "main_story/1027-17 - 第II部 第6章 - 集結の百禍編/102704_1-24",
+        "category": "main_story",
+        "folder": "1027-17 - 第II部 第6章 - 集結の百禍編"
+      },
+      {
+        "story_id": "101802",
+        "title": "八千代篇",
+        "source_identity": "main_story/1018-08 - 第I部 第8章/101802_1-22",
+        "category": "main_story",
+        "folder": "1018-08 - 第I部 第8章"
+      },
+      {
+        "story_id": "101701-09",
+        "title": "",
+        "source_identity": "main_story/1017-07 - 第I部 第7章/101701-09_1-3",
+        "category": "main_story",
+        "folder": "1017-07 - 第I部 第7章"
+      },
+      {
+        "story_id": "101704",
+        "title": "第4话 彩羽的作战计划 いろはが考えた作戦",
+        "source_identity": "main_story/1017-07 - 第I部 第7章/101704_1-2",
+        "category": "main_story",
+        "folder": "1017-07 - 第I部 第7章"
+      },
+      {
+        "story_id": "320091",
+        "title": "第1话 循环往复的日常 繰り返す日常",
+        "source_identity": "character_story/2009 - 爱生眩（愛生 まばゆ）/320091_1-3",
+        "category": "character_story",
+        "folder": "2009 - 爱生眩（愛生 まばゆ）"
+      },
+      {
+        "story_id": "310203",
+        "title": "第3话 从今往后也永远如此 ずっとこの先も",
+        "source_identity": "character_story/1020 - 佐鸟笼目（佐鳥 かごめ）/310203_1-4",
+        "category": "character_story",
+        "folder": "1020 - 佐鸟笼目（佐鳥 かごめ）"
+      },
+      {
+        "story_id": "310012",
+        "title": "第2话 体谅对方 相手を思う",
+        "source_identity": "character_story/1001 - 环彩羽（環 いろは）/310012_1-4",
+        "category": "character_story",
+        "folder": "1001 - 环彩羽（環 いろは）"
+      },
+      {
+        "story_id": "340211",
+        "title": "第1话 不能放置不理 放ってはおけません",
+        "source_identity": "character_story/4021 - 塔鲁特（タルト）/340211_1-4",
+        "category": "character_story",
+        "folder": "4021 - 塔鲁特（タルト）"
+      },
+      {
+        "story_id": "310161",
+        "title": "第1话 作为可靠的前辈 頼れる先輩として",
+        "source_identity": "character_story/1016 - 和泉十七夜（和泉 十七夜）/310161_1-4",
+        "category": "character_story",
+        "folder": "1016 - 和泉十七夜（和泉 十七夜）"
+      },
+      {
+        "story_id": "310152",
+        "title": "第2话 虽说心存向往…… 憧れはあるけれど…",
+        "source_identity": "character_story/1015 - 环忧（環 うい）/310152_1-4",
+        "category": "character_story",
+        "folder": "1015 - 环忧（環 うい）"
+      },
+      {
+        "story_id": "311203",
+        "title": "第3话 百鬼夜行的夏天 百鬼夜行で夏",
+        "source_identity": "character_story/1120 - 佐鸟笼目（百鬼夜行ver.）（佐鳥 かごめ（百鬼夜行ver.））/311203_1-4",
+        "category": "character_story",
+        "folder": "1120 - 佐鸟笼目（百鬼夜行ver.）（佐鳥 かごめ（百鬼夜行ver.））"
+      },
+      {
+        "story_id": "4000",
+        "title": "",
+        "source_identity": "mirror_story/4000-无尽镜界/4000_EndlessMirror_0-1",
+        "category": "mirror_story",
+        "folder": "4000-无尽镜界"
+      },
+      {
+        "story_id": "400014",
+        "title": "",
+        "source_identity": "mirror_story/4000-无尽镜界/400014_1",
+        "category": "mirror_story",
+        "folder": "4000-无尽镜界"
+      },
+      {
+        "story_id": "400010",
+        "title": "",
+        "source_identity": "mirror_story/4000-无尽镜界/400010_1",
+        "category": "mirror_story",
+        "folder": "4000-无尽镜界"
+      },
+      {
+        "story_id": "event_story_518310_0-20_94efbbc49b",
+        "title": "",
+        "source_identity": "event_story/5183 - Puella Historia 神滨战神子篇/518310_0-20",
+        "category": "event_story",
+        "folder": "5183 - Puella Historia 神滨战神子篇"
+      },
+      {
+        "story_id": "event_story_518310_1-20_b5a88cd4ce",
+        "title": "",
+        "source_identity": "event_story/5183 - Puella Historia 神滨战神子篇/518310_1-20",
+        "category": "event_story",
+        "folder": "5183 - Puella Historia 神滨战神子篇"
+      },
+      {
+        "story_id": "event_story_520010_0-10_b794b18096",
+        "title": "",
+        "source_identity": "event_story/5200 - 想「普通」地活着的伊并满/520010_0-10",
+        "category": "event_story",
+        "folder": "5200 - 想「普通」地活着的伊并满"
+      },
+      {
+        "story_id": "event_story_520010_1-10_57ef279790",
+        "title": "",
+        "source_identity": "event_story/5200 - 想「普通」地活着的伊并满/520010_1-10",
+        "category": "event_story",
+        "folder": "5200 - 想「普通」地活着的伊并满"
+      },
+      {
+        "story_id": "508010",
+        "title": "",
+        "source_identity": "event_story/5080 - 圣夜铭刻的一页～与你，从此～/508010_0-10",
+        "category": "event_story",
+        "folder": "5080 - 圣夜铭刻的一页～与你，从此～"
+      },
+      {
+        "story_id": "510071",
+        "title": "",
+        "source_identity": "event_story/51007 - 超越昔日之最/510071_1-10",
+        "category": "event_story",
+        "folder": "51007 - 超越昔日之最"
+      },
+      {
+        "story_id": "517080-89",
+        "title": "",
+        "source_identity": "event_story/5170 - 七彩夏日绘～笔记中记录的日常～/517080-89_10-19",
+        "category": "event_story",
+        "folder": "5170 - 七彩夏日绘～笔记中记录的日常～"
+      },
+      {
+        "story_id": "504010",
+        "title": "",
+        "source_identity": "event_story/5040 - 百江渚实现了愿望/504010_0-21",
+        "category": "event_story",
+        "folder": "5040 - 百江渚实现了愿望"
+      },
+      {
+        "story_id": "515420",
+        "title": "",
+        "source_identity": "event_story/5154 - 时女拾遗物语～唤来元旦日出吧！～/515420_1-10",
+        "category": "event_story",
+        "folder": "5154 - 时女拾遗物语～唤来元旦日出吧！～"
+      },
+      {
+        "story_id": "event_story_519110_0-15_efc1720637",
+        "title": "",
+        "source_identity": "event_story/5191 - Puella Historia 藏地的罗刹女篇/519110_0-15",
+        "category": "event_story",
+        "folder": "5191 - Puella Historia 藏地的罗刹女篇"
+      },
+      {
+        "story_id": "event_story_519110_1-15_1c8c08d2a9",
+        "title": "",
+        "source_identity": "event_story/5191 - Puella Historia 藏地的罗刹女篇/519110_1-15",
+        "category": "event_story",
+        "folder": "5191 - Puella Historia 藏地的罗刹女篇"
+      },
+      {
+        "story_id": "515920",
+        "title": "",
+        "source_identity": "event_story/5159 - 思念的传承者们～魔法少女贞德～/515920_1-11",
+        "category": "event_story",
+        "folder": "5159 - 思念的传承者们～魔法少女贞德～"
+      },
+      {
+        "story_id": "509210",
+        "title": "",
+        "source_identity": "event_story/5092 - 樱之辙/509210_0-13",
+        "category": "event_story",
+        "folder": "5092 - 樱之辙"
+      },
+      {
+        "story_id": "517020-29",
+        "title": "",
+        "source_identity": "event_story/5170 - 七彩夏日绘～笔记中记录的日常～/517020-29_20-29",
+        "category": "event_story",
+        "folder": "5170 - 七彩夏日绘～笔记中记录的日常～"
+      },
+      {
+        "story_id": "event_story_517910_0-10_1186e7a911",
+        "title": "",
+        "source_identity": "event_story/5179 - Winter Recollection～来自仍然透明的我们～旧时物语/517910_0-10",
+        "category": "event_story",
+        "folder": "5179 - Winter Recollection～来自仍然透明的我们～旧时物语"
+      },
+      {
+        "story_id": "event_story_517910_1-10_7deb79f2e9",
+        "title": "",
+        "source_identity": "event_story/5179 - Winter Recollection～来自仍然透明的我们～旧时物语/517910_1-10",
+        "category": "event_story",
+        "folder": "5179 - Winter Recollection～来自仍然透明的我们～旧时物语"
+      },
+      {
+        "story_id": "519601-03",
+        "title": "",
+        "source_identity": "event_story/5196 - Puella Historia 罗马治世的恋人篇/519601-03_0-1",
+        "category": "event_story",
+        "folder": "5196 - Puella Historia 罗马治世的恋人篇"
+      },
+      {
+        "story_id": "519601",
+        "title": "",
+        "source_identity": "event_story/5196 - Puella Historia 罗马治世的恋人篇/519601_0-22",
+        "category": "event_story",
+        "folder": "5196 - Puella Historia 罗马治世的恋人篇"
+      },
+      {
+        "story_id": "519910",
+        "title": "",
+        "source_identity": "event_story/5199 - Paradise Shift～归还的物语～/519910_0-10",
+        "category": "event_story",
+        "folder": "5199 - Paradise Shift～归还的物语～"
+      },
+      {
+        "story_id": "event_story_511110_0-11_69c2c9b88d",
+        "title": "",
+        "source_identity": "event_story/5111 - Girls in the Hood/511110_0-11",
+        "category": "event_story",
+        "folder": "5111 - Girls in the Hood"
+      },
+      {
+        "story_id": "508020",
+        "title": "",
+        "source_identity": "event_story/5080 - 圣夜铭刻的一页～与你，从此～/508020_1-11",
+        "category": "event_story",
+        "folder": "5080 - 圣夜铭刻的一页～与你，从此～"
+      },
+      {
+        "story_id": "518320",
+        "title": "",
+        "source_identity": "event_story/5183 - Puella Historia 神滨战神子篇/518320_1-20",
+        "category": "event_story",
+        "folder": "5183 - Puella Historia 神滨战神子篇"
+      },
+      {
+        "story_id": "516010",
+        "title": "",
+        "source_identity": "event_story/5160 - Little Bird's Star/516010_0-10",
+        "category": "event_story",
+        "folder": "5160 - Little Bird's Star"
+      },
+      {
+        "story_id": "519020",
+        "title": "",
+        "source_identity": "event_story/5190 - Puella Historia 维京的女武神篇/519020_1-20",
+        "category": "event_story",
+        "folder": "5190 - Puella Historia 维京的女武神篇"
+      },
+      {
+        "story_id": "event_story_517110_0-10_c065e99c51",
+        "title": "",
+        "source_identity": "event_story/5171 - 繁星的幻景/517110_0-10",
+        "category": "event_story",
+        "folder": "5171 - 繁星的幻景"
+      },
+      {
+        "story_id": "event_story_517110_1-10_041fd4c40c",
+        "title": "",
+        "source_identity": "event_story/5171 - 繁星的幻景/517110_1-10",
+        "category": "event_story",
+        "folder": "5171 - 繁星的幻景"
+      },
+      {
+        "story_id": "503610",
+        "title": "",
+        "source_identity": "event_story/5036 - 复刻 超越昔日之最/503610_0-14",
+        "category": "event_story",
+        "folder": "5036 - 复刻 超越昔日之最"
+      },
+      {
+        "story_id": "518110",
+        "title": "",
+        "source_identity": "event_story/5181 - 新春☆初梦Scramble/518110_0-10",
+        "category": "event_story",
+        "folder": "5181 - 新春☆初梦Scramble"
+      },
+      {
+        "story_id": "517030-39",
+        "title": "",
+        "source_identity": "event_story/5170 - 七彩夏日绘～笔记中记录的日常～/517030-39_30-39",
+        "category": "event_story",
+        "folder": "5170 - 七彩夏日绘～笔记中记录的日常～"
+      },
+      {
+        "story_id": "event_story_516410_0-10_ff0b939180",
+        "title": "",
+        "source_identity": "event_story/5164 - 丽与秘密与送别会/516410_0-10",
+        "category": "event_story",
+        "folder": "5164 - 丽与秘密与送别会"
+      },
+      {
+        "story_id": "event_story_516410_1-10_5bf8c740a7",
+        "title": "",
+        "source_identity": "event_story/5164 - 丽与秘密与送别会/516410_1-10",
+        "category": "event_story",
+        "folder": "5164 - 丽与秘密与送别会"
+      },
+      {
+        "story_id": "510031",
+        "title": "",
+        "source_identity": "event_story/51003 - 与你谱写的日记/510031_1-10",
+        "category": "event_story",
+        "folder": "51003 - 与你谱写的日记"
+      },
+      {
+        "story_id": "505901",
+        "title": "",
+        "source_identity": "event_story/5059 - 而后杜鹃花开/505901_0-43",
+        "category": "event_story",
+        "folder": "5059 - 而后杜鹃花开"
+      },
+      {
+        "story_id": "505420",
+        "title": "",
+        "source_identity": "event_story/5054 - 做梦的樱花/505420_1-10",
+        "category": "event_story",
+        "folder": "5054 - 做梦的樱花"
+      },
+      {
+        "story_id": "515910",
+        "title": "",
+        "source_identity": "event_story/5159 - 思念的传承者们～魔法少女贞德～/515910_0-16",
+        "category": "event_story",
+        "folder": "5159 - 思念的传承者们～魔法少女贞德～"
+      },
+      {
+        "story_id": "520120",
+        "title": "",
+        "source_identity": "event_story/5201 - Agent Magica～魔法纪录×Lycoris Recoil～/520120_1-10",
+        "category": "event_story",
+        "folder": "5201 - Agent Magica～魔法纪录×Lycoris Recoil～"
+      },
+      {
+        "story_id": "518510",
+        "title": "",
+        "source_identity": "event_story/5185 - Little Bird's Star/518510_0-10",
+        "category": "event_story",
+        "folder": "5185 - Little Bird's Star"
+      },
+      {
+        "story_id": "event_story_5170100-09_30-39_1afa4b8cbb",
+        "title": "",
+        "source_identity": "event_story/5170 - 七彩夏日绘～笔记中记录的日常～/5170100-09_30-39",
+        "category": "event_story",
+        "folder": "5170 - 七彩夏日绘～笔记中记录的日常～"
+      },
+      {
+        "story_id": "510051",
+        "title": "",
+        "source_identity": "event_story/51005 - 而后杜鹃花开/510051_0-43",
+        "category": "event_story",
+        "folder": "51005 - 而后杜鹃花开"
+      },
+      {
+        "story_id": "520820",
+        "title": "",
+        "source_identity": "event_story/5208 - 从远方，寄给你～神滨大东团地的黄昏～/520820_1-10",
+        "category": "event_story",
+        "folder": "5208 - 从远方，寄给你～神滨大东团地的黄昏～"
+      },
+      {
+        "story_id": "503510",
+        "title": "",
+        "source_identity": "event_story/5035 - 复刻 与你谱写的日记（有新内容）/503510_0-15",
+        "category": "event_story",
+        "folder": "5035 - 复刻 与你谱写的日记（有新内容）"
+      },
+      {
+        "story_id": "519010",
+        "title": "",
+        "source_identity": "event_story/5190 - Puella Historia 维京的女武神篇/519010_0-20",
+        "category": "event_story",
+        "folder": "5190 - Puella Historia 维京的女武神篇"
+      },
+      {
+        "story_id": "506901-09",
+        "title": "",
+        "source_identity": "event_story/5069 - 来自新风/506901-09_0-9",
+        "category": "event_story",
+        "folder": "5069 - 来自新风"
+      },
+      {
+        "story_id": "506909",
+        "title": "",
+        "source_identity": "event_story/5069 - 来自新风/506909_9-9",
+        "category": "event_story",
+        "folder": "5069 - 来自新风"
+      },
+      {
+        "story_id": "event_story_520610_0-11_beae70e5a4",
+        "title": "",
+        "source_identity": "event_story/5206 - 新年龙突猛进！/520610_0-11",
+        "category": "event_story",
+        "folder": "5206 - 新年龙突猛进！"
+      },
+      {
+        "story_id": "event_story_520610_1-11_7f3dfbf718",
+        "title": "",
+        "source_identity": "event_story/5206 - 新年龙突猛进！/520610_1-11",
+        "category": "event_story",
+        "folder": "5206 - 新年龙突猛进！"
+      },
+      {
+        "story_id": "519810",
+        "title": "",
+        "source_identity": "event_story/5198 - Puella Historia Pillar of Tomorrow/519810_0-18",
+        "category": "event_story",
+        "folder": "5198 - Puella Historia Pillar of Tomorrow"
+      },
+      {
+        "story_id": "520520",
+        "title": "",
+        "source_identity": "event_story/5205 - Omoide Drops/520520_1-10",
+        "category": "event_story",
+        "folder": "5205 - Omoide Drops"
+      },
+      {
+        "story_id": "506905",
+        "title": "",
+        "source_identity": "event_story/5069 - 来自新风/506905_5-5",
+        "category": "event_story",
+        "folder": "5069 - 来自新风"
+      },
+      {
+        "story_id": "520510",
+        "title": "",
+        "source_identity": "event_story/5205 - Omoide Drops/520510_0-10",
+        "category": "event_story",
+        "folder": "5205 - Omoide Drops"
+      },
+      {
+        "story_id": "510081-89",
+        "title": "",
+        "source_identity": "event_story/51008 - Another Daze～魔法少女和美～/510081-89_0-3",
+        "category": "event_story",
+        "folder": "51008 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510088",
+        "title": "",
+        "source_identity": "event_story/51008 - Another Daze～魔法少女和美～/510088_1-2",
+        "category": "event_story",
+        "folder": "51008 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "517090-99",
+        "title": "",
+        "source_identity": "event_story/5170 - 七彩夏日绘～笔记中记录的日常～/517090-99_20-29",
+        "category": "event_story",
+        "folder": "5170 - 七彩夏日绘～笔记中记录的日常～"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20260930-jp-controls-01",
+      "version": 3310,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "149208c9a6bbcc99d2536cf294cb4f2d3c272bb9",
+      "cn_patch_commit": "6b5181088a400c36976018b5b8da6eba776ad3e6",
+      "base_version": 3309,
+      "base_package": {
+        "size": 193596363,
+        "sha256": "a15fff4aa5448c6ed22673948602aaa244e16d4dd2bd84fecec00fc7c84da937",
+        "md5": "e649b6d1b1134b55e544c49f9698e7a0"
+      },
+      "package": {
+        "size": 193597022,
+        "sha256": "8874875b0de95a0366a9d96c6bc6b11602a42c6e03970ae961599eeb65651175",
+        "md5": "0a8d0a27179d643c4880a1bf518d90b1"
+      },
+      "changed_runtime_scripts": 130,
+      "control_pass_display_string_fields": 233,
+      "authorized_previous_name_fields_now_delivered": 17,
+      "authorized_previous_body_fields_now_delivered": 4,
+      "source_carry_details": {
+        "madomagi/resource/scenario/json/adv/scenario_5/506905-5_ifs6e.json": {
+          "package_before": "30ec4b13af6abea7a79733efa8d357e060ec45c5",
+          "repository_before": "5117880e76200f9a2f8878ce187bcbefd69cf3ee",
+          "operations": [
+            [
+              [
+                "story",
+                "group_1",
+                11,
+                "nameLeft"
+              ],
+              "白翼",
+              "白羽"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                25,
+                "nameCenter"
+              ],
+              "白翼",
+              "白羽"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                30,
+                "nameLeft"
+              ],
+              "白翼",
+              "白羽"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                46,
+                "nameLeft"
+              ],
+              "白翼",
+              "白羽"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                77,
+                "nameLeft"
+              ],
+              "白翼",
+              "白羽"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                81,
+                "nameCenter"
+              ],
+              "白翼",
+              "白羽"
+            ]
+          ],
+          "authorization": "previous explicit maintainer instruction 白翼→白羽, already committed in both source repositories"
+        },
+        "madomagi/resource/scenario/json/adv/scenario_5/506909-9_Arnzs.json": {
+          "package_before": "4788dab90c6b8314ce9c3997e91e01fec680ea28",
+          "repository_before": "c4c73cf762ce8858223b4f8761d01cb61c1c5068",
+          "operations": [
+            [
+              [
+                "story",
+                "group_1",
+                5,
+                "nameLeft"
+              ],
+              "白翼",
+              "白羽"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                14,
+                "nameLeft"
+              ],
+              "白翼",
+              "白羽"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                16,
+                "textRight"
+              ],
+              "观鸟我以前也是白翼，@怎么没像你们这样。",
+              "观鸟我以前也是白羽，@怎么没像你们这样。"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                23,
+                "nameLeft"
+              ],
+              "白翼",
+              "白羽"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                26,
+                "nameNarration"
+              ],
+              "白翼",
+              "白羽"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                34,
+                "nameNarration"
+              ],
+              "白翼",
+              "白羽"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                34,
+                "narration"
+              ],
+              "―白翼―@你们要舍弃音梦大人的@性命了吗……",
+              "―白羽―@你们要舍弃音梦大人的@性命了吗……"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                36,
+                "nameNarration"
+              ],
+              "白翼",
+              "白羽"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                36,
+                "narration"
+              ],
+              "―白翼―@从哪里冒出来的！",
+              "―白羽―@从哪里冒出来的！"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                40,
+                "nameNarration"
+              ],
+              "白翼",
+              "白羽"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                40,
+                "narration"
+              ],
+              "―白翼―@唔！",
+              "―白羽―@唔！"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                45,
+                "nameLeft"
+              ],
+              "白翼",
+              "白羽"
+            ],
+            [
+              [
+                "story",
+                "group_1",
+                57,
+                "nameCenter"
+              ],
+              "白翼",
+              "白羽"
+            ]
+          ],
+          "authorization": "previous explicit maintainer instruction 白翼→白羽, already committed in both source repositories"
+        },
+        "madomagi/resource/scenario/json/adv/scenario_1/101704-1_YTq8g.json": {
+          "package_before": "0792d4cf824e2a194142dc0e208b781b042b1312",
+          "repository_before": "2749277680b966d1023118224e413dfb410c87fa",
+          "operations": [
+            [
+              [
+                "story",
+                "group_1",
+                5,
+                "nameCenter"
+              ],
+              "白翼",
+              "白羽"
+            ]
+          ],
+          "authorization": "previous explicit maintainer instruction 白翼→白羽, already committed in both source repositories"
+        },
+        "madomagi/resource/scenario/json/adv/scenario_1/101802-21_a7FVS.json": {
+          "package_before": "aa1106729b5bea7f0a7f70b527680d93655e4662",
+          "repository_before": "20c9dcff7756153199d25d7047f60fd8f1967456",
+          "operations": [
+            [
+              [
+                "story",
+                "group_1",
+                127,
+                "nameRight"
+              ],
+              "白翼",
+              "白羽"
+            ]
+          ],
+          "authorization": "previous explicit maintainer instruction 白翼→白羽, already committed in both source repositories"
+        }
+      },
+      "changed_actor_id_values": 488,
+      "new_source_based_utterances": 2,
+      "unchanged_files": 14103,
+      "previous_corrected_scripts": 238,
+      "previous_byte_identical": 234,
+      "previous_exact_extensions": [
+        "madomagi/resource/scenario/json/adv/scenario_1/103205-5_7xz7k.json",
+        "madomagi/resource/scenario/json/adv/scenario_5/519110-3_JJ7AF.json",
+        "madomagi/resource/scenario/json/adv/scenario_5/515920-7_BK8zF.json",
+        "madomagi/resource/scenario/json/adv/scenario_5/515910-14_35Bxz.json"
+      ],
+      "accepted_v4_files_unchanged": 43,
+      "reader_visible_identical_files": 124,
+      "reader_intended_display_change_files": 7,
+      "reader_txt_files": 16,
+      "regression_tests": 18,
+      "new_undefined_actor_references": 0,
+      "whole_corpus_review_complete": false,
+      "device_gameplay_verified": false,
+      "remaining_complex_control_candidates": 25,
+      "public_release": "latest",
+      "immutable_release": "scenario-3310",
+      "unrelated_release_assets_unchanged": true,
+      "verified_at": "2026-09-30T12:29:16Z"
+    }
+  },
+  {
+    "version": 3311,
+    "batch": "20260930-haiyiguang-controls-02",
+    "period": "before_20261001_takeover",
+    "category": "runtime_alignment_and_name",
+    "runtime_scripts_modified": 12,
+    "scripts_with_body_correction": 0,
+    "distinct_body_addresses_this_batch": 0,
+    "raw_leaf_diff_counts": {
+      "speaker_name": 124,
+      "runtime_structure": 782,
+      "body": 277
+    },
+    "reader_commit": "54af872e57c79443b22f5a5c4b6c41bbb5935c72",
+    "cn_patch_commit": "ac2d4ece37f3ca5377df47f7dceffa0c9c47ce95",
+    "receipt_path": "story-quality/releases/3311.json",
+    "stories_touched": [
+      {
+        "story_id": "311201",
+        "title": "第1话 被目击的夏天 目撃されて夏",
+        "source_identity": "character_story/1120 - 佐鸟笼目（百鬼夜行ver.）（佐鳥 かごめ（百鬼夜行ver.））/311201_1-4",
+        "category": "character_story",
+        "folder": "1120 - 佐鸟笼目（百鬼夜行ver.）（佐鳥 かごめ（百鬼夜行ver.））"
+      },
+      {
+        "story_id": "311203",
+        "title": "第3话 百鬼夜行的夏天 百鬼夜行で夏",
+        "source_identity": "character_story/1120 - 佐鸟笼目（百鬼夜行ver.）（佐鳥 かごめ（百鬼夜行ver.））/311203_1-4",
+        "category": "character_story",
+        "folder": "1120 - 佐鸟笼目（百鬼夜行ver.）（佐鳥 かごめ（百鬼夜行ver.））"
+      },
+      {
+        "story_id": "519720",
+        "title": "",
+        "source_identity": "event_story/5197 - 笼目的百怪波澜～炎夏之宴～/519720_1-10",
+        "category": "event_story",
+        "folder": "5197 - 笼目的百怪波澜～炎夏之宴～"
+      },
+      {
+        "story_id": "510081-89",
+        "title": "",
+        "source_identity": "event_story/51008 - Another Daze～魔法少女和美～/510081-89_0-3",
+        "category": "event_story",
+        "folder": "51008 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510083",
+        "title": "",
+        "source_identity": "event_story/51008 - Another Daze～魔法少女和美～/510083_1-2",
+        "category": "event_story",
+        "folder": "51008 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510082",
+        "title": "",
+        "source_identity": "event_story/51008 - Another Daze～魔法少女和美～/510082_1-2",
+        "category": "event_story",
+        "folder": "51008 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510084",
+        "title": "",
+        "source_identity": "event_story/51008 - Another Daze～魔法少女和美～/510084_1-2",
+        "category": "event_story",
+        "folder": "51008 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510081",
+        "title": "",
+        "source_identity": "event_story/51008 - Another Daze～魔法少女和美～/510081_0-2",
+        "category": "event_story",
+        "folder": "51008 - Another Daze～魔法少女和美～"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20260930-haiyiguang-controls-02",
+      "version": 3311,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "54af872e57c79443b22f5a5c4b6c41bbb5935c72",
+      "cn_patch_commit": "ac2d4ece37f3ca5377df47f7dceffa0c9c47ce95",
+      "base_version": 3310,
+      "base_package": {
+        "size": 193597022,
+        "sha256": "8874875b0de95a0366a9d96c6bc6b11602a42c6e03970ae961599eeb65651175",
+        "md5": "0a8d0a27179d643c4880a1bf518d90b1"
+      },
+      "package": {
+        "size": 193597583,
+        "sha256": "b0a1d47d61c883dc0a25f83d6aa134c697fbc189dfb5e52de3b7bd7efced9fe6",
+        "md5": "36982a0946fdd3c388966e7585d67af6"
+      },
+      "changed_runtime_scripts": 12,
+      "maintainer_name": "海异光小阿鲁",
+      "renamed_fields": 27,
+      "reviewed_complete_scenes": 4,
+      "reviewed_jp_events": 229,
+      "source_corrected_payloads": 58,
+      "unchanged_chinese_payloads_reused": 171,
+      "unchanged_files": 14221,
+      "previous_corrected_scripts": 364,
+      "previous_byte_identical": 356,
+      "previous_exact_extensions": [
+        "madomagi/resource/scenario/json/adv/scenario_3/311201-2.json",
+        "madomagi/resource/scenario/json/adv/scenario_3/311203-3.json",
+        "madomagi/resource/scenario/json/adv/scenario_5/519720-8_2csyG.json",
+        "madomagi/resource/scenario/json/adv/scenario_5/521820-9_PRBzD.json",
+        "madomagi/resource/scenario/json/adv/scenario_5/519720-10_2csyG.json",
+        "madomagi/resource/scenario/json/adv/scenario_5/521820-8_PRBzD.json",
+        "madomagi/resource/scenario/json/adv/scenario_5/521820-10_PRBzD.json",
+        "madomagi/resource/scenario/json/adv/scenario_5/519720-9_2csyG.json"
+      ],
+      "protected_v4_unchanged": 43,
+      "old_name_residuals_in_player_package": 0,
+      "remaining_control_candidates": 8,
+      "remaining_control_files": 5,
+      "regression_tests": 18,
+      "reader_device_test_completed": false,
+      "game_device_verified": false,
+      "whole_corpus_complete": false,
+      "public_release": "latest",
+      "immutable_release": "scenario-3311",
+      "unrelated_release_assets_unchanged": true,
+      "verified_at": "2026-09-30T13:34:06Z"
+    }
+  },
+  {
+    "version": 3312,
+    "batch": "20260930-cn-origin-duplicates",
+    "period": "before_20261001_takeover",
+    "category": "source_restoration",
+    "runtime_scripts_modified": 5,
+    "scripts_with_body_correction": 0,
+    "distinct_body_addresses_this_batch": 0,
+    "raw_leaf_diff_counts": {
+      "body": 200
+    },
+    "reader_commit": "0982d3040c13839eb3e2a60b463370008351270f",
+    "cn_patch_commit": "78d7d40385180164d581dbec382493317179e7fe",
+    "receipt_path": "story-quality/releases/3312.json",
+    "stories_touched": [
+      {
+        "story_id": "102301",
+        "title": "第1话 各怀心思的哞哞牧场 思惑モーモーファーム",
+        "source_identity": "main_story/1023-13 - 第II部 第2章 - 集結の百禍編/102301_1-20",
+        "category": "main_story",
+        "folder": "1023-13 - 第II部 第2章 - 集結の百禍編"
+      },
+      {
+        "story_id": "510911",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510911_1-2",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510921-24",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510921-24_1-2",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510941-44",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510941-44_1-2",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510931-34",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510931-34_1-2",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20260930-cn-origin-duplicates",
+      "version": 3312,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "0982d3040c13839eb3e2a60b463370008351270f",
+      "cn_patch_commit": "78d7d40385180164d581dbec382493317179e7fe",
+      "base_version": 3311,
+      "base_package": {
+        "size": 193597583,
+        "sha256": "b0a1d47d61c883dc0a25f83d6aa134c697fbc189dfb5e52de3b7bd7efced9fe6",
+        "md5": "36982a0946fdd3c388966e7585d67af6"
+      },
+      "package": {
+        "size": 193597638,
+        "sha256": "744259eabf4b04ef947ed4f29caba6f0fc6bfe7e27b84d76bc477e1a5603da05",
+        "md5": "da491967340f178c66b3da2fc5466157"
+      },
+      "changed_runtime_scripts": 5,
+      "reviewed_repeated_scene_fields": 229,
+      "synchronized_chinese_fields": 199,
+      "missing_opening_bracket_repairs": 1,
+      "new_jp_execution_layout_migrations": 0,
+      "unchanged_files": 14228,
+      "previous_corrected_scripts": 368,
+      "previous_byte_identical": 368,
+      "previous_exact_extensions": [],
+      "protected_v4_unchanged": 43,
+      "non_text_json_structure_unchanged": true,
+      "scenario_tests": 12,
+      "nonadv_files_audited": 3878,
+      "nonadv_files_changed": 0,
+      "official_cn_provenance_independently_verified": false,
+      "whole_corpus_complete": false,
+      "game_device_verified": false,
+      "public_release": "latest",
+      "immutable_release": "scenario-3312",
+      "unrelated_release_assets_unchanged": true,
+      "verified_at": "2026-09-30T14:50:54Z"
+    }
+  },
+  {
+    "version": 3313,
+    "batch": "20261001-severe-5109",
+    "period": "before_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 5,
+    "scripts_with_body_correction": 5,
+    "distinct_body_addresses_this_batch": 405,
+    "raw_leaf_diff_counts": {
+      "body": 405
+    },
+    "reader_commit": "bb7e164a450c4b2019f5965555a942cc53acfb52",
+    "cn_patch_commit": "d01fb8d0aec1afecd1b065918cbb81f6fc394ef2",
+    "receipt_path": "story-quality/releases/3313.json",
+    "stories_touched": [
+      {
+        "story_id": "510991",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510991_1-3",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510981-84",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510981-84_1-2",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "517210",
+        "title": "",
+        "source_identity": "event_story/5172 - 握成拳头然后张开座谈会～第2部的整理总结～/517210_0-10",
+        "category": "event_story",
+        "folder": "5172 - 握成拳头然后张开座谈会～第2部的整理总结～"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20261001-severe-5109",
+      "version": 3313,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "bb7e164a450c4b2019f5965555a942cc53acfb52",
+      "cn_patch_commit": "d01fb8d0aec1afecd1b065918cbb81f6fc394ef2",
+      "base_version": 3312,
+      "base_package": {
+        "size": 193597638,
+        "sha256": "744259eabf4b04ef947ed4f29caba6f0fc6bfe7e27b84d76bc477e1a5603da05",
+        "md5": "da491967340f178c66b3da2fc5466157"
+      },
+      "package": {
+        "size": 193598223,
+        "sha256": "cb8292d9fd33e1b8f4ab9ef6ea5c68a3593f65befd3e88b291fa00e51ffe749b",
+        "md5": "b139e0d2f5764d8ee054298636a607d2"
+      },
+      "changed_runtime_scripts": 5,
+      "reviewed_complete_scenes": 5,
+      "reviewed_fields": 450,
+      "changed_chinese_fields": 405,
+      "new_jp_execution_layout_migrations": 0,
+      "unchanged_files": 14228,
+      "previous_corrected_scripts": 373,
+      "previous_byte_identical": 373,
+      "previous_exact_extensions": [],
+      "protected_v4_unchanged": 43,
+      "non_text_json_structure_unchanged": true,
+      "scenario_tests": 18,
+      "all_5109_execution_files_checked": 20,
+      "reader_txt_files": 6,
+      "reader_txt_line_changes": 830,
+      "nonadv_files_changed": 0,
+      "official_cn_provenance_independently_verified": false,
+      "whole_corpus_complete": false,
+      "game_device_verified": false,
+      "public_release": "latest",
+      "immutable_release": "scenario-3313",
+      "unrelated_release_assets_unchanged": true,
+      "verified_at": "2026-09-30T23:12:04Z"
+    }
+  },
+  {
+    "version": 3314,
+    "batch": "20261001-semantic-batch02",
+    "period": "after_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 30,
+    "scripts_with_body_correction": 30,
+    "distinct_body_addresses_this_batch": 1713,
+    "raw_leaf_diff_counts": {
+      "body": 1713
+    },
+    "reader_commit": "6e9965e76d77636d0b1106722b6bd803aa29a737",
+    "cn_patch_commit": "ecf0dc9447449f3d09835ce2ceec4e78d9e78a5d",
+    "receipt_path": "story-quality/releases/3314.json",
+    "stories_touched": [
+      {
+        "story_id": "510961-64",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510961-64_1-2",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "517210",
+        "title": "",
+        "source_identity": "event_story/5172 - 握成拳头然后张开座谈会～第2部的整理总结～/517210_0-10",
+        "category": "event_story",
+        "folder": "5172 - 握成拳头然后张开座谈会～第2部的整理总结～"
+      },
+      {
+        "story_id": "517220",
+        "title": "",
+        "source_identity": "event_story/5172 - 握成拳头然后张开座谈会～第2部的整理总结～/517220_1-10",
+        "category": "event_story",
+        "folder": "5172 - 握成拳头然后张开座谈会～第2部的整理总结～"
+      },
+      {
+        "story_id": "510981-84",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510981-84_1-2",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510951-54",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510951-54_1-2",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510991",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510991_1-3",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510971-74",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510971-74_1-2",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510931-34",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510931-34_1-2",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510941-44",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510941-44_1-2",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510921-24",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510921-24_1-2",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510911",
+        "title": "",
+        "source_identity": "event_story/5109 - Another Daze～魔法少女和美～/510911_1-2",
+        "category": "event_story",
+        "folder": "5109 - Another Daze～魔法少女和美～"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20261001-semantic-batch02",
+      "version": 3314,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "6e9965e76d77636d0b1106722b6bd803aa29a737",
+      "cn_patch_commit": "ecf0dc9447449f3d09835ce2ceec4e78d9e78a5d",
+      "base_version": 3313,
+      "base_package": {
+        "size": 193598223,
+        "sha256": "cb8292d9fd33e1b8f4ab9ef6ea5c68a3593f65befd3e88b291fa00e51ffe749b",
+        "md5": "b139e0d2f5764d8ee054298636a607d2"
+      },
+      "package": {
+        "size": 193602792,
+        "sha256": "9f30a0efb809d79e3fc011021485414ad86e6dc70a572f0096c52565d3478b94",
+        "md5": "09fe06ef558e83e1990480c03aa7ef60"
+      },
+      "changed_runtime_scripts": 30,
+      "reviewed_complete_scenes": 30,
+      "reviewed_fields": 2381,
+      "changed_chinese_fields": 1713,
+      "new_jp_execution_layout_migrations": 0,
+      "unchanged_files": 14203,
+      "previous_corrected_scripts": 378,
+      "previous_byte_identical": 378,
+      "previous_exact_extensions": [],
+      "protected_v4_unchanged": 43,
+      "non_text_json_structure_unchanged": true,
+      "scenario_tests": 18,
+      "reviewed_execution_identities_preserved": 30,
+      "reader_txt_files": 22,
+      "reader_txt_line_changes": 3644,
+      "nonadv_files_changed": 0,
+      "official_cn_provenance_independently_verified": false,
+      "whole_corpus_complete": false,
+      "game_device_verified": false,
+      "public_release": "latest",
+      "immutable_release": "scenario-3314",
+      "unrelated_release_assets_unchanged": true,
+      "verified_at": "2026-10-01T01:43:40Z"
+    }
+  },
+  {
+    "version": 3315,
+    "batch": "20261001-semantic-batch03",
+    "period": "after_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 59,
+    "scripts_with_body_correction": 59,
+    "distinct_body_addresses_this_batch": 1800,
+    "raw_leaf_diff_counts": {
+      "body": 1800,
+      "speaker_name": 18
+    },
+    "reader_commit": "39a0d94391c83989ab470041aa962cc976f3acc9",
+    "cn_patch_commit": "2894de17960a61bd8293c08c867d16f45a5d4a08",
+    "receipt_path": "story-quality/releases/3315.json",
+    "stories_touched": [
+      {
+        "story_id": "login_story_618401_1-7_d13a54c587",
+        "title": "",
+        "source_identity": "login_story/6184 - 2021新年 各自的福袋梦/618401_1-7",
+        "category": "login_story",
+        "folder": "6184 - 2021新年 各自的福袋梦"
+      },
+      {
+        "story_id": "619001",
+        "title": "",
+        "source_identity": "login_story/6190 - 阿什莉·泰勒登场纪念 神滨卡哇伊收藏/619001_1-7",
+        "category": "login_story",
+        "folder": "6190 - 阿什莉·泰勒登场纪念 神滨卡哇伊收藏"
+      },
+      {
+        "story_id": "710037",
+        "title": "",
+        "source_identity": "costume_story/1003 - 由比鹤乃（由比 鶴乃）/710037_1",
+        "category": "costume_story",
+        "folder": "1003 - 由比鹤乃（由比 鶴乃）"
+      },
+      {
+        "story_id": "730401",
+        "title": "情人节故事 2021 バレンタインストーリー2021",
+        "source_identity": "costume_story/3040 - 吉良手鞠（吉良 てまり）/730401_1-6",
+        "category": "costume_story",
+        "folder": "3040 - 吉良手鞠（吉良 てまり）"
+      },
+      {
+        "story_id": "720071",
+        "title": "",
+        "source_identity": "costume_story/2007 - 百江渚（百江 なぎさ）/720071_1",
+        "category": "costume_story",
+        "folder": "2007 - 百江渚（百江 なぎさ）"
+      },
+      {
+        "story_id": "311042",
+        "title": "第2话 想要留下的故事 のこしたい物語",
+        "source_identity": "character_story/1104 - 谣莎奈（ウワサのさな）/311042_1-4",
+        "category": "character_story",
+        "folder": "1104 - 谣莎奈（ウワサのさな）"
+      },
+      {
+        "story_id": "310481",
+        "title": "第1话 被迫接受的命运 掴まされた運命",
+        "source_identity": "character_story/1048 - 埃博妮（エボニー）/310481_1-4",
+        "category": "character_story",
+        "folder": "1048 - 埃博妮（エボニー）"
+      },
+      {
+        "story_id": "311063",
+        "title": "第3话 不舍弃梦想与理想 夢も理想も失わず",
+        "source_identity": "character_story/1106 - 梓美冬（童话ver.）（梓 みふゆ（おとぎ話ver.））/311063_1-4",
+        "category": "character_story",
+        "folder": "1106 - 梓美冬（童话ver.）（梓 みふゆ（おとぎ話ver.））"
+      },
+      {
+        "story_id": "311061",
+        "title": "第1话 梦想是变身女主角! 夢は変身ヒロイン！",
+        "source_identity": "character_story/1106 - 梓美冬（童话ver.）（梓 みふゆ（おとぎ話ver.））/311061_1-4",
+        "category": "character_story",
+        "folder": "1106 - 梓美冬（童话ver.）（梓 みふゆ（おとぎ話ver.））"
+      },
+      {
+        "story_id": "311041",
+        "title": "第1话 梦想的理由 ゆめの理由",
+        "source_identity": "character_story/1104 - 谣莎奈（ウワサのさな）/311041_1-4",
+        "category": "character_story",
+        "folder": "1104 - 谣莎奈（ウワサのさな）"
+      },
+      {
+        "story_id": "310483",
+        "title": "第3话 已无他路可选 他に道はなし",
+        "source_identity": "character_story/1048 - 埃博妮（エボニー）/310483_1-4",
+        "category": "character_story",
+        "folder": "1048 - 埃博妮（エボニー）"
+      },
+      {
+        "story_id": "311043",
+        "title": "第3话 传达这份思念 想いをつたえて",
+        "source_identity": "character_story/1104 - 谣莎奈（ウワサのさな）/311043_1-4",
+        "category": "character_story",
+        "folder": "1104 - 谣莎奈（ウワサのさな）"
+      },
+      {
+        "story_id": "310482",
+        "title": "第2话 从阴影中窥视的面孔 陰から覗く顔",
+        "source_identity": "character_story/1048 - 埃博妮（エボニー）/310482_1-4",
+        "category": "character_story",
+        "folder": "1048 - 埃博妮（エボニー）"
+      },
+      {
+        "story_id": "311062",
+        "title": "第2话 只做梦的时间已经结束 夢を見るだけの時間は終わり",
+        "source_identity": "character_story/1106 - 梓美冬（童话ver.）（梓 みふゆ（おとぎ話ver.））/311062_1-4",
+        "category": "character_story",
+        "folder": "1106 - 梓美冬（童话ver.）（梓 みふゆ（おとぎ話ver.））"
+      },
+      {
+        "story_id": "330521",
+        "title": "第1话 前往憧憬之地——日本 憧れの場所、日本へ",
+        "source_identity": "character_story/3052 - 阿什莉·泰勒（アシュリー・テイラー）/330521_1-4",
+        "category": "character_story",
+        "folder": "3052 - 阿什莉·泰勒（アシュリー・テイラー）"
+      },
+      {
+        "story_id": "420171",
+        "title": "",
+        "source_identity": "mirror_story/420171-战斗博物馆-佐和月出里/420171_1-4",
+        "category": "mirror_story",
+        "folder": "420171-战斗博物馆-佐和月出里"
+      },
+      {
+        "story_id": "514120",
+        "title": "",
+        "source_identity": "event_story/5141 - 拜托了结菜小姐～烦恼就交给长女解决吧～/514120_11-20",
+        "category": "event_story",
+        "folder": "5141 - 拜托了结菜小姐～烦恼就交给长女解决吧～"
+      },
+      {
+        "story_id": "510081-89",
+        "title": "",
+        "source_identity": "event_story/51008 - Another Daze～魔法少女和美～/510081-89_0-3",
+        "category": "event_story",
+        "folder": "51008 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510089",
+        "title": "",
+        "source_identity": "event_story/51008 - Another Daze～魔法少女和美～/510089_1-3",
+        "category": "event_story",
+        "folder": "51008 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510720",
+        "title": "",
+        "source_identity": "event_story/5107 - 欢迎来到谣言水族馆～将回忆寄托在玉手箱中～/510720_1-10",
+        "category": "event_story",
+        "folder": "5107 - 欢迎来到谣言水族馆～将回忆寄托在玉手箱中～"
+      },
+      {
+        "story_id": "510088",
+        "title": "",
+        "source_identity": "event_story/51008 - Another Daze～魔法少女和美～/510088_1-2",
+        "category": "event_story",
+        "folder": "51008 - Another Daze～魔法少女和美～"
+      },
+      {
+        "story_id": "510801-05",
+        "title": "",
+        "source_identity": "event_story/5108 - 玩转全神祭！～我们短暂的休息时间～/510801-05_0-4",
+        "category": "event_story",
+        "folder": "5108 - 玩转全神祭！～我们短暂的休息时间～"
+      },
+      {
+        "story_id": "510803",
+        "title": "",
+        "source_identity": "event_story/5108 - 玩转全神祭！～我们短暂的休息时间～/510803_1-8",
+        "category": "event_story",
+        "folder": "5108 - 玩转全神祭！～我们短暂的休息时间～"
+      },
+      {
+        "story_id": "512720",
+        "title": "",
+        "source_identity": "event_story/5127 - 欢迎来到谣言水族馆～将回忆寄托在玉手箱中～/512720_1-10",
+        "category": "event_story",
+        "folder": "5127 - 欢迎来到谣言水族馆～将回忆寄托在玉手箱中～"
+      },
+      {
+        "story_id": "513260-69",
+        "title": "",
+        "source_identity": "event_story/5132 - 始于反复的梦/513260-69_60-69",
+        "category": "event_story",
+        "folder": "5132 - 始于重叠的梦想"
+      },
+      {
+        "story_id": "510301",
+        "title": "",
+        "source_identity": "event_story/5103 - 御魂的特训 月出里篇/510301_1-10",
+        "category": "event_story",
+        "folder": "5103 - 御魂的特训 月出里篇"
+      },
+      {
+        "story_id": "510804",
+        "title": "",
+        "source_identity": "event_story/5108 - 玩转全神祭！～我们短暂的休息时间～/510804_1-7",
+        "category": "event_story",
+        "folder": "5108 - 玩转全神祭！～我们短暂的休息时间～"
+      },
+      {
+        "story_id": "515720",
+        "title": "",
+        "source_identity": "event_story/5157 - Homecoming～佐仓杏子的3天～/515720_1-10",
+        "category": "event_story",
+        "folder": "5157 - Homecoming～佐仓杏子的3天～"
+      },
+      {
+        "story_id": "510802",
+        "title": "",
+        "source_identity": "event_story/5108 - 玩转全神祭！～我们短暂的休息时间～/510802_1-8",
+        "category": "event_story",
+        "folder": "5108 - 玩转全神祭！～我们短暂的休息时间～"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20261001-semantic-batch03",
+      "version": 3315,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "39a0d94391c83989ab470041aa962cc976f3acc9",
+      "cn_patch_commit": "2894de17960a61bd8293c08c867d16f45a5d4a08",
+      "base_version": 3314,
+      "base_package": {
+        "size": 193602792,
+        "sha256": "9f30a0efb809d79e3fc011021485414ad86e6dc70a572f0096c52565d3478b94",
+        "md5": "09fe06ef558e83e1990480c03aa7ef60"
+      },
+      "package": {
+        "size": 193605730,
+        "sha256": "363ecb61dad9265a0c6221835e526731e47270d9afdfa42255ea686019e68038",
+        "md5": "9e4d4ee16c13846c8c1bb7c2d1a3b618"
+      },
+      "changed_runtime_scripts": 59,
+      "full_scenes_read": 60,
+      "reviewed_complete_scenes": 59,
+      "pending_source_adjudication": [
+        "510089-2"
+      ],
+      "reviewed_fields": 3463,
+      "changed_chinese_fields": 1818,
+      "body_fields_changed": 1800,
+      "speaker_labels_changed": 18,
+      "new_jp_execution_layout_migrations": 0,
+      "unchanged_files": 14174,
+      "previous_corrected_scripts": 408,
+      "previous_byte_identical": 408,
+      "previous_exact_extensions": [],
+      "protected_v4_unchanged": 43,
+      "non_text_json_structure_unchanged": true,
+      "scenario_tests": 23,
+      "reviewed_execution_identities_preserved": 59,
+      "reader_txt_files": 62,
+      "reader_txt_field_spans": 4138,
+      "nonadv_files_changed": 0,
+      "official_cn_provenance_independently_verified": false,
+      "whole_corpus_complete": false,
+      "game_device_verified": false,
+      "public_release": "latest",
+      "immutable_release": "scenario-3315",
+      "unrelated_release_assets_unchanged": true,
+      "verified_at": "2026-10-01T07:13:45Z"
+    }
+  },
+  {
+    "version": 3316,
+    "batch": "20261001-semantic-batch04-ai-only",
+    "period": "after_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 44,
+    "scripts_with_body_correction": 44,
+    "distinct_body_addresses_this_batch": 163,
+    "raw_leaf_diff_counts": {
+      "body": 163,
+      "speaker_name": 1
+    },
+    "reader_commit": "93305879d45862439647d346281814b7070fe1cd",
+    "cn_patch_commit": "a3448c39da6fa2bf0dcf9067ca3a15dc8e0b8728",
+    "receipt_path": "story-quality/releases/3316.json",
+    "stories_touched": [
+      {
+        "story_id": "310342",
+        "title": "第2话 恶婆婆风波 オニババ騒動",
+        "source_identity": "character_story/1034 - 三浦旭（三浦 旭）/310342_1-4",
+        "category": "character_story",
+        "folder": "1034 - 三浦旭（三浦 旭）"
+      },
+      {
+        "story_id": "310282",
+        "title": "第2话 相连的心灵 繋がるマインド",
+        "source_identity": "character_story/1028 - 蓝家姬奈（藍家 ひめな）/310282_1-4",
+        "category": "character_story",
+        "folder": "1028 - 蓝家姬奈（藍家 ひめな）"
+      },
+      {
+        "story_id": "310323",
+        "title": "第3话 美由的神明 大人 ミユの神様",
+        "source_identity": "character_story/1032 - 游狩美由利（遊狩 ミユリ）/310323_1-4",
+        "category": "character_story",
+        "folder": "1032 - 游狩美由利（遊狩 ミユリ）"
+      },
+      {
+        "story_id": "310311",
+        "title": "第1话 察觉到神明之时 神様に気づいたとき",
+        "source_identity": "character_story/1031 - 神乐灿（神楽 燦）/310311_1-4",
+        "category": "character_story",
+        "folder": "1031 - 神乐灿（神楽 燦）"
+      },
+      {
+        "story_id": "310332",
+        "title": "第2话 那是晴天霹雳 それは、青天の霹靂",
+        "source_identity": "character_story/1033 - 冰室拉比（氷室 ラビ）/310332_1-4",
+        "category": "character_story",
+        "folder": "1033 - 冰室拉比（氷室 ラビ）"
+      },
+      {
+        "story_id": "310341",
+        "title": "第1话 新人的真面目 新入りの素顔",
+        "source_identity": "character_story/1034 - 三浦旭（三浦 旭）/310341_1-4",
+        "category": "character_story",
+        "folder": "1034 - 三浦旭（三浦 旭）"
+      },
+      {
+        "story_id": "310313",
+        "title": "第3话 即使失去一切 全てを失っても",
+        "source_identity": "character_story/1031 - 神乐灿（神楽 燦）/310313_1-4",
+        "category": "character_story",
+        "folder": "1031 - 神乐灿（神楽 燦）"
+      },
+      {
+        "story_id": "310321",
+        "title": "第1话 美由与灿大人的相识 ミユと燦様の馴れ初め",
+        "source_identity": "character_story/1032 - 游狩美由利（遊狩 ミユリ）/310321_1-4",
+        "category": "character_story",
+        "folder": "1032 - 游狩美由利（遊狩 ミユリ）"
+      },
+      {
+        "story_id": "310333",
+        "title": "第3话 恍若庄周梦蝶 胡蝶之夢の如く",
+        "source_identity": "character_story/1033 - 冰室拉比（氷室 ラビ）/310333_1-4",
+        "category": "character_story",
+        "folder": "1033 - 冰室拉比（氷室 ラビ）"
+      },
+      {
+        "story_id": "310331",
+        "title": "第1话 即使覆水无法收回 覆水盆に返らずとも",
+        "source_identity": "character_story/1033 - 冰室拉比（氷室 ラビ）/310331_1-4",
+        "category": "character_story",
+        "folder": "1033 - 冰室拉比（氷室 ラビ）"
+      },
+      {
+        "story_id": "310322",
+        "title": "第2话 美由喜欢的东西 ミユの好きなもの",
+        "source_identity": "character_story/1032 - 游狩美由利（遊狩 ミユリ）/310322_1-4",
+        "category": "character_story",
+        "folder": "1032 - 游狩美由利（遊狩 ミユリ）"
+      },
+      {
+        "story_id": "310283",
+        "title": "第3话 别离开我,我的伙伴 離れないでマイメン",
+        "source_identity": "character_story/1028 - 蓝家姬奈（藍家 ひめな）/310283_1-4",
+        "category": "character_story",
+        "folder": "1028 - 蓝家姬奈（藍家 ひめな）"
+      },
+      {
+        "story_id": "310312",
+        "title": "第2话 不再依赖奇迹 奇跡にはもう頼らない",
+        "source_identity": "character_story/1031 - 神乐灿（神楽 燦）/310312_1-4",
+        "category": "character_story",
+        "folder": "1031 - 神乐灿（神楽 燦）"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20261001-semantic-batch04-ai-only",
+      "version": 3316,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "93305879d45862439647d346281814b7070fe1cd",
+      "cn_patch_commit": "a3448c39da6fa2bf0dcf9067ca3a15dc8e0b8728",
+      "base_version": 3315,
+      "base_package": {
+        "size": 193605730,
+        "sha256": "363ecb61dad9265a0c6221835e526731e47270d9afdfa42255ea686019e68038",
+        "md5": "9e4d4ee16c13846c8c1bb7c2d1a3b618"
+      },
+      "package": {
+        "size": 193605676,
+        "sha256": "ba71743b1152f95a4014410c8fb11e49268ec032c9fec6dc6cd6ef902c6a92fb",
+        "md5": "e1fcefb0c7416806b8a14cf24ab497e8"
+      },
+      "changed_runtime_scripts": 44,
+      "full_scenes_read": 52,
+      "reviewed_complete_scenes": 52,
+      "complete_indexed_chapters": 13,
+      "pending_source_adjudication": [],
+      "reviewed_fields": 2961,
+      "changed_chinese_fields": 164,
+      "body_fields_changed": 163,
+      "speaker_labels_changed": 1,
+      "new_jp_execution_layout_migrations": 0,
+      "unchanged_files": 14189,
+      "previous_corrected_scripts": 467,
+      "previous_byte_identical": 460,
+      "previous_exact_extensions": [
+        "madomagi/resource/scenario/json/adv/scenario_3/310311-3.json",
+        "madomagi/resource/scenario/json/adv/scenario_3/310321-3.json",
+        "madomagi/resource/scenario/json/adv/scenario_3/310311-2.json",
+        "madomagi/resource/scenario/json/adv/scenario_3/310313-1.json",
+        "madomagi/resource/scenario/json/adv/scenario_3/310313-3.json",
+        "madomagi/resource/scenario/json/adv/scenario_3/310311-1.json",
+        "madomagi/resource/scenario/json/adv/scenario_3/310312-1.json"
+      ],
+      "protected_v4_unchanged": 43,
+      "non_text_json_structure_unchanged": true,
+      "scenario_tests": 23,
+      "reviewed_execution_identities_preserved": 44,
+      "reader_txt_files": 26,
+      "reader_txt_field_spans": 356,
+      "nonadv_files_changed": 0,
+      "official_cn_provenance_independently_verified": false,
+      "whole_corpus_complete": false,
+      "game_device_verified": false,
+      "public_release": "latest",
+      "immutable_release": "scenario-3316",
+      "unrelated_release_assets_unchanged": true,
+      "verified_at": "2026-10-01T11:28:09Z"
+    }
+  },
+  {
+    "version": 3317,
+    "batch": "20261001-semantic-batch05-ai-only",
+    "period": "after_20261001_takeover",
+    "category": "text_correction",
+    "runtime_scripts_modified": 61,
+    "scripts_with_body_correction": 61,
+    "distinct_body_addresses_this_batch": 720,
+    "raw_leaf_diff_counts": {
+      "body": 720
+    },
+    "reader_commit": "f1955c691d7747fe1ead58af3fe6847c4c62525c",
+    "cn_patch_commit": "84e7a9a4b67d026d57f41272d70bc9f24ee81b8b",
+    "receipt_path": "story-quality/releases/3317.json",
+    "stories_touched": [
+      {
+        "story_id": "310533",
+        "title": "第3话 恋爱即是战争 恋は戦争である",
+        "source_identity": "character_story/1053 - 阿玛琉莉丝（アマリュリス）/310533_1-4",
+        "category": "character_story",
+        "folder": "1053 - 阿玛琉莉丝（アマリュリス）"
+      },
+      {
+        "story_id": "310493",
+        "title": "第3话 携手同行 手を携えて",
+        "source_identity": "character_story/1049 - 奥尔加（オルガ）/310493_1-4",
+        "category": "character_story",
+        "folder": "1049 - 奥尔加（オルガ）"
+      },
+      {
+        "story_id": "310463",
+        "title": "第3话 好可怕、不要、做不到! 怖い、嫌だ、無理！",
+        "source_identity": "character_story/1046 - 千鹤（千鶴）/310463_1-4",
+        "category": "character_story",
+        "folder": "1046 - 千鹤（千鶴）"
+      },
+      {
+        "story_id": "311022",
+        "title": "第2话 酸甜滋味的缘由 甘酸っぱさの理由",
+        "source_identity": "character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311022_1-4",
+        "category": "character_story",
+        "folder": "1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））"
+      },
+      {
+        "story_id": "311023",
+        "title": "第3话 真心面对彼此 心から向き合って",
+        "source_identity": "character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311023_1-4",
+        "category": "character_story",
+        "folder": "1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））"
+      },
+      {
+        "story_id": "310532",
+        "title": "第2话 熊熊燃起的恋火 燃えあがる恋の火種",
+        "source_identity": "character_story/1053 - 阿玛琉莉丝（アマリュリス）/310532_1-4",
+        "category": "character_story",
+        "folder": "1053 - 阿玛琉莉丝（アマリュリス）"
+      },
+      {
+        "story_id": "310502",
+        "title": "第2话 为了实现梦想 夢を叶えるために",
+        "source_identity": "character_story/1050 - 冈希尔德（ガンヒルト）/310502_1-4",
+        "category": "character_story",
+        "folder": "1050 - 冈希尔德（ガンヒルト）"
+      },
+      {
+        "story_id": "310523",
+        "title": "第3话 仍会记得自己的存在 覚えていてくれる存在",
+        "source_identity": "character_story/1052 - 台与（トヨ）/310523_1-4",
+        "category": "character_story",
+        "folder": "1052 - 台与（トヨ）"
+      },
+      {
+        "story_id": "310492",
+        "title": "第2话 妹妹的机智 妹の機転",
+        "source_identity": "character_story/1049 - 奥尔加（オルガ）/310492_1-4",
+        "category": "character_story",
+        "folder": "1049 - 奥尔加（オルガ）"
+      },
+      {
+        "story_id": "310522",
+        "title": "第2话 聪明又亲密的搭档 賢くて仲良しの相棒",
+        "source_identity": "character_story/1052 - 台与（トヨ）/310522_1-4",
+        "category": "character_story",
+        "folder": "1052 - 台与（トヨ）"
+      },
+      {
+        "story_id": "310461",
+        "title": "第1话 完成使命的义贼之女 使命を遂げし賊の娘",
+        "source_identity": "character_story/1046 - 千鹤（千鶴）/310461_1-5",
+        "category": "character_story",
+        "folder": "1046 - 千鹤（千鶴）"
+      },
+      {
+        "story_id": "310512",
+        "title": "第2话 少女们的反抗 少女たちの反乱",
+        "source_identity": "character_story/1051 - 赫露迦（ヘルカ）/310512_1-4",
+        "category": "character_story",
+        "folder": "1051 - 赫露迦（ヘルカ）"
+      },
+      {
+        "story_id": "310513",
+        "title": "第3话 两人的牢笼 ふたりの檻",
+        "source_identity": "character_story/1051 - 赫露迦（ヘルカ）/310513_1-4",
+        "category": "character_story",
+        "folder": "1051 - 赫露迦（ヘルカ）"
+      },
+      {
+        "story_id": "310472",
+        "title": "第2话 由过去塑造的暧昧自我 過去が作った曖昧な私",
+        "source_identity": "character_story/1047 - 小黑（くろ）/310472_1-4",
+        "category": "character_story",
+        "folder": "1047 - 小黑（くろ）"
+      },
+      {
+        "story_id": "310521",
+        "title": "第1话 滑溜溜的神秘生物 べろべろで不思議な生き物",
+        "source_identity": "character_story/1052 - 台与（トヨ）/310521_1-4",
+        "category": "character_story",
+        "folder": "1052 - 台与（トヨ）"
+      },
+      {
+        "story_id": "310471",
+        "title": "第1话 因为已经决定独自活下去 ひとりで生きると決めたから",
+        "source_identity": "character_story/1047 - 小黑（くろ）/310471_1-4",
+        "category": "character_story",
+        "folder": "1047 - 小黑（くろ）"
+      },
+      {
+        "story_id": "310462",
+        "title": "第2话 窃取泰党技艺的女子 泰党の技を盗んだ女",
+        "source_identity": "character_story/1046 - 千鹤（千鶴）/310462_1-4",
+        "category": "character_story",
+        "folder": "1046 - 千鹤（千鶴）"
+      },
+      {
+        "story_id": "310503",
+        "title": "第3话 梦想的代价 夢の代償",
+        "source_identity": "character_story/1050 - 冈希尔德（ガンヒルト）/310503_1-4",
+        "category": "character_story",
+        "folder": "1050 - 冈希尔德（ガンヒルト）"
+      },
+      {
+        "story_id": "310473",
+        "title": "第3话 有朝一日若能再会 いつかまた会えたなら",
+        "source_identity": "character_story/1047 - 小黑（くろ）/310473_1-4",
+        "category": "character_story",
+        "folder": "1047 - 小黑（くろ）"
+      },
+      {
+        "story_id": "310531",
+        "title": "第1话 少女理当精通游戏 乙女は遊戯をたしなむべし",
+        "source_identity": "character_story/1053 - 阿玛琉莉丝（アマリュリス）/310531_1-4",
+        "category": "character_story",
+        "folder": "1053 - 阿玛琉莉丝（アマリュリス）"
+      },
+      {
+        "story_id": "311021",
+        "title": "第1话 坦率的两人 真っ直ぐなふたり",
+        "source_identity": "character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311021_1-4",
+        "category": "character_story",
+        "folder": "1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））"
+      }
+    ],
+    "reported_counts": {
+      "schema": 1,
+      "batch": "20261001-semantic-batch05-ai-only",
+      "version": 3317,
+      "status": "published_and_anonymously_verified",
+      "reader_commit": "f1955c691d7747fe1ead58af3fe6847c4c62525c",
+      "cn_patch_commit": "84e7a9a4b67d026d57f41272d70bc9f24ee81b8b",
+      "base_version": 3316,
+      "base_package": {
+        "size": 193605676,
+        "sha256": "ba71743b1152f95a4014410c8fb11e49268ec032c9fec6dc6cd6ef902c6a92fb",
+        "md5": "e1fcefb0c7416806b8a14cf24ab497e8"
+      },
+      "package": {
+        "size": 193606255,
+        "sha256": "bd71c4da2459f25b23133cbea2cf76fc1a4a05fc74c00cc9af009b89719d0c04",
+        "md5": "0edcd2868752c3c384400b8fe7318d4e"
+      },
+      "changed_runtime_scripts": 61,
+      "full_scenes_read": 97,
+      "reviewed_complete_scenes": 97,
+      "complete_indexed_chapters": 24,
+      "pending_source_adjudication": [],
+      "reviewed_fields": 5124,
+      "changed_chinese_fields": 720,
+      "body_fields_changed": 720,
+      "speaker_labels_changed": 0,
+      "new_jp_execution_layout_migrations": 0,
+      "unchanged_files": 14172,
+      "previous_corrected_scripts": 504,
+      "previous_byte_identical": 502,
+      "previous_exact_extensions": [
+        "madomagi/resource/scenario/json/adv/scenario_3/310533-2.json",
+        "madomagi/resource/scenario/json/adv/scenario_3/310513-3.json"
+      ],
+      "protected_v4_unchanged": 43,
+      "non_text_json_structure_unchanged": true,
+      "scenario_tests": 23,
+      "reviewed_execution_identities_preserved": 61,
+      "reader_txt_files": 42,
+      "reader_txt_field_spans": 1474,
+      "nonadv_files_changed": 0,
+      "official_cn_provenance_independently_verified": false,
+      "whole_corpus_complete": false,
+      "game_device_verified": false,
+      "public_release": "latest",
+      "immutable_release": "scenario-3317",
+      "unrelated_release_assets_unchanged": true,
+      "verified_at": "2026-10-01T13:46:03Z"
+    }
+  }
+]
