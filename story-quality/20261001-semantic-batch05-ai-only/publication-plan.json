@@ -1,0 +1,8098 @@
+{
+  "schema": 2,
+  "batch": "20261001-semantic-batch05-ai-only",
+  "base_version": 3316,
+  "target_version": 3317,
+  "base_package_sha256": "ba71743b1152f95a4014410c8fb11e49268ec032c9fec6dc6cd6ef902c6a92fb",
+  "reader_commit": "f1955c691d7747fe1ead58af3fe6847c4c62525c",
+  "cn_patch_commit": "84e7a9a4b67d026d57f41272d70bc9f24ee81b8b",
+  "changed_runtime_scripts": 61,
+  "full_scenes_read": 97,
+  "complete_scenes_reviewed": 97,
+  "complete_indexed_chapters": 24,
+  "pending_source_adjudication": [],
+  "reviewed_fields": 5124,
+  "changed_fields": 720,
+  "body_fields_changed": 720,
+  "speaker_labels_changed": 0,
+  "reader_txt_files": 42,
+  "reader_txt_field_spans": 1474,
+  "protected_v4": {
+    "madomagi/resource/scenario/json/adv/scenario_4/400001-1.json": "e2bbe2b49d13eeab2714c2d708341df0d1b007eb",
+    "madomagi/resource/scenario/json/adv/scenario_4/400003-1.json": "9bcfb10a4b849b6db8cce7300828f5d6bcc96178",
+    "madomagi/resource/scenario/json/adv/scenario_4/400009-1.json": "72104a28c51ab0bbd87dbabe61c8e7d10abef023",
+    "madomagi/resource/scenario/json/adv/scenario_4/400013-1.json": "c6ababce51cc6e5d5b977af8192453cf9df9449f",
+    "madomagi/resource/scenario/json/adv/scenario_1/101201-7.json": "c6b1aa3c4e0af11c4e885fa8529364bf023fb2a0",
+    "madomagi/resource/scenario/json/adv/scenario_5/501404-6_O6Cjc.json": "b374d0dbc976b4b2c33c10b34e2561de5655e231",
+    "madomagi/resource/scenario/json/adv/scenario_5/501501-5.json": "380e6c0f4d8e32a1e967210126cfb5bc172345e5",
+    "madomagi/resource/scenario/json/adv/scenario_5/501512-2.json": "960e4b8f84ce08af9e34c68f927817c05188f97d",
+    "madomagi/resource/scenario/json/adv/scenario_5/501512-3.json": "064563fa2f827160866a6fabb6c6b38a4a47d3d4",
+    "madomagi/resource/scenario/json/adv/scenario_5/506101-1.json": "6d9418dd73e11adc40c93296af20c4e8b578b549",
+    "madomagi/resource/scenario/json/adv/scenario_5/506101-5.json": "d7cf14742a7a2809e8dc7a69dc30e170ca793ea0",
+    "madomagi/resource/scenario/json/adv/scenario_5/506112-2.json": "aa3d159242abc32dd69638fafa77b6fa83a96acd",
+    "madomagi/resource/scenario/json/adv/scenario_5/506112-3.json": "3ba293e9a6a31403b6b6a97e9a85c6d70b3188c2",
+    "madomagi/resource/scenario/json/adv/scenario_3/310102-3.json": "5e814fb75cc479fde6fbd5f62006b67bcb729b26",
+    "madomagi/resource/scenario/json/adv/scenario_3/312012-2.json": "47bcfd0ad3ee36af294781cb6efdedbaf1cf0fe4",
+    "madomagi/resource/scenario/json/adv/scenario_3/320021-3.json": "14cf5bd015281dcbe91134e8fea697a04eee08fb",
+    "madomagi/resource/scenario/json/adv/scenario_3/320023-1.json": "76bb9dffd153b95064b2b53ab63edc1fce1664a5",
+    "madomagi/resource/scenario/json/adv/scenario_3/320023-2.json": "028c2b1280ac859c76c962b31fe2dc4f2f79ecee",
+    "madomagi/resource/scenario/json/adv/scenario_3/320023-4.json": "19595cd051f8d8805d375bf43c3f739407148049",
+    "madomagi/resource/scenario/json/adv/scenario_3/320052-2.json": "70557a45cfaa7fb8ab7ab489cbfcc2fcb9bf5254",
+    "madomagi/resource/scenario/json/adv/scenario_3/321021-2.json": "9b5a9d39c193381cc4a9804c7e71edbdaf60cc1e",
+    "madomagi/resource/scenario/json/adv/scenario_3/321022-2.json": "cdcbe1ef754b3aed18b35a9f26a24e81ad13ac6f",
+    "madomagi/resource/scenario/json/adv/scenario_3/321023-2.json": "c49b39ea27c1785c8dd3679866234df92510c39b",
+    "madomagi/resource/scenario/json/adv/scenario_3/326001-2.json": "eeab5f2b90d2cf398b725f6ca003a7dc63c7a954",
+    "madomagi/resource/scenario/json/adv/scenario_3/326003-1.json": "8520cbcc96aa23d73a04c5244d78208d661189e8",
+    "madomagi/resource/scenario/json/adv/scenario_3/326003-3.json": "f3273fff6bd725bfd5c2c572a9f1ae14368e6c5c",
+    "madomagi/resource/scenario/json/adv/scenario_3/330151-3.json": "8e90c702967d61ab0bcca899c8e19b3578ef57bb",
+    "madomagi/resource/scenario/json/adv/scenario_3/330182-4.json": "3811af400ea8cabd29ac13cb0d6edb2e8198bbfa",
+    "madomagi/resource/scenario/json/adv/scenario_3/330251-1.json": "fcbb80119780e75762028c9685cc518bf725cde9",
+    "madomagi/resource/scenario/json/adv/scenario_3/330251-2.json": "c4b039a760271ef49576bef938e19860c5b3b3ba",
+    "madomagi/resource/scenario/json/adv/scenario_3/330251-3.json": "005bc5a56483ad40eceb59c3bc9e7a9b2989dba5",
+    "madomagi/resource/scenario/json/adv/scenario_3/330251-4.json": "ee74461fcb17cf361f898e7c429c7b952f3dad95",
+    "madomagi/resource/scenario/json/adv/scenario_3/330422-2.json": "6f0aae5af4602e577953fac5e7ca69222f290bf0",
+    "madomagi/resource/scenario/json/adv/scenario_3/330441-3.json": "b421094c617054f9e42e84fc3959e082b3515630",
+    "madomagi/resource/scenario/json/adv/scenario_3/330462-3.json": "82f9a9e6d40cb1ce469c1509c275d31b4a0cce17",
+    "madomagi/resource/scenario/json/adv/scenario_3/340011-3.json": "feccaf2a18ab09b396878fc936bd28f0f2cb179f",
+    "madomagi/resource/scenario/json/adv/scenario_3/340033-4.json": "323060bb006e0af9d7fdcb1dcdc0417b5c0c5ba9",
+    "madomagi/resource/scenario/json/adv/scenario_3/340123-1.json": "0b7c1e6d796ba5e6971c745c7ee4941e988e62d4",
+    "madomagi/resource/scenario/json/adv/scenario_3/340261-1.json": "588a6fba8dc6531335e6e08d03478e3fbfdf10e6",
+    "madomagi/resource/scenario/json/adv/scenario_3/340261-3.json": "824c7f8e5ece69f5d43cce93ef8f81aa92342882",
+    "madomagi/resource/scenario/json/adv/scenario_3/340263-3.json": "e70793f3d8e238cc49c50433ce210b723b63fa74",
+    "madomagi/resource/scenario/json/adv/scenario_1/102005-8_foLv1.json": "2a9d14542d19143f247b624e6223fb636a198aa1",
+    "madomagi/resource/scenario/json/adv/scenario_5/513410-4_eaiwn.json": "9e93af3b6d8653e6e486801bdc726caa8ac9420b"
+  },
+  "generated_at": "2026-10-01T13:42:45Z",
+  "runtime_files": [
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310461-1.json",
+      "before": "8231c19535b374bfd67fd7ca1929dc11b7533a74",
+      "after": "cdc2182e9634e80f83987d72a0a7fc367d9a76c1",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            35,
+            "textRight"
+          ],
+          "可实际上我们@真的撑住他们了吗……？",
+          "可实际上，我们@真的帮上他们的忙了吗……？"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310461-1.json",
+      "jp_sha": "ce451317a062e983022de753d90101a174083192",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310461-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310461-2.json",
+      "before": "974c2ad1a6e1244d6a456a18d612c9c23d7d7e5b",
+      "after": "82ef0f6d5a65ace96d4cdaba97197e84adc644cc",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textLeft"
+          ],
+          "怕真被杀了划不来，@我们只好答应了……",
+          "要是被杀就糟了，@我们只好答应了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            58,
+            "textLeft"
+          ],
+          "怎么了？",
+          "什么？"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310461-2.json",
+      "jp_sha": "d8743676183a87f8849a2b7aff710a300cbc8a32",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310461-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310461-3.json",
+      "before": "559bab41755bcc1ba6b68d92f408b9bb93f8829f",
+      "after": "888267d12232c64b1406c445ad3ddbb9ec6416d3",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            43,
+            "narration"
+          ],
+          "咽口水……",
+          "咕咚……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "narration"
+          ],
+          "『我可不是那种……@会栽在毒上的练法……练出来的……！』",
+          "『练到这份上……@可不该……被区区毒药放倒……！』"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310461-3.json",
+      "jp_sha": "350d962df1395ce3eb2003e55740e4adf8dd0c93",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310461-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310461-5.json",
+      "before": "b9d4bd56b964de339ef21641f721749a1590ce2e",
+      "after": "cfa08408fb5d1fb6de4002c157a092d3051a72d0",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "textLeft"
+          ],
+          "现在不早做准备@到时候彼此都得勒紧脖子",
+          "现在不早做准备@到时候咱们双方都可能陷入困境"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310461-5.json",
+      "jp_sha": "2870bb465b8a15f3b8a2ddc71a3cc375258cc1e6",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310461-5.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310462-2.json",
+      "before": "7cbd790d94ff624bca27f99ee03a80ca8302453e",
+      "after": "dfb4daedbf90fea9245dc1b091e01625d855cb3c",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textLeft"
+          ],
+          "我什至无法想到将烧麻糬放在@ 面前。",
+          "居然还留下烤年糕当谢礼@这在以前可真是想都不敢想啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textRight"
+          ],
+          "@如果不吃串年糕就浪费了。",
+          "连粘在签子上的年糕也要吃干净@不然就太浪费了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "textLeft"
+          ],
+          "我对我吃的@负责……",
+          "既然连谢礼都吃下肚了@我们就得负起责任……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textRight"
+          ],
+          "而如果解决不了的话，@就什么都做不了了……",
+          "而且，要是解决不了@我们也不会有好下场……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            8,
+            "textRight"
+          ],
+          "千金子的名誉将一落千丈，@可能会成为冲突的根源……",
+          "战神子的声誉会一落千丈@我们还可能引发新的纷争……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            10,
+            "textRight"
+          ],
+          "如果有人被绑架，@可能会被出售……！",
+          "要是真被人贩子拐走@这孩子说不定会被卖掉……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textLeft"
+          ],
+          "不，我已经被绑架了。",
+          "不是，孩子已经被人掳走了啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            12,
+            "textLeft"
+          ],
+          "@利用了我们遮住脸的时机。",
+          "对方趁着我们把脸遮住的@那一瞬间下了手"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textRight"
+          ],
+          "我没有听到任何声音……？",
+          "可是连一点动静都没有啊……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            14,
+            "textLeft"
+          ],
+          "在索玛这片土地上，有人能做到这一点，@……",
+          "在这相磨之国@不就有能办到这种事的家伙吗……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textRight"
+          ],
+          "……万一是泰国党呢？",
+          "……难道是泰党？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            17,
+            "textLeft"
+          ],
+          "如果你想想你亲戚的所作所为，@应该还在这附近。",
+          "照我对自家人的了解@他们应该还在附近"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textLeft"
+          ],
+          "当我们开始寻找他时，@ 可能会离开这个地方，然后他就消失了。",
+          "他们会等我们去别处找人@离开这里之后再脱身"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "textRight"
+          ],
+          "有什么征兆吗……",
+          "能察觉到气息吗……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textLeft"
+          ],
+          "我想知道……",
+          "不好说啊……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            27,
+            "textCenter"
+          ],
+          "啧啧，你找到了吗？",
+          "啧，被发现了吗"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            28,
+            "textCenter"
+          ],
+          "我一想是谁，原来是千鹤或者@。",
+          "我还当是谁呢，原来是千鹤啊@你都长这么大了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            31,
+            "textLeft"
+          ],
+          "他就是我小时候的@渣男。",
+          "是我小时候待在我们那儿的@一个混账"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            32,
+            "textLeft"
+          ],
+          "我的父亲试图杀死我，但@的逃跑腿很快。",
+          "老爹当时想宰了他@可那家伙逃得倒是快"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textRight"
+          ],
+          "吵闹的@，把宝贝还给我吧",
+          "少废话@赶紧把孩子还回来"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            35,
+            "textRight"
+          ],
+          "我现在不会因为任何事而责怪你。",
+          "现在还回来，我就不追究"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textLeft"
+          ],
+          "你知道她在敲诈钱吗？ @ 是 山右卫门 的女儿。",
+          "连我打算勒索钱财都看穿了啊@不愧是山右卫门的女儿"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "textLeft"
+          ],
+          "不过，即使提出了，@也不会听。",
+          "不过，就算你开出这种条件@我也不会听"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            43,
+            "textCenter"
+          ],
+          "哈哈哈……哈哈……@ 甩不掉……",
+          "呼……哈……呼……@甩不掉……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            45,
+            "textRight"
+          ],
+          "不，你面对的是西方和东方的@战士。",
+          "不，你面对的是@东西两位战神子"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            47,
+            "textCenter"
+          ],
+          "不知道你们是不是街上议论的@ Senshinko呢？",
+          "难道传闻中的@战神子就是你们俩！？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "textCenter"
+          ],
+          "呜啊……我跟不上……",
+          "呜啊啊……真倒霉……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            49,
+            "textLeft"
+          ],
+          "好了，对@的无用追击结束了。",
+          "好了，这场无聊的@追逐也该结束了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "textRight"
+          ],
+          "把孩子还给",
+          "把孩子还回来"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            52,
+            "textRight"
+          ],
+          "不，这不可能是真的！",
+          "怎、怎么可能原谅你啊！！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310462-2.json",
+      "jp_sha": "35788fdaf8ef79180d315512ebc8297cc29b7cc7",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310462-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310462-3.json",
+      "before": "ababd2239709811bde14ad5981960c54a9275a82",
+      "after": "41499baf9ffcfdce7e13ac6d860eb1f6633abc22",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "textRight"
+          ],
+          "把孩子还给",
+          "把孩子还回来"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textRight"
+          ],
+          "不，这不可能是真的！",
+          "怎、怎么可能原谅你啊！！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textCenter"
+          ],
+          "好吧，直到你逃跑为止！",
+          "那我就继续逃！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "textLeft"
+          ],
+          "露！这是苦无！",
+          "露！小心苦无！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            10,
+            "textCenter"
+          ],
+          "有间隙就够了！",
+          "只要能制造破绽就够了！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textRight"
+          ],
+          "不，但是爱！",
+          "没有，可那家伙……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "textLeft"
+          ],
+          "哦不，我要回城了 @ 躲起来很麻烦！",
+          "糟了，他又要往镇里跑@让他藏起来可就麻烦了！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textRight"
+          ],
+          "要么全有，要么全无，但交给我吧！",
+          "虽然只能赌一把，还是交给我吧！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            31,
+            "textLeft"
+          ],
+          "好吧，这个我也搞定了。",
+          "好，这家伙也抓住了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            32,
+            "textCenter"
+          ],
+          "来吧！",
+          "疼死我了——！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textLeft"
+          ],
+          "宝宝感觉更像是@",
+          "这孩子遭的罪@可比你多得多"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            35,
+            "textLeft"
+          ],
+          "嗯，我很惊讶。",
+          "不过，你还真让我吃了一惊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textLeft"
+          ],
+          "通过扔一根插有炸饼的串杀死@……",
+          "竟然把串烤年糕的签子@扔出去，制服了他……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "textRight"
+          ],
+          "@是只有战士强化身体才能完成的壮举吧？",
+          "没有战神子强化过的身体@可做不到这种事吧？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "textRight"
+          ],
+          "真的很抱歉，但我必须照顾@。",
+          "真不好意思@还麻烦二位帮忙照看"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            43,
+            "textLeft"
+          ],
+          "不不，@ 安全结束了吗？",
+          "哪里哪里@您那边顺利解决了吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            45,
+            "textRight"
+          ],
+          "他咳嗽得很厉害，但@安全地平静下来。",
+          "那位病人咳嗽得很厉害@不过已经平复下来了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "textRight"
+          ],
+          "由于我父亲不在，我很高兴能用我的知识来处理@。",
+          "父亲不在家@幸好我凭所学也应付得来"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            47,
+            "textRight"
+          ],
+          "那么，哦？",
+          "话说，咦？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "textLeft"
+          ],
+          "是不是发生了什么事情……？ @如果您的宝宝健健康康！",
+          "怎、怎么了……？@孩子好好的，精神得很！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "textRight"
+          ],
+          "二人 和 @ 看起来都很累…………",
+          "我是觉得二位@看起来好像很累……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            51,
+            "textRight"
+          ],
+          "要不要我给你吃点药？",
+          "要不要我给二位开点药……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            54,
+            "textLeft"
+          ],
+          "没错，我只是厌倦了摇篮比赛中的@。",
+          "对对，我们比试怎么逗孩子开心@所以才有点累"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            55,
+            "textRight"
+          ],
+          "是的，我感觉自己更坚强了！",
+          "是啊，我们可使足了劲呢！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310462-3.json",
+      "jp_sha": "d76059d3612bb7b2f33767f670587a1f61c076f8",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310462-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310462-4.json",
+      "before": "19821c28598da6da3371372550a19734c309ba78",
+      "after": "46ffe8e8e4188748394149cd891465fedd147b42",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "textRight"
+          ],
+          "唉……@ 今天感觉奇怪的累……",
+          "唉……@今天还真是累得莫名其妙……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            2,
+            "textLeft"
+          ],
+          "尽管有人向我寻求帮助，但照顾 @ 婴儿还是出乎我的意料。",
+          "虽然说是被人求助@可还真没想到会是照看婴儿啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textLeft"
+          ],
+          "然而，@露的攻击让我感到相当惊讶。",
+          "不过，要我说@露的那一招也够让我吃惊的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textRight"
+          ],
+          "你是在说烤串吗？",
+          "你是说那根签子？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            5,
+            "textLeft"
+          ],
+          "哦，是的，因为它是串，对吧？我无法想象它是 @ 之前的 露。",
+          "是啊，那可是根签子诶？@换作以前的你，我可不敢想"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "textRight"
+          ],
+          "@ 不是你让我用叉子攻击你的。",
+          "让我变得连签子都拿来当武器的@不正是你吗"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            8,
+            "textRight"
+          ],
+          "你看，有一段时间我用 @ 和 千鹤 等人一起训练。",
+          "你忘啦，我不是曾和千鹤你们@一起修炼过吗"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textCenter"
+          ],
+          "我一剑就结束了！",
+          "就用这一刀了结！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            14,
+            "textCenter"
+          ],
+          "[se:3001_chara_damage][chara:104500:effect_7003_damage02][bgEffect:shakeSmall] 在那里！",
+          "[se:3001_chara_damage][chara:104500:effect_7003_damage02][bgEffect:shakeSmall]好痛！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textRight"
+          ],
+          "嘿，我已经死过一次了。",
+          "嘿嘿，这下你已经死过一次了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            16,
+            "textLeft"
+          ],
+          "啊？ @ 有东西撞到我的手臂",
+          "诶、诶？@有什么东西打中了我的手臂"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            17,
+            "textRight"
+          ],
+          "很简单，我向@露扔了一块石头。",
+          "很简单@我朝你扔了块石头"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "textRight"
+          ],
+          "你不能说这是懦弱吧？",
+          "这可不能说我卑鄙吧？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textRight"
+          ],
+          "@武器在实战中存在丢失的风险。",
+          "实战中@既然有失去武器的可能"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            21,
+            "textRight"
+          ],
+          "也有必要学会@利用身边物品战斗的方法",
+          "就也得学会@利用身边的东西来战斗"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            23,
+            "textLeft"
+          ],
+          "确实，我的战斗方式需要我拥有自己的武器，@。",
+          "确实，我的战斗方式@是以自己手里有武器为前提的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            24,
+            "textLeft"
+          ],
+          "无法预见意外情况……",
+          "我都没考虑到意料之外的情况……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "textLeft"
+          ],
+          "没想到@扔一块石头就能力挽狂澜……",
+          "没想到只是扔一块石头@就能让局势逆转……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "textRight"
+          ],
+          "目的是创造一个开口。",
+          "目的就是让对方露出破绽啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            27,
+            "textRight"
+          ],
+          "之前我击中露脖子的是@的一根细树枝。",
+          "刚才我抵在你脖子上的@也只是一根细树枝"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "textLeft"
+          ],
+          "尽管@到目前为止已经是10胜10负。",
+          "虽然到现在为止@咱们是十胜十负"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "textLeft"
+          ],
+          "这有点令人沮丧……",
+          "可还是觉得好不甘心……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            32,
+            "textLeft"
+          ],
+          "如果你问我，@ 这也发生过。",
+          "这么一说@是有过这么一回事啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textLeft"
+          ],
+          "于是，我灰心丧气，就偷偷地用@进行了训练。",
+          "所以你因为不甘心@就一直偷偷练习啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            35,
+            "textRight"
+          ],
+          "真令人沮丧，但是@ 我比你大，对吧？",
+          "不甘心是一方面@不过，我也比你年长嘛？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textLeft"
+          ],
+          "一个……？",
+          "啊……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "textRight"
+          ],
+          "作为姐姐，我想比我的@姐姐更强。",
+          "作为姐姐，@我可是想比妹妹更强啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "textLeft"
+          ],
+          "不，不是姐姐，也不是妹妹。",
+          "不是，咱们又不是姐妹"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            39,
+            "textLeft"
+          ],
+          "不过……我觉得她像@姐姐……",
+          "不过嘛……@我倒也觉得你挺像个姐姐的……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "textLeft"
+          ],
+          "好吧，@ 有优点和缺点是可以的。",
+          "话说回来@各有擅长和不擅长的也没什么不好吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            41,
+            "textLeft"
+          ],
+          "露很聪明，可以教@很多东西。",
+          "露你脑子好使@本来就能教人不少东西"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "textLeft"
+          ],
+          "@ 请为我的妹妹留下一些让我感到自豪的东西。",
+          "也稍微给我这个当妹妹的@留点值得自豪的本事嘛"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            44,
+            "textRight"
+          ],
+          "……顺便问一下，这个技术是不是@ Taito的技术之一？",
+          "……话说，我这回的招式@能算泰党的技艺之一吗"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            45,
+            "textLeft"
+          ],
+          "……@绝对不会成为其中一项技术，因为它需要战士的愚蠢力量。",
+          "……这得靠战神子的怪力@绝对没法列入泰党的技艺啦"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "textLeft"
+          ],
+          "就算说只用臂力就可以像枪一样射出@串……",
+          "光凭臂力@就把签子像火枪子弹一样射出去……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            49,
+            "textCenter"
+          ],
+          "确实，当你放松警惕的时候，就是你最应该小心@的时候。",
+          "真是的，越是放松警惕的时候，@就越该多加小心啊"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310462-4.json",
+      "jp_sha": "0b654b8f9833f97078660c6219cfd1ae8fc4650e",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310462-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310463-1.json",
+      "before": "20e97c406a3bb94eadee0c32d4b874ba64c4b232",
+      "after": "96d12400cdd5ec6edb87819e8109a9d1cdff03d8",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            2,
+            "textRight"
+          ],
+          "@ 即使是森林里自然生长的树木，只要使用得当，也能成为武器……",
+          "连森林里自然生长的树木@利用得当也能变成武器呢……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textLeft"
+          ],
+          "特别是，我们没有形成 @ 阵型。",
+          "尤其我们又不像军队那样@列队行动"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            5,
+            "textLeft"
+          ],
+          "@ 你经常在树上跳来跳去吧？",
+          "而是经常在@树上跳来跳去吧？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "textLeft"
+          ],
+          "于是，为了赶走追兵，@的树枝被弯曲，变成了鞭子。",
+          "所以，为了甩掉追兵@也可以把树枝弯成鞭子来用"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textLeft"
+          ],
+          "是相当适用的。",
+          "能活用的办法还挺多呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            8,
+            "textRight"
+          ],
+          "如果我们有千金子的力量，不知道我们是否可以更多地应用@呢？",
+          "凭我们战神子的力量，@是不是还能有更多用法呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "textLeft"
+          ],
+          "由于动力强劲，@的射程可能会扩大。",
+          "咱们力气大@能做的事或许确实会更多"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textRight"
+          ],
+          "@ 不是树枝，而是一棵树，对吗？",
+          "不只是树枝@整棵树也能弯曲，不是吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textRight"
+          ],
+          "如果我们用我们的力量让它弯曲并让@泰国党的人加入，",
+          "要是我们用力把树弯下来@再让泰党的人站上去"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textRight"
+          ],
+          "@或许能够轻松进入城堡，因为它返回时可以凭借气势飞行。",
+          "靠树干弹回去的力量把人送出去@说不定就能轻松潜进城里"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            16,
+            "textRight"
+          ],
+          "你看，泰国党成员使用的滑翔技术从 @ 树移动到另一棵树。",
+          "你看，泰党的人在树木之间移动时@不是会用滑翔术吗"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            17,
+            "textRight"
+          ],
+          "我认为你绝对可以用它来做 @ 。",
+          "若能配合那一招@我想一定可以办到"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textLeft"
+          ],
+          "我不能否认@可以像飞鼠一样飞翔。",
+          "像鼯鼠一样飞这一点@我倒不否认"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "textLeft"
+          ],
+          "I thought the guys in my village were @……",
+          "可你把我们寨子里的人@当成什么了啊……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textLeft"
+          ],
+          "I might say @, like turning cannon bullets into humans……",
+          "照你这么说@都快拿人当大炮的炮弹了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            21,
+            "textRight"
+          ],
+          "There's no way you'd say such a dangerous thing @……!",
+          "那么危险的主意@我怎么可能提嘛……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            22,
+            "textRight"
+          ],
+          "千鹤，好吗？",
+          "千鹤，能耽误你一下吗"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            23,
+            "textLeft"
+          ],
+          "Ah, today's training is over, so @ is fine anytime.",
+          "啊，今天的修炼已经结束了@随时都行"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "textRight"
+          ],
+          "Well then, @ I'll let you go back to the castle.",
+          "那么，@我就先回城了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "textLeft"
+          ],
+          "哦，又见到你了",
+          "嗯，回头见"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "textRight"
+          ],
+          "@与水菜组队，但他并没有带她太多。",
+          "我们虽然和水名结了盟@但你也别总带她过来"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            31,
+            "textLeft"
+          ],
+          "啊？ Why……@ you've brought me here before……",
+          "啊？凭什么啊……@以前我不也带她来过吗……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            32,
+            "textRight"
+          ],
+          "It's too frequent and it goes too far into @",
+          "你带她来的次数太多了@而且还带她进得太深"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textRight"
+          ],
+          "我们无法与公主 @露 竞争听到我们想要保守秘密的事情…………",
+          "要是我们想要保密的事情@传进露公主耳里，可就麻烦了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textLeft"
+          ],
+          "那又怎么样？你是说@露会背叛你吗？",
+          "你这是什么意思@难道是想说露会背叛我们？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            35,
+            "textRight"
+          ],
+          "在 @忧 的世界里，这种恐惧始终伴随着我们",
+          "这种风险始终存在@世道就是如此"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textLeft"
+          ],
+          "他是一个心胸狭隘的人。",
+          "你这家伙胆子可真小"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "textLeft"
+          ],
+          "开个玩笑，@之后我会小心的",
+          "开玩笑的@以后我会注意"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "textCenter"
+          ],
+          "有点吵……@ 爸爸……？",
+          "怎么这么吵……@老爹……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            45,
+            "textRight"
+          ],
+          "我们之所以能够坚持数百年，是因为我们关上了@的门……",
+          "我们能坚持几百年@靠的就是闭门自守……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "textRight"
+          ],
+          "现在它已经公开了，你最好认为 @ 的秘密会被泄露。",
+          "如今既然打开了门@就该做好秘密会泄露的准备"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            47,
+            "textLeft"
+          ],
+          "但是，@千鹤 信任 露，对吧？",
+          "可千鹤@不是信任露吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "textLeft"
+          ],
+          "如果有什么东西@是千金子可以沟通的，我不会否认。",
+          "她们同为战神子@要是有相互理解之处，我也不反对"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            49,
+            "textRight"
+          ],
+          "呜呜，这个忧 @的头对他女儿真好……！",
+          "唉，偏偏在这种时候@头儿就格外纵容女儿……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "textLeft"
+          ],
+          "那么，做@不是一个好主意吗？",
+          "那么，@我倒有个好主意"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            51,
+            "textRight"
+          ],
+          "这是什么……",
+          "什么主意……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            52,
+            "textLeft"
+          ],
+          "让千鹤和水菜的亲戚一起祝贺@。",
+          "让千鹤和水名的亲族@成亲不就好了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            54,
+            "textRight"
+          ],
+          "哈哈 @ 这是一个有趣的故事",
+          "哈哈@这倒是个有意思的主意"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            57,
+            "textCenter"
+          ],
+          "（如果我说恭喜的话……！？）",
+          "（要我成亲……！？）"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310463-1.json",
+      "jp_sha": "69b648f6a96f9b70aece754daca611946718b128",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310463-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310463-2.json",
+      "before": "0bde4d098bf6186c4cd64954b0a3e71fe2ef400b",
+      "after": "c9cb9870b8e2417214b1a1bf0611959cc9ed861d",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textCenter"
+          ],
+          "@根本没想过要祝贺我……",
+          "成亲这种事@我连想都没想过啊……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "textRight"
+          ],
+          "为什么@看起来这么苦？",
+          "怎么啦@一副愁眉苦脸的样子"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textRight"
+          ],
+          "这大概是自@以来我们第一次在这里偶遇。",
+          "自打头一次见面以来@咱们还是第一次在这里偶遇吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textLeft"
+          ],
+          "千鹤 也一脸悲伤。@ 也许发生了什么事情？",
+          "千鹤也没精打采的呢@是遇上什么事了吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            16,
+            "textRight"
+          ],
+          "这只是露的想象 @ 没有什么问题。",
+          "是你多心了@根本没什么事"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            17,
+            "textRight"
+          ],
+          "不仅如此，露的脸看起来就像@被露累坏了一样，对吧？",
+          "倒是你@刚才明显一脸难受的样子啊？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textLeft"
+          ],
+          "因为@ 我以为那里没有人",
+          "因为@我以为这里没人嘛"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "textRight"
+          ],
+          "那么，@是不是出了什么事呢？",
+          "这么说，@你那边是出什么事了啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textLeft"
+          ],
+          "……我对@练习有点厌倦了，所以我出来了。",
+          "……算是吧@我不想再继续上课，就跑出来了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            22,
+            "narration"
+          ],
+          "“嘿，露公主！@的练习还没结束呢！”",
+          "「等一下，露公主！@课还没有结束呢！」"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            24,
+            "textRight"
+          ],
+          "看来他又逃避训练了。",
+          "听说你又从课堂上逃走了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            28,
+            "textRight"
+          ],
+          "当然，我明白作为战士战斗对于@来说很重要。",
+          "当然，身为战神子去战斗@很重要，这一点我也明白"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "textLeft"
+          ],
+          "你的话，父亲。",
+          "恕女儿直言，父亲"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            31,
+            "textLeft"
+          ],
+          "即便如此，我还是很精通和歌，在@ Renga Kai上唱歌也很受欢迎。",
+          "女儿好歹也精通和歌@在连歌会上作的诗可颇受好评"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textLeft"
+          ],
+          "@ 因比他的封臣更擅长计算而感到自豪。",
+          "论计算，我也自信@胜过家臣们"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textLeft"
+          ],
+          "如果要发生战争，您愿意估算一下@战争的成本吗？",
+          "要是打起仗来@不如让我估算一下军费？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            35,
+            "textLeft"
+          ],
+          "您可以根据星星的移动和距离来计划您的@行军。",
+          "根据星辰的运行和路程远近@来规划行军也没问题"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textRight"
+          ],
+          "不，露……不是真的……",
+          "不，露……我不是这个意思……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "textLeft"
+          ],
+          "你看，无论我去哪里娶老婆，@都不会丢脸……！",
+          "您看，无论我嫁到哪里@都不会丢脸……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "textRight"
+          ],
+          "知道茶和花等@侘寂也很好…………",
+          "茶道、花道这些@侘寂之美，也该懂一些……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            39,
+            "textLeft"
+          ],
+          "没关系！",
+          "不必了！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "textLeft"
+          ],
+          "这个世界上还有饥饿的孩子，@……！",
+          "明明这世上@还有饿着肚子的孩子……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            43,
+            "textLeft"
+          ],
+          "这就是为什么",
+          "事情就是这样"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            44,
+            "textRight"
+          ],
+          "就露而言，@并没有因为气味而懈怠。",
+          "你又不是因为懒惰@才偷懒逃课啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            45,
+            "textRight"
+          ],
+          "我尊重 忧",
+          "你这点真让人佩服"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "textLeft"
+          ],
+          "@怎么突然有点尴尬了？",
+          "怎么突然夸起我来@让人怪不好意思的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "textLeft"
+          ],
+          "……奇怪的@千鹤到底发生了什么事情吧？",
+          "……果然不对劲@千鹤，你也遇到什么事了吧？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "textRight"
+          ],
+          "露……@正在做各种事情来结婚。",
+          "露……你一直为出嫁@做着各种准备"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            51,
+            "textRight"
+          ],
+          "我想知道……@ 有理想的爱情吗……？",
+          "那你……@有没有理想中的恋爱呢……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            52,
+            "textLeft"
+          ],
+          "不，倒也不必。",
+          "没有，倒也没想过"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            53,
+            "textLeft"
+          ],
+          "我父亲总有一天会做出决定，所以 @ 这不再是我的事了。",
+          "反正总有一天父亲会替我定下婚事@恋爱已经和我没什么缘分了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            54,
+            "textRight"
+          ],
+          "是的……@的父亲会决定……",
+          "也是啊……@都是老爹来决定啊……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            58,
+            "textLeft"
+          ],
+          "也许你有喜欢的人了？ @ 泰国党的人……？",
+          "难道你有喜欢的人了？@是泰党里的谁……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            60,
+            "textLeft"
+          ],
+          "不会吧……@ 这就是一直跟着你的人吗……？",
+          "该不会……@是那个总跟着、监督你的人吧……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            61,
+            "textLeft"
+          ],
+          "不行了，@ 对主人来说也是金鱼屎。",
+          "那个人可不行@他对主人也是个甩不掉的跟屁虫"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            65,
+            "textRight"
+          ],
+          "我能感觉到恶魔的存在，所以我们改变主意吧@！",
+          "也感觉到妖魔的气息了@先换换心情吧！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310463-2.json",
+      "jp_sha": "ca8a9af2ab1afc048b1ddd6c1b4d8d91f8a1e5e8",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310463-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310463-3.json",
+      "before": "662b9248946d9e42ce343f055775a7b0b5904fbe",
+      "after": "28f9e717732dcb0af4b9fc9bb6d6638987a51e26",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textLeft"
+          ],
+          "这有点困难，但如果我用 @二人 玩，那就很容易获胜。",
+          "虽说有点棘手@不过咱们两人联手还是轻松搞定了呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textRight"
+          ],
+          "我还好，@ 我还没有积累那么多的杂质。",
+          "我还没事啦@也没积下多少污秽"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            8,
+            "textLeft"
+          ],
+          "与今天在海滩遇见你时相比，@ 是阴天，所以我很担心。",
+          "和今天在海边见面时相比@你的宝石浑浊了些，我有点担心"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textLeft"
+          ],
+          "前几天，我在寻找恶魔，偶然发现了@。",
+          "前阵子找妖魔时@我偶然发现了这里"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            17,
+            "textLeft"
+          ],
+          "嘿，很抱歉 千鹤@ 看起来像是重复的。",
+          "千鹤，不好意思@又要旧事重提了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "textLeft"
+          ],
+          "爱情故事",
+          "我是说恋爱的事"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textLeft"
+          ],
+          "千鹤不会是爱上某人的@吧？",
+          "你并不是喜欢上了@什么人，对吧？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            21,
+            "textRight"
+          ],
+          "哦，没关系",
+          "嗯，跟那种事无关"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            22,
+            "textLeft"
+          ],
+          "我不知道你在担心什么，但是@ 既然这样，你就应该享受这一刻。",
+          "不知道你在烦恼什么@不过既然不是，不如好好享受现在"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            23,
+            "textLeft"
+          ],
+          "我真的很高兴@能够以战士的身份拯救大家。",
+          "能成为战神子拯救大家@我真的觉得很庆幸"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            24,
+            "textLeft"
+          ],
+          "就像 @ 一样，我喜欢通过这种方式获得的自由。",
+          "而且，我也同样喜爱@就这样得到的自由"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "textLeft"
+          ],
+          "我在城堡里呆了很长时间了，没有人就不能出去。@",
+          "从前一直待在城里@没有人陪着就不能出门"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            27,
+            "textLeft"
+          ],
+          "即使走到外面，到处都是@的危险。",
+          "即使出了门@也到处都是危险"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            28,
+            "textLeft"
+          ],
+          "@ 即使你勇猛，在这个世界上也没有安全感。",
+          "那是即便武艺高强@也无法安心生活的世道"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "textLeft"
+          ],
+          "但现在我可以自由地出去寻找像@这样美好的地方。",
+          "可是现在，我能自由出门@还能发现这么美的地方"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            31,
+            "textRight"
+          ],
+          "直到遇见露，@大部分时间都在村里……",
+          "遇见露之前@我也几乎一直待在寨子里……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            32,
+            "textLeft"
+          ],
+          "想想看，现在世界已经扩大了，你不觉得现在是@最好的时机吗？",
+          "这么想来，眼下世界变得这么广阔@不正是一段最美好的时光吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textLeft"
+          ],
+          "至少当我成为战神时，我不再去想@的祝贺了。",
+          "至少我当上战神子之后@就不再去想婚事了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            35,
+            "textLeft"
+          ],
+          "把祝福留给上帝",
+          "等到成亲的时候，再听天由命吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textLeft"
+          ],
+          "现在我决定在履行我的使命的同时充分享受我的自由 @",
+          "眼下我决定一边完成使命@一边尽情享受自由"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "textRight"
+          ],
+          "即使自由时间很短，@ 也可能是目前的赢家。",
+          "就算自由很短暂@能抓紧眼下享受，或许就是赚到了啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "textRight"
+          ],
+          "…… 乌希！ @ 你也别想我了。",
+          "……好！@我也不去想那些了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "textRight"
+          ],
+          "当然，@也会完成他作为战神的使命。",
+          "当然，身为战神子的使命@我也会好好完成"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            41,
+            "textRight"
+          ],
+          "另外，担心@也是浪费时间",
+          "再说了，@一直烦恼也太浪费时间"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            43,
+            "textLeft"
+          ],
+          "我们现在和 @ 盗贼一样糟糕。",
+          "现在的我们@才不会怕区区几个恶徒呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            47,
+            "textRight"
+          ],
+          "稍微扭转一下，就可以带着@出去走一小段路。",
+          "轻松收拾掉他们@再到处逛逛吧"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310463-3.json",
+      "jp_sha": "6bcf201e707402290f72fb12b60a8f66d67f3bab",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310463-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310463-4.json",
+      "before": "6e0318a4ca2f860edbafdf0c460a96c81d8db885",
+      "after": "56a92a1418e495b614e067cab48900d7547348be",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            41,
+            "textRight"
+          ],
+          "我明白你的意思…@但婚事不是这样的…",
+          "我明白你的意思……@可婚事不就是这样的吗……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310463-4.json",
+      "jp_sha": "a0dff5db921483e8d0d23a3db17c6285bf4c3f61",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1046 - 千鹤（千鶴）/310463-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310471-1.json",
+      "before": "2f79f711048a3d4822ec09a367b6acd63998a0d3",
+      "after": "ba9951bdaba8c3ff786936d1e7613ef1722b1c44",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "textCenter"
+          ],
+          "…嗯，是错觉吧。@好了，回去刷社交游戏的活动…",
+          "……嗯，是错觉吧@好了，回去刷刷社交平台……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310471-1.json",
+      "jp_sha": "2de6905ede62de916a78da566466c28c3d0a7f31",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310471-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310471-2.json",
+      "before": "54628e4229f30af59845946006f91e2c0a82bcce",
+      "after": "f56c0d61e72ae97154f80b1980ccafd55506754e",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "textLeft"
+          ],
+          "（我好像见过她@被人推卸打扫工作…）",
+          "（我好像见过她@被人硬塞了打扫的活儿……）"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310471-2.json",
+      "jp_sha": "9e404cb0ea983c92bbaefebc39541bf658a84953",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310471-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310471-3.json",
+      "before": "0b08e93cc73d3632c1653baddaa44bb9281ce93f",
+      "after": "1b64c91812599f5fbe2df8754e8eb5bfaecb13e4",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            54,
+            "textLeft"
+          ],
+          "（…不过，也不能因为面子@让自己陷入困境嘛）",
+          "（……不过，事到如今@也顾不上坚持那些了嘛）"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310471-3.json",
+      "jp_sha": "784a3a257272cf76e721d6b5ca36080dedddc983",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310471-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310472-2.json",
+      "before": "76b5e220244d5902b2bee6b6693a5fdee7b7d014",
+      "after": "6f54c864b48f9bbbb250d23070fdedf555ee42ee",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            59,
+            "narration"
+          ],
+          "回顾了那段自我伤害般的过去后@我得出了一个答案",
+          "回顾了那段不断贬低自己的过去后@我得出了一个答案"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310472-2.json",
+      "jp_sha": "dac377f6c88e59bc1133fe7692629004a2f2fc29",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310472-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310472-3.json",
+      "before": "6f72354e21f42119b0d3ff99a4a27812066e781a",
+      "after": "332e31ba14e6416108b8455e0d7bbb2dc2911f14",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            2,
+            "narration"
+          ],
+          "回顾了那段自我伤害般的过去后@我得出了一个答案",
+          "回顾了那段不断贬低自己的过去后@我得出了一个答案"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textCenter"
+          ],
+          "（至今为止，我一直@不太愿意回顾过去）",
+          "（此前，我一直@没怎么回顾过往）"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310472-3.json",
+      "jp_sha": "45f3cb2f9da4dfb6de4352e650a31a7710215f62",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310472-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310473-2.json",
+      "before": "3ce5f60287a457949564a3a45a141a9f378ef484",
+      "after": "6b06a3ff9540d211a39c0e000c39ab565e92ce1a",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textCenter"
+          ],
+          "I去了那里！",
+          "往你那边去了！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            5,
+            "textCenter"
+          ],
+          "将被覆盖，请攻击！@",
+          "我会掩护你@请发动攻击！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            10,
+            "textRight"
+          ],
+          "，它似乎根本不起作用！ 我们该怎么办...！@",
+          "好、好像完全没起作用！@这可怎么办……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textCenter"
+          ],
+          "让我们退后一步，准备好！@",
+          "那就先退下来@调整一下再上吧！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            14,
+            "textLeft"
+          ],
+          "呃...对不起  我很弱...@",
+          "呼……对不起@我太弱了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            17,
+            "textRight"
+          ],
+          "远距离攻击可能更合适@",
+          "或许你更适合@远距离攻击"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textLeft"
+          ],
+          "Eh...真的吗？",
+          "诶……是这样吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "textRight"
+          ],
+          "是的，近距离看他看起来有点匆忙。@",
+          "是的，近距离交战时@你看起来有些慌乱"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textRight"
+          ],
+          "远距离时很冷静，能够瞄准 @",
+          "而远距离攻击时@却能冷静下来瞄准目标"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            21,
+            "textLeft"
+          ],
+          "（太棒了...他们密切关注的细节...）@",
+          "（好厉害……连这么细微的地方@都替我留意到了……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            22,
+            "textRight"
+          ],
+          "如果以后想继续solo，不要给自己太大压力。@",
+          "今后你还要独自行动的话@与其勉强冲上去"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            23,
+            "textRight"
+          ],
+          "I认为如果可以远距离攻击的话危险性会更小......@",
+          "我觉得，能在远处发动攻击@危险也会少一些……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            24,
+            "textLeft"
+          ],
+          "（我觉得太咄咄逼人了）",
+          "（我还以为她很强势）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "textLeft"
+          ],
+          "（他也尊重我的意愿...）@",
+          "（原来她也有好好@尊重我的意愿……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "textRight"
+          ],
+          "好的，下次我要去前线，你能从后面掩护我吗？@",
+          "那接下来由我担任前卫@能请你从后方掩护吗"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "textRight"
+          ],
+          "[se:6000_hit_shooting_01_s][name:sprite_0:effect_7001_attack02] 耶！",
+          "[se:6000_hit_shooting_01_s][name:sprite_0:effect_7001_attack02]呀！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textCenter"
+          ],
+          "[flashEffect:flashWhite2][surround:1047A05]！",
+          "[flashEffect:flashWhite2][surround:1047A05]上吧——！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "textCenter"
+          ],
+          "最后！ 我们弃牌吧！@",
+          "最后一击！@一鼓作气打倒它吧！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "textCenter"
+          ],
+          "（太神奇了... 比平时更容易战斗...）@",
+          "（好厉害……@比平时容易战斗多了……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "textCenter"
+          ],
+          "（不，我一定是作为一个团队战斗过很多次...）@",
+          "（不对，和队伍一起作战@我明明经历过好几次……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            49,
+            "textCenter"
+          ],
+          "（但是在所有这些中，现在是最容易移动的......！）@",
+          "（可是，和以往任何一次相比@现在都是最能自如行动的……！）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "textCenter"
+          ],
+          "（也许……因为是环……？）@",
+          "（难道……@是因为和我搭档的是环小姐……？）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            56,
+            "textCenter"
+          ],
+          "（环同学正在那边攻击，看来还好……）@",
+          "（环小姐正在那边攻击@看来应该没问题……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            57,
+            "textCenter"
+          ],
+          "（我从后面转过身来……）",
+          "（我绕到后面去……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            58,
+            "textRight"
+          ],
+          "I去了那里！ 距离...！@",
+          "往你那边去了！@拉开距离……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            62,
+            "textRight"
+          ],
+          "（现在，我……放松……）",
+          "（刚刚，我……大意了……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            67,
+            "textRight"
+          ],
+          "（糟糕，再这样下去， Tamaki会和你在一起……！）@",
+          "（糟了，这样下去@连环小姐也会被我连累……！）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            68,
+            "textCenter"
+          ],
+          "[se:4001_equip_arms_bow_vh][name:sprite_0:effect_7000_attack01] 塔啊！",
+          "[se:4001_equip_arms_bow_vh][name:sprite_0:effect_7000_attack01]喝啊！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            72,
+            "textLeft"
+          ],
+          "，没事吧！？",
+          "你、你没事吧！？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            74,
+            "textRight"
+          ],
+          "（我以为你比我强，但是玉木桑真是……）@",
+          "（虽然知道她比我强@但环小姐居然这么厉害……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            75,
+            "textLeft"
+          ],
+          "抱歉，我来晚了帮你@",
+          "对不起@我来救你来得太迟了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            76,
+            "textLeft"
+          ],
+          "太可怕了……",
+          "一定很害怕吧……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            77,
+            "textLeft"
+          ],
+          "一边说要一起做特训，一边@",
+          "明明是我提出@要和你一起特训"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            78,
+            "textLeft"
+          ],
+          "I 根本走不通……",
+          "却没能好好照应你……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            79,
+            "textRight"
+          ],
+          "（这就是为什么我无法绕过 ...？）@",
+          "（那样竟然还算@没能照应好……？）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            80,
+            "textRight"
+          ],
+          "（啊，我明白了…… 我想我误解了）@",
+          "（啊，原来如此……@是我弄错了啊）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            83,
+            "narration"
+          ],
+          "在我内心的某个地方，我想如果我能交到朋友，我就能做任何事情。@@",
+          "不论从前，还是当时的我@内心深处都以为@只要有了伙伴，就总能有办法"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            84,
+            "narration"
+          ],
+          "然而，交朋友并不是软弱的好借口@",
+          "可有了伙伴@并不意味着就可以一直弱小下去"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            85,
+            "narration"
+          ],
+          "I一开始就应该知道实力不够交朋友也没意义@@",
+          "我打从一开始就该知道@即使有了伙伴，要是自己不够强@那也没有意义"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            86,
+            "narration"
+          ],
+          "在交朋友之前，我需要让自己变得更强。@",
+          "在结交伙伴之前@我首先需要让自己变强"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            87,
+            "narration"
+          ],
+          "这意味着你必须生活在不期望任何人提供任何东西并依赖他们的情况下。@",
+          "也就是说，我必须不把期待寄托在别人身上@不依赖他人地活下去"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            89,
+            "narration"
+          ],
+          "...我不想一个人住所以我不会受伤 @",
+          "……我并不是为了免受伤害@才要独自活下去"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            90,
+            "narration"
+          ],
+          "I 必须变成 ，这样我才能独立生活。@",
+          "而是必须学会@凭自己的力量活下去"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310473-2.json",
+      "jp_sha": "69e515b195027b76b9d5286c2cb039e5269e1e84",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310473-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310473-3.json",
+      "before": "8568b449b976a8e1494b3942ac4caef18a2290e6",
+      "after": "e362adc0f3794e75917df4b9c1af276e76803cfb",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "textCenter"
+          ],
+          "（我不再期待的原因）@",
+          "（我不再期待别人的理由）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            2,
+            "textCenter"
+          ],
+          "（因为我不想因为过高的期望而受到伤害或给别人带来麻烦）@",
+          "（是为了不因期待而受伤@也不给别人添麻烦）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textCenter"
+          ],
+          "（是的，我应该给出答案）@",
+          "（我明明已经@得出了这样的答案）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textCenter"
+          ],
+          "（也许不是唯一的真正原因）@",
+          "（可真正的理由@也许不止如此）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            8,
+            "textCenter"
+          ],
+          "（当然，用环打很容易）@",
+          "（确实，和环小姐一起@战斗时很顺手）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "textCenter"
+          ],
+          "（有朋友让我很安心，感觉很好）@",
+          "（也让我非常安心@觉得有伙伴真好）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            10,
+            "textCenter"
+          ],
+          "（我确信我自己无法击败女巫）@",
+          "（只靠自己@我一定打不倒那只魔女）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textCenter"
+          ],
+          "（但是我在与战斗时感受到的移动自如）@",
+          "（可战斗时感觉到的@那份游刃有余）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            12,
+            "textCenter"
+          ],
+          "（仅仅因为 Tamaki 在  方面很强）@",
+          "（只是因为@环小姐很强）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textCenter"
+          ],
+          "（也许，像我现在这么弱，我一个人活不下去……）@",
+          "（现在这么弱小的我@大概还没法独自活下去……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textCenter"
+          ],
+          "（所以我想成为像一样可以独自生活的人）@",
+          "（所以，我才想成为@能独自活下去的人）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            16,
+            "textCenter"
+          ],
+          "（我希望能够自己尽力而为，不依赖任何人，也不拥有朋友...！）@",
+          "（不依赖任何人，即使没有伙伴@也能凭自己努力的我……！）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "narration"
+          ],
+          "这就是我如何得出决定独居的答案@@",
+          "就这样，关于自己@为什么决定“独自活下去”@我找到了一个答案"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "narration"
+          ],
+          "I试图不依赖期望而生活。",
+          "我之所以想不再期待、不再依赖别人地生活"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "narration"
+          ],
+          "不要让别人利用你。要能够对自己有期望，而不是对别人有期望。@",
+          "是为了不被别人利用@能期待的不是别人，而是自己"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            21,
+            "narration"
+          ],
+          "是因为我想成为，这样我就可以独自生活。@",
+          "是因为我想成为@能独自活下去的人"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            23,
+            "textLeft"
+          ],
+          "Um...你还好吗？ 也许你受伤了……！@",
+          "那个……你没事吧？@该不会受伤了……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "textRight"
+          ],
+          "非常感谢玉木先生的帮助 @",
+          "环小姐，救了我@真的非常感谢你"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "textLeft"
+          ],
+          "不，我一点也不",
+          "没有啦，我其实也没做什么"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            27,
+            "textRight"
+          ],
+          "...我觉得我可以改变一点，感谢 Tamaki @",
+          "……多亏了环小姐@我觉得自己或许能有所改变"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "textRight"
+          ],
+          "I找到了我最喜欢的攻击方法@",
+          "你帮我找出了@适合我的攻击方式"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "textRight"
+          ],
+          "告诉我你的朋友有多好 ...@",
+          "也让我知道了@有伙伴的美好……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            31,
+            "textRight"
+          ],
+          "（也让我意识到为什么我要一个人住……）@",
+          "（还让我明白了@自己想独自活下去的理由……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textRight"
+          ],
+          "（糟糕，再这样下去， Tamaki会和你在一起……！）@",
+          "（糟了，这样下去@连环小姐也会被我连累……！）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "textCenter"
+          ],
+          "（当时我体会到了失去朋友的恐惧）@",
+          "（那个时候，我体会到了@失去伙伴的恐惧）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "textCenter"
+          ],
+          "（能交到朋友就怕失去）@",
+          "（有了伙伴@也就有了失去伙伴的恐惧）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            41,
+            "textCenter"
+          ],
+          "（……我现在很弱，我确信我无法保护任何东西）@",
+          "（……现在这么弱小的我@一定什么都保护不了）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "textCenter"
+          ],
+          "（所以，如果我想交朋友，必须成为一个更强大的我......）@",
+          "（所以，要结交伙伴的话@也得等我变得更强以后……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            43,
+            "textCenter"
+          ],
+          "啊……原来如此，原来环那么强。@",
+          "啊……原来如此@所以环小姐才这么强啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            44,
+            "textCenter"
+          ],
+          "( 我有珍贵的朋友要保护...)@",
+          "（因为她有@必须守护的重要伙伴……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "textLeft"
+          ],
+          "？  我就是这样...@",
+          "诶？@哪有，我还差得远呢……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            47,
+            "textRight"
+          ],
+          "先生。 Tamaki，非常感谢你所做的一切 @",
+          "环小姐，这段时间以来@真的非常感谢你"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "textLeft"
+          ],
+          "Eh...嗯...？",
+          "诶……那个……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            49,
+            "textRight"
+          ],
+          "I终究是一个人住 @",
+          "我果然还是决定@独自活下去"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "textLeft"
+          ],
+          "Um...I 不知道我是否做了什么...@",
+          "那个，我……@是不是做错什么了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            52,
+            "textRight"
+          ],
+          "其实，多亏了玉木先生，I才选择了这样的生活方式。@",
+          "不如说，正是多亏了环小姐@我才能选择这样的生活方式"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            53,
+            "textRight"
+          ],
+          "...不过别担心，这不是负面的感觉。@",
+          "……不过，请放心@这绝不是出于消极的心情"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            54,
+            "textRight"
+          ],
+          "为了未来是我的选择@",
+          "而是为了未来@由我自己做出的选择"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            55,
+            "textLeft"
+          ],
+          "我明白了...是的  那我就不说什么了。@",
+          "这样啊……嗯@既然如此，我就不多说了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            56,
+            "textRight"
+          ],
+          "谢谢玉城桑I会尽力的@",
+          "谢谢你，环小姐@我会好好努力的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            57,
+            "textRight"
+          ],
+          "那我来了",
+          "那么，我就在这里告辞了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            60,
+            "textLeft"
+          ],
+          "改天再一起去吃饭吧！@",
+          "那个，以后有机会@再一起去吃饭吧！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            62,
+            "textRight"
+          ],
+          "改天见！  环！@",
+          "有缘再见！@环小姐！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310473-3.json",
+      "jp_sha": "784632fd4ce5a1cec10cf859bd05ac6a54b33ece",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310473-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310473-4.json",
+      "before": "a3f5589254ae7d5348ccdff4ec9d8ea2a5dc0395",
+      "after": "aa247e457c28e5ccccd4fbf615702bb1586267fb",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "textCenter"
+          ],
+          "……就这样，相似事件结束了。@",
+          "……大致就是这样@“相似者事件”落下了帷幕"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            2,
+            "textCenter"
+          ],
+          "Ah，话虽这么说，从那以后我已经被错认了好几次了。@",
+          "啊，话虽如此，那之后@我还是又被认错过好几次"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textCenter"
+          ],
+          "现在有一件事解决了......",
+          "总之，事情算是告一段落了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textCenter"
+          ],
+          "[chara:104700:effect_emotion_surprise_0][se:7226_shock]...抱歉自言自语...！@",
+          "[chara:104700:effect_emotion_surprise_0][se:7226_shock]……不好意思@不知不觉光顾着说自己的事了……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textRight"
+          ],
+          "非常感谢您的帮助！@",
+          "比起这个，能得到你的帮助@真的非常感谢！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            8,
+            "textRight"
+          ],
+          "那么，最后，你现在谁是朋友呢？@",
+          "那么，说到这里@你现在到底有没有伙伴呢……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "textLeft"
+          ],
+          "嗯，人性不会很快改变。@",
+          "这个嘛，人的性格@哪有那么容易改变呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            10,
+            "textLeft"
+          ],
+          "修补事物的习惯和对期望过高的恐惧@",
+          "不自觉掩饰自己的习惯@还有对抱有期待的恐惧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textLeft"
+          ],
+          "虽然好一点了，但却不容易痊愈。@",
+          "虽然稍微好转了些@但也没那么容易改掉"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            12,
+            "textLeft"
+          ],
+          "好友无法做到 @",
+          "所以，称得上伙伴的人@倒是还没结交到呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textLeft"
+          ],
+          "但是，我遇到了一家调整店，让他们调整了 @",
+          "不过，我遇到了调整屋@也请她帮忙做了调整"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            14,
+            "textLeft"
+          ],
+          "I努力独自消灭女巫的特训……@",
+          "自己一个人@也在努力进行讨伐魔女的特训……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textLeft"
+          ],
+          "A还有很多变强的机会。@",
+          "另外，也有各种各样@能让自己变强的机会"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            16,
+            "textLeft"
+          ],
+          "I 在某种程度上已经能够独立生活了 @",
+          "如今在一定程度上@已经能独自活下去了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            17,
+            "textLeft"
+          ],
+          "I觉得没必要强迫自己交朋友@",
+          "所以我想，也没必要@勉强自己去结交伙伴"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textRight"
+          ],
+          "哦，对了。\n即使在",
+          "啊，是这样啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "textLeft"
+          ],
+          "中，与处于合作关系的魔法少女的数量也有所增加。@",
+          "不过，能够算是合作关系的@魔法少女，倒是多了起来"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textLeft"
+          ],
+          "调整店也是如此。",
+          "调整屋也是其中之一"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            21,
+            "textLeft"
+          ],
+          "嗯，能说我是好朋友的人不多。I 不好意思说，人不多。@",
+          "只是说来惭愧@称得上好友的人还没有多少"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            22,
+            "textRight"
+          ],
+          "但是独居真是太棒了！@",
+          "不过，你居然能独自活下去@真的很厉害！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            23,
+            "textRight"
+          ],
+          "想要一个人生活的感觉还是一样吗？@",
+          "直到现在，你想独自活下去的@心意也没有改变吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "textLeft"
+          ],
+          "嗯，除了前面说的之外，我还想出了这个想法。@",
+          "说起来，我会得出这个想法@除了刚才说的那些事之外"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "textLeft"
+          ],
+          "有很多魔法和东西。@",
+          "还经历了与魔法之类的@各种事情"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            27,
+            "textLeft"
+          ],
+          "...是的， 这个意图没有改变。@",
+          "……嗯，果然@这份心意还是没有改变"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            28,
+            "textLeft"
+          ],
+          "有时我对别人的期望很高@",
+          "当然，有时我也会@对别人抱有期待"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "textLeft"
+          ],
+          "I觉得合作也是好事@",
+          "我也觉得@与人合作是件好事"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "textLeft"
+          ],
+          "但是，不依靠别人，一个人生活是可以的 @",
+          "可是，不依靠谁@也能独自活下去"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textRight"
+          ],
+          "I很弱，所以I不这么想......@",
+          "我很弱@还没法像你这样去想……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textLeft"
+          ],
+          "不，连我一开始都傻了。@",
+          "没有没有，我一开始@也是个半吊子呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textLeft"
+          ],
+          "...啊，是的  如果您不介意的话。@",
+          "……啊，对了@要是你不介意的话"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            39,
+            "textLeft"
+          ],
+          "[chara:104700:effect_emotion_surprise_0][se:7226_shock]哦，那个接机不是！@",
+          "[chara:104700:effect_emotion_surprise_0][se:7226_shock]啊，我不是在@搭讪哦！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "textLeft"
+          ],
+          "好吧，如果您有任何麻烦，I 希望帮助...@",
+          "就是，要是你遇到了困难@我也想帮上忙……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            41,
+            "textLeft"
+          ],
+          "如果可以的话，我就和你们一起参加灭魔特训。@",
+          "不嫌弃的话@讨伐魔女的特训，我也可以陪你"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            43,
+            "textLeft"
+          ],
+          "哦，你有足够的悲伤种子吗？@",
+          "啊，还有，你的悲叹之种@还够用吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            44,
+            "textLeft"
+          ],
+          "如果灵魂宝石浑浊，它不会产生任何力量！@",
+          "灵魂宝石浑浊了的话@可是发挥不出力量的哦！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "textLeft"
+          ],
+          "...对不起， 又打扰您了。@",
+          "……啊，抱歉@我是不是管得太多了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            47,
+            "textLeft"
+          ],
+          "但是...如果我能帮助，我会很高兴...@",
+          "可是，那个……哪怕只有一点@能帮到你，我也会很高兴……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            49,
+            "textRight"
+          ],
+          "I不知道为什么你这么关心...@",
+          "我只是有点不明白@为什么你会这么关心我……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "textRight"
+          ],
+          "I只是我刚认识的一个弱小的魔法少女。...@",
+          "明明我只是个@和你刚认识的弱小魔法少女……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            52,
+            "textLeft"
+          ],
+          "I已得到某人以同样的方式帮助......@",
+          "因为我也曾经@像这样受到别人的帮助……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            53,
+            "textLeft"
+          ],
+          "...是二手买卖，但是到...@",
+          "……虽然，这也是我从别人那里听来的@嘿嘿嘿……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            54,
+            "textLeft"
+          ],
+          "我收到的善意下次会送给别人......@",
+          "将自己收到的温柔@再传递给下一个人……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            55,
+            "textLeft"
+          ],
+          "I 希望我能做到 @",
+          "我希望@自己能做到这样的事"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            56,
+            "textRight"
+          ],
+          "那么我希望有一天我也能帮助别人@",
+          "那么，有一天我也能@成为能帮助别人的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            57,
+            "textRight"
+          ],
+          "有可能成为这样的魔法少女吗？@",
+          "那样的魔法少女吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            59,
+            "textLeft"
+          ],
+          "A啊，就算你对我这么说，哈哈@",
+          "啊，不过让我来说这些@也没什么说服力吧，啊哈哈"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            63,
+            "textLeft"
+          ],
+          "（这个神奇的力量......现在就在那里）",
+          "（这股魔力……刚才，在那边）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            64,
+            "textLeft"
+          ],
+          "（那个戴黑兜帽的孩子是...）@",
+          "（好像看见了@那个戴黑色兜帽的孩子……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            69,
+            "textCenter"
+          ],
+          "（你和那个孩子过得好吗...）@",
+          "（环小姐和那个孩子@都还过得好吗……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            70,
+            "textCenter"
+          ],
+          "（我想知道有一天我是否会在某个地方再次看到......）@",
+          "（不知以后能不能@在什么地方再次见面呢……）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            71,
+            "textCenter"
+          ],
+          "（...是的，只要我还活着，我相信我们就会见到）@",
+          "（……嗯，只要还活着@就一定能再见的吧）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            74,
+            "textCenter"
+          ],
+          "我很高兴再次见到你",
+          "能再见面就好了"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310473-4.json",
+      "jp_sha": "ae57c64f858bae0d9359f6db7436c63a2c31a0e2",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1047 - 小黑（くろ）/310473-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310492-1.json",
+      "before": "64594646fac802b77b17c89041465c9cfd89a294",
+      "after": "c6c691f14d9fd81a8693b1865284a84c927b6199",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "textLeft"
+          ],
+          "真的有魔力……",
+          "……真的耶……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1049 - 奥尔加（オルガ）/310492-1.json",
+      "jp_sha": "41283001b742cb72d69163e79e5913e89e074502",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1049 - 奥尔加（オルガ）/310492-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310493-1.json",
+      "before": "6cfffd0c15cc6c7b31bcf7623d155bcb59132471",
+      "after": "43a6ab9102290143f1e6f54f0847f3fa96071263",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "narration"
+          ],
+          "＜狼群骚动过去一段时间后……＞",
+          "＜狼引发的骚动过去一段时间后……＞"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textLeft"
+          ],
+          "狼群那次可真厉害啊！",
+          "那次遇上狼，真是不得了啊！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "textLeft"
+          ],
+          "毕竟我们两个人@一起赶跑了狼群哦？",
+          "毕竟我们两个人@一起赶跑了狼哦？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            23,
+            "textLeft"
+          ],
+          "……不，也不能这么说……",
+          "……不，应该不会吧……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1049 - 奥尔加（オルガ）/310493-1.json",
+      "jp_sha": "10331304715b8c6568d9c140325dcfbd1a8b65ec",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1049 - 奥尔加（オルガ）/310493-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310493-3.json",
+      "before": "1494515b78875d46615bcceef36cdf923ef6e5c2",
+      "after": "bf197d7bbb69e11181ec9933b10f5a94d4c11dfc",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textLeft"
+          ],
+          "这次不会@让你一个人做！",
+          "这次我不会@一个人行动了！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1049 - 奥尔加（オルガ）/310493-3.json",
+      "jp_sha": "082851e278bffb88988ab2fdf8eaa6952c05e326",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1049 - 奥尔加（オルガ）/310493-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310502-2.json",
+      "before": "692e1f21193c1e28dacc0d9e4a85196210cc22e2",
+      "after": "7b97018419ea08390135896522b92eb852bc0638",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            12,
+            "narration"
+          ],
+          "袭击伊斯维克时@我们遇见了这位老战士……他名叫埃贝",
+          "伊斯维克遭到袭击时@我们遇见了这位老战士……他名叫埃贝"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1050 - 冈希尔德（ガンヒルト）/310502-2.json",
+      "jp_sha": "166e40ff54243974ed39e182d7fa85e13d4d24a7",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1050 - 冈希尔德（ガンヒルト）/310502-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310502-3.json",
+      "before": "9e8ad8ed61a8e6ded9e4cc966e5c1ee020fb6f7a",
+      "after": "b9a9aff49dfe8d45d7b2055517a164619e5a8f70",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textRight"
+          ],
+          "为了变得能着实地@实现梦想…",
+          "为了确保@梦想能够实现……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textCenter"
+          ],
+          "……这样就算是收拾掉使魔了……？@真是的……",
+          "……这还只是个使魔……？@真是的……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1050 - 冈希尔德（ガンヒルト）/310502-3.json",
+      "jp_sha": "45271530d8062bb2708a029f529588aa00126e9d",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1050 - 冈希尔德（ガンヒルト）/310502-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310502-4.json",
+      "before": "5b6096554d0dc5078f3fd339ea6f31cfb95da3e9",
+      "after": "e21bf8c43a02f4b19731dd07708f08a4147dc187",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "narration"
+          ],
+          "不过，作为代价得到的力量……",
+          "不过，以此为代价换来的力量……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            53,
+            "textLeft"
+          ],
+          "不会的",
+          "没有那回事"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1050 - 冈希尔德（ガンヒルト）/310502-4.json",
+      "jp_sha": "c1e90a15377010d7779f9dd46f280674292e8a71",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1050 - 冈希尔德（ガンヒルト）/310502-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310503-2.json",
+      "before": "533dd62b66fbb58e012ba4bb5fd794c18bc966a3",
+      "after": "d5f839b8e4b69216cb58fa905f9569717b00649b",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "textRight"
+          ],
+          "啊，对了！",
+          "是啊，没错！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            12,
+            "textLeft"
+          ],
+          "最后竟然只是个小丫头……",
+          "到头来才干掉一个小丫头……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1050 - 冈希尔德（ガンヒルト）/310503-2.json",
+      "jp_sha": "a58264323a3c60668969d0cbbfde27766e3867ce",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1050 - 冈希尔德（ガンヒルト）/310503-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310503-3.json",
+      "before": "674c34110791c1755fe54f1128d5c38b1a2549b3",
+      "after": "d530a8fca2295fdd148e7b2073b5534e36ac358d",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textCenter"
+          ],
+          "是吗……是魔女……！",
+          "原来如此……是魔女……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            14,
+            "textCenter"
+          ],
+          "可我们也没办法……",
+          "……没办法……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1050 - 冈希尔德（ガンヒルト）/310503-3.json",
+      "jp_sha": "580ae7dd7b385ed2ba39c046c5e72a2c522bfd44",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1050 - 冈希尔德（ガンヒルト）/310503-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310512-1.json",
+      "before": "265ceb1a4f5d4822351ef28bbf05db2bb749d4fa",
+      "after": "2cdcb87d785cab347bddafcb6fc7c0c655123a43",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            69,
+            "textRight"
+          ],
+          "（和我与卓玛曾被关进去的@那个洞穴很像……）",
+          "（和我与卓玛曾被困住的@那个洞穴很像……）"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310512-1.json",
+      "jp_sha": "e0604a6184f7ac55411da84128c556af5674c587",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310512-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310512-2.json",
+      "before": "abe35bb3b7b4a1409d3b04e6f77cf53fa088de99",
+      "after": "4d15b50eff563ffaa5898e2cd31e8e569f325308",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            43,
+            "textRight"
+          ],
+          "（紧张…）",
+          "好期待……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310512-2.json",
+      "jp_sha": "a79bbb1b52054bbda6b5ff203430c83b3a1f5185",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310512-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310512-3.json",
+      "before": "5253891c4b71d54cc5d32ca01162cdbe1fa99807",
+      "after": "9d0a137b065282e76d60879cba74e9a3ee85105a",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "textLeft"
+          ],
+          "不，我就…",
+          "不，我……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "narration"
+          ],
+          "可她珍视的友人……敬爱的北方尼僧院拉玛……@这些人一旦落入蒙古兵手中@便会被“魔”附身。",
+          "听说，她珍视的友人……敬爱的北方尼僧院拉玛……@那些人遭蒙古兵杀害后@她就被“魔”附身了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            79,
+            "textRight"
+          ],
+          "……呵……呵呵……这样啊……@原来你是这么想的……",
+          "……呵……呵呵……是吗……@原来是这么一手……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310512-3.json",
+      "jp_sha": "a06a71174614a39e5d70f5a44088a36f0d489f99",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310512-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310512-4.json",
+      "before": "6c83f826c5c4ebcbb2361c6acfcf88df88a73933",
+      "after": "5e47c1f826118a8748755219e5dc2a244b9ccd4b",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textRight"
+          ],
+          "举行罗刹女仪式@让他们赐予我力量。",
+          "举行罗刹女仪式@让自己获得赐予的力量"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            54,
+            "narration"
+          ],
+          "如果没能保护卓玛@这次我就真的会变得一无是处……",
+          "如果没能保护卓玛@这次我就真的什么都不是了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            69,
+            "narration"
+          ],
+          "卓玛想成为罗刹女……@因此会要求自己成为特别的人@做出英雄般的举动……",
+          "卓玛想成为罗刹女……@所以她可能会逼自己成为特别之人@做出英雄般的举动……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310512-4.json",
+      "jp_sha": "afe4bd76a910fc3985983e5fd0205346f1f32b69",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310512-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310513-1.json",
+      "before": "d41273d2dbfa6dc8f2da4c36fbb4cef567f3c678",
+      "after": "6ce355e6513ba4da08560686d2b7f071150c14c6",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            77,
+            "textRight"
+          ],
+          "牺牲自己拯救所有人？@成为所有生命的基石……？",
+          "牺牲自己拯救大家？@成为大家生命的基石……？"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310513-1.json",
+      "jp_sha": "a4376f059dd62f5b8150b9d2be4e78be876a3d78",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310513-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310513-2.json",
+      "before": "195d5b3fc421b7e8a40e9644de347dbbf29dd0d6",
+      "after": "db0d1c58e50fa0a5aee57c9a8532577150faab27",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "textRight"
+          ],
+          "你是觉得对付我@肯定能赢吧",
+          "她大概是觉得，对付你@一定能赢吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            44,
+            "narration"
+          ],
+          "―赫露迦―@啊，你问震天雷吗？修女院里就有@以前见过用法，所以我记住了…",
+          "―赫露迦―@啊，你问震天雷吗？尼僧院里就有@以前见过用法，所以我记住了…"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310513-2.json",
+      "jp_sha": "3dd5d094d6b09ddb4fd10bf735490cbed80cc598",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310513-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310513-3.json",
+      "before": "e6db1a9c3fe113093e0b1b6e8c9595a6f287f6cc",
+      "after": "b035333d5830b12ffcd9c06ffbf29b53fe8efc51",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "narration"
+          ],
+          "之后我们还加强了巡逻@这里与其说是修女院@倒更像一支自卫队了",
+          "之后我们还加强了巡逻@这里与其说是尼僧院@倒更像一支自警团了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            16,
+            "textRight"
+          ],
+          "只要别再回修女院@做什么都无所谓",
+          "只要别再回尼僧院@做什么都无所谓"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            24,
+            "textLeft"
+          ],
+          "真的非常抱歉@今后的修女院就拜托你们了…",
+          "真的非常抱歉@今后的尼僧院就拜托你们了…"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "textRight"
+          ],
+          "…结果那些家伙@还是没弄清她们想知道的事呢",
+          "……我们想知道的事@那些家伙到头来什么都不知道呢"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310513-3.json",
+      "jp_sha": "e40370beed723d3ff5a2aa50065f836e5b08c4b4",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310513-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310513-4.json",
+      "before": "d819d9fd0675857b3e87f44dafe2ca2fe8bcd385",
+      "after": "c4af81690dc9ac5e3e93454f15aa799ea4fe49d4",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textCenter"
+          ],
+          "…只要能够拥有这份心情@对我来说就已经足够",
+          "……仅仅是得到了这份心情@对我来说就已经足够"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310513-4.json",
+      "jp_sha": "220fe6061361161ab9e25244a1b12451b6f8c2da",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1051 - 赫露迦（ヘルカ）/310513-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310521-2.json",
+      "before": "4c42a5fffee5bf4763910588ad31ac654bfa9a15",
+      "after": "2b0b2f1ef5e00f291dec858482968ebdcc68abb1",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "textRight"
+          ],
+          "不…其实，不叫也…没关系哦…？",
+          "不……其实，现在叫也……可以哦……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "textRight"
+          ],
+          "…不…那个…@其实不叫也…没关系哦…？",
+          "……不……那个……@现在叫……也可以哦……？"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310521-2.json",
+      "jp_sha": "2f1530ecb9a1d1233f864e8712880990e549a74f",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310521-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310521-4.json",
+      "before": "1b992b33a907bc99145407c77bac2c9d8266d774",
+      "after": "181e6bc00935901659101ac88f64b887b1843700",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            73,
+            "textRight"
+          ],
+          "它们在一起跑……",
+          "台与和它在一起跑呢……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            106,
+            "textLeft"
+          ],
+          "……不知不觉间@它们已经这么亲密了",
+          "……不知不觉间@台与和它已经这么亲密了"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310521-4.json",
+      "jp_sha": "da7988bcb7652fba8c54a02b5832e461ecab3a2f",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310521-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310522-1.json",
+      "before": "5e5db51d9a7194f38f0e58f470a6f3501940fb19",
+      "after": "1b6bc84c24e6377e49de450aa7bd56107ee66717",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            86,
+            "textLeft"
+          ],
+          "没有这个的话，它就只能@直接睡在地上了……",
+          "没有这个的话，就只能@直接睡在地上了……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310522-1.json",
+      "jp_sha": "89df90f48cfe60207e5915914b31119b21af0324",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310522-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310522-3.json",
+      "before": "a6d4f98da71c2ee5214288fb5d90afaec4ad4f2d",
+      "after": "8e539550e08c711a9a0b009a518047e72cd3d39a",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            8,
+            "textLeft"
+          ],
+          "台与刚开始带着贝洛贝洛@干活的时候",
+          "台与刚开始带着舔舔@干活的时候"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            10,
+            "textRight"
+          ],
+          "听说它们还会一起打扫呢",
+          "听说台与和它还会一起打扫呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textLeft"
+          ],
+          "多亏贝洛贝洛帮忙，@台与也轻松多了，真是太好了",
+          "多亏舔舔帮忙，@台与也轻松多了，真是太好了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            14,
+            "textRight"
+          ],
+          "贝洛贝洛真聪明呢",
+          "舔舔真聪明呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            17,
+            "textRight"
+          ],
+          "啊，贝洛贝洛…？@你没和台与在一起吗？",
+          "啊，舔舔…？@你没和台与在一起吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            27,
+            "textLeft"
+          ],
+          "这是吾和贝洛贝洛一起发现的",
+          "这是吾和舔舔一起发现的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "textLeft"
+          ],
+          "哦～贝洛贝洛～@你把大家都带来了，真了不起",
+          "哦～舔舔～@你把大家都带来了，真了不起"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textLeft"
+          ],
+          "贝洛贝洛很聪明的！",
+          "舔舔很聪明的！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "textLeft"
+          ],
+          "是贝洛贝洛抓到的，@这里有很多河鱼",
+          "是舔舔抓到的，@这里有很多河鱼"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            43,
+            "textLeft"
+          ],
+          "照这个势头，吾还要和贝洛贝洛@一起找到其他食材！",
+          "照这个势头，吾还要和舔舔@一起找到其他食材！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            56,
+            "textLeft"
+          ],
+          "贝洛贝洛也吃了相当多…",
+          "舔舔也吃了相当多…"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            70,
+            "textLeft"
+          ],
+          "吾要睡在贝洛贝洛身上，@毛茸茸的，可舒服啦",
+          "吾要睡在舔舔身上，@毛茸茸的，可舒服啦"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            95,
+            "textLeft"
+          ],
+          "贝洛贝洛也很开心…？",
+          "舔舔也很开心…？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            96,
+            "textLeft"
+          ],
+          "可是…对不起…@不能带贝洛贝洛一起去",
+          "可是…对不起…@不能带舔舔一起去"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            102,
+            "textLeft"
+          ],
+          "要暂时分别一阵子了，@贝洛贝洛",
+          "要暂时分别一阵子了，@舔舔"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            106,
+            "textLeft"
+          ],
+          "贝洛贝洛最喜欢和吾@一起奔跑了",
+          "舔舔喜欢和吾@一起奔跑"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            113,
+            "textLeft"
+          ],
+          "抱歉，贝洛贝洛，@吾有点累了",
+          "抱歉，舔舔，@吾有点累了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            130,
+            "textLeft"
+          ],
+          "…对吧，贝洛贝洛？",
+          "…对吧，舔舔？"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310522-3.json",
+      "jp_sha": "a1f7842565e40f78bcf9929013537c30a51618c0",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310522-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310522-4.json",
+      "before": "be1d8c495a7caa3915600d90fd7d360e0e871672",
+      "after": "f3d14ef9a8191ec15505e987ca35ea048f7d2c55",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textRight"
+          ],
+          "啊，对了…最近台与叫它@在屋外等自己起床",
+          "啊，对了……最近，它在屋外@等着台与起床"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "textRight"
+          ],
+          "原来是这么回事",
+          "是台与叫它这么做的啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            22,
+            "textRight"
+          ],
+          "不，现在要…水…@对不起，贝洛贝洛！我们赶时间",
+          "不，现在要…水…@对不起，舔舔！我们赶时间"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textLeft"
+          ],
+          "哦…是贝洛贝洛啊…@对了…原来是这样…",
+          "哦…是舔舔啊…@对了…原来是这样…"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            49,
+            "textLeft"
+          ],
+          "…呐，贝洛贝洛",
+          "…呐，舔舔"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310522-4.json",
+      "jp_sha": "f8fe3ab34f23786da5f7a518f116027763fd4f7b",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310522-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310523-1.json",
+      "before": "770465716cd99bca1e94b80347704421170502ab",
+      "after": "1b7a57028354d348a6fcdc6dc71a1226d0152f70",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            5,
+            "textRight"
+          ],
+          "贝洛贝洛也很担心她啊",
+          "舔舔也很担心她啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textLeft"
+          ],
+          "啊…贝洛贝洛…@肚子饿了吗…？",
+          "啊…舔舔…@肚子饿了吗…？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            27,
+            "textLeft"
+          ],
+          "…贝洛贝洛，@也对不起…",
+          "…舔舔，@也对不起…"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "textLeft"
+          ],
+          "对不起，贝洛贝洛…@让你这么无聊…",
+          "对不起，舔舔…@让你这么无聊…"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            31,
+            "textLeft"
+          ],
+          "有吾这样的主人…@贝洛贝洛也…会不喜欢吧",
+          "有吾这样的主人…@舔舔也…会不喜欢吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            32,
+            "textLeft"
+          ],
+          "贝洛贝洛一定更想要一个…@身体更强健的主人…",
+          "舔舔一定更想要一个…@身体更强健的主人…"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310523-1.json",
+      "jp_sha": "23e3c65d2648b604e3a55db899b4fb3abaefa6c9",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310523-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310523-2.json",
+      "before": "431d156a7197cd7d7d676463924f6f38d6128fde",
+      "after": "d0d1dd488515934636773d13e054e10aa93677af",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "textRight"
+          ],
+          "把贝洛贝洛…丢掉？",
+          "把舔舔…丢掉？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textLeft"
+          ],
+          "它们被某种看不见的东西侵蚀，@并接连传染给其他人",
+          "它们被某种看不见的东西侵蚀，@一个接一个地如同被附身一般"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            14,
+            "textRight"
+          ],
+          "可是，贝洛贝洛它…",
+          "可是，舔舔它…"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "textLeft"
+          ],
+          "我觉得贝洛贝洛@并没有染上狂犬病",
+          "我觉得舔舔@并没有染上狂犬病"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "textRight"
+          ],
+          "…可是，台与非常@珍视贝洛贝洛",
+          "…可是，台与非常@珍视舔舔"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            27,
+            "textRight"
+          ],
+          "在她因病虚弱的时候@让它们分开，实在是…",
+          "在她因病虚弱的时候@把她和舔舔分开，实在是…"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            59,
+            "textRight"
+          ],
+          "台与希望贝洛贝洛@留在身边吧？",
+          "台与希望舔舔@留在身边吧？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            62,
+            "textLeft"
+          ],
+          "可是…吾要和@贝洛贝洛分别",
+          "可是…吾要和@舔舔分别"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            64,
+            "textLeft"
+          ],
+          "就算和吾待在一起…@贝洛贝洛也会…很无聊",
+          "就算和吾待在一起…@舔舔也会…很无聊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            65,
+            "textLeft"
+          ],
+          "吾希望…贝洛贝洛…@能够过得开心",
+          "吾希望…舔舔…@能够过得开心"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            77,
+            "textLeft"
+          ],
+          "可是…贝洛贝洛@一定不一样…",
+          "可是…舔舔@一定不一样…"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            86,
+            "textLeft"
+          ],
+          "贝洛贝洛…",
+          "舔舔…"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310523-2.json",
+      "jp_sha": "803d018839ed8ae8044bc5a7d1f1abb204ad66ed",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310523-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310523-3.json",
+      "before": "fc144510ae2be138ae20bc0dd60a0b4b9dbe409d",
+      "after": "b95cb982bc0440408b4c984bea4be5b2f02f7246",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textLeft"
+          ],
+          "只要…能和贝罗贝罗@跑上一会儿…那就够了…",
+          "只要…能和舔舔@跑上一会儿…那就够了…"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "narration"
+          ],
+          "―台与―@啊哈哈…@贝罗贝罗…是不是跑得更快了…？",
+          "―台与―@啊哈哈…@舔舔…是不是跑得更快了…？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            27,
+            "narration"
+          ],
+          "―贝罗贝罗―@汪汪！",
+          "―舔舔―@汪汪！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "narration"
+          ],
+          "―台与―@贝罗贝罗…不要@丢下吾呀",
+          "―台与―@舔舔…不要@丢下吾呀"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            31,
+            "narration"
+          ],
+          "―贝罗贝罗―@汪！",
+          "―舔舔―@汪！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "narration"
+          ],
+          "―台与―@贝罗贝罗真温柔…",
+          "―台与―@舔舔真温柔…"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "narration"
+          ],
+          "―贝罗贝罗―@哈、哈、哈！",
+          "―舔舔―@哈、哈、哈！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "narration"
+          ],
+          "―贝罗贝罗―@汪汪！",
+          "―舔舔―@汪汪！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "narration"
+          ],
+          "―台与―@要是吾的身体…很普通的话…",
+          "―台与―@要是吾的身体……和常人一样……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "narration"
+          ],
+          "―台与―@贝罗贝罗…一定会@玩得更开心…",
+          "―台与―@舔舔…一定会@玩得更开心…"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            44,
+            "narration"
+          ],
+          "―贝罗贝罗―@汪汪！嗷呜——！",
+          "―舔舔―@汪汪！嗷呜——！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "narration"
+          ],
+          "―台与―@…所以，贝罗贝罗…@忘了吾吧",
+          "―台与―@…所以，舔舔…@忘了吾吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            58,
+            "narration"
+          ],
+          "―贝罗贝罗―@哈、哈、哈！@汪汪！",
+          "―舔舔―@哈、哈、哈！@汪汪！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            62,
+            "narration"
+          ],
+          "贝罗贝罗一直摇着尾巴@陪吾不停地奔跑@紧贴在吾身边…寸步不离…",
+          "舔舔一直摇着尾巴@陪吾不停地奔跑@紧贴在吾身边…寸步不离…"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310523-3.json",
+      "jp_sha": "8407362d61e6f91cf1948f4c2a1956297547df81",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310523-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310523-4.json",
+      "before": "1832f7466a2274cb264710a3f66e07fda86a9154",
+      "after": "1369c80341b3ebe2636c6df587dee522a1b51114",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "narration"
+          ],
+          "虽说与大家分别已久@但每当这个季节到来@吾都会想起大家的面容…还有贝罗贝罗",
+          "虽说与大家分别已久@但每当这个季节到来@吾都会想起大家的面容…还有舔舔"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "narration"
+          ],
+          "结果吾…在那之后倒下了@没能好好与贝罗贝罗道别",
+          "结果吾…在那之后倒下了@没能好好与舔舔道别"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            21,
+            "textCenter"
+          ],
+          "吾不想…扭曲@贝罗贝罗自己的心意",
+          "吾不想…扭曲@舔舔自己的心意"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            22,
+            "textCenter"
+          ],
+          "而且，贝罗贝罗不是人@而是狗",
+          "而且，舔舔不是人@而是狗"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "narration"
+          ],
+          "吾明知那不可能…@根本不会有那种奇迹…",
+          "吾明知那不可能……@也不可能会有万一……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "narration"
+          ],
+          "直到贝罗贝罗心满意足…@直到跑腻为止",
+          "直到舔舔心满意足…@直到跑腻为止"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            41,
+            "narration"
+          ],
+          "所以…贝罗贝罗@那时吾虽叫汝忘了吾…",
+          "所以…舔舔@那时吾虽叫汝忘了吾…"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            44,
+            "narration"
+          ],
+          "总是许下这么任性的愿望@吾也觉得实在不像话…@可吾果然还是想和贝罗贝罗在一起",
+          "总是许下这么任性的愿望@吾也觉得实在不像话…@可吾果然还是想和舔舔在一起"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "textCenter"
+          ],
+          "贝罗贝罗…！",
+          "舔舔…！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310523-4.json",
+      "jp_sha": "f6c936d8389627437eb0c1433250780b8bf3c1d7",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1052 - 台与（トヨ）/310523-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310531-2.json",
+      "before": "0514d9375e892e6517488ee9a62a235ef004e802",
+      "after": "8799b9361b6f6fb82176f9e4cc8dbf95cc7efea2",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            62,
+            "textRight"
+          ],
+          "你果然就是美由莉说的那个@恋…什么脑吧？",
+          "你果然就是美由亲说的那个@恋……什么来着？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            85,
+            "narration"
+          ],
+          "亮闪闪",
+          "啵哇～"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310531-2.json",
+      "jp_sha": "44a65b60fcacd9eeb63f40bc4ddc7cc88a0cf337",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310531-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310531-4.json",
+      "before": "5b739b5db99ae4cec8426a55112449937944878c",
+      "after": "8da969c5dda9f499d36eed45b0db22f9950a5200",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            51,
+            "textRight"
+          ],
+          "再这样下去，现代的智能手机@将落到这个时代最著名的人物之一",
+          "再这样下去，现代的智能手机@就会落到这个时代最著名的人物之一"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            52,
+            "textRight"
+          ],
+          "就会落到@普林尼乌斯的手中",
+          "普林尼乌斯的手中"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            77,
+            "textRight"
+          ],
+          "冷静下来，一着急就输了@和竞技游戏一样",
+          "冷静下来，一着急就输了@和卢杜斯一样"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310531-4.json",
+      "jp_sha": "26f9c50bf5565d2a813bad1826215a2b408369fa",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310531-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310532-1.json",
+      "before": "bb4fe2558d39741152a61bcbe802dad72a905c65",
+      "after": "3784dbabfbf1647d8891cdc5b0888179ea4a9de4",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textRight"
+          ],
+          "撒娇请求这件事@姑且得到父亲同意了",
+          "父亲姑且@同意了我的请求"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310532-1.json",
+      "jp_sha": "1eb881ec0f1bae91efeb6c9cf5c94d2d0fb783f2",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310532-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310532-2.json",
+      "before": "dcb1f5749813565d8266ea2166bc9abdd835105b",
+      "after": "34e40135939238c0b59dc256c3a5359363375773",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textRight"
+          ],
+          "今天，如果左利手的希拉略@能赢下比赛就太棒了呢",
+          "今天，如果左撇子希拉鲁斯@能赢下比赛就太棒了呢"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310532-2.json",
+      "jp_sha": "a876e9d06b7470e1f8e3a412cf6bce931ba87ca4",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310532-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310533-1.json",
+      "before": "ca457eafefef2d1be9179bcbb67da068294cd8bc",
+      "after": "1b84838b44c2f2483b4444149728ac739ba0eab0",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "textLeft"
+          ],
+          "这个世界上的坏事@差不多全是米优的错……",
+          "这个世界上的坏事@差不多全是美由的错……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310533-1.json",
+      "jp_sha": "717934d5260d38d1e3967c2aa251d7e31d53726f",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310533-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310533-2.json",
+      "before": "a6214a1028034375a54f444f82bd61811d47ed46",
+      "after": "57a4a00b603efcc895dfacd4d0da6cc27b721eb8",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textRight"
+          ],
+          "是希拉略先生的马",
+          "是希拉鲁斯先生的马"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310533-2.json",
+      "jp_sha": "b4eb06bdbc596705df03ce0dbe198b8c2a36ebda",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310533-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310533-3.json",
+      "before": "1b4618fab897d22445263e5e95529ddeb0dc0b3e",
+      "after": "6362292488d915b152645f696b1833fbe3b29c2b",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textLeft"
+          ],
+          "米优琳大人的手机@平安回来了",
+          "美由亲大人的手机@平安回来了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            60,
+            "textLeft"
+          ],
+          "说不定那时就已经@彻底变成砖了……",
+          "说不定那时就已经@变成镇纸了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            67,
+            "textLeft"
+          ],
+          "被打磨得极其光亮的",
+          "以为那是被打磨得极其光亮的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            68,
+            "textLeft"
+          ],
+          "认定那是一面小镜子@……",
+          "一面小镜子……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            69,
+            "textRight"
+          ],
+          "这么说来，它是由银或锡@贴合玻璃制成的",
+          "这么说来，看上去也许就像@在银或锡上贴合了玻璃的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            70,
+            "textRight"
+          ],
+          "看起来或许就像@一面小镜子呢",
+          "一面小镜子呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            72,
+            "textLeft"
+          ],
+          "米优的手机已经@只是一面镜子或一块砖了",
+          "美由的手机已经@只是一面镜子或一块镇纸了"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310533-3.json",
+      "jp_sha": "25c5f6e134adc4e45829c5652ceb27edf06e0256",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310533-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310533-4.json",
+      "before": "4a9614c80ab390c25702708e6de916a82dbf3ef0",
+      "after": "e806ecfd8397df1198721d3bf06d253e50a6f713",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            61,
+            "textLeft"
+          ],
+          "米优琳大人的手机那件事也是",
+          "美由亲大人的手机那件事也是"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310533-4.json",
+      "jp_sha": "1f5663d8699920ba883da9fe3460b82aefe89df5",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1053 - 阿玛琉莉丝（アマリュリス）/310533-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/311021-3.json",
+      "before": "ac777bece92ca8a4f90042537ec0c830d8eef73e",
+      "after": "9970f74bd2572b0b818caaebf94a8dcbc392036b",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textRight"
+          ],
+          "哦，对了。\n即使在",
+          "啊，原来是这样"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311021-3.json",
+      "jp_sha": "87e61b08325aca9dfccb842d5e8a96cec33ea8f9",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311021-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/311022-1.json",
+      "before": "8eb823679dc85473b4ca611926f9ebb24667c723",
+      "after": "3b79138863b8f89982b87dfd386eecb7ccf86022",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            10,
+            "textLeft"
+          ],
+          "你们能@这么说，我很高兴呢。",
+          "谢谢你@听你这么说，我很高兴呢"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311022-1.json",
+      "jp_sha": "bd9a692e1d6bc715751ac8b10fdadafd0fe99086",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311022-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/311022-2.json",
+      "before": "c698dce13fc4db52fd7a7780bb24996e58f7328a",
+      "after": "2b318a683be4477102dfe18a579964976d44d927",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "narration"
+          ],
+          "我很高兴@如此热心支持姐姐的爱情生活。",
+          "两个孩子满腔热情地@说要支持姐姐的恋情，心意是好的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            2,
+            "narration"
+          ],
+          "八千代 是一名模特，@美冬 忙着上课，所以看起来 @ 从未恋爱过。 @ 不知道该怎么办。",
+          "可八千代忙着模特工作@美冬忙着各种练习@两人似乎都没谈过恋爱@完全不知道该怎么办"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "narration"
+          ],
+          "然而，当他得知姐姐想要邀请喜欢他的人与@约会时，他显然四处与@周围的成年人交谈，以确保@姐姐的邀请成功。",
+          "不过，得知那位姐姐@想约喜欢的人出去后@她们为了帮姐姐成功发出邀请@似乎四处向身边的大人请教"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "textRight"
+          ],
+          "怎么了的说？",
+          "什么事？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textLeft"
+          ],
+          "啊，呃……我想向@的妈妈询问作业的事情……",
+          "啊，那个……有一份学校作业@想请教母亲大人……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            8,
+            "textLeft"
+          ],
+          "这是一项任务，采访 @ 关于他们与家人的“第一次”并编写总结。",
+          "作业要我们采访家人@有关“第一次”的经历，再整理出来"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            10,
+            "textLeft"
+          ],
+          "嗯……例如，当我第一次用@ 骑自行车时……",
+          "呃……比如@第一次学会骑自行车之类的……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textLeft"
+          ],
+          "我希望我能听到你初恋时的故事……@……",
+          "还、还有初恋的时候……@我想听听这些事情……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            12,
+            "textRight"
+          ],
+          "@你知道我不骑自行车",
+          "你应该知道@我是不骑自行车的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textLeft"
+          ],
+          "[chara:110204:effect_emotion_sad_0][se:7224_fall_into]Uh……没错……",
+          "[chara:110204:effect_emotion_sad_0][se:7224_fall_into]呜……对，是这样……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            14,
+            "textRight"
+          ],
+          "更何况@和你父亲的相遇是一次求婚。",
+          "而且，我和你父亲@是经人说亲才认识的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textRight"
+          ],
+          "订婚结束后，我更加专注于@新娘的训练。",
+          "订婚以后@我就更加专心地为出嫁做准备了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            16,
+            "textRight"
+          ],
+          "这是爱，爱，所以你没有时间忘记它 @",
+          "哪还有闲工夫@沉迷什么情啊爱啊的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textRight"
+          ],
+          "作业内容是否足够？",
+          "这些内容够你完成作业了吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textRight"
+          ],
+          "如果是这样，请尽快返回房间。",
+          "那就快回房去吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            21,
+            "textRight"
+          ],
+          "@还有其他事情要做吧？",
+          "你还有其他事情@需要做吧？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            24,
+            "textLeft"
+          ],
+          "嗯，前辈",
+          "那个，前辈"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "textRight"
+          ],
+          "啊？是 @八千代-chan",
+          "嗯？@是小八千代啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "textRight"
+          ],
+          "发生了什么事？ @ 今天有课吗？",
+          "怎么啦？@今天来上训练课吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            27,
+            "textLeft"
+          ],
+          "啊，是的，@ 没错……",
+          "啊，是的@不过……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "textRight"
+          ],
+          "怎么了？",
+          "什么事？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "textLeft"
+          ],
+          "如果你去和喜欢前辈的人一起玩@",
+          "假如前辈要和喜欢的人@一起出去玩"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            31,
+            "textLeft"
+          ],
+          "你要去哪里？",
+          "会去什么地方呢？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textRight"
+          ],
+          "不会吧，八千代酱……她恋爱了吗！？@她恋爱了吗！？",
+          "难道小八千代……恋爱了！？@是恋爱了吧！？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            35,
+            "textRight"
+          ],
+          "忧 交给我吧！",
+          "既然是这样，就交给我吧！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textRight"
+          ],
+          "自从咨询了神滨最佳恋爱帮手@",
+          "既然来向我这个@神滨头号恋爱帮手咨询"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "textRight"
+          ],
+          "[chara:801000:effect_emotion_joy_0][se:7222_happy]假装您在一艘大船上！",
+          "[chara:801000:effect_emotion_joy_0][se:7222_happy]你就放一百个心吧！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "textLeft"
+          ],
+          "怎么，是不是有什么误会……？",
+          "怎、怎么好像被误会了……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "textLeft"
+          ],
+          "@ 因为做一些我不习惯的事情而感到厌倦…………",
+          "做了这么多不习惯的事@感觉好累啊……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "textRight"
+          ],
+          "抱歉……我没有关于 @ 的任何好的信息……",
+          "对不起……我这边@没打听到什么有用的信息……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            43,
+            "textLeft"
+          ],
+          "我无能为力",
+          "这也没办法嘛"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            44,
+            "textLeft"
+          ],
+          "一些我什至不知道的事情",
+          "我也没想到"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "textRight"
+          ],
+          "但多亏了这个，@ 教会了我很多东西，对吧？",
+          "不过，也多亏这样@前辈才教了你不少事情吧？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            47,
+            "textLeft"
+          ],
+          "是的，推荐商店和 @ 约会地点。",
+          "嗯，比如推荐的店铺@和约会地点"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "textLeft"
+          ],
+          "另外，我还被借给了这本杂志@。",
+          "还把这几本杂志@借给我了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            49,
+            "textRight"
+          ],
+          "嗯……即使读了一点，我也不知道@ 有什么好处……",
+          "唔……稍微看了一下@也分辨不出哪些比较好呢……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "textLeft"
+          ],
+          "原来如此…… @ 我们从来没有谈过恋爱……",
+          "最后还是这样呢……@毕竟我们都没谈过恋爱……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            51,
+            "textRight"
+          ],
+          "即使您在不知道该信息是好还是坏的情况下告诉姐姐，@",
+          "在还不知道这些信息好坏的情况下@就告诉姐姐"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            52,
+            "textRight"
+          ],
+          "相反，可能会导致 姐姐 和 @ 的麻烦…………",
+          "反而可能会让姐姐@更加烦恼呢……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            54,
+            "textRight"
+          ],
+          "二人 是不是有点好？",
+          "你们两个，能打扰一下吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            56,
+            "textRight"
+          ],
+          "我听到 @ 谈论 二人……",
+          "我不小心听见了@你们商量的事情……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            57,
+            "textLeft"
+          ],
+          "请不要问我……",
+          "不要擅自偷听啦……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            59,
+            "textRight"
+          ],
+          "但是，我想为什么不把所有信息都给@姐姐呢？",
+          "不过，我在想@干脆把所有信息都告诉姐姐怎么样？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            61,
+            "textRight"
+          ],
+          "那小子就是能正确回答@的人。",
+          "那个孩子@能自己好好拿定主意的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            62,
+            "textRight"
+          ],
+          "我认为有更多的 @ 选项会更好。",
+          "能给她多一些选择@总归是好事"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            63,
+            "textRight"
+          ],
+          "我相信 @ 会很高兴，因为你做了这么多研究。",
+          "你们为她做了这么多功课@她一定会很高兴的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            64,
+            "textLeft"
+          ],
+          "……好吧，我会和 @姐姐 通话",
+          "……明白了@我去和姐姐谈谈"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311022-2.json",
+      "jp_sha": "08d80c232cd67a1c89d92020189fabf569aabfdb",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311022-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/311022-3.json",
+      "before": "10ab114db90397da550d8b86132802ab25f44e2b",
+      "after": "db5db6256934dbdff91b46127f58fb39dacbf4ba",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "narration"
+          ],
+          "八千代把他发现的一切告诉了姐姐。",
+          "八千代把查到的事情，全都告诉了那位姐姐"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "narration"
+          ],
+          "我相信你得到了一些很好的信息 @ 姐姐 一开始很困惑，但是当他听了 @ 的故事时，@ 逐渐变得更好。",
+          "一定是有不错的信息吧@起初还有些不知所措的姐姐@听着听着@脸上的神情也渐渐明朗起来"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            5,
+            "textRight"
+          ],
+          "谢谢你，八千代-chan，@ 做了很多研究…………",
+          "谢谢你，小八千代@替我查了这么多……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "textLeft"
+          ],
+          "美冬和@一起调查。",
+          "美冬也@和我一起查了呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textLeft"
+          ],
+          "呃……我……@ 完全没用……",
+          "啊……我……@其实没帮上什么忙……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            8,
+            "textRight"
+          ],
+          "嗯，我很高兴 @ 做了这项研究。",
+          "不是的，为我费心去查@这份心意就让我很开心了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "textRight"
+          ],
+          "谢谢你，美冬-chan",
+          "谢谢你，小美冬"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            10,
+            "textLeft"
+          ],
+          "是的…… 忧 很高兴认识你……！",
+          "嗯……不客气……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textRight"
+          ],
+          "嗯……@ 的推荐景点太多了，我都看晕了……",
+          "唔……推荐的地方好多@有些拿不定主意……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            12,
+            "textRight"
+          ],
+          "我将邀请您参观这个当代艺术博物馆的@特别展览。",
+          "就试着约对方去看@这家现代美术馆的特展吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            14,
+            "textRight"
+          ],
+          "是的，我想@之前说过他喜欢当代艺术。",
+          "嗯，我记得那个人以前@好像说过喜欢现代艺术"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textRight"
+          ],
+          "我希望能和@一起去博物馆的相亲点。",
+          "顺便也能去一趟@美术馆的结缘景点就好了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            17,
+            "textRight"
+          ],
+          "还有……我对博物馆附近的这家甜品店@也很感兴趣！",
+          "还有……美术馆附近的@这家甜品店，我也很感兴趣！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textLeft"
+          ],
+          "这是一家使用农民直送的水果制作@冻糕的商店。",
+          "是这家用果农直送的水果@制作芭菲的店吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textLeft"
+          ],
+          "马斯卡彭冻糕……@ 它有什么味道……？",
+          "马斯卡彭奶酪芭菲……@会是什么味道呢……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            22,
+            "textLeft"
+          ],
+          "[chara:110204:effect_emotion_surprise_0][se:7226_shock]哦，对不起…………！ @已出轨……",
+          "[chara:110204:effect_emotion_surprise_0][se:7226_shock]啊，对不起……！@我说跑题了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            24,
+            "textRight"
+          ],
+          "非常感谢 二人",
+          "你们两个，真的谢谢了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "textRight"
+          ],
+          "我不太习惯这个忧，对@也没有信心。",
+          "我不太习惯这种事情@又没什么自信"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "textRight"
+          ],
+          "@对我帮助很大，因为我自己无法研究它。",
+          "光靠自己也查不到这些@你们可帮大忙了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            28,
+            "textRight"
+          ],
+          "有了姐姐，如果你约她出去，@一定会接受。",
+          "姐姐的话，只要开口邀请@对方一定会答应约会的！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            32,
+            "textLeft"
+          ],
+          "怎么、怎么了……？",
+          "诶，怎么了……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textRight"
+          ],
+          "嗯，我觉得这很奇怪。",
+          "没什么，只是觉得很不可思议"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textRight"
+          ],
+          "尽管二人比我年轻，但和他在一起时，@给了我勇气。",
+          "明明你们两个都比我小@可和你们在一起，却能得到勇气"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "narration"
+          ],
+          "八千代非常担心自己的未来，他无法忍受@。",
+          "八千代很担心事情的进展@急得坐立不安呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "narration"
+          ],
+          "午后刚收到冬羽说练习结束的消息@七海八千代就立刻@飞奔去了集合地点@明日屋",
+          "午后，美冬一联系她，说练习结束了@八千代就立刻@飞奔到约好碰面的@明日屋去了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "textRight"
+          ],
+          "…姐姐、@ 他们进展顺利吗？",
+          "……姐姐的约会@进展顺利吗……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            41,
+            "textLeft"
+          ],
+          "我不知道……我希望@ 一切顺利",
+          "不知道……@不过希望一切顺利"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "textRight"
+          ],
+          "是的，如果故事很精彩的话，《@》就太好了。",
+          "嗯，希望两人@聊得很开心呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            44,
+            "textLeft"
+          ],
+          "如果你们来自同一所大学，我不知道你们说的是@课程还是俱乐部。",
+          "要是同一所大学的人@会聊上课或社团的事吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            45,
+            "textRight"
+          ],
+          "我想你也谈论了你最喜欢的食物@。",
+          "我想，也会聊聊@喜欢吃什么哦"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "textLeft"
+          ],
+          "……美冬、@ 你想吃点东西吗？",
+          "……美冬，@你是有想吃的东西吧？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            49,
+            "textRight"
+          ],
+          "嘘！ @ 不一样！",
+          "嘟——！@答错了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            51,
+            "textRight"
+          ],
+          "[chara:110204:effect_emotion_joy_0][se:7222_happy] “时令水果和马斯卡彭 @ 巨大冻糕”！",
+          "[chara:110204:effect_emotion_joy_0][se:7222_happy]是“时令水果与马斯卡彭奶酪@超大份芭菲”！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311022-3.json",
+      "jp_sha": "268783ab33568860f5391024d2ef908f3330b495",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311022-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/311022-4.json",
+      "before": "5f39d380741fd8bd3db1988ebc8d72679d2c1ccc",
+      "after": "f39b7c8bc5eba3e6cfd0812ba603296075ac20f7",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textRight"
+          ],
+          "美冬 不就是 @ 吗？",
+          "美冬没和你@一起回来吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textLeft"
+          ],
+          "我们很快就会再次练习。",
+          "她说接下来还要去练习"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "textRight"
+          ],
+          "我做了很多@，因为我以为他们是来吃晚饭的。",
+          "我以为她会来吃晚饭@就多做了一些"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textLeft"
+          ],
+          "那我就吃它",
+          "那就由我来吃吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "textLeft"
+          ],
+          "……姐姐和@还没回来？",
+          "……姐姐@还没回来吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            10,
+            "textRight"
+          ],
+          "天哪，@ 我没有听到任何特别的声音。",
+          "是呢@也没有什么消息"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textLeft"
+          ],
+          "姐姐……他还没回来……",
+          "姐姐……还没回来……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            17,
+            "textRight"
+          ],
+          "已经是晚餐时间了……@通常我会接到电话……",
+          "已经到晚饭时间了……@平时她都会联系一下的……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textLeft"
+          ],
+          "……我会尝试打电话给@姐姐……！",
+          "……我@给姐姐打个电话试试……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            21,
+            "textLeft"
+          ],
+          "姐姐！ @[chara:110203:lipSynch_0][wait:0.8][chara:110203:cheek_0][chara:110203:face_mtn_ex_030.exp.json][chara:110203:lipSynch_1]欢迎回来……？",
+          "姐姐！@[chara:110203:lipSynch_0][wait:0.8][chara:110203:cheek_0][chara:110203:face_mtn_ex_030.exp.json][chara:110203:lipSynch_1]欢迎回……来……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            22,
+            "textLeft"
+          ],
+          "呃，呃……发生了什么事……？",
+          "哎呀……这是怎么了……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            23,
+            "textRight"
+          ],
+          "……被刮伤了……",
+          "……放鸽子了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "textRight"
+          ],
+          "……日期……@ 我完全被忽略了……",
+          "……约会……@被放鸽子了啊～……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            28,
+            "textLeft"
+          ],
+          "所以你联系不上我，所以你一直等到@晚上……？",
+          "就是因为联系不上对方@才一直等到晚上吗……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textLeft"
+          ],
+          "虽然我根本不懂爱情，但我说我支持@姐姐……",
+          "我明明根本不懂恋爱@还说要支持姐姐……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textLeft"
+          ],
+          "做一些不必要的事情……破坏@姐姐的感情……",
+          "多管闲事……@害得姐姐的心意落了空……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textRight"
+          ],
+          "八千代酱没有错，@也没有必要道歉。",
+          "小八千代没有错@不需要道歉哦"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            39,
+            "textRight"
+          ],
+          "已经结束了，再想@也没有意义了~",
+          "已经过去的事@再想也没有办法了呀～"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            40,
+            "textRight"
+          ],
+          "但是……对不起，让八千代酱伤心了，@……",
+          "不过……对不起@连小八千代也被我弄难过了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            41,
+            "textLeft"
+          ],
+          "呃……呃……",
+          "呜……呜呜……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "textRight"
+          ],
+          "……姑苏……",
+          "……呜……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            44,
+            "textLeft"
+          ],
+          "万物皆有其意义，所以光明正大地期待@好吗？",
+          "凡事都有它的意义@打起精神，向前看，好吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "textLeft"
+          ],
+          "……你饿了吧？ @我们吃晚饭吧",
+          "……肚子饿了吧？@我们吃晚饭吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            47,
+            "textLeft"
+          ],
+          "我要做另一道配菜，@八千代 你能帮我安排米饭吗？",
+          "我再做一道菜@八千代，能帮忙把饭菜摆好吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            51,
+            "textRight"
+          ],
+          "啊……@ 鸡柳黄瓜梅肉……",
+          "啊……@鸡柳黄瓜拌梅肉……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            52,
+            "textLeft"
+          ],
+          "他为我做了这个……",
+          "原来做的是这道菜啊……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            54,
+            "textLeft"
+          ],
+          "是的，@ 你喜欢酸的，对吧？",
+          "是啊@不是喜欢酸味吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            57,
+            "textLeft"
+          ],
+          "人，酸甜苦辣，@，了解了就会更有深度。",
+          "人啊，尝过人生的酸与甜@才会更有深度"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            58,
+            "textLeft"
+          ],
+          "吃起来神清气爽 @",
+          "吃了它，把烦闷一扫而空@赶快打起精神吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            60,
+            "textLeft"
+          ],
+          "过了一会儿，@八千代 也有了一个我感兴趣的孩子。",
+          "再过一阵子@八千代也许也会有在意的人"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            61,
+            "textLeft"
+          ],
+          "你可能会哭或笑",
+          "为那个人又哭又笑呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            62,
+            "textRight"
+          ],
+          "一个让我很好奇的孩子……",
+          "在意的人……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            63,
+            "textLeft"
+          ],
+          "哦，也许@也是忧……？",
+          "哎呀，该不会@已经有了吧……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            64,
+            "textRight"
+          ],
+          "不，它不在那里！ @ 没有这样的事！",
+          "没、没有！@才没有那种人呢！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            66,
+            "textCenter"
+          ],
+          "哦，别误会我的意思！ @ 真的不一样……！",
+          "别、别误会了！@真的不是那样……！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311022-4.json",
+      "jp_sha": "14be9ce3924e7a0ce1dfa6da16f3667755c81f57",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311022-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/311023-1.json",
+      "before": "fd8eb013fb3f1438a319450bd32f43ec2605b028",
+      "after": "e2729b831bad3cd0f407f264fe39b02552965fcf",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textLeft"
+          ],
+          "噢，发生什么事了？ @ 好郁闷……",
+          "哎呀，怎么了？@怎么这么没精神……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textRight"
+          ],
+          "八千代和美冬……很久以前……@……正在为某人努力工作……",
+          "八千代和美冬……从以前开始……@就在为了别人……努力……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            5,
+            "textLeft"
+          ],
+          "那么为什么加奈惠会被@压低呢？",
+          "可是，为什么加奈惠@会因此难过呢？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "textRight"
+          ],
+          "我只是造成问题…… @ 我没有为任何人做任何事情……",
+          "我却……总是惹麻烦……@没能……帮上任何人……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textLeft"
+          ],
+          "有问题吗？",
+          "惹麻烦？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textLeft"
+          ],
+          "是的，甚至八千代也多次导致@。",
+          "是啊，就连八千代@也惹过好几次麻烦呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textLeft"
+          ],
+          "欢迎回到二人",
+          "你们两个，欢迎回来"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            22,
+            "textRight"
+          ],
+          "@ 和 二人 聊过往事吗？",
+          "你们两位@是在聊从前的事吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            23,
+            "textLeft"
+          ],
+          "就是那个地方",
+          "差不多就是这样"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "textLeft"
+          ],
+          "就问一下……不好啊……",
+          "我擅自听了……抱歉……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "textRight"
+          ],
+          "这不是什么需要隐藏的事情，所以不用担心 @",
+          "又不是什么需要隐瞒的事@不用在意"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            27,
+            "textLeft"
+          ],
+          "……关于问题……？",
+          "……惹麻烦的事……也可以说吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "textLeft"
+          ],
+          "第一次见到美冬的妈妈和@。",
+          "就是第一次见到@美冬母亲的时候"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            32,
+            "textRight"
+          ],
+          "您已经将 @ 告诉 加奈惠 了吗？",
+          "已经把那件事@告诉加奈惠小姐了吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            35,
+            "textLeft"
+          ],
+          "如果你问我，这很糟糕吗？",
+          "不方便……让我听吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textRight"
+          ],
+          "……好吧，如果是加奈惠，我不介意与@交谈。",
+          "……没有，要是加奈惠@说给你听也没关系"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "textRight"
+          ],
+          "但是……我没有信心平静地说出@……",
+          "可是……我没信心@能冷静地讲出来……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            39,
+            "textLeft"
+          ],
+          "是是是。",
+          "好，好"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311023-1.json",
+      "jp_sha": "a89051274ebafc79852b921dd1ac6f1c65019c05",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311023-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/311023-2.json",
+      "before": "48824d1352e63237dc21039582f2f43394b8534b",
+      "after": "b0f18658b25527d6ba5ba3eca63bafa5385e2f33",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "narration"
+          ],
+          "我确定触发因素是……@ 第一次看到 @ 的古筝演奏会。",
+          "我记得，是从……@第一次去看美冬的筝演奏会@那时开始的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            2,
+            "narration"
+          ],
+          "发表会临近，练习也越来越忙@冬羽不能再来@我们家玩@所以我和七海八千代都觉得很寂寞呢",
+          "演奏会临近，练习也越来越忙@美冬没法@来我们家玩@所以我和八千代都觉得很寂寞呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "narration"
+          ],
+          "发表会是在陌生的地方，虽然很紧张@但既能见到冬羽@又能听她演奏古筝@所以我们两人都很期待地去观看了",
+          "演奏会是在陌生的地方，虽然有些紧张@但既能见到美冬@又能听她弹筝@所以我们两人都很期待地去观看了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            5,
+            "narration"
+          ],
+          "“接下来是@梓美冬的表演，请听@。”",
+          "“接下来@请欣赏梓美冬同学的演奏”"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "narration"
+          ],
+          "噼啪噼啪……",
+          "啪啪啪啪……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            10,
+            "textLeft"
+          ],
+          "美冬，我很紧张……",
+          "美冬……很紧张呢……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textRight"
+          ],
+          "哎呀……@还好吗？",
+          "是啊……@不知道有没有事……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            12,
+            "textLeft"
+          ],
+          "……祝你好运，美冬……！",
+          "……加油，美冬……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            16,
+            "textCenter"
+          ],
+          "苏…………",
+          "呼…………"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "narration"
+          ],
+          "吵吵闹闹……",
+          "窃窃私语……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "textLeft"
+          ],
+          "梓家的美冬酱@还好吗……？",
+          "梓家的小美冬@没事吧……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "textRight"
+          ],
+          "也许是来自老家的压力吧……@ 我很紧张……",
+          "是名门家世带来的压力吗……@她可真紧张呢……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            31,
+            "textLeft"
+          ],
+          "嗯，@ 就这个水平，还不好意思炫耀 露 吗？",
+          "哼，就这点水平也来登台@不嫌丢人吗"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            32,
+            "textRight"
+          ],
+          "这是对老师的侮辱。",
+          "这样可真是辱没老师的名声啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            35,
+            "textCenter"
+          ],
+          "就连美冬也在努力……！",
+          "美冬也在努力啊……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "narration"
+          ],
+          "噼啪噼啪……",
+          "啪啪啪啪……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            41,
+            "textLeft"
+          ],
+          "奶奶……我想去看看@美冬……！",
+          "奶奶……@我想去见见美冬……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "textRight"
+          ],
+          "即使你这么说……我也有麻烦了。",
+          "就算你这么说……@也不好办啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            43,
+            "textLeft"
+          ],
+          "他紧张得连我都能理解……他好像犯了@的错误……",
+          "她紧张得连我都能看出来……@好像……还弹错了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            44,
+            "textLeft"
+          ],
+          "我想鼓励@，因为我觉得你真的很沮丧…………！",
+          "我想她一定很难过@所以想去鼓励她……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "textRight"
+          ],
+          "但我们在这里是@ 外人。",
+          "可是，在这里@我们毕竟是外人"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            47,
+            "textRight"
+          ],
+          "我们要在@ 会场外等候以免打扰您吗？",
+          "为了不打扰别人@我们到会场外等吧？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "narration"
+          ],
+          "之后，@八千代和二人在会场外等了一会儿，但@最终没有找到美冬。",
+          "后来，我和八千代@在会场外等了一阵子@结果还是没见到美冬"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            51,
+            "narration"
+          ],
+          "演奏会结束了，@ 不能再呆下去了。",
+          "演奏会也结束了@我们不能再久留"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            52,
+            "narration"
+          ],
+          "“准备许多点心@叫冬羽来开一场慰劳会吧”@那天我和七海八千代一路聊着这些@回了家",
+          "“多准备一些点心@叫美冬来，给她办场慰劳会吧”@那天，我和八千代聊着这些@回了家"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            53,
+            "narration"
+          ],
+          "之后……@七海八千代给冬羽发了邮件@可无论等一天还是一星期@都没有收到冬羽的回复……",
+          "在那之后……@八千代给美冬发了邮件@可等了一天，又等了一周@都没收到美冬的回信……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            55,
+            "textLeft"
+          ],
+          "这绝对是奇怪的…………",
+          "这绝对不对劲……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            56,
+            "textLeft"
+          ],
+          "嘿，奶奶！ @ 很奇怪不是吗！？",
+          "奶奶，你说！@很奇怪吧！？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            57,
+            "textRight"
+          ],
+          "我一直忙到现在",
+          "她之前一直忙着练习"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            58,
+            "textRight"
+          ],
+          "也许@在演奏会结束后生病了。",
+          "也许是演奏会结束后放松下来@反而病倒了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            60,
+            "textLeft"
+          ],
+          "美冬 一定会将您的电子邮件返回给 @……",
+          "美冬的话@一定会回我的邮件的……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            61,
+            "textLeft"
+          ],
+          "……也许我的手机又被从@那里拿走了……",
+          "……会不会又被@没收手机了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            63,
+            "textLeft"
+          ],
+          "……也许 @ 和 美冬 发生了一些事情……",
+          "……美冬可能@出了什么事……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            67,
+            "textRight"
+          ],
+          "[chara:801800:effect_emotion_surprise_0][se:7226_shock]Eh，现在开始……！？",
+          "[chara:801800:effect_emotion_surprise_0][se:7226_shock]诶，现在就去……！？"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311023-2.json",
+      "jp_sha": "a9fd4433bef0fd46adc8628dc8b69b2d481f411e",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311023-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/311023-3.json",
+      "before": "cae1faf21ef55b5ba82d52a3f1b56bdc99dc8e8d",
+      "after": "affe421a3cd79ff53334ebbe275cd5508e7272f9",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "narration"
+          ],
+          "独自跑出去的八千代拜访了@美冬的家，并请求@的帮手帮忙，并试图与@美冬见面。",
+          "独自跑出去的八千代@来到了美冬家@请佣人帮忙通报@想要见美冬"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            2,
+            "narration"
+          ],
+          "出来的不是@美冬……",
+          "可走到外面来的@不是美冬……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textLeft"
+          ],
+          "你是七海桑吗？",
+          "你就是七海同学？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textRight"
+          ],
+          "啊……！ @ 很高兴认识你……",
+          "啊……！@初次见面……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            8,
+            "textLeft"
+          ],
+          "不幸的是，美冬 感冒了，@ 行动迟缓。",
+          "不巧，美冬感冒了@正在卧床休息"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "textLeft"
+          ],
+          "请捡起来",
+          "请回吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            10,
+            "textRight"
+          ],
+          "……是这样吗？",
+          "……那是真的吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            12,
+            "textRight"
+          ],
+          "自从演奏会以来我一直无法联系到美冬和@…………",
+          "演奏会结束后@我就一直联系不上美冬同学……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textRight"
+          ],
+          "也许发生了什么事……@ 我是朋友，所以我很担心……！",
+          "是不是发生了什么事……@因为我们是朋友，所以我很担心……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textLeft"
+          ],
+          "邀请那个女孩说“朋友”",
+          "打着朋友的旗号引诱那个孩子"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            16,
+            "textLeft"
+          ],
+          "你是想让@走上犯罪道路的人吗？",
+          "企图让她走上歧途的@就是你吗"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            24,
+            "textLeft"
+          ],
+          "由于我不努力地玩耍，在@演奏会上玷污了古琴大师的名声。",
+          "她不好好努力，只顾着到处玩@结果在演奏会上，辱没了筝老师的名声"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "textLeft"
+          ],
+          "@ 那个也破坏了我们家族历史的孩子，是梓家的毁灭者……！",
+          "还给我们家族的历史蒙羞@那个孩子是梓家的耻辱……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "textLeft"
+          ],
+          "…必须接受再教育 莎奈",
+          "……必须重新教育她"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "textLeft"
+          ],
+          "不用再跟你说话了 @",
+          "我没有必要@再和你说下去"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "textLeft"
+          ],
+          "汝回去吧",
+          "回去吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            31,
+            "textRight"
+          ],
+          "美冬 一直在努力学习@ 课程！",
+          "美冬一直@拼命地练习着！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            32,
+            "textRight"
+          ],
+          "嗯，我技术不太好，但是……",
+          "她的确不怎么灵巧……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textRight"
+          ],
+          "我一定要成为一个优秀的女人，不辜负@妈妈的期望。",
+          "可她一直想着要成为出色的女性@不能辜负母亲的期待"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textRight"
+          ],
+          "他正在努力成为那个孩子！",
+          "并且以她自己的方式努力着！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            35,
+            "textLeft"
+          ],
+          "你知道什么？",
+          "你又知道什么！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textRight"
+          ],
+          "我明白了！",
+          "我当然知道！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "textRight"
+          ],
+          "如果你正确面对美冬，你就会立刻明白@！",
+          "只要你好好面对美冬@一下子就会明白的！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "textCenter"
+          ],
+          "所以妈妈，@面对那个孩子！",
+          "所以，也请您这个母亲@好好面对她！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            39,
+            "textCenter"
+          ],
+          "请承认吧！",
+          "认可她吧！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "textCenter"
+          ],
+          "雅灿……！",
+          "小八……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "textLeft"
+          ],
+          "您也不能只获得 @！",
+          "你也@别想就这么算了！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            49,
+            "textRight"
+          ],
+          "请原谅我，妈妈……！",
+          "请您原谅，母亲大人……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            52,
+            "textLeft"
+          ],
+          "我告诉过你不要出现！ @ 你要反抗我吗？",
+          "不是说过不许出来吗！@你是想反抗我吗！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            54,
+            "textRight"
+          ],
+          "好的！",
+          "是的……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            56,
+            "textRight"
+          ],
+          "……骂我不行。",
+          "……小八会责备不争气的我"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            57,
+            "textRight"
+          ],
+          "雅酱是发现我优点的人，@……",
+          "也会在这样的我身上@找到优点……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            58,
+            "textRight"
+          ],
+          "我的第一次……@是我亲爱的最好的朋友……！",
+          "她是我第一个……@最重要的挚友……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            61,
+            "textRight"
+          ],
+          "如果你想惩罚我，@就交给我吧……！",
+          "如果要责罚@就请只责罚我一个人……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            64,
+            "textRight"
+          ],
+          "唉……哇，我不知道@是否能及时赶到……",
+          "呼……真是的，@总算是赶上了吗……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            66,
+            "textRight"
+          ],
+          "是八千代的祖母",
+          "我是八千代的祖母"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            67,
+            "textRight"
+          ],
+          "这次孙女似乎给各位@添了麻烦，实在抱歉",
+          "这次孙女似乎给您@添了麻烦，实在抱歉"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            69,
+            "textRight"
+          ],
+          "现在，八千代应该向@好好道歉。",
+          "来，八千代@你也好好道歉"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            71,
+            "textRight"
+          ],
+          "你对你朋友的母亲无礼 @",
+          "你刚才对朋友的母亲@采取了失礼的态度"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            72,
+            "textRight"
+          ],
+          "你知道该怎么做，@，对吗？",
+          "该怎么做@你明白吧？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            76,
+            "textRight"
+          ],
+          "不过，请理解@您孙子的感受。",
+          "不过，也请您@体谅一下我孙女的心情"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            77,
+            "textRight"
+          ],
+          "@I每天都在家里担心女儿……",
+          "她每天都在@为您的女儿担心……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            78,
+            "textRight"
+          ],
+          "如果每天能至少联系一次@我就放心了。",
+          "哪怕一天只能联系一次@她也能放心一些"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            79,
+            "textLeft"
+          ],
+          "……就算仅此而已也没关系。",
+          "……这样的话没问题"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            80,
+            "textLeft"
+          ],
+          "但从现在起，您将被禁止进出@的家。",
+          "不过，从今以后@我不准你们再来我们家"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            81,
+            "textLeft"
+          ],
+          "你的孙子对我的孩子@产生了不好的影响。",
+          "您的孙女@会给我女儿带来坏影响"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            85,
+            "textRight"
+          ],
+          "美冬酱，再见@……我在家等你。",
+          "小美冬，再见@……我会在家里等着你"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311023-3.json",
+      "jp_sha": "cd5e6774ab4c83f60effcc46cbcdba2cac79b15d",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311023-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/311023-4.json",
+      "before": "f0780dd3bed47f812fc44cf18c989539207067aa",
+      "after": "241d5f04442df346b86e1bcd047b26a23a9853c3",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "textRight"
+          ],
+          "无论多少次想起@，它都让我快乐，温暖我的心。",
+          "不管回想多少次，@都觉得很开心，心里暖暖的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textRight"
+          ],
+          "是的，当时的Yacchan在@里真的很酷……",
+          "是啊，那时候的小八@真的很帅气……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textRight"
+          ],
+          "我想成为你余生最好的朋友。",
+          "我当时就想，要和你做一辈子的挚友"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            5,
+            "textLeft"
+          ],
+          "这是什么……尴尬啊……",
+          "说什么呢……好难为情……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textRight"
+          ],
+          "我真的很感谢Yacchan @。",
+          "我真的@非常感谢小八"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            8,
+            "textRight"
+          ],
+          "从那时起，我就可以和妈妈谈论一些关于@的事情了……",
+          "因为从那以后，也能和母亲大人@稍微说上些话了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "textLeft"
+          ],
+          "@I 只是做了很自然的事来帮助我最好的朋友遇到麻烦。",
+          "为了帮助烦恼中的挚友@我只是做了理所当然的事"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textLeft"
+          ],
+          "帮助您最好的朋友或庆祝您 @ 最好朋友的生日",
+          "不论是帮助挚友@还是为挚友庆祝生日"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            12,
+            "textLeft"
+          ],
+          "@我认为正面面对那个孩子很重要。",
+          "我都觉得，这对真诚地面对对方@是很重要的事"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textRight"
+          ],
+          "加奈惠…@ 你是在躲避我们吧？",
+          "加奈惠……@你之前一直在躲着我们吧？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            17,
+            "textRight"
+          ],
+          "毕竟，@似乎是在我家附近停留。",
+          "明明听说@你还是会来我们家"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textRight"
+          ],
+          "自从我问@他想要什么生日礼物之后，我就再也见不到他了。",
+          "可是问过你想要什么生日礼物后@我们就完全见不到你了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textRight"
+          ],
+          "嗯……我看了加奈惠掉落的@学生证。",
+          "那个……我们擅自看了@加奈惠小姐落下的学生证"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            21,
+            "textRight"
+          ],
+          "@ 得知你的生日，我真的很抱歉…………",
+          "因此得知了你的生日@这件事真的非常抱歉……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            23,
+            "textRight"
+          ],
+          "但是请",
+          "不过，拜托你了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            24,
+            "textRight"
+          ],
+          "请让我为我最好的朋友庆祝生日@……！",
+          "请让我们@为挚友庆祝生日……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "textRight"
+          ],
+          "……嘿，加奈惠酱",
+          "……小加奈惠啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            28,
+            "textRight"
+          ],
+          "我谈到了过去的日子……",
+          "我之所以聊起从前的事……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "textRight"
+          ],
+          "二人一直是直接面对@人的人。",
+          "是想告诉你，她们俩从以前起@就是愿意真诚面对别人的孩子"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "textRight"
+          ],
+          "我也想面对加奈惠酱。",
+          "所以也想好好面对你"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            31,
+            "textRight"
+          ],
+          "我想告诉@，我正在以自己的方式努力。",
+          "正以她们自己的方式@努力着哦"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            32,
+            "textLeft"
+          ],
+          "那么……您知道 八千代一行人 和 @ 奶奶吗……？",
+          "那么……我和八千代她们之间的事@奶奶……也知道……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textRight"
+          ],
+          "我是从 八千代 那里听说的。",
+          "因为八千代跟我说过了嘛"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            35,
+            "textRight"
+          ],
+          "……加奈惠不庆祝，也在@的预料之内。",
+          "……我也料到@加奈惠会不好意思让我们庆祝"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textRight"
+          ],
+          "我们实际上想用 @ 惊喜来庆祝。",
+          "其实我们也想过@给你一个生日惊喜"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "textRight"
+          ],
+          "但很久以前，我在暗中准备的时候，差点在@失败。",
+          "不过，以前有一次偷偷做准备@差一点就把事情搞砸了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "textLeft"
+          ],
+          "…………[wait:0.8][chara:304901:cheek_0][chara:304901:face_mtn_ex_050.exp.json][chara:304901:mouthOpen_1][chara:304901:lipSynch_1]A",
+          "…………[wait:0.8][chara:304901:cheek_0][chara:304901:face_mtn_ex_050.exp.json][chara:304901:mouthOpen_1][chara:304901:lipSynch_1]啊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            39,
+            "textRight"
+          ],
+          "所以，当我们庆祝某人时，@",
+          "所以我们决定@以后为谁庆祝的时候"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            41,
+            "textRight"
+          ],
+          "我决定问 @ 你想要什么礼物。",
+          "再问问对方@希望收到什么礼物"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            43,
+            "textLeft"
+          ],
+          "…当您了解 二人 的历史时，@ 变得更加难以克制……",
+          "……知道你们俩的故事后@就更加……不好推辞了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            45,
+            "textRight"
+          ],
+          "好吧，无论如何……我不仅仅是在寻找生日礼物或 @ 礼物。",
+          "……总之，我们想知道的@不只是你的生日和想要的礼物"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "textRight"
+          ],
+          "我们希望我们能更多地了解 @ 关于 加奈惠",
+          "还想了解@有关加奈惠的各种事情"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            47,
+            "textRight"
+          ],
+          "我喜欢什么，当我是 孩子 时发生了什么…………",
+          "比如你喜欢什么，还有小时候的事……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "textRight"
+          ],
+          "如果 加奈惠 能和我谈论任何事情，@ 会很高兴。",
+          "只要加奈惠小姐愿意说@不管是什么，我们都会很高兴的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            49,
+            "textLeft"
+          ],
+          "……我很好……",
+          "……我的事……就算了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "textLeft"
+          ],
+          "像八千代一行人…… @ 没有故事可以讲……",
+          "我没有……像八千代你们那样@值得说出来的故事……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            51,
+            "textRight"
+          ],
+          "那么为什么不开始用 三人 制作 @ 存储器呢？",
+          "那就从现在开始@由你们三个一起创造回忆，不就好了吗"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            52,
+            "textLeft"
+          ],
+          "不对，奶奶也在你身边吧？",
+          "不行，奶奶也要一起哦？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            53,
+            "textRight"
+          ],
+          "哎呀，真不错。",
+          "哎呀，真让人高兴呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            56,
+            "textRight"
+          ],
+          "……只要有Yatchan和奶奶@就让我感到安心。",
+          "……光是有小八和奶奶在@就觉得很安心呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            57,
+            "textLeft"
+          ],
+          "……美冬也在……@比较冷静……",
+          "……美冬也在……@就更加安心……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            60,
+            "textRight"
+          ],
+          "嘿，这之后你想出去吗？",
+          "说起来，一会儿要不要出去逛逛？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            61,
+            "textRight"
+          ],
+          "我们去各个商店，从加奈惠@中找到你想要的东西",
+          "我们多逛几家店@找找加奈惠想要的东西吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            64,
+            "textRight"
+          ],
+          "这是我第一次和四人一起出去……我很期待@！",
+          "这还是我们四个第一次一起出门……@好期待！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            66,
+            "textCenter"
+          ],
+          "谢谢你，Yacchan @ 因为有你，我……",
+          "谢谢你，小八@正因为有你，我才……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311023-4.json",
+      "jp_sha": "2ef39abd7fc28bb4262d2e2389fc486166625101",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1102 - 八千代·美冬（起始ver.）（やちよ・みふゆ（始まりver.））/311023-4.json"
+      ],
+      "permitted_name_operations": []
+    }
+  ],
+  "review_method": "model_assisted_full_scene_Japanese_comparison_not_official_human_source",
+  "validation": {
+    "schema": 2,
+    "batch": "20261001-semantic-batch05-ai-only",
+    "validated_at": "2026-10-01T13:40:36Z",
+    "indexed_chapters_complete": 24,
+    "scenes_full_read": 97,
+    "complete_scenes_reviewed": 97,
+    "pending_source_adjudication": [],
+    "display_fields_reviewed": 5124,
+    "display_fields_revised": 720,
+    "body_fields_revised": 720,
+    "explicit_speaker_label_repairs": 0,
+    "display_only": true,
+    "exact_reverse_to_original_bytes": true,
+    "nontext_structure_actor_identity_and_audio_unchanged": true,
+    "AI_import_source_verified": true,
+    "executable_tags_and_highlight_types_unchanged": true,
+    "player_name_placeholders_preserved": 0,
+    "actual_reader_parser_files": 61,
+    "actual_reader_events_and_audio_metadata_unchanged": true,
+    "specialized_tests_passed": 23,
+    "reader_txt_files": 42,
+    "reader_txt_field_spans": 1474,
+    "historical_full_section_baselines": 16,
+    "multiline_artifact_spans": 4,
+    "txt_missing_fields": 0,
+    "txt_alignment_holds": 0,
+    "protected_v4_unchanged": 43,
+    "protected_authorized_cn_unchanged": 196,
+    "unrelated_dirty_paths_unchanged": true,
+    "review_method": "model_assisted_full_scene_Japanese_comparison_not_official_human_source",
+    "official_or_human_provenance_not_asserted": true,
+    "published": false,
+    "whole_corpus_complete": false,
+    "device_gameplay_verified": false
+  }
+}
