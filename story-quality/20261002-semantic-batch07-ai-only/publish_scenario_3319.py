@@ -51,15 +51,21 @@ def anonymous_check(api,tag,files,output):
   # Verify the normal, unauthenticated URL on every attempt; a cache-busted
   # URL or a matching API digest alone is not sufficient to open the gate.
   for attempt in range(13):
-   download(assets[p.name]['browser_download_url'],target)
-   actual=identity(target)
-   if actual==expected:break
+   error=None;actual=None
+   try:
+    download(assets[p.name]['browser_download_url'],target)
+    actual=identity(target)
+   except (urllib.error.URLError,TimeoutError,OSError) as exc:
+    error=type(exc).__name__
+   if error is None and actual==expected:break
    print('PUBLIC_URL_NOT_YET_CONSISTENT',tag,p.name,attempt+1,
-         'expected',expected,'received',actual,flush=True)
-   if attempt==12:raise RuntimeError('Public URL did not converge: '+p.name)
+         'expected',expected,'received',actual,'transport_error',error,flush=True)
+   # A stale redirect can return404 while the new API asset is already live.
+   # Always revalidate the intended asset identity before bounded retry.
    current=api.assets(api.call('releases/tags/'+tag))
    if current.get(p.name,{}).get('digest')!='sha256:'+expected['sha256']:
     raise RuntimeError('Release changed during public verification: '+p.name)
+   if attempt==12:raise RuntimeError('Ordinary public URL did not converge: '+p.name)
    time.sleep(10)
  print('ANONYMOUS_VERIFIED',tag,[p.name for p in files],flush=True)
 
