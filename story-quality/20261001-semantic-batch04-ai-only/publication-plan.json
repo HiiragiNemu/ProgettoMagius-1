@@ -1,0 +1,2292 @@
+{
+  "schema": 2,
+  "batch": "20261001-semantic-batch04-ai-only",
+  "base_version": 3315,
+  "target_version": 3316,
+  "base_package_sha256": "363ecb61dad9265a0c6221835e526731e47270d9afdfa42255ea686019e68038",
+  "reader_commit": "93305879d45862439647d346281814b7070fe1cd",
+  "cn_patch_commit": "a3448c39da6fa2bf0dcf9067ca3a15dc8e0b8728",
+  "changed_runtime_scripts": 44,
+  "full_scenes_read": 52,
+  "complete_scenes_reviewed": 52,
+  "complete_indexed_chapters": 13,
+  "pending_source_adjudication": [],
+  "reviewed_fields": 2961,
+  "changed_fields": 164,
+  "body_fields_changed": 163,
+  "speaker_labels_changed": 1,
+  "reader_txt_files": 26,
+  "reader_txt_field_spans": 356,
+  "protected_v4": {
+    "madomagi/resource/scenario/json/adv/scenario_4/400001-1.json": "e2bbe2b49d13eeab2714c2d708341df0d1b007eb",
+    "madomagi/resource/scenario/json/adv/scenario_4/400003-1.json": "9bcfb10a4b849b6db8cce7300828f5d6bcc96178",
+    "madomagi/resource/scenario/json/adv/scenario_4/400009-1.json": "72104a28c51ab0bbd87dbabe61c8e7d10abef023",
+    "madomagi/resource/scenario/json/adv/scenario_4/400013-1.json": "c6ababce51cc6e5d5b977af8192453cf9df9449f",
+    "madomagi/resource/scenario/json/adv/scenario_1/101201-7.json": "c6b1aa3c4e0af11c4e885fa8529364bf023fb2a0",
+    "madomagi/resource/scenario/json/adv/scenario_5/501404-6_O6Cjc.json": "b374d0dbc976b4b2c33c10b34e2561de5655e231",
+    "madomagi/resource/scenario/json/adv/scenario_5/501501-5.json": "380e6c0f4d8e32a1e967210126cfb5bc172345e5",
+    "madomagi/resource/scenario/json/adv/scenario_5/501512-2.json": "960e4b8f84ce08af9e34c68f927817c05188f97d",
+    "madomagi/resource/scenario/json/adv/scenario_5/501512-3.json": "064563fa2f827160866a6fabb6c6b38a4a47d3d4",
+    "madomagi/resource/scenario/json/adv/scenario_5/506101-1.json": "6d9418dd73e11adc40c93296af20c4e8b578b549",
+    "madomagi/resource/scenario/json/adv/scenario_5/506101-5.json": "d7cf14742a7a2809e8dc7a69dc30e170ca793ea0",
+    "madomagi/resource/scenario/json/adv/scenario_5/506112-2.json": "aa3d159242abc32dd69638fafa77b6fa83a96acd",
+    "madomagi/resource/scenario/json/adv/scenario_5/506112-3.json": "3ba293e9a6a31403b6b6a97e9a85c6d70b3188c2",
+    "madomagi/resource/scenario/json/adv/scenario_3/310102-3.json": "5e814fb75cc479fde6fbd5f62006b67bcb729b26",
+    "madomagi/resource/scenario/json/adv/scenario_3/312012-2.json": "47bcfd0ad3ee36af294781cb6efdedbaf1cf0fe4",
+    "madomagi/resource/scenario/json/adv/scenario_3/320021-3.json": "14cf5bd015281dcbe91134e8fea697a04eee08fb",
+    "madomagi/resource/scenario/json/adv/scenario_3/320023-1.json": "76bb9dffd153b95064b2b53ab63edc1fce1664a5",
+    "madomagi/resource/scenario/json/adv/scenario_3/320023-2.json": "028c2b1280ac859c76c962b31fe2dc4f2f79ecee",
+    "madomagi/resource/scenario/json/adv/scenario_3/320023-4.json": "19595cd051f8d8805d375bf43c3f739407148049",
+    "madomagi/resource/scenario/json/adv/scenario_3/320052-2.json": "70557a45cfaa7fb8ab7ab489cbfcc2fcb9bf5254",
+    "madomagi/resource/scenario/json/adv/scenario_3/321021-2.json": "9b5a9d39c193381cc4a9804c7e71edbdaf60cc1e",
+    "madomagi/resource/scenario/json/adv/scenario_3/321022-2.json": "cdcbe1ef754b3aed18b35a9f26a24e81ad13ac6f",
+    "madomagi/resource/scenario/json/adv/scenario_3/321023-2.json": "c49b39ea27c1785c8dd3679866234df92510c39b",
+    "madomagi/resource/scenario/json/adv/scenario_3/326001-2.json": "eeab5f2b90d2cf398b725f6ca003a7dc63c7a954",
+    "madomagi/resource/scenario/json/adv/scenario_3/326003-1.json": "8520cbcc96aa23d73a04c5244d78208d661189e8",
+    "madomagi/resource/scenario/json/adv/scenario_3/326003-3.json": "f3273fff6bd725bfd5c2c572a9f1ae14368e6c5c",
+    "madomagi/resource/scenario/json/adv/scenario_3/330151-3.json": "8e90c702967d61ab0bcca899c8e19b3578ef57bb",
+    "madomagi/resource/scenario/json/adv/scenario_3/330182-4.json": "3811af400ea8cabd29ac13cb0d6edb2e8198bbfa",
+    "madomagi/resource/scenario/json/adv/scenario_3/330251-1.json": "fcbb80119780e75762028c9685cc518bf725cde9",
+    "madomagi/resource/scenario/json/adv/scenario_3/330251-2.json": "c4b039a760271ef49576bef938e19860c5b3b3ba",
+    "madomagi/resource/scenario/json/adv/scenario_3/330251-3.json": "005bc5a56483ad40eceb59c3bc9e7a9b2989dba5",
+    "madomagi/resource/scenario/json/adv/scenario_3/330251-4.json": "ee74461fcb17cf361f898e7c429c7b952f3dad95",
+    "madomagi/resource/scenario/json/adv/scenario_3/330422-2.json": "6f0aae5af4602e577953fac5e7ca69222f290bf0",
+    "madomagi/resource/scenario/json/adv/scenario_3/330441-3.json": "b421094c617054f9e42e84fc3959e082b3515630",
+    "madomagi/resource/scenario/json/adv/scenario_3/330462-3.json": "82f9a9e6d40cb1ce469c1509c275d31b4a0cce17",
+    "madomagi/resource/scenario/json/adv/scenario_3/340011-3.json": "feccaf2a18ab09b396878fc936bd28f0f2cb179f",
+    "madomagi/resource/scenario/json/adv/scenario_3/340033-4.json": "323060bb006e0af9d7fdcb1dcdc0417b5c0c5ba9",
+    "madomagi/resource/scenario/json/adv/scenario_3/340123-1.json": "0b7c1e6d796ba5e6971c745c7ee4941e988e62d4",
+    "madomagi/resource/scenario/json/adv/scenario_3/340261-1.json": "588a6fba8dc6531335e6e08d03478e3fbfdf10e6",
+    "madomagi/resource/scenario/json/adv/scenario_3/340261-3.json": "824c7f8e5ece69f5d43cce93ef8f81aa92342882",
+    "madomagi/resource/scenario/json/adv/scenario_3/340263-3.json": "e70793f3d8e238cc49c50433ce210b723b63fa74",
+    "madomagi/resource/scenario/json/adv/scenario_1/102005-8_foLv1.json": "2a9d14542d19143f247b624e6223fb636a198aa1",
+    "madomagi/resource/scenario/json/adv/scenario_5/513410-4_eaiwn.json": "9e93af3b6d8653e6e486801bdc726caa8ac9420b"
+  },
+  "generated_at": "2026-10-01T11:26:52Z",
+  "runtime_files": [
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310282-1.json",
+      "before": "37cf8968a6a6d5588662a5e52c333912f37a5c1c",
+      "after": "2badd84137893afa7415dfb0b0956f34ddb6e7af",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            44,
+            "textRight"
+          ],
+          "而且，一说要还@你就会生气，所以大家才怕你",
+          "而且，就算她们让你归还玩具@你也会生气，所以大家才怕你"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310282-1.json",
+      "jp_sha": "9357f5b4725cbf1c4f9ccc7f7cacbe453e8756cb",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310282-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310282-2.json",
+      "before": "94a26d41ae97610e7378b7bed8e1e3fae64a7000",
+      "after": "51e9efe7ddb7e1020f28c9ffbbb632251116ef75",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "textRight"
+          ],
+          "姬奈酱…！",
+          "小姬奈…！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "textRight"
+          ],
+          "就算姬奈酱不情愿@我也要带你回去",
+          "就算小姬奈不情愿@我也要带你回去"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            51,
+            "narration"
+          ],
+          "―彦―@…那个，姬奈酱的浴衣@很适合你哦",
+          "―彦―@…那个，小姬奈的浴衣@很适合你哦"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310282-2.json",
+      "jp_sha": "36073286ce97b60b1b742cfe34305c313afba763",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310282-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310282-3.json",
+      "before": "9c5162f78d94ddd001c70d75769039cf4da49cf2",
+      "after": "8a36e15b2a5182ce27b5ec1980f92a0903cf3e67",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "textRight"
+          ],
+          "啊，那家伙@不就是死读书的阴角吗",
+          "啊，那家伙@不就是那个阴沉的书呆子吗"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310282-3.json",
+      "jp_sha": "53cf745616dcc85343a7604d1ee222bde7ecd5f7",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310282-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310282-4.json",
+      "before": "e126d3c905c84b1de69fcce9808155bb3c72e08e",
+      "after": "1f15f017b0abc0083530906a6c09ca9620fe3226",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            16,
+            "narration"
+          ],
+          "但遇到了萨莎@她告诉了我新玛吉乌斯的魔法少女至上主义@这种超级离谱又带劲的想法",
+          "但遇到了萨莎@她告诉了我Neo-Magius的魔法少女至上主义@这种超级离谱又带劲的想法"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "narration"
+          ],
+          "为了实现魔法少女至上主义@我加入了新玛吉乌斯@本打算把大家一起拉上顶点",
+          "为了实现魔法少女至上主义@我加入了Neo-Magius@本打算把大家一起拉上顶点"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            23,
+            "narration"
+          ],
+          "教官和小美由利也@理解了人家她们的心情",
+          "教官和小美由利也@理解了人家和大家的心情"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "textCenter"
+          ],
+          "明明以为人家只需要小彦@就足够了",
+          "明明以为人家身边@就只有小彦了"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310282-4.json",
+      "jp_sha": "9c4b3f7ec23fae5da5642919e81e14b757e4d326",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310282-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310283-1.json",
+      "before": "e04c7839b5409b0af21f1cf0355a00a438d09870",
+      "after": "11012e0c18610817ed84d3fdd5bc8000de438b80",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            14,
+            "narration"
+          ],
+          "抱歉没能接到电话@姬酱，是出什么事了吗？@什么时候都行，回我一下哦",
+          "抱歉没能接到电话@小姬，是出什么事了吗？@什么时候都行，回我一下哦"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310283-1.json",
+      "jp_sha": "823162d017ee6e020831ac7733a32246b0f507fc",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310283-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310283-2.json",
+      "before": "0eeb8d5039c234105523f1a2994764323d82e6ed",
+      "after": "ee88981253411639937bf0a6564fa6a63758a757",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textRight"
+          ],
+          "啊，姬酱",
+          "啊，小姬"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textRight"
+          ],
+          "我也要跟你道歉，姬酱……",
+          "我也要跟你道歉，小姬……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "textRight"
+          ],
+          "所以完全没注意到@姬酱发来的消息……",
+          "所以完全没注意到@小姬发来的消息……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "textRight"
+          ],
+          "时雨酱的手机@也是由我保管着的",
+          "小时雨的手机@也是由我保管着的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            65,
+            "textRight"
+          ],
+          "操之过急也好会错意也好@谁都会有的",
+          "没弄清楚就下结论也好，误会也好@谁都会有的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            68,
+            "textRight"
+          ],
+          "我们都不在意的哦@姬酱♪",
+          "我们都不在意的哦@小姬♪"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310283-2.json",
+      "jp_sha": "c46805f9c8b0fe39fb9b99404bcb5ffe0d669a6f",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310283-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310283-3.json",
+      "before": "2b65310e53e9ca51327163c851720e38275897ed",
+      "after": "e1f247287f5d8dd5ee29544cb4979bf130dee09a",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textLeft"
+          ],
+          "[chara:102801:effect_emotion_joy_0][se:7222_happy]大家真的是@太让人尊了吧！",
+          "[chara:102801:effect_emotion_joy_0][se:7222_happy]大家真的是@好得不得了啊！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            36,
+            "textLeft"
+          ],
+          "今天是自由时段@总之先猛唱一波吧？",
+          "今天订的是畅唱套餐@总之先尽情唱吧？"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310283-3.json",
+      "jp_sha": "053c1358e98c23e4640e83d4355246e3b326b9dc",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310283-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310283-4.json",
+      "before": "056ddf00d8b4cd3b903857aa77d14c8984198b4a",
+      "after": "5ac116f8d5bb9d7ef3ad154144b804521e478b9d",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            57,
+            "textRight"
+          ],
+          "（我，就跟不上她了…）",
+          "（我就没法再追随她了…）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            65,
+            "textLeft"
+          ],
+          "人家早就绝望了@新马奇乌斯也早就没了哦",
+          "人家早就绝望了@Neo-Magius也早就没了哦"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            72,
+            "textCenter"
+          ],
+          "（把小姬引向新生马奇乌斯的我@想要亲手阻止她…）",
+          "（把小姬引向Neo-Magius的我@想要亲手阻止她…）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            78,
+            "textLeft"
+          ],
+          "我和莎夏想聊的事@还多着呢★",
+          "人家还有好多话@想和莎夏聊呢★"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310283-4.json",
+      "jp_sha": "938d4764d96853f8f9340b1c2934da8f5e9cbe2c",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1028 - 蓝家姬奈（藍家 ひめな）/310283-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310311-1.json",
+      "before": "96ba4bd91b41101b7b9b6d3513b9ea442ec79e99",
+      "after": "23846efc441b16e9f11bf48120ba1d8df7d5c7d1",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "narration"
+          ],
+          "<宝崎市/三冢青少年协会>",
+          "＜宝崎市·光塚青年会＞"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310311-1.json",
+      "jp_sha": "79b37150d5d7212eab154dc0064f5ee76c4dc6cd",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310311-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310311-2.json",
+      "before": "8cfd450524d20c392f5197710412d3ff73b0c177",
+      "after": "35c084cabff3c23fb8a47942f1a8070d21e2b627",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textLeft"
+          ],
+          "对身为魔法少女、曾是马奇乌斯之翼的@美由，说了也无妨",
+          "对身为魔法少女、曾是玛吉斯之翼成员的@美由，说了也无妨"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310311-2.json",
+      "jp_sha": "404e0d1673e16ad2c04e0ffdab2422608154fcb8",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310311-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310311-3.json",
+      "before": "456a98bf60ae9a712a3747a556f9a518358e285c",
+      "after": "2b1ddb6c0063f556b4a760675e6d219512e6ab26",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            10,
+            "textLeft"
+          ],
+          "未成年饮酒、@非法赌博，还有恐吓吗…",
+          "未成年饮酒、@非法赌博，还有敲诈勒索吗…"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            47,
+            "textLeft"
+          ],
+          "是吗……",
+          "没错……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310311-3.json",
+      "jp_sha": "8367fae9502f981ab24cad9e5364348a0602c409",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310311-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310311-4.json",
+      "before": "a3087c31f713b5fa53f02aae9cc0fb8aea5395a0",
+      "after": "e90e168d0240698d980289626dde62b01cf08bc0",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            53,
+            "textLeft"
+          ],
+          "抱歉，达兹哥@我们这就回去",
+          "抱歉，达哥@我们这就回去"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            57,
+            "textRight"
+          ],
+          "[chara:801100:effect_emotion_surprise_0][se:7226_shock]诶，以前你不是爱到@吃撑了肚子还要吃吗？！",
+          "[chara:801100:effect_emotion_surprise_0][se:7226_shock]诶，以前不是喜欢得@连肚子都吃坏过吗？！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "nameCenter"
+          ],
+          "达兹的声音",
+          "达的声音"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310311-4.json",
+      "jp_sha": "808d70c677828e72adcade34614a88b657ac6a84",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310311-4.json"
+      ],
+      "permitted_name_operations": [
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "nameCenter"
+          ],
+          "达兹的声音",
+          "达的声音"
+        ]
+      ]
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310312-1.json",
+      "before": "1e01d02a6b0a3160498167a65b5b36717386458c",
+      "after": "4f6131e74605ee05799850f61db73517190959e0",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "textLeft"
+          ],
+          "我不让",
+          "我才不要"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            55,
+            "textRight"
+          ],
+          "不过要是到了马奇乌斯那种程度@就有点可怕了啦……",
+          "不过要是到了玛吉斯那种程度@就有点可怕了啦……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            61,
+            "textLeft"
+          ],
+          "有魔法少女让新的@「马奇乌斯之翼」重新启动了",
+          "有魔法少女让新的@「玛吉斯之翼」重新启动了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            63,
+            "textLeft"
+          ],
+          "但我不觉得自己能像灯花大人她们那样@带领整个组织",
+          "但我不觉得对方能像灯花大人她们那样@带领整个组织"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310312-1.json",
+      "jp_sha": "071f11046a2756700593ee23f90bfe9160172edf",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310312-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310312-2.json",
+      "before": "7e0682e1b103be37aeff17e657e9f82f985f87de",
+      "after": "8e48a6e5f7465902de7db25e49dc371be57cacb7",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            68,
+            "textLeft"
+          ],
+          "……去和那个新的马奇乌斯之翼@接触一下吧",
+          "……去和那个新的玛吉斯之翼@接触一下吧"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310312-2.json",
+      "jp_sha": "2129742a6659c879b56f1fd14d216744a85761e0",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310312-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310312-3.json",
+      "before": "4024e5867ab4b37fc2905dcf07aab2d6f361e491",
+      "after": "fa6c78394711213d447af7b98c62486ab2879154",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "textLeft"
+          ],
+          "新的马奇乌斯之翼的首领@竟然是宫尾和安积！",
+          "新的玛吉斯之翼的首领@竟然是宫尾和安积！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textLeft"
+          ],
+          "因为我知道你们在@马奇乌斯之翼时代的样子",
+          "因为我知道你们在@玛吉斯之翼时代的样子"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "textLeft"
+          ],
+          "新的马奇乌斯之翼……@“新马奇乌斯”……",
+          "新的玛吉斯之翼……@“Neo-Magius”……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            24,
+            "textRight"
+          ],
+          "但在迎回灯花大人和梦大人之前",
+          "但在迎回灯花大人和音梦大人之前"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "textRight"
+          ],
+          "希望你作为新马奇乌斯的一员……@和我们一起活动……",
+          "希望你作为Neo-Magius的一员……@和我们一起活动……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "textLeft"
+          ],
+          "我可当不了新马奇乌斯的@智囊",
+          "我可当不了Neo-Magius的@智囊"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            41,
+            "textLeft"
+          ],
+          "我既没有马奇乌斯那样的@领袖魅力，也没有那样的信念",
+          "我既没有玛吉斯那样的@领袖魅力，也没有那样的信念"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            45,
+            "textLeft"
+          ],
+          "那可是连马奇乌斯都@没能实现的计划",
+          "那可是连玛吉斯都@没能实现的计划"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            54,
+            "textLeft"
+          ],
+          "说是达兹哥卷入了@暴力事件……！",
+          "说是达哥卷入了@暴力事件……！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            61,
+            "textLeft"
+          ],
+          "要不要加入新马奇乌斯@到时候我会重新考虑",
+          "要不要加入Neo-Magius@到时候我会重新考虑"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310312-3.json",
+      "jp_sha": "fa0890fb647c37cce20a19b5e77b2af1c383eaee",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310312-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310313-1.json",
+      "before": "f3db9ad8070be3d8e561edff9efc33edeca1dbc5",
+      "after": "2f1298ed986e251eb7721566b0e7390ef01e7ea4",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            21,
+            "narration"
+          ],
+          "Neo-玛吉乌斯的新领袖@想介绍给教官…@如果来宝崎市的话@能见我们一面吗…？",
+          "想把Neo-Magius的新领袖@介绍给教官…@我们去宝崎市的话@能见我们一面吗…？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            47,
+            "textLeft"
+          ],
+          "人家是为了把这里的全员@都带到顶点去才来的",
+          "人家是来成为这里@所有人的领袖的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "textLeft"
+          ],
+          "非得垂着脑袋去求人的必要@完全没有不是吗？",
+          "根本没有必要@磕头求你们吧？"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310313-1.json",
+      "jp_sha": "8c76177358a6ac608921edbe9b065cff5fe07b2a",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310313-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310313-2.json",
+      "before": "12cdd59123c4faca922441dbadf90e21379a1a3e",
+      "after": "cd2fa43137a536a3f88fd363101aeb90849f0067",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "narration"
+          ],
+          "多亏了Neo-玛吉乌斯新出现的领袖@蓝家姬奈，还有宫尾和安积@宝崎发生的异变也找到了解决的头绪",
+          "多亏了Neo-Magius新出现的领袖@蓝家姬奈，还有宫尾和安积@宝崎发生的异变也找到了解决的头绪"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            2,
+            "narration"
+          ],
+          "她具备领袖的素质@这一点毋庸置疑@我也几乎决定加入Neo-玛吉乌斯了",
+          "她具备领袖的素质@这一点毋庸置疑@我也几乎决定加入Neo-Magius了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            8,
+            "narration"
+          ],
+          "为了打倒那只魔女@我和美由她们一起战斗@却失去了一位Neo-玛吉乌斯的同伴…",
+          "为了打倒那只魔女@我和美由她们一起战斗@却失去了一位Neo-Magius的同伴…"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310313-2.json",
+      "jp_sha": "7176d1c192de868aa6cc4aded01aaf2e2457af3a",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310313-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310313-3.json",
+      "before": "4ff216d84c0cc2f3b102846ad430088d3db72cf4",
+      "after": "370ee6d4948c056cf215b19dc683db35362cb9fd",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "textLeft"
+          ],
+          "我打算改成在境内@举行焚烧仪式的形式",
+          "我打算改成在神社院内@举行焚烧仪式的形式"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            78,
+            "textRight"
+          ],
+          "是吧！",
+          "是啊！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310313-3.json",
+      "jp_sha": "1130fe9088c5c701f55701212bc20965d45d0d8b",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310313-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310313-4.json",
+      "before": "ab95892ed83d9fb8bc7ea2c7608082011d37758c",
+      "after": "1275e685a0806b78e4bf7206d148b852f4688799",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            2,
+            "textLeft"
+          ],
+          "时雨儿她们也还等着呢",
+          "小时雨她们也还等着呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "textRight"
+          ],
+          "人家才觉得教官很适合@当Neo-玛吉乌斯的成员哦，呀哈★",
+          "人家才觉得教官很适合@当Neo-Magius的成员哦，呀哈★"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            32,
+            "textLeft"
+          ],
+          "可是…我最喜欢的那个@青年会只是我的幻觉…",
+          "可是…我最喜欢的那些@青年会伙伴的样子，只是我的幻想…"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310313-4.json",
+      "jp_sha": "e25f6d23ca94d9fdc3b20e8dba0f37c5d229bd88",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1031 - 神乐灿（神楽 燦）/310313-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310321-1.json",
+      "before": "940a3b718a3f7f66b3230c14b61fec19e89f6bb0",
+      "after": "2f42abdaf20d9bed1f3baad778efc7399110a555",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            43,
+            "textRight"
+          ],
+          "不、不是吧……",
+          "啊、啊哇哇……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310321-1.json",
+      "jp_sha": "03dbea753d2bed1e2a7b502c36fa2c8de41e05d5",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310321-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310321-3.json",
+      "before": "5f37e22420e495d6594a7f25aa378dd897a94afc",
+      "after": "18499357aa9445e1f331ab08002365c63687e257",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textRight"
+          ],
+          "听……听……",
+          "哇…哇…"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            48,
+            "textLeft"
+          ],
+          "不……可以吗……",
+          "不…不行吗…"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310321-3.json",
+      "jp_sha": "1b8e9fafcab0ab453da19aa0219b5b9ba861d558",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310321-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310322-2.json",
+      "before": "f671729445338075faded96fc247cfebc59fb2ad",
+      "after": "7304848a450eaadf51dde4ca28db6900d8bcc5e4",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textLeft"
+          ],
+          "正因为有那份印象@在加入马吉乌斯之翼以后",
+          "正因为有那份印象@在加入玛吉斯之翼以后"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "textRight"
+          ],
+          "说起来你们两个@在马吉乌斯之翼里",
+          "说起来你们两个@在玛吉斯之翼里"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textCenter"
+          ],
+          "…哈",
+          "…唉"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            57,
+            "textRight"
+          ],
+          "我在马吉乌斯之翼里@也未必会照顾美由",
+          "我在玛吉斯之翼里@也未必会照顾美由"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310322-2.json",
+      "jp_sha": "48f24405690957c2619b3fe7332301331644f562",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310322-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310322-3.json",
+      "before": "facd01ee53174eec8463c38883b9223ef2b64924",
+      "after": "f0ad1450f452028c884566fd17927b2da0695936",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            15,
+            "textLeft"
+          ],
+          "[chara:103201:effect_emotion_surprise_0][se:7226_shock]（惊）",
+          "[chara:103201:effect_emotion_surprise_0][se:7226_shock]——！？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            59,
+            "textRight"
+          ],
+          "美由利酱的愿望，难道是……",
+          "小美由利的愿望，难道是……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310322-3.json",
+      "jp_sha": "bb9a2d9af002985d27ce4c30ecd3ac0143ba6884",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310322-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310323-1.json",
+      "before": "95122f08d9d77009d5bc61feae795fe0479e5705",
+      "after": "c93542cbc7721e6e3c2f6332a8c809c7bbbfe18f",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "narration"
+          ],
+          "『后来美由才知道@正如新马吉乌斯的各位所了解的那样』",
+          "『后来美由才知道@正如Neo-Magius的各位所了解的那样』"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310323-1.json",
+      "jp_sha": "9507bc190f228a19f0269918c5e984ab173731bd",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310323-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310323-2.json",
+      "before": "c06daaa4d11b88cfea625ea09275ec11eb7583dc",
+      "after": "58ecc2df86edbb6d99746e8f15fa005d12db269f",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "textRight"
+          ],
+          "加入马奇乌斯之翼以前@小美由利都是一个人战斗的吗？",
+          "加入玛吉斯之翼以前@小美由利都是一个人战斗的吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textLeft"
+          ],
+          "但是但是，就在那时候@美由遇上了马奇乌斯之翼",
+          "但是但是，就在那时候@美由遇上了玛吉斯之翼"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            16,
+            "narration"
+          ],
+          "『追着魔女的美由@和马奇乌斯之翼的羽毛们撞上了@结果变成了争夺魔女的局面』",
+          "『追着魔女的美由@和玛吉斯之翼的羽翼们撞上了@结果变成了争夺魔女的局面』"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            66,
+            "textLeft"
+          ],
+          "只要你跟我一起来@马奇乌斯之翼，我就说明给你听",
+          "只要你跟我一起来@玛吉斯之翼，我就说明给你听"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            69,
+            "textRight"
+          ],
+          "……美由、美由她！",
+          "……美由、美由一定会！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310323-2.json",
+      "jp_sha": "0175316c9d7986a5c3237461c306896fd95b5ac8",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310323-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310323-3.json",
+      "before": "0ce5430da52a96f547a87a8aa5a6c213235ed139",
+      "after": "d65787e30c50f04b80c23299186e871dcd06332b",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textRight"
+          ],
+          "啊、啊啊……美由、美由她@竟然做出了这种事…！",
+          "啊、啊啊……美由、美由@竟然做出了这种事…！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            24,
+            "textRight"
+          ],
+          "那个，美由、美由她……@差点就要飞出去了！",
+          "那个，美由、美由……@就会快要失去意识了！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textRight"
+          ],
+          "看来又来了个@相当有毛病的孩子呢",
+          "看来又来了个@相当有个性的孩子呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "textLeft"
+          ],
+          "（身为这里首领的@马奇乌斯…!?）",
+          "（身为这里首领的@玛吉斯…!?）"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            74,
+            "textLeft"
+          ],
+          "…哈",
+          "…唉"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310323-3.json",
+      "jp_sha": "52e698491c86a021b878d273856d1ceb80b9552b",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310323-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310323-4.json",
+      "before": "04b92af74d37749b2d23b1d835191f4d7e152ffa",
+      "after": "776237b2a829a074c1d35b5d80706b8749f2bfcb",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            17,
+            "textLeft"
+          ],
+          "才能作为灿大人的秘密武器@活到现在……",
+          "才能作为灿大人的秘密武器@生活下去……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textLeft"
+          ],
+          "正因为成为了魔法少女@美由才能待在新马奇乌斯",
+          "正因为成为了魔法少女@美由才能待在Neo-Magius"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            42,
+            "textLeft"
+          ],
+          "嘛，看来她们正享受着@人家大家还是先出去吧",
+          "嘛，看来她们正享受着@我们还是先出去吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            52,
+            "textLeft"
+          ],
+          "美由、美由她@真是太幸福了……！",
+          "美由、美由@真是太幸福了……！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310323-4.json",
+      "jp_sha": "510097150253610cf01146177e4b22aadf063f93",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1032 - 游狩美由利（遊狩 ミユリ）/310323-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310331-1.json",
+      "before": "aeb7040f07c73407e7dbdfa924a6ecccdc81bb2d",
+      "after": "3ffb55f1e4cca6970261473a49e3f2783355c0f9",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "textCenter"
+          ],
+          "那——由——酱！@拉——比——酱！",
+          "小——那——由！@小——拉——比！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "textRight"
+          ],
+          "啊，说的也是！@对不起哦，那由酱",
+          "啊，说的也是！@对不起哦，小那由"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textRight"
+          ],
+          "仔细一想，我还从来没好好@看过拉比酱工作的样子呢",
+          "仔细一想，我还从来没好好@看过小拉比工作的样子呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "textRight"
+          ],
+          "再见！",
+          "…那就是说！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            49,
+            "textLeft"
+          ],
+          "我想在15分钟内@把早餐收拾完……",
+          "再过15分钟左右@我想把早餐收拾掉……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            53,
+            "textRight"
+          ],
+          "那由酱，快点快点！",
+          "小那由，快点快点！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            79,
+            "textRight"
+          ],
+          "拉比酱@好帅气～！",
+          "小拉比@好帅气～！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310331-1.json",
+      "jp_sha": "bdb4b6eed6084a7906e0c17d60a7ad3d066bdaaa",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310331-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310331-2.json",
+      "before": "6dfd082888666eb8661695e5e650bf5fe362ca86",
+      "after": "36429e84e084e15cd4cd005f08e1124e0c637559",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "textRight"
+          ],
+          "拉比碳，你要买什么？",
+          "小拉比，你要买什么？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textRight"
+          ],
+          "哼——",
+          "这样啊——"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textRight"
+          ],
+          "那，拉比碳就照平时的样子@正常采购就好啦",
+          "那，小拉比就照平时的样子@正常采购就好啦"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            24,
+            "textRight"
+          ],
+          "不，哪里……@谢谢你的夸奖。",
+          "不，哪里……@谢谢您"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            26,
+            "textRight"
+          ],
+          "拉比碳，原来你对蔬菜和田地@这么了解啊！",
+          "小拉比，原来你对蔬菜和田地@这么了解啊！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textRight"
+          ],
+          "嗯，可以呀！@咪也跟着一起去！",
+          "嗯，可以呀！@我们也跟着一起去！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "textRight"
+          ],
+          "１、２、３、４本……@拉比碳，你看这么多书吗？",
+          "１、２、３、４本……@小拉比，你看这么多书吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            46,
+            "textLeft"
+          ],
+          "我特别喜欢你这一点。",
+          "我很喜欢读这些书哦"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            51,
+            "textRight"
+          ],
+          "不过拉比碳，你为什么@会开始读这类书呢？",
+          "不过小拉比，你为什么@会开始读这类书呢？"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310331-2.json",
+      "jp_sha": "5c2316ca1d2fe62841fd9f624501b0545a811f2d",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310331-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310331-3.json",
+      "before": "27a5f8618cc30565f9e5da834a1002027c91f35b",
+      "after": "295bd987adc2839597c3230cd541f70b08ffd81f",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            1,
+            "textRight"
+          ],
+          "那由碳，那个……",
+          "小那由，那个……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textRight"
+          ],
+          "拉比碳总给人一种@「神秘」的感觉呢",
+          "小拉比总给人一种@「神秘」的感觉呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "textRight"
+          ],
+          "那由碳也是这样吗？",
+          "小那由也是这样吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textRight"
+          ],
+          "……嗯，咦？@拉比碳呢？",
+          "……嗯，咦？@小拉比呢？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textRight"
+          ],
+          "真不愧是@超级佣人拉比碳！",
+          "真不愧是@超级佣人小拉比！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            24,
+            "textRight"
+          ],
+          "与其说是佣人@更像是那由碳的妈妈呢",
+          "与其说是佣人@更像是小那由的妈妈呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textRight"
+          ],
+          "可是，总觉得拉比碳@正被那位女士鞠躬道谢呢？",
+          "可是，那位女士好像@正在向小拉比鞠躬道谢呢？"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310331-3.json",
+      "jp_sha": "144d5837c2ee2027f2e7cf48abc0209739bac310",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310331-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310331-4.json",
+      "before": "f0243932279df86a6c7d78e5aa8d68139478b4b0",
+      "after": "b7e60f5c88c057d7b5e729372994d438563b7b8a",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            45,
+            "narration"
+          ],
+          "咕噜咕噜咕噜…",
+          "轰隆隆……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310331-4.json",
+      "jp_sha": "65798cd5f415e0512b827416d81ecbd1c153b405",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310331-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310332-1.json",
+      "before": "a68b2c7a66cb98ce26570be1ad87699f3d1a5dcb",
+      "after": "2ee0b0c721db76b6ed36ac833b751a61f22477b6",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "textRight"
+          ],
+          "……难道说拉比碳@以前身体很不好吗？",
+          "……难道说小拉比@以前身体很不好吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textRight"
+          ],
+          "说要是能像拉比碳一样@好起来就好了……",
+          "说要是能像小拉比一样@好起来就好了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textLeft"
+          ],
+          "不用在意。",
+          "当然可以"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            24,
+            "narration"
+          ],
+          "「辗转看了好几家医院@才知道，城镇这种环境里特有的东西……@比如说，并非源自自然的人造物之类……@这些东西有嫌疑@就是我发病的原因」",
+          "「辗转看了好几家医院@才知道，城镇环境中特有的东西……@比如并非源自自然的人造物之类……@这些东西被怀疑@可能是引发症状的原因」"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            38,
+            "narration"
+          ],
+          "「祖父和母亲打算在那块田里@为和我境遇相同的孩子们@重新开始栽培新的作物」",
+          "「祖父和母亲打算在那块田里@为和我境遇相同的孩子们@开始栽培新的作物」"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310332-1.json",
+      "jp_sha": "f713a94be74faaf3a1b8919a36ca0715241664a6",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310332-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310332-2.json",
+      "before": "4e9d803070970dc0db5384ac153cfdd51a297fe8",
+      "after": "d37c643ed8e7f486f4a4047b4ce1424efca2c432",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            3,
+            "textRight"
+          ],
+          "不过，拉比碳好厉害呢",
+          "不过，小拉比好厉害呢"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            5,
+            "textRight"
+          ],
+          "嗯，因为多亏了拉比碳@许下的愿望",
+          "嗯，因为多亏了小拉比@许下的愿望"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "textRight"
+          ],
+          "而且拉比碳的爷爷@种出了叫有机蔬菜的东西",
+          "而且小拉比的爷爷@种出了叫有机蔬菜的东西"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textRight"
+          ],
+          "咪在听拉比碳说起之前@也完全不知道……",
+          "咪在听小拉比说起之前@也完全不知道……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "textRight"
+          ],
+          "哪怕只在咪的班上",
+          "哪怕只能让咪班上的同学"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textRight"
+          ],
+          "也有很多像以前的拉比碳那样@正在受苦的孩子",
+          "知道有许多像以前的小拉比那样@为症状苦恼的孩子"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            21,
+            "textRight"
+          ],
+          "要是能让大家多少了解一点@就好了！",
+          "也希望大家@能多少了解一些！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            35,
+            "textRight"
+          ],
+          "……啊，那么@拉比碳身体变好，难道是……",
+          "……啊，那么@小拉比身体变好，难道是……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310332-2.json",
+      "jp_sha": "243144ad1952f6c62602f49ced00854e74767d2a",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310332-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310332-3.json",
+      "before": "09b5bd40e6d865fd4b95bfd646271a094bc8b6eb",
+      "after": "1a3fc4568c4be13c68486d45dd61dede9e06e6d1",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            22,
+            "textRight"
+          ],
+          "就是说超级佣人拉比碳@要登场了！？",
+          "就是说超级佣人小拉比@要登场了！？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            30,
+            "textRight"
+          ],
+          "那么，拉比碳@打算怎么弄出上镜的感觉呢？",
+          "那么，小拉比@打算怎么弄出上镜的感觉呢？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "textRight"
+          ],
+          "来，那由碳拜托你了",
+          "来，小那由拜托你了"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            47,
+            "narration"
+          ],
+          "递",
+          "唰"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "textRight"
+          ],
+          "哇——！@拉比碳好快！",
+          "哇——！@小拉比好快！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            51,
+            "textRight"
+          ],
+          "拉比碳，做菜@原本就很拿手吗？",
+          "小拉比，做菜@原本就很拿手吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            52,
+            "textLeft"
+          ],
+          "嘛……毕竟是受过调教的",
+          "嘛……我确实接受过这方面的训练"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            54,
+            "textRight"
+          ],
+          "是说开始照顾那由碳@之后的事吗？",
+          "是说开始照顾小那由@之后的事吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            61,
+            "textRight"
+          ],
+          "啊，等一下那由碳@别把镜头晃来晃去啦！",
+          "啊，等一下小那由@别把镜头晃来晃去啦！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310332-3.json",
+      "jp_sha": "4d2b1c357dcebd9357f32e88dc633cf03956ea64",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310332-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310332-4.json",
+      "before": "11cddaf9933e511828eb4e37bad5c8d6cbd504fe",
+      "after": "61a06fc027cdea018d2bdbfa108d2abeec1df53c",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            2,
+            "textRight"
+          ],
+          "好香啊！@果然拉比碳好厉害！",
+          "好香啊！@果然小拉比好厉害！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            6,
+            "narration"
+          ],
+          "「超厉害的拉比碳与@拜师之后变得超厉害的@厉害的咪和那由碳！」",
+          "「超厉害的小拉比与@拜师之后变得超厉害的@厉害的咪和小那由！」"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            10,
+            "textRight"
+          ],
+          "如果拉比碳的徒弟@厨艺变得超厉害的话",
+          "如果小拉比的徒弟@厨艺变得超厉害的话"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textRight"
+          ],
+          "身为师父的拉比碳有多厉害@不就能传达得更清楚了吗！",
+          "身为师父的小拉比有多厉害@不就能传达得更清楚了吗！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            12,
+            "textRight"
+          ],
+          "怎么样呢，拉比碳",
+          "怎么样呢，小拉比"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textRight"
+          ],
+          "拉比碳有多厉害@咪想让更多人知道",
+          "小拉比有多厉害@咪想让更多人知道"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            14,
+            "textRight"
+          ],
+          "咪也想像拉比碳一样",
+          "咪也想像小拉比一样"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            27,
+            "textRight"
+          ],
+          "谢谢你，拉比碳！",
+          "谢谢你，小拉比！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310332-4.json",
+      "jp_sha": "de5406c09f7513cb23414047a2aabd424e225533",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310332-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310333-1.json",
+      "before": "be7b79e9a111586916215369f7da8928bd84ac59",
+      "after": "239cbe60daaf3d93c82090240ed3368066767881",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            4,
+            "textRight"
+          ],
+          "你去吧@剩下的咪我们来做就好",
+          "你去吧@剩下的就交给我们吧"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "textRight"
+          ],
+          "咪明明是照着拉比碳@做的样子来的……",
+          "咪明明是照着小拉比@做的样子来的……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            45,
+            "textRight"
+          ],
+          "可是……都怪我乱加了@奇怪的调味料",
+          "可是……都怪我@胡乱添加了调味料"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310333-1.json",
+      "jp_sha": "0864ff2c9fc4f4d584623cf88b4192df5138e4a6",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310333-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310333-2.json",
+      "before": "e1e6008cb71287bb34d574b8a03706a4138c8c49",
+      "after": "e14b57bd9f43fab53c85f3c13bbe5f1bb5e65c21",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            33,
+            "narration"
+          ],
+          "—御影—@那由碳快看快看！@鸡蛋，是单手打开的耶!?",
+          "—御影—@小那由快看快看！@她在单手打鸡蛋耶!?"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            34,
+            "narration"
+          ],
+          "—御影—@这就是超级佣人拉比碳的真本事……！@超级帅气的呢！",
+          "—御影—@这就是超级佣人小拉比的真本事……！@超级帅气的呢！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310333-2.json",
+      "jp_sha": "f404da9fb3f367b3517d05ec375e97d173198fbe",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310333-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310333-3.json",
+      "before": "79d1642a500dcebcffba15647942877c8b490bf4",
+      "after": "98336fb1963f4fe208188849f1e2615636d8c2e4",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            7,
+            "narration"
+          ],
+          "按下",
+          "咔嗒"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            16,
+            "narration"
+          ],
+          "「她帮那由碳和咪把失败补救回来了！@明明都觉得绝对没救了！」",
+          "「她帮小那由和咪把失败补救回来了！@明明都觉得绝对没救了！」"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textCenter"
+          ],
+          "是吗……",
+          "是啊……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310333-3.json",
+      "jp_sha": "dbde23c5b016043742002ff54eea511f67f65627",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310333-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310333-4.json",
+      "before": "f0047e685448b34bb4d485fafa0e4e79ffc15aa2",
+      "after": "a84dbec1a444a06dc31842a890d378cb967bb442",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            19,
+            "textCenter"
+          ],
+          "那——由——碳@拉——比——碳",
+          "小——那——由@小——拉——比"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            21,
+            "narration"
+          ],
+          "「那由碳爸爸，你好！@今天恭喜那由碳成人礼——！@……咦？那由碳呢？」",
+          "「小那由的爸爸，你好！@今天恭喜小那由参加成人礼——！@……咦？小那由呢？」"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            25,
+            "narration"
+          ],
+          "「诶，和服是拉比碳帮忙穿的!?@你真是什么都会呢！」",
+          "「诶，和服是小拉比帮忙穿的!?@你真是什么都会呢！」"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            29,
+            "narration"
+          ],
+          "「哇！那由碳……你超可爱的呢！」",
+          "「哇！小那由……你超可爱的呢！」"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            44,
+            "textRight"
+          ],
+          "呼……呼……@拉比酱……再来一碗……",
+          "呼……呼……@拉比……再来一碗……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            50,
+            "narration"
+          ],
+          "让我与这惹人怜爱的日常，一同……",
+          "再一起度过这段珍爱的日常……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310333-4.json",
+      "jp_sha": "36821f819065f17dd0b27b30be474dc71604240d",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1033 - 冰室拉比（氷室 ラビ）/310333-4.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310341-2.json",
+      "before": "ee24f734b0d3a685320fa0b2b48a338df004b657",
+      "after": "d4219cb397da39be2f433c9070bd24e10181ecef",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            20,
+            "textLeft"
+          ],
+          "吾是学着千春殿的@《敲诈坊将军》讲座来的……",
+          "吾是学着千春殿的@《爱抖腿将军》讲座来的……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1034 - 三浦旭（三浦 旭）/310341-2.json",
+      "jp_sha": "926c35704418d7cad2a2b505025b0c51ce1e1d96",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1034 - 三浦旭（三浦 旭）/310341-2.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310341-3.json",
+      "before": "ec3204693b5a56ac679a33747e62623c4e0252fa",
+      "after": "5353bd57e8138ea760d6d794bceb6c262ebaa846",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            37,
+            "narration"
+          ],
+          "翻翻",
+          "窸窸窣窣"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            45,
+            "textLeft"
+          ],
+          "怎么了…？",
+          "啊……？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            52,
+            "textRight"
+          ],
+          "因为因为@人家在《敲诈坊将军》里看过嘛……",
+          "因为因为@人家在《爱抖腿将军》里看过嘛……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            70,
+            "textRight"
+          ],
+          "哈…！",
+          "啊…！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            71,
+            "textRight"
+          ],
+          "（说起来，《敲诈坊将军》@盂兰盆假期特别篇第二弹里……）",
+          "（说起来，《爱抖腿将军》@盂兰盆假期特别篇第二弹里……）"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1034 - 三浦旭（三浦 旭）/310341-3.json",
+      "jp_sha": "b27306eff3ab9de6af4b7b1e0c8402290d6b57b2",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1034 - 三浦旭（三浦 旭）/310341-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310342-1.json",
+      "before": "41c5b7fd8d8114e77fd5a2d7529a9d8731bad29b",
+      "after": "a691cc2383b7e4f6d85fff2dd8fd1023b26f9e9e",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            71,
+            "textRight"
+          ],
+          "哈！",
+          "啊！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1034 - 三浦旭（三浦 旭）/310342-1.json",
+      "jp_sha": "a404fc5db1728dff2d63a8e6533d2a73994741cf",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1034 - 三浦旭（三浦 旭）/310342-1.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310342-3.json",
+      "before": "a562fa4e9656a56e7f810ce7eabe8ad24ecd7d7e",
+      "after": "6005fe8197d4532c0a51d486673db9bfabd19ff0",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            13,
+            "textRight"
+          ],
+          "静、静香酱不见了？！@到底发生什么了？！",
+          "小、小静香不见了？！@到底发生什么了？！"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            61,
+            "textCenter"
+          ],
+          "啊——你这人真是的！",
+          "啊——真是的！"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1034 - 三浦旭（三浦 旭）/310342-3.json",
+      "jp_sha": "62a9e772f5aab6151c11d405c4fec4918878f594",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1034 - 三浦旭（三浦 旭）/310342-3.json"
+      ],
+      "permitted_name_operations": []
+    },
+    {
+      "path": "madomagi/resource/scenario/json/adv/scenario_3/310342-4.json",
+      "before": "25c592e9659a75714ed5550c70f3c48948e994ad",
+      "after": "57d6adca2ec1b52e4c015764965393de141697f9",
+      "operations": [
+        [
+          [
+            "story",
+            "group_1",
+            9,
+            "textRight"
+          ],
+          "《摇晃坊将军》里@也有类似的故事",
+          "《爱抖腿将军》里@也有类似的故事"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            11,
+            "textRight"
+          ],
+          "但是，仔细想想@旭酱是鬼婆什么的",
+          "但是，仔细想想@小旭是鬼婆什么的"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            12,
+            "textRight"
+          ],
+          "根本不可能嘛……@对不起，旭酱",
+          "根本不可能嘛……@对不起，小旭"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            18,
+            "textLeft"
+          ],
+          "难道说凉子酱@也听说过吗？",
+          "难道说小凉子@也听说过吗？"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            21,
+            "textLeft"
+          ],
+          "难道你们是……",
+          "……那该不会是……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            39,
+            "textRight"
+          ],
+          "鬼婆传说本身是真的@但讲给千春酱的那个",
+          "鬼婆传说确实存在@但我讲给小千春听的那一版"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            41,
+            "textRight"
+          ],
+          "千春酱的反应太有趣了@老衲一不小心就讲上瘾了……",
+          "小千春的反应太有趣了@老衲一不小心就讲上瘾了……"
+        ],
+        [
+          [
+            "story",
+            "group_1",
+            44,
+            "textRight"
+          ],
+          "给旭酱添了这么大麻烦@真是万分抱歉……",
+          "给小旭添了这么大麻烦@真是万分抱歉……"
+        ]
+      ],
+      "jp_path": "magireco-source-master/Scenarios_full/character_story/1034 - 三浦旭（三浦 旭）/310342-4.json",
+      "jp_sha": "42daefe5c73f8cf9dbe37f42dc6f576b2709f96a",
+      "reader_paths": [
+        "magireco-translate-data-master/Scenarios_full/character_story/1034 - 三浦旭（三浦 旭）/310342-4.json"
+      ],
+      "permitted_name_operations": []
+    }
+  ],
+  "review_method": "model_assisted_full_scene_Japanese_comparison_not_official_human_source"
+}

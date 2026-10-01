@@ -1,0 +1,36 @@
+name: Publish thirteen AI-origin chapter reviews 3316
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/publish-story-quality-3316.yml', 'story-quality/20261001-semantic-batch04-ai-only/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: public-resource-mirror
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s story-quality/20261001-semantic-batch04-ai-only -p 'test_*.py' -v
+      - name: Verify immutable assets and public bytes before opening the version gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -u story-quality/20261001-semantic-batch04-ai-only/publish_scenario_3316.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: scenario-3316-ai-only-receipt
+          path: |
+            scenario3316/candidate/story-quality-report.json
+            scenario3316/candidate/version_scenario.json
+          if-no-files-found: warn
+          retention-days: 30
