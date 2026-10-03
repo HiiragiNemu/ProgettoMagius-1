@@ -15,20 +15,6 @@
   },
   "mirrors": [
     {
-      "name": "EdgeOne 加速",
-      "base": "https://edgeone.assets.magireco.top/",
-      "weight": 140,
-      "chunks": 8,
-      "enabled": true
-    },
-    {
-      "name": "阿里 ESA 加速",
-      "base": "https://esa.assets.magireco.top/",
-      "weight": 120,
-      "chunks": 8,
-      "enabled": true
-    },
-    {
       "name": "Cloudflare 中转",
       "base": "https://magireco-personal-release.pages.dev/",
       "weight": 100,
@@ -299,7 +285,7 @@
     "apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk",
     "sha256": "260b43dbad32ed43be063c3b250487e300ecea044b4f34b6cae43283ccec95e8",
     "size": 103821876,
-    "note": "双线路下载：个人 Pages 发布与个人 GitHub Release；客户端校验包名、签名、大小和 SHA-256 后安装。EdgeOne 路由保留为兼容入口，边缘资产需同步到同一版本。"
+    "note": "Cloudflare 与独立公开 GitHub 双线路；校验版本、签名与内容摘要后安装。退役 CDN 不再参与下载。"
   },
   "contribution_stats": {
     "schema": 3,
