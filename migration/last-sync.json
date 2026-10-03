@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "status": "assets_verified",
-  "source_config_blob": "b4811ccad9d030d87ca7e96cc7cfa80ab9ca3a78",
+  "source_config_blob": "3deb982fc87eb5b4afa230137dc108c895b9da08",
   "asset_count": 27,
   "client_version": "1.0.204",
   "assets": [
@@ -168,7 +168,7 @@
       "unchanged": true
     }
   ],
-  "checked_at": "2026-10-03T09:23:19Z",
+  "checked_at": "2026-10-03T09:31:27Z",
   "apk_font_replacement_verified": false,
   "existing_apk_private_cutover_verified": false
 }

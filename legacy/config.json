@@ -468,7 +468,7 @@
       }
     },
     "updates_20261003": {
-      "as_of": "2026-10-03T09:01:46.855888+00:00",
+      "as_of": "2026-10-03T09:28:52.063374+00:00",
       "source_commit": "ced4a834554b94bc63bba519195905907ffbdd2f",
       "story_review": {
         "historical_full_reviewed_fragments": 694,
@@ -483,13 +483,13 @@
           "source": "b06987d363c8d62976b491f7779df6bd5ab885a0",
           "targets": 361,
           "deployment": "2086f41c-5f7d-4ad4-b082-4505679ab7a9",
-          "receipt": "D:\\magia\\deliveries\\resource-transport-closeout-20261003\\magica\\research\\totentanz-screenshot-fixes-20261003\\contribution-update-20261003\\reader-production-receipt.json"
+          "receipt": "docs/story-quality/reader-final-20261003/receipt.json"
         },
         "client": {
           "published": true,
           "pending_targets": 0,
           "policy": "cumulative_delta_only",
-          "delta_version": 24,
+          "delta_version": 25,
           "receipt": "docs/story-quality/client-integration/GAME_DELIVERY_RECEIPT.json"
         },
         "review_remaining_in_identified_scope": 0,
@@ -508,7 +508,7 @@
         "new_condition_corrections": 6,
         "new_title_translation_credit": 0,
         "scope": "All 967 title name and condition rows reviewed against available official CN captures and exact existing Wiki/master provenance. Absent official records retained with non-official source labels; this does not assert all 967 titles existed in CN service.",
-        "evidence": "D:\\magia\\deliveries\\resource-transport-closeout-20261003\\magica\\research\\totentanz-screenshot-fixes-20261003\\title-source-crosscheck-967\\summary.json"
+        "evidence": "docs/story-quality/contributions/title-source-crosscheck-967/summary.json"
       },
       "accepted_repair_delivery": {
         "changed_files": 46,
@@ -517,8 +517,8 @@
         "unit": "delivery paths, not original translations",
         "new_image_translation_count_inferred": false,
         "game_release_pending": false,
-        "patch": "D:\\magia\\deliveries\\totentanz-battle-profile-investigation-20261003\\final-source-closeout\\delta-only\\patch.json",
-        "delta_version": 24,
+        "patch": "docs/story-quality/client-integration/GAME_DELIVERY_RECEIPT.json",
+        "delta_version": 25,
         "published_repositories": [
           "HiiragiNemu/magireco-cn-patch",
           "HiiragiNemu/ProgettoMagius-1"
@@ -526,7 +526,7 @@
       },
       "attribution": "Original official, Wiki, 圆环记录攻略组, 水银 h2oag and prior contributor credits remain unchanged; existing translation reuse earns no new original-translation count.",
       "credit_display": {
-        "config": "D:\\magia\\deliveries\\resource-transport-closeout-20261003\\configures\\personal-online-config.json",
+        "config": "configures/personal-online-config.json",
         "local_updated": true,
         "remote_published": true,
         "device_tested_this_turn": false
@@ -545,7 +545,7 @@
         "accepted_reproduction_20261003": {
           "paths": 2,
           "new_translation_credit": 0,
-          "status": "user_accepted_staged_for_delta25",
+          "status": "user_accepted_published_delta25",
           "receipt": "docs/story-quality/client-integration/logo-aspect-reproduction-20261003.json"
         }
       }
