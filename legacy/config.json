@@ -99,15 +99,23 @@
       },
       {
         "type": "sub",
-        "text": "游戏图像资源汉化：258 个图像，包括 162 个 PNG 和 96 个 .vfxt 特效图像文件。"
+        "text": "游戏图像资源汉化：282 个图像，包括 186 个 PNG 和 96 个 .vfxt 特效图像文件。本轮新增汉化 24 张，另返工既有汉化图像 2 张、接入国服原图 3 张；返工与国服复用不重复增加汉化总数。"
       },
       {
         "type": "sub",
-        "text": "称号名称与解锁条件汉化整合：967 项，共 1,934 个字段。"
+        "text": "称号名称与解锁条件汉化整合：967 项，共 1,934 个字段。已依据现有国服留存与 Wiki 资料完成全部 967 项来源核对及同义规范。"
       },
       {
         "type": "sub",
         "text": "剧情逐句校对：复核 264 条独立文本，修正 245 条；含复刻剧情共覆盖 339 处载体，实际修正 313 处。"
+      },
+      {
+        "type": "sub",
+        "text": "剧情全文校订：既有 694 个运行片段已复核；本轮新增全文复核 278 个片段，另有 83 个片段复用既有复核译文，共修订 11,226 处文本字段。"
+      },
+      {
+        "type": "sub",
+        "text": "功能与显示修复：喜欢角色与辅助更换、心魔战退页角色残留、任务弹窗、称号越框及按钮显示；补全相关界面与图片中文化。"
       },
       {
         "type": "sub",
@@ -203,6 +211,10 @@
       },
       {
         "type": "sub",
+        "text": "2026 年 10 月本轮剧情校订已在 Reader 上线，游戏端待增量更新。剧情目录、运行片段和文本字段是不同统计单位；复核、同源复用和重复修订不重复计为新增原创翻译，原译者署名保留。"
+      },
+      {
+        "type": "sub",
         "text": "水银的三个 JSON 按类型、ID 和汉化字段统计，共 548 个字段；不与技能项数相加。数字、纯省略号和运行时重复映射不计，既有后续校订归属保留。"
       },
       {
@@ -291,7 +303,7 @@
   },
   "contribution_stats": {
     "schema": 3,
-    "as_of": "2026-09-26T13:58:25.876236+00:00",
+    "as_of": "2026-10-03T14:33:25.392087+08:00",
     "story": {
       "MadeInMagius": 344,
       "圆环记录攻略组": 52,
@@ -335,11 +347,11 @@
     },
     "frontend_interface_entries": 1470,
     "images": {
-      "total": 258,
-      "png": 162,
+      "total": 282,
+      "png": 186,
       "vfxt": 96,
       "sumo_png_included": 74,
-      "restored_official_png_excluded": 22
+      "restored_official_png_excluded": 25
     },
     "home_coverage": {
       "unique_voice_ids": 12582,
@@ -467,6 +479,81 @@
         "newOriginalTranslationCount": 0,
         "originalTranslationSource": "魔法纪录中文 Wiki 编辑者；保留原译归属",
         "audit": "magica/i18n_audit/nanoha_memoria_review_20260926/review.json"
+      }
+    },
+    "updates_20261003": {
+      "as_of": "2026-10-03T05:55:46.599067+00:00",
+      "source_commit": "ced4a834554b94bc63bba519195905907ffbdd2f",
+      "story_review": {
+        "historical_full_reviewed_fragments": 694,
+        "new_full_reviewed_fragments": 278,
+        "existing_reviewed_text_reuse_targets": 83,
+        "current_targets": 361,
+        "changed_client_files": 359,
+        "text_field_revisions": 11226,
+        "new_original_story_translation_credit": 0,
+        "reader": {
+          "deployed": true,
+          "source": "b06987d363c8d62976b491f7779df6bd5ab885a0",
+          "targets": 361,
+          "deployment": "2086f41c-5f7d-4ad4-b082-4505679ab7a9",
+          "receipt": "D:\\magia\\deliveries\\resource-transport-closeout-20261003\\magica\\research\\totentanz-screenshot-fixes-20261003\\contribution-update-20261003\\reader-production-receipt.json"
+        },
+        "client": {
+          "published": false,
+          "pending_targets": 361,
+          "policy": "cumulative_delta_only"
+        },
+        "review_remaining_in_identified_scope": 0,
+        "historical_exceptions": {
+          "total": 24,
+          "protected_human_restorations": 23,
+          "previous_full_review": 1
+        },
+        "whole_corpus_complete": false
+      },
+      "title_review": {
+        "records": 967,
+        "fields": 1934,
+        "source_review_completed": true,
+        "existing_term_corrections": 14,
+        "new_condition_corrections": 6,
+        "new_title_translation_credit": 0,
+        "scope": "All 967 title name and condition rows reviewed against available official CN captures and exact existing Wiki/master provenance. Absent official records retained with non-official source labels; this does not assert all 967 titles existed in CN service.",
+        "evidence": "D:\\magia\\deliveries\\resource-transport-closeout-20261003\\magica\\research\\totentanz-screenshot-fixes-20261003\\title-source-crosscheck-967\\summary.json"
+      },
+      "accepted_repair_delivery": {
+        "changed_files": 46,
+        "image_files": 29,
+        "other_files": 17,
+        "unit": "delivery paths, not original translations",
+        "new_image_translation_count_inferred": false,
+        "game_release_pending": false,
+        "patch": "D:\\magia\\deliveries\\totentanz-battle-profile-investigation-20261003\\final-source-closeout\\delta-only\\patch.json",
+        "delta_version": 23,
+        "published_repositories": [
+          "HiiragiNemu/magireco-cn-patch",
+          "HiiragiNemu/ProgettoMagius-1"
+        ]
+      },
+      "attribution": "Original official, Wiki, 圆环记录攻略组, 水银 h2oag and prior contributor credits remain unchanged; existing translation reuse earns no new original-translation count.",
+      "credit_display": {
+        "config": "D:\\magia\\deliveries\\resource-transport-closeout-20261003\\configures\\personal-online-config.json",
+        "local_updated": true,
+        "remote_published": true,
+        "device_tested_this_turn": false
+      },
+      "images": {
+        "previous_total": 258,
+        "previous_png": 162,
+        "vfxt_unchanged": 96,
+        "new_localized_png": 24,
+        "existing_png_reworks": 2,
+        "official_cn_reuse_excluded": 3,
+        "current_png": 186,
+        "current_total": 282,
+        "round_delivered_png": 29,
+        "unit": "unique final localized runtime PNG paths; first localization of 2 existing Japanese history headers included; rejected drafts and iterations excluded; official originals are integration, not personal translation"
       }
     }
   }
