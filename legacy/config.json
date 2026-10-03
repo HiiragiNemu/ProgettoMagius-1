@@ -468,7 +468,7 @@
       }
     },
     "updates_20261003": {
-      "as_of": "2026-10-03T05:55:46.599067+00:00",
+      "as_of": "2026-10-03T09:01:46.855888+00:00",
       "source_commit": "ced4a834554b94bc63bba519195905907ffbdd2f",
       "story_review": {
         "historical_full_reviewed_fragments": 694,
@@ -486,9 +486,11 @@
           "receipt": "D:\\magia\\deliveries\\resource-transport-closeout-20261003\\magica\\research\\totentanz-screenshot-fixes-20261003\\contribution-update-20261003\\reader-production-receipt.json"
         },
         "client": {
-          "published": false,
-          "pending_targets": 361,
-          "policy": "cumulative_delta_only"
+          "published": true,
+          "pending_targets": 0,
+          "policy": "cumulative_delta_only",
+          "delta_version": 24,
+          "receipt": "docs/story-quality/client-integration/GAME_DELIVERY_RECEIPT.json"
         },
         "review_remaining_in_identified_scope": 0,
         "historical_exceptions": {
@@ -516,7 +518,7 @@
         "new_image_translation_count_inferred": false,
         "game_release_pending": false,
         "patch": "D:\\magia\\deliveries\\totentanz-battle-profile-investigation-20261003\\final-source-closeout\\delta-only\\patch.json",
-        "delta_version": 23,
+        "delta_version": 24,
         "published_repositories": [
           "HiiragiNemu/magireco-cn-patch",
           "HiiragiNemu/ProgettoMagius-1"
@@ -539,7 +541,13 @@
         "current_png": 186,
         "current_total": 282,
         "round_delivered_png": 29,
-        "unit": "unique final localized runtime PNG paths; first localization of 2 existing Japanese history headers included; rejected drafts and iterations excluded; official originals are integration, not personal translation"
+        "unit": "unique final localized runtime PNG paths; first localization of 2 existing Japanese history headers included; rejected drafts and iterations excluded; official originals are integration, not personal translation",
+        "accepted_reproduction_20261003": {
+          "paths": 2,
+          "new_translation_credit": 0,
+          "status": "user_accepted_staged_for_delta25",
+          "receipt": "docs/story-quality/client-integration/logo-aspect-reproduction-20261003.json"
+        }
       }
     }
   }
