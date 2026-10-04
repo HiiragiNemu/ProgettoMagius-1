@@ -1,10 +1,16 @@
 {
   "schema": 1,
   "status": "assets_verified",
-  "source_config_blob": "a10a808f631a20fa02a44f33cac8739166e65f7d",
-  "asset_count": 27,
-  "client_version": "1.1.0",
+  "source_config_blob": "0b550c77cf89f06b053ad8c73a3b12a569cc7a3a",
+  "asset_count": 28,
+  "client_version": "1.1.1",
   "assets": [
+    {
+      "name": "magireco-legacy-client-1.1.1-corresponding-source.zip",
+      "sha256": "ad9899a1b2af0ac1c45a4f316cf655dcd3c94293814b12e6aeeb375c2641b513",
+      "size": 61686724,
+      "unchanged": true
+    },
     {
       "name": "cn_js_delta.zip",
       "sha256": "496a5772b994c5e6362451ace8254c6f80f109fe7cb357e31ef90420c4483440",
@@ -13,7 +19,7 @@
     },
     {
       "name": "magireco-latest-legacy-client.apk",
-      "sha256": "fbc1d424d0afc590f2564900b4665ac939126cb8169f9147772e5095ca56f4fd",
+      "sha256": "60031daf95e42448f4ddb2d80a1b0b08f007734a488e0b7318a4decc20a02815",
       "size": 103821876,
       "unchanged": true
     },
@@ -145,8 +151,8 @@
     },
     {
       "name": "magireco-latest-legacy-client.version.json",
-      "sha256": "eb3dd08ef561b7c9f8e2cb0f5555c8ea2fccb3d19009f15f0e9919e76cc99e0f",
-      "size": 530,
+      "sha256": "91fbf7c449b9c6d2080f84dcb218715f4c84f5eca463262ca827a95ad951a9bd",
+      "size": 1234,
       "unchanged": true
     },
     {
@@ -168,7 +174,7 @@
       "unchanged": true
     }
   ],
-  "checked_at": "2026-10-04T15:43:09Z",
+  "checked_at": "2026-10-04T16:12:06Z",
   "apk_font_replacement_verified": false,
   "existing_apk_private_cutover_verified": false
 }
