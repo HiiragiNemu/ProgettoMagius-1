@@ -27,13 +27,6 @@
       "weight": 90,
       "chunks": 4,
       "enabled": true
-    },
-    {
-      "name": "旧仓应急入口",
-      "base": "https://github.com/HiiragiNemu/magireco-cn-patch/releases/download/latest/",
-      "weight": 10,
-      "chunks": 4,
-      "enabled": true
     }
   ],
   "watch": {
@@ -277,7 +270,9 @@
     "apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk",
     "sha256": "fbc1d424d0afc590f2564900b4665ac939126cb8169f9147772e5095ca56f4fd",
     "size": 103821876,
-    "note": "Cloudflare 与独立公开 GitHub 双线路；校验版本、签名与内容摘要后安装。退役 CDN 不再参与下载。"
+    "note": "Cloudflare 与独立公开 GitHub 双线路；校验版本、签名与内容摘要后安装。退役 CDN 不再参与下载。",
+    "publisher": "MadeInMagius",
+    "channel": "personal-1.1"
   },
   "contribution_stats": {
     "schema": 3,
