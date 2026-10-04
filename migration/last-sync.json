@@ -7,8 +7,8 @@
   "assets": [
     {
       "name": "cn_js_delta.zip",
-      "sha256": "043409607642ef59e1853b4af617131f42590261f1c708ac7525f050874138b6",
-      "size": 39395714,
+      "sha256": "496a5772b994c5e6362451ace8254c6f80f109fe7cb357e31ef90420c4483440",
+      "size": 39399918,
       "unchanged": true
     },
     {
@@ -133,13 +133,13 @@
     },
     {
       "name": "cn_js_delta_manifest.json",
-      "sha256": "6efcdc76e43a114834ce6bd5124e6e8a50701bb9d6874f2141f0f41c0461fbc6",
-      "size": 173695,
+      "sha256": "22856e73d23accf303e09fa1b68c47a42e76fdcd3cac81d5ef1cda8c0075e736",
+      "size": 174081,
       "unchanged": true
     },
     {
       "name": "manifest.json",
-      "sha256": "97fce3d6e0a449d71db51237f1365c113d92219858e0f2a17240b7dd57485042",
+      "sha256": "8a5c02a43df0be7e0eed0e63015f401d7708b7500693b8f59ad0a19f0f6258f4",
       "size": 35218,
       "unchanged": true
     },
@@ -163,12 +163,12 @@
     },
     {
       "name": "version_js_delta.json",
-      "sha256": "5d88403d17dc6ff3224332ae9e68224a9c6478190b6f1f5b212dac2b3995abf7",
+      "sha256": "c32fc08e2d14af892574c8de0fb81d23c7311736256a90687096e4a58d9bd3b6",
       "size": 199,
       "unchanged": true
     }
   ],
-  "checked_at": "2026-10-04T15:22:10Z",
+  "checked_at": "2026-10-04T15:43:09Z",
   "apk_font_replacement_verified": false,
   "existing_apk_private_cutover_verified": false
 }
