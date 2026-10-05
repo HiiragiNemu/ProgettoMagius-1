@@ -543,5 +543,23 @@
         }
       }
     }
-  }
+  },
+  "cn_base_mirrors": [
+    {
+      "provider": "edgeone",
+      "name": "CyberNova edgeone",
+      "base": "https://edgeone.assets.magi.madoka-realms.top/",
+      "weight": 80,
+      "chunks": 8,
+      "enabled": true
+    },
+    {
+      "provider": "esa",
+      "name": "CyberNova esa",
+      "base": "https://esa.assets.magi.madoka-realms.top/",
+      "weight": 60,
+      "chunks": 8,
+      "enabled": true
+    }
+  ]
 }
