@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updated": "2026-10-06T18:53:33Z",
+  "updated": "2026-10-06T18:53:26Z",
   "comment": "Personal release configuration. Canonical installation markers are unchanged. Client gate is set only after the new APK body and signature are verified.",
   "settings": {
     "chunks": 4,
