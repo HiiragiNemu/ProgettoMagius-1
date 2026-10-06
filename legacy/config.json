@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updated": "2026-10-06T07:07:43Z",
+  "updated": "2026-10-06T11:40:24Z",
   "comment": "Personal release configuration. Canonical installation markers are unchanged. Client gate is set only after the new APK body and signature are verified.",
   "settings": {
     "chunks": 4,
@@ -266,19 +266,25 @@
     }
   },
   "client": {
-    "version": "1.1.4",
+    "version": "1.1.5",
     "apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk",
-    "sha256": "57a60ef9009816d9b922d4d1cfcc72475e5e2b63168359bf2b7b4cfefa6c5a46",
+    "sha256": "d59c89c1e86840fc43d221f239425e0d80dc4d94f9b3bf170b662959fd9ac9a0",
     "size": 103834242,
-    "note": "Cloudflare 与独立公开 GitHub 双线路；校验版本、签名与内容摘要后安装。退役 CDN 不再参与下载。",
+    "note": "本次更新（1.1.5）\n• 下载页默认播放BGM1，点击关闭后再点击切换BGM2。\n• 标题界面使用BGM2原始音乐，修复旧场景资源覆盖。\n• 更新弹窗显示每版更新内容，GitHub入口改为作者主页。\n• 离线导入支持全部16个资源包，保留校验与防回退保护。",
     "publisher": "MadeInMagius",
     "channel": "personal-1.1",
     "corresponding_source": {
-      "asset": "magireco-legacy-client-1.1.4-corresponding-source.zip",
-      "sha256": "941f7c8e85507558257e225067df4e9f36de061df0d824d65bb4eed175d8c5d0",
-      "size": 61720853,
-      "url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.1.4-corresponding-source.zip"
-    }
+      "asset": "magireco-legacy-client-1.1.5-corresponding-source.zip",
+      "sha256": "b36de25c264621584d5263c6ff64f60cf90f1f2cc0046324976e3810541d6b39",
+      "size": 61726508,
+      "url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.1.5-corresponding-source.zip"
+    },
+    "release_notes": [
+      "下载页默认播放BGM1，点击关闭后再点击切换BGM2。",
+      "标题界面使用BGM2原始音乐，修复旧场景资源覆盖。",
+      "更新弹窗显示每版更新内容，GitHub入口改为作者主页。",
+      "离线导入支持全部16个资源包，保留校验与防回退保护。"
+    ]
   },
   "contribution_stats": {
     "schema": 3,
