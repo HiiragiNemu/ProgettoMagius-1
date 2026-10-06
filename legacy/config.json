@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updated": "2026-10-06T11:40:17Z",
+  "updated": "2026-10-06T18:53:33Z",
   "comment": "Personal release configuration. Canonical installation markers are unchanged. Client gate is set only after the new APK body and signature are verified.",
   "settings": {
     "chunks": 4,
@@ -266,24 +266,24 @@
     }
   },
   "client": {
-    "version": "1.1.5",
+    "version": "1.1.6",
     "apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk",
-    "sha256": "d59c89c1e86840fc43d221f239425e0d80dc4d94f9b3bf170b662959fd9ac9a0",
-    "size": 103834242,
-    "note": "本次更新（1.1.5）\n• 下载页默认播放BGM1，点击关闭后再点击切换BGM2。\n• 标题界面使用BGM2原始音乐，修复旧场景资源覆盖。\n• 更新弹窗显示每版更新内容，GitHub入口改为作者主页。\n• 离线导入支持全部16个资源包，保留校验与防回退保护。",
+    "sha256": "10ddfe992638189630c99494e06716a47ba929651533b05e566dc219769f3a18",
+    "size": 103838338,
+    "note": "本次更新（1.1.6）\n• 修复部分网络下剧情和JS热更新包下载失败。\n• 离线导入先选目录，支持任意名称ZIP，手动操作不再被超时打断。\n• 修复小丘比看板、双人档案字幕被右侧菜单遮挡。\n• 巡逻按钮替换为新版中文图，不再叠加文字遮罩。",
     "publisher": "MadeInMagius",
     "channel": "personal-1.1",
     "corresponding_source": {
-      "asset": "magireco-legacy-client-1.1.5-corresponding-source.zip",
-      "sha256": "b36de25c264621584d5263c6ff64f60cf90f1f2cc0046324976e3810541d6b39",
-      "size": 61726508,
-      "url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.1.5-corresponding-source.zip"
+      "asset": "magireco-legacy-client-1.1.6-corresponding-source.zip",
+      "sha256": "71079c1911ac49d0755ad246ec6968c664bdcde479b275695fe4daaf508efa33",
+      "size": 61734611,
+      "url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.1.6-corresponding-source.zip"
     },
     "release_notes": [
-      "下载页默认播放BGM1，点击关闭后再点击切换BGM2。",
-      "标题界面使用BGM2原始音乐，修复旧场景资源覆盖。",
-      "更新弹窗显示每版更新内容，GitHub入口改为作者主页。",
-      "离线导入支持全部16个资源包，保留校验与防回退保护。"
+      "修复部分网络下剧情和JS热更新包下载失败。",
+      "离线导入先选目录，支持任意名称ZIP，手动操作不再被超时打断。",
+      "修复小丘比看板、双人档案字幕被右侧菜单遮挡。",
+      "巡逻按钮替换为新版中文图，不再叠加文字遮罩。"
     ]
   },
   "contribution_stats": {
