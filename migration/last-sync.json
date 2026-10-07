@@ -2,7 +2,7 @@
   "schema": 1,
   "status": "assets_verified",
   "source_config_blob": "44575f5da403da756efa46db62e04f33fbd9ac6e",
-  "asset_count": 33,
+  "asset_count": 39,
   "client_version": "1.1.6",
   "assets": [
     {
@@ -120,6 +120,18 @@
       "unchanged": true
     },
     {
+      "name": "cn_js_delta_v2.zip",
+      "sha256": "ba2e3c87a1e7d4e91db62889fba45a183962cb88354efc01b30435a4794843b2",
+      "size": 30003377,
+      "unchanged": true
+    },
+    {
+      "name": "cn_js_update_v2.zip",
+      "sha256": "e32282198598612ee7035d8db6f2623e0a1c4b44eae32ac55f215655988c16a3",
+      "size": 278345913,
+      "unchanged": true
+    },
+    {
       "name": "cn_magica_resource.zip",
       "sha256": "a613d1e7ac8faf669a5c2cfd14fad57457b3b069796be7cafffdbb45c314ccd8",
       "size": 398763022,
@@ -202,9 +214,33 @@
       "sha256": "30716e278131780b848933639a76b8c138efef64bc2013362429d71a8116397d",
       "size": 199,
       "unchanged": true
+    },
+    {
+      "name": "cn_js_update_manifest_v2.json",
+      "sha256": "d783f2af1a42f349e0fd1ac2150b5e7543d3d7bd1da17d807b388b1424e56bb9",
+      "size": 510242,
+      "unchanged": true
+    },
+    {
+      "name": "cn_js_delta_manifest_v2.json",
+      "sha256": "63dc72429324e748b540594a38fe324ea55ff77faf68255c1a553492a5ed7315",
+      "size": 177415,
+      "unchanged": true
+    },
+    {
+      "name": "version_js_v2.json",
+      "sha256": "28958fa753c2f88593db09e6e02332a200ea922ce16c94deceeb0c27013299de",
+      "size": 337,
+      "unchanged": true
+    },
+    {
+      "name": "version_js_delta_v2.json",
+      "sha256": "b9372b67110c7e9613cec6399b40f8f67d81c9a9e919888eda0d49119409d094",
+      "size": 501,
+      "unchanged": true
     }
   ],
-  "checked_at": "2026-10-07T07:13:57Z",
+  "checked_at": "2026-10-07T14:20:51Z",
   "apk_font_replacement_verified": false,
   "existing_apk_private_cutover_verified": false
 }
