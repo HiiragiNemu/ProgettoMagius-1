@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updated": "2026-10-07T14:30:16Z",
+  "updated": "2026-10-07T20:30:39Z",
   "comment": "Personal release configuration. Canonical installation markers are unchanged. Client gate is set only after the new APK body and signature are verified.",
   "settings": {
     "chunks": 4,
@@ -266,24 +266,25 @@
     }
   },
   "client": {
-    "version": "1.1.7",
+    "version": "1.1.8",
     "apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk",
-    "sha256": "7fd81cc3295e94051dea3040ff6f0b4d7459b1cfaf9ff1fd9b97b06b26e8e897",
-    "size": 94343659,
-    "note": "本次更新（1.1.7）\n• 移除未使用的字体副本，保留实际使用的圆体和方体。\n• 热更新先显示摘要并由你选择；跳过后到新版本再提醒。\n• 检查更新同时检查应用和资源，应用更新可选择本版不再提醒。\n• 配套资源修复档案活动剧情中的镜界排名横幅。",
+    "sha256": "ba559eb66def2218750d6e572c95a60cf08f4da834834f908ed96913fd685e91",
+    "size": 94351851,
+    "note": "本次更新（1.1.8）\n• 手动检查更新后关闭弹窗会停留在下载页，不再直接进入游戏。\n• 修复更新弹窗无法再次打开和迟到弹窗阻塞入口的问题。\n• 资源更新可勾选到下个版本再提醒；手动检查可重新选择。\n• 保留原有字体精简，不影响已安装存档与资源。\n• 修复单人、双人及换装档案长字幕遮挡和长段落显示不全。",
     "publisher": "MadeInMagius",
     "channel": "personal-1.1",
     "corresponding_source": {
-      "asset": "magireco-legacy-client-1.1.7-corresponding-source.zip",
-      "sha256": "8af48061899a4789246a6ec537dcccdc16e9e49c94528aa1b8d340433ecdc52a",
-      "size": 61752143,
-      "url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.1.7-corresponding-source.zip"
+      "asset": "magireco-legacy-client-1.1.8-corresponding-source.zip",
+      "sha256": "46c01aba416df31293a30ea25cbc89d65c8a5e0e354b63da5bd72de32f16b855",
+      "size": 61760490,
+      "url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.1.8-corresponding-source.zip"
     },
     "release_notes": [
-      "移除未使用的字体副本，保留实际使用的圆体和方体。",
-      "热更新先显示摘要并由你选择；跳过后到新版本再提醒。",
-      "检查更新同时检查应用和资源，应用更新可选择本版不再提醒。",
-      "配套资源修复档案活动剧情中的镜界排名横幅。"
+      "手动检查更新后关闭弹窗会停留在下载页，不再直接进入游戏。",
+      "修复更新弹窗无法再次打开和迟到弹窗阻塞入口的问题。",
+      "资源更新可勾选到下个版本再提醒；手动检查可重新选择。",
+      "保留原有字体精简，不影响已安装存档与资源。",
+      "修复单人、双人及换装档案长字幕遮挡和长段落显示不全。"
     ]
   },
   "contribution_stats": {
