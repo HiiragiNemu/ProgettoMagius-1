@@ -78,7 +78,7 @@
       },
       {
         "type": "sub",
-        "text": "游戏图像资源汉化：282 个图像，包括 186 个 PNG 和 96 个 .vfxt 特效图像文件。"
+        "text": "游戏图像资源汉化：286 个图像，包括 190 个 PNG 和 96 个 .vfxt 特效图像文件。"
       },
       {
         "type": "sub",
@@ -333,8 +333,8 @@
     },
     "frontend_interface_entries": 1470,
     "images": {
-      "total": 282,
-      "png": 186,
+      "total": 286,
+      "png": 190,
       "vfxt": 96,
       "sumo_png_included": 74,
       "restored_official_png_excluded": 25
