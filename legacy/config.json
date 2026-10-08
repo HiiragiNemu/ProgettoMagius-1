@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updated": "2026-10-07T20:30:34Z",
+  "updated": "2026-10-08T15:46:17Z",
   "comment": "Personal release configuration. Canonical installation markers are unchanged. Client gate is set only after the new APK body and signature are verified.",
   "settings": {
     "chunks": 4,
@@ -266,25 +266,68 @@
     }
   },
   "client": {
-    "version": "1.1.8",
+    "version": "1.1.9",
     "apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk",
-    "sha256": "ba559eb66def2218750d6e572c95a60cf08f4da834834f908ed96913fd685e91",
-    "size": 94351851,
-    "note": "本次更新（1.1.8）\n• 手动检查更新后关闭弹窗会停留在下载页，不再直接进入游戏。\n• 修复更新弹窗无法再次打开和迟到弹窗阻塞入口的问题。\n• 资源更新可勾选到下个版本再提醒；手动检查可重新选择。\n• 保留原有字体精简，不影响已安装存档与资源。\n• 修复单人、双人及换装档案长字幕遮挡和长段落显示不全。",
+    "sha256": "bda60d8afda79d95bd4f9f5899270cc66107268008d335d744b75a486eb6a020",
+    "size": 94360121,
+    "note": "本次更新（1.1.9）\n• 修复跳过更新的默认行为；仅主动勾选后才到下版再提醒。\n• 跳过可选资源更新后回到下载页倒计时，仍可点气泡停留。\n• 检查更新可展开近期版本说明；关闭后仍停留下载页。\n• 首页连接失败不再静默黑屏，提供明确提示、重试和返回入口。\n• 档案切换停止遗留语音，取消离开页面后的迟到播放。\n• 减少下载页重复排版开销，并更新四张巡逻按钮的汉化统计。",
     "publisher": "MadeInMagius",
     "channel": "personal-1.1",
     "corresponding_source": {
-      "asset": "magireco-legacy-client-1.1.8-corresponding-source.zip",
-      "sha256": "46c01aba416df31293a30ea25cbc89d65c8a5e0e354b63da5bd72de32f16b855",
-      "size": 61760490,
-      "url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.1.8-corresponding-source.zip"
+      "asset": "magireco-legacy-client-1.1.9-corresponding-source.zip",
+      "sha256": "b4231b4dadf2ff052deef9ab0c212d322443b8f7d0bacd79274593e95812cac1",
+      "size": 61774633,
+      "url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.1.9-corresponding-source.zip"
     },
     "release_notes": [
-      "手动检查更新后关闭弹窗会停留在下载页，不再直接进入游戏。",
-      "修复更新弹窗无法再次打开和迟到弹窗阻塞入口的问题。",
-      "资源更新可勾选到下个版本再提醒；手动检查可重新选择。",
-      "保留原有字体精简，不影响已安装存档与资源。",
-      "修复单人、双人及换装档案长字幕遮挡和长段落显示不全。"
+      "修复跳过更新的默认行为；仅主动勾选后才到下版再提醒。",
+      "跳过可选资源更新后回到下载页倒计时，仍可点气泡停留。",
+      "检查更新可展开近期版本说明；关闭后仍停留下载页。",
+      "首页连接失败不再静默黑屏，提供明确提示、重试和返回入口。",
+      "档案切换停止遗留语音，取消离开页面后的迟到播放。",
+      "减少下载页重复排版开销，并更新四张巡逻按钮的汉化统计。"
+    ],
+    "update_history": [
+      {
+        "kind": "apk",
+        "version": "1.1.9",
+        "note": "本次更新（1.1.9）\n• 修复跳过更新的默认行为；仅主动勾选后才到下版再提醒。\n• 跳过可选资源更新后回到下载页倒计时，仍可点气泡停留。\n• 检查更新可展开近期版本说明；关闭后仍停留下载页。\n• 首页连接失败不再静默黑屏，提供明确提示、重试和返回入口。\n• 档案切换停止遗留语音，取消离开页面后的迟到播放。\n• 减少下载页重复排版开销，并更新四张巡逻按钮的汉化统计。"
+      },
+      {
+        "kind": "apk",
+        "version": "1.1.8",
+        "note": "本次更新（1.1.8）\n• 手动检查更新后关闭弹窗会停留在下载页，不再直接进入游戏。\n• 修复更新弹窗无法再次打开和迟到弹窗阻塞入口的问题。\n• 资源更新可勾选到下个版本再提醒；手动检查可重新选择。\n• 保留原有字体精简，不影响已安装存档与资源。\n• 修复单人、双人及换装档案长字幕遮挡和长段落显示不全。"
+      },
+      {
+        "kind": "apk",
+        "version": "1.1.7",
+        "note": "本次更新（1.1.7）\n• 移除未使用的字体副本，保留实际使用的圆体和方体。\n• 热更新先显示摘要并由你选择；跳过后到新版本再提醒。\n• 检查更新同时检查应用和资源，应用更新可选择本版不再提醒。\n• 配套资源修复档案活动剧情中的镜界排名横幅。"
+      },
+      {
+        "kind": "apk",
+        "version": "1.1.6",
+        "note": "本次更新（1.1.6）\n• 修复部分网络下剧情和JS热更新包下载失败。\n• 离线导入先选目录，支持任意名称ZIP，手动操作不再被超时打断。\n• 修复小丘比看板、双人档案字幕被右侧菜单遮挡。\n• 巡逻按钮替换为新版中文图，不再叠加文字遮罩。"
+      },
+      {
+        "kind": "apk",
+        "version": "1.1.5",
+        "note": "本次更新（1.1.5）\n• 下载页默认播放BGM1，点击关闭后再点击切换BGM2。\n• 标题界面使用BGM2原始音乐，修复旧场景资源覆盖。\n• 更新弹窗显示每版更新内容，GitHub入口改为作者主页。\n• 离线导入支持全部16个资源包，保留校验与防回退保护。"
+      },
+      {
+        "kind": "delta",
+        "version": "38",
+        "note": "档案切换时停止遗留语音，防止特殊换装语音延迟到离开页面后播放。\n保留主页正常问候与手动试听；更新四张巡逻中文按钮的汉化统计。"
+      },
+      {
+        "kind": "delta",
+        "version": "37",
+        "note": "修复档案语音页单人角色长字幕被右侧列表遮挡。\n统一单人、双人及换装字幕区域；搭配1.1.8完整显示长段落，保留全屏与原文。"
+      },
+      {
+        "kind": "delta",
+        "version": "36",
+        "note": "移除两份无用字体，减少资源占用。\n修复档案活动剧情中镜界排名横幅。"
+      }
     ]
   },
   "contribution_stats": {
