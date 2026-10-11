@@ -139,8 +139,8 @@
     },
     {
       "name": "cn_js_delta_v2.zip",
-      "sha256": "667b34f1cbaa674f316d7e4c59b870b0b2249d1ec7077f0ec4ef81722d4b48a1",
-      "size": 30058364,
+      "sha256": "46e06d7733e652db098734fb7b862cb3a326467695ae6c909e54cee19f95a272",
+      "size": 30059371,
       "unchanged": true
     },
     {
@@ -241,7 +241,7 @@
     },
     {
       "name": "cn_js_delta_manifest_v2.json",
-      "sha256": "3db9d77e21f0f781ef96e36be49d57a8358cd3b062fe5d7a8ef817243486c27a",
+      "sha256": "e73ba814a7d82398ce46fde4f2920962ce6a6df1c64512da298ef02f5f8b7083",
       "size": 177425,
       "unchanged": true
     },
@@ -253,12 +253,12 @@
     },
     {
       "name": "version_js_delta_v2.json",
-      "sha256": "c2609ffc9dda2e085b9e55119934121d7326124680e4fc6cfd333dfb6abedf15",
-      "size": 893,
+      "sha256": "0e8cf275e3cabed892092c0b515b77ec37001be4401b63c4231de6e4ee7a0521",
+      "size": 955,
       "unchanged": true
     }
   ],
-  "checked_at": "2026-10-11T01:15:29Z",
+  "checked_at": "2026-10-11T01:37:46Z",
   "apk_font_replacement_verified": false,
   "existing_apk_private_cutover_verified": false
 }
