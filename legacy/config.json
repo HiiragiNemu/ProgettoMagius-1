@@ -262,39 +262,43 @@
   "branch_versions": {
     "single-thread": {
       "supported": false,
-      "mainline_apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk"
+      "mainline_apk_url": "https://magireco-personal-release.pages.dev/magireco-latest-legacy-client.apk"
     },
     "single-thread-r2-github": {
       "supported": false,
-      "mainline_apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk"
+      "mainline_apk_url": "https://magireco-personal-release.pages.dev/magireco-latest-legacy-client.apk"
     },
     "current-download-ui-fixed": {
       "supported": false,
-      "mainline_apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk"
+      "mainline_apk_url": "https://magireco-personal-release.pages.dev/magireco-latest-legacy-client.apk"
     }
   },
   "client": {
-    "version": "1.1.12",
-    "apk_url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk",
-    "sha256": "e5ee57bba85eb7fee464e7e3f6eedfed434b23d4e02783c69c9ca81291619114",
+    "version": "1.1.11",
+    "apk_url": "https://magireco-personal-release.pages.dev/magireco-latest-legacy-client.apk",
+    "sha256": "83abb277a658b1f5414a658d1c5ed5c0d87f367a33fafd4fb63cce22de82e230",
     "size": 461993717,
-    "note": "实际安装客户端 1.2.1（旧更新协议兼容编号 1.1.12）\n本次更新（1.2.1）\n• 修复旧用户升级后的本地游玩入口与手机横屏布局，保留原有本地资源和存档，使用覆盖安装。\n• 兼容旧版内置更新协议；实际客户端版本为1.2.1。旧更新器可能显示兼容编号1.1.12，但安装的是同一个1.2.1 APK，无需连续安装过渡包。\n• 移除下载页“存储：应用目录”按钮，保留本地游玩、线路选择及原有存储能力。\n• 补入已核对的中文横幅、公告和商店文本，修复历史商店时间与部分卡池数据。\n• 活动和卡池继续按真实资料批量接入；缺少概率时使用明确区分的离线模拟，不将资料收录计为玩法已完成。",
+    "note": "本次更新（1.1.11）\n• 修复 1.1.9／1.1.10 的内置升级链。请先覆盖升级到真实 1.1.11，之后即可接收 1.2.x。\n• 修复累计修订 v48 → v48 反复提醒：已验证的 APK 中文覆盖不再被误报为损坏，真正损坏的资源仍可修复。\n• 包含此前离线启动、手机横屏布局、历史商店与中文文本修订；保留已有资源和存档，无需重新下载全部资源。\n• 保留旧版升级入口与对应 1.1.11 安装包；后续发布 1.2.x 时，尚未更新的旧用户仍先获得桥接更新。",
     "publisher": "MadeInMagius",
     "channel": "personal-1.1",
     "corresponding_source": {
-      "sha256": "12a831acd271e9a35b66a14cc45df9a028e15dc2c113a8cd572c703f7f67ba5f",
-      "size": 124264334,
-      "url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.2.1-corresponding-source.zip",
-      "asset": "magireco-legacy-client-1.2.1-corresponding-source.zip"
+      "sha256": "f12ebe3d57681a82935dc2e52505b4a363ba0fdd5c1fd0acfa4184f940fed941",
+      "size": 124250449,
+      "url": "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.1.11-corresponding-source.zip",
+      "asset": "magireco-legacy-client-1.1.11-corresponding-source.zip"
     },
     "release_notes": [
-      "修复旧用户升级后的本地游玩入口与手机横屏布局，保留原有本地资源和存档，使用覆盖安装。",
-      "兼容旧版内置更新协议；实际客户端版本为1.2.1。旧更新器可能显示兼容编号1.1.12，但安装的是同一个1.2.1 APK，无需连续安装过渡包。",
-      "移除下载页“存储：应用目录”按钮，保留本地游玩、线路选择及原有存储能力。",
-      "补入已核对的中文横幅、公告和商店文本，修复历史商店时间与部分卡池数据。",
-      "活动和卡池继续按真实资料批量接入；缺少概率时使用明确区分的离线模拟，不将资料收录计为玩法已完成。"
+      "修复 1.1.9／1.1.10 的内置升级链。请先覆盖升级到真实 1.1.11，之后即可接收 1.2.x。",
+      "修复累计修订 v48 → v48 反复提醒：已验证的 APK 中文覆盖不再被误报为损坏，真正损坏的资源仍可修复。",
+      "包含此前离线启动、手机横屏布局、历史商店与中文文本修订；保留已有资源和存档，无需重新下载全部资源。",
+      "保留旧版升级入口与对应 1.1.11 安装包；后续发布 1.2.x 时，尚未更新的旧用户仍先获得桥接更新。"
     ],
     "update_history": [
+      {
+        "kind": "apk",
+        "version": "1.1.11",
+        "note": "本次更新（1.1.11）\n• 修复 1.1.9／1.1.10 的内置升级链。请先覆盖升级到真实 1.1.11，之后即可接收 1.2.x。\n• 修复累计修订 v48 → v48 反复提醒：已验证的 APK 中文覆盖不再被误报为损坏，真正损坏的资源仍可修复。\n• 包含此前离线启动、手机横屏布局、历史商店与中文文本修订；保留已有资源和存档，无需重新下载全部资源。\n• 保留旧版升级入口与对应 1.1.11 安装包；后续发布 1.2.x 时，尚未更新的旧用户仍先获得桥接更新。"
+      },
       {
         "kind": "apk",
         "version": "1.2.1",
@@ -346,13 +350,13 @@
         "note": "移除两份无用字体，减少资源占用。\n修复档案活动剧情中镜界排名横幅。"
       }
     ],
-    "version_code": 1713000824,
+    "version_code": 1713000826,
     "package_name": "io.kamihama.totentanz",
-    "source_commit": "95054f1a0b7a2b8df793d5d2bb3e90555e2c6524",
+    "source_commit": "58ee59ca1f7743236bad030deaa5306336b1d02f",
     "legacy_cert_sha256": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
     "release_cert_sha256": "73b6fa55f2792a437fcc186cce529d1288b231ae43acfb0137068cd12b381705",
     "apk_urls": [
-      "https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk"
+      "https://magireco-personal-release.pages.dev/magireco-latest-legacy-client.apk"
     ],
     "source_inputs": {
       "frontend": {
@@ -370,17 +374,20 @@
       "rebuild_note": "public-origins.json records the historical mutable latest URL. Download the retained 1.1.9 APK above, verify its fixed hash, and pass its local file to the rebuild recipe. Do not substitute the new latest APK."
     },
     "apk": "magireco-latest-legacy-client.apk",
-    "legacy_compatibility": {
+    "upgrade_bridge": {
       "schema": 1,
-      "mode": "single-apk-legacy-offer",
-      "offer_version": "1.1.12",
-      "release_version": "1.2.1"
+      "from_clients": [
+        "1.1.9",
+        "1.1.10"
+      ],
+      "supersedes_unreachable_release": "1.2.1",
+      "next_release_line": "1.2"
     },
     "signed_update": {
       "schema": 1,
       "key_id": "release-manifest-v1",
-      "payload": "{\n  \"publisher\": \"MadeInMagius\",\n  \"channel\": \"personal-1.1\",\n  \"version\": \"1.2.1\",\n  \"version_code\": 1713000824,\n  \"package_name\": \"io.kamihama.totentanz\",\n  \"size\": 461993717,\n  \"sha256\": \"e5ee57bba85eb7fee464e7e3f6eedfed434b23d4e02783c69c9ca81291619114\",\n  \"source_commit\": \"95054f1a0b7a2b8df793d5d2bb3e90555e2c6524\",\n  \"legacy_cert_sha256\": \"a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc\",\n  \"release_cert_sha256\": \"73b6fa55f2792a437fcc186cce529d1288b231ae43acfb0137068cd12b381705\",\n  \"apk_urls\": [\n    \"https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-latest-legacy-client.apk\"\n  ],\n  \"note\": \"本次更新（1.2.1）\\n• 修复旧用户升级后的本地游玩入口与手机横屏布局，保留原有本地资源和存档，使用覆盖安装。\\n• 兼容旧版内置更新协议；实际客户端版本为1.2.1。旧更新器可能显示兼容编号1.1.12，但安装的是同一个1.2.1 APK，无需连续安装过渡包。\\n• 移除下载页“存储：应用目录”按钮，保留本地游玩、线路选择及原有存储能力。\\n• 补入已核对的中文横幅、公告和商店文本，修复历史商店时间与部分卡池数据。\\n• 活动和卡池继续按真实资料批量接入；缺少概率时使用明确区分的离线模拟，不将资料收录计为玩法已完成。\",\n  \"update_history\": [\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.2.1\",\n      \"note\": \"本次更新（1.2.1）\\n• 修复旧用户升级后的本地游玩入口与手机横屏布局，保留原有本地资源和存档，使用覆盖安装。\\n• 兼容旧版内置更新协议；实际客户端版本为1.2.1。旧更新器可能显示兼容编号1.1.12，但安装的是同一个1.2.1 APK，无需连续安装过渡包。\\n• 移除下载页“存储：应用目录”按钮，保留本地游玩、线路选择及原有存储能力。\\n• 补入已核对的中文横幅、公告和商店文本，修复历史商店时间与部分卡池数据。\\n• 活动和卡池继续按真实资料批量接入；缺少概率时使用明确区分的离线模拟，不将资料收录计为玩法已完成。\"\n    },\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.1.10\",\n      \"note\": \"本次更新（1.1.10）\\n• 增加离线模式、离线存档与第三档入口，并整理巡逻相关流程。\\n• 完善日历日期选择与中日名称映射；日历收录 423 个活动和 612 个卡池条目。条目收录不代表全部玩法已实现。\\n• 提供 8 个历史卡池的非官方近似概率模拟；它们不是官方概率恢复，也不代表其他历史卡池已可用。\\n• 统一中文客户端版本为 1.1.10，联动本地设置、下载页与更新判定；原游戏协议版本仍为 3.1.9。\\n• 发布对应源码与离线前端构建输入，提供使用自己的签名 key 重建的配方；生产发行签名私钥不包含在内。\\n• 仍存在离线活动、战斗和卡池玩法缺口；部分入口仅有资料、日历或近似模拟，不宣称所有活动和卡池均可玩。\"\n    },\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.1.9\",\n      \"note\": \"本次更新（1.1.9）\\n• 修复跳过更新的默认行为；仅主动勾选后才到下版再提醒。\\n• 跳过可选资源更新后回到下载页倒计时，仍可点气泡停留。\\n• 检查更新可展开近期版本说明；关闭后仍停留下载页。\\n• 首页连接失败不再静默黑屏，提供明确提示、重试和返回入口。\\n• 档案切换停止遗留语音，取消离开页面后的迟到播放。\\n• 减少下载页重复排版开销，并更新四张巡逻按钮的汉化统计。\"\n    },\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.1.8\",\n      \"note\": \"本次更新（1.1.8）\\n• 手动检查更新后关闭弹窗会停留在下载页，不再直接进入游戏。\\n• 修复更新弹窗无法再次打开和迟到弹窗阻塞入口的问题。\\n• 资源更新可勾选到下个版本再提醒；手动检查可重新选择。\\n• 保留原有字体精简，不影响已安装存档与资源。\\n• 修复单人、双人及换装档案长字幕遮挡和长段落显示不全。\"\n    },\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.1.7\",\n      \"note\": \"本次更新（1.1.7）\\n• 移除未使用的字体副本，保留实际使用的圆体和方体。\\n• 热更新先显示摘要并由你选择；跳过后到新版本再提醒。\\n• 检查更新同时检查应用和资源，应用更新可选择本版不再提醒。\\n• 配套资源修复档案活动剧情中的镜界排名横幅。\"\n    },\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.1.6\",\n      \"note\": \"本次更新（1.1.6）\\n• 修复部分网络下剧情和JS热更新包下载失败。\\n• 离线导入先选目录，支持任意名称ZIP，手动操作不再被超时打断。\\n• 修复小丘比看板、双人档案字幕被右侧菜单遮挡。\\n• 巡逻按钮替换为新版中文图，不再叠加文字遮罩。\"\n    },\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.1.5\",\n      \"note\": \"本次更新（1.1.5）\\n• 下载页默认播放BGM1，点击关闭后再点击切换BGM2。\\n• 标题界面使用BGM2原始音乐，修复旧场景资源覆盖。\\n• 更新弹窗显示每版更新内容，GitHub入口改为作者主页。\\n• 离线导入支持全部16个资源包，保留校验与防回退保护。\"\n    },\n    {\n      \"kind\": \"delta\",\n      \"version\": \"38\",\n      \"note\": \"档案切换时停止遗留语音，防止特殊换装语音延迟到离开页面后播放。\\n保留主页正常问候与手动试听；更新四张巡逻中文按钮的汉化统计。\"\n    },\n    {\n      \"kind\": \"delta\",\n      \"version\": \"37\",\n      \"note\": \"修复档案语音页单人角色长字幕被右侧列表遮挡。\\n统一单人、双人及换装字幕区域；搭配1.1.8完整显示长段落，保留全屏与原文。\"\n    },\n    {\n      \"kind\": \"delta\",\n      \"version\": \"36\",\n      \"note\": \"移除两份无用字体，减少资源占用。\\n修复档案活动剧情中镜界排名横幅。\"\n    }\n  ],\n  \"release_notes\": [\n    \"修复旧用户升级后的本地游玩入口与手机横屏布局，保留原有本地资源和存档，使用覆盖安装。\",\n    \"兼容旧版内置更新协议；实际客户端版本为1.2.1。旧更新器可能显示兼容编号1.1.12，但安装的是同一个1.2.1 APK，无需连续安装过渡包。\",\n    \"移除下载页“存储：应用目录”按钮，保留本地游玩、线路选择及原有存储能力。\",\n    \"补入已核对的中文横幅、公告和商店文本，修复历史商店时间与部分卡池数据。\",\n    \"活动和卡池继续按真实资料批量接入；缺少概率时使用明确区分的离线模拟，不将资料收录计为玩法已完成。\"\n  ],\n  \"corresponding_source\": {\n    \"sha256\": \"12a831acd271e9a35b66a14cc45df9a028e15dc2c113a8cd572c703f7f67ba5f\",\n    \"size\": 124264334,\n    \"url\": \"https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.2.1-corresponding-source.zip\",\n    \"asset\": \"magireco-legacy-client-1.2.1-corresponding-source.zip\"\n  },\n  \"source_inputs\": {\n    \"frontend\": {\n      \"asset\": \"frontend-supplement-exact-r7.zip\",\n      \"size\": 335109307,\n      \"sha256\": \"1139358c5e6b8d03c4a3e71ebfe3dcf460d7d5a69da39aa743c74665bbfeb1b5\",\n      \"url\": \"https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/frontend-supplement-exact-r7.zip\"\n    },\n    \"retained_119_apk\": {\n      \"asset\": \"magireco-legacy-client-1.1.9.apk\",\n      \"size\": 94360121,\n      \"sha256\": \"bda60d8afda79d95bd4f9f5899270cc66107268008d335d744b75a486eb6a020\",\n      \"url\": \"https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.1.9.apk\"\n    },\n    \"rebuild_note\": \"public-origins.json records the historical mutable latest URL. Download the retained 1.1.9 APK above, verify its fixed hash, and pass its local file to the rebuild recipe. Do not substitute the new latest APK.\"\n  },\n  \"legacy_compatibility\": {\n    \"schema\": 1,\n    \"mode\": \"single-apk-legacy-offer\",\n    \"offer_version\": \"1.1.12\",\n    \"release_version\": \"1.2.1\"\n  }\n}\n",
-      "signature": "9dbeda9592ace332d29b7ef89777b88782fe37198d8c0c164ea345c2e8fd84213c5f8a81e465da1b83b5d16e81eeec228255fe092e4dc93432b04802119af75aae621ea4678149d797f45501af67032daf46a1dfef68301602034f3cdd5f3eefb87ca99d2b179feed5314477d7e88993f9147f3aa88916cd2d60a9b418f674eb2e3f763fdd8c2fa03089c6e81c37de48738db427e7a94b67123fb702c0686749d9b94b8cded6faea962d13a24d021e159d4c5aa140f4a70859e0bdc5a12d2bbd50cbd15b7263386830e397f56588c8f6a540377be9dec6b0a7f781fa0cb51acab452952a93733680137a8be20e4b33eb1b16763a930ce707c795e41ff6b8de28d43f5574de7fa3be16b9c422798abda1efaa8b0314687710b6d72b8b610135c9657cbc4cce96c84eaf2be8afc34fdd9330f658ad6bb02537317e89b929464ac2e9d0236a67caca7b1affc26636ea9d16a3eec614e2ea8c91568798c9706fd92dca65223b8e3f4f6a24493c7288cca1695d1d8355153b914be6095984503d69aa"
+      "payload": "{\n  \"publisher\": \"MadeInMagius\",\n  \"channel\": \"personal-1.1\",\n  \"version\": \"1.1.11\",\n  \"version_code\": 1713000826,\n  \"package_name\": \"io.kamihama.totentanz\",\n  \"size\": 461993717,\n  \"sha256\": \"83abb277a658b1f5414a658d1c5ed5c0d87f367a33fafd4fb63cce22de82e230\",\n  \"source_commit\": \"58ee59ca1f7743236bad030deaa5306336b1d02f\",\n  \"legacy_cert_sha256\": \"a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc\",\n  \"release_cert_sha256\": \"73b6fa55f2792a437fcc186cce529d1288b231ae43acfb0137068cd12b381705\",\n  \"apk_urls\": [\n    \"https://magireco-personal-release.pages.dev/magireco-latest-legacy-client.apk\"\n  ],\n  \"note\": \"本次更新（1.1.11）\\n• 修复 1.1.9／1.1.10 的内置升级链。请先覆盖升级到真实 1.1.11，之后即可接收 1.2.x。\\n• 修复累计修订 v48 → v48 反复提醒：已验证的 APK 中文覆盖不再被误报为损坏，真正损坏的资源仍可修复。\\n• 包含此前离线启动、手机横屏布局、历史商店与中文文本修订；保留已有资源和存档，无需重新下载全部资源。\\n• 保留旧版升级入口与对应 1.1.11 安装包；后续发布 1.2.x 时，尚未更新的旧用户仍先获得桥接更新。\",\n  \"update_history\": [\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.1.11\",\n      \"note\": \"本次更新（1.1.11）\\n• 修复 1.1.9／1.1.10 的内置升级链。请先覆盖升级到真实 1.1.11，之后即可接收 1.2.x。\\n• 修复累计修订 v48 → v48 反复提醒：已验证的 APK 中文覆盖不再被误报为损坏，真正损坏的资源仍可修复。\\n• 包含此前离线启动、手机横屏布局、历史商店与中文文本修订；保留已有资源和存档，无需重新下载全部资源。\\n• 保留旧版升级入口与对应 1.1.11 安装包；后续发布 1.2.x 时，尚未更新的旧用户仍先获得桥接更新。\"\n    },\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.2.1\",\n      \"note\": \"本次更新（1.2.1）\\n• 修复旧用户升级后的本地游玩入口与手机横屏布局，保留原有本地资源和存档，使用覆盖安装。\\n• 兼容旧版内置更新协议；实际客户端版本为1.2.1。旧更新器可能显示兼容编号1.1.12，但安装的是同一个1.2.1 APK，无需连续安装过渡包。\\n• 移除下载页“存储：应用目录”按钮，保留本地游玩、线路选择及原有存储能力。\\n• 补入已核对的中文横幅、公告和商店文本，修复历史商店时间与部分卡池数据。\\n• 活动和卡池继续按真实资料批量接入；缺少概率时使用明确区分的离线模拟，不将资料收录计为玩法已完成。\"\n    },\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.1.10\",\n      \"note\": \"本次更新（1.1.10）\\n• 增加离线模式、离线存档与第三档入口，并整理巡逻相关流程。\\n• 完善日历日期选择与中日名称映射；日历收录 423 个活动和 612 个卡池条目。条目收录不代表全部玩法已实现。\\n• 提供 8 个历史卡池的非官方近似概率模拟；它们不是官方概率恢复，也不代表其他历史卡池已可用。\\n• 统一中文客户端版本为 1.1.10，联动本地设置、下载页与更新判定；原游戏协议版本仍为 3.1.9。\\n• 发布对应源码与离线前端构建输入，提供使用自己的签名 key 重建的配方；生产发行签名私钥不包含在内。\\n• 仍存在离线活动、战斗和卡池玩法缺口；部分入口仅有资料、日历或近似模拟，不宣称所有活动和卡池均可玩。\"\n    },\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.1.9\",\n      \"note\": \"本次更新（1.1.9）\\n• 修复跳过更新的默认行为；仅主动勾选后才到下版再提醒。\\n• 跳过可选资源更新后回到下载页倒计时，仍可点气泡停留。\\n• 检查更新可展开近期版本说明；关闭后仍停留下载页。\\n• 首页连接失败不再静默黑屏，提供明确提示、重试和返回入口。\\n• 档案切换停止遗留语音，取消离开页面后的迟到播放。\\n• 减少下载页重复排版开销，并更新四张巡逻按钮的汉化统计。\"\n    },\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.1.8\",\n      \"note\": \"本次更新（1.1.8）\\n• 手动检查更新后关闭弹窗会停留在下载页，不再直接进入游戏。\\n• 修复更新弹窗无法再次打开和迟到弹窗阻塞入口的问题。\\n• 资源更新可勾选到下个版本再提醒；手动检查可重新选择。\\n• 保留原有字体精简，不影响已安装存档与资源。\\n• 修复单人、双人及换装档案长字幕遮挡和长段落显示不全。\"\n    },\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.1.7\",\n      \"note\": \"本次更新（1.1.7）\\n• 移除未使用的字体副本，保留实际使用的圆体和方体。\\n• 热更新先显示摘要并由你选择；跳过后到新版本再提醒。\\n• 检查更新同时检查应用和资源，应用更新可选择本版不再提醒。\\n• 配套资源修复档案活动剧情中的镜界排名横幅。\"\n    },\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.1.6\",\n      \"note\": \"本次更新（1.1.6）\\n• 修复部分网络下剧情和JS热更新包下载失败。\\n• 离线导入先选目录，支持任意名称ZIP，手动操作不再被超时打断。\\n• 修复小丘比看板、双人档案字幕被右侧菜单遮挡。\\n• 巡逻按钮替换为新版中文图，不再叠加文字遮罩。\"\n    },\n    {\n      \"kind\": \"apk\",\n      \"version\": \"1.1.5\",\n      \"note\": \"本次更新（1.1.5）\\n• 下载页默认播放BGM1，点击关闭后再点击切换BGM2。\\n• 标题界面使用BGM2原始音乐，修复旧场景资源覆盖。\\n• 更新弹窗显示每版更新内容，GitHub入口改为作者主页。\\n• 离线导入支持全部16个资源包，保留校验与防回退保护。\"\n    },\n    {\n      \"kind\": \"delta\",\n      \"version\": \"38\",\n      \"note\": \"档案切换时停止遗留语音，防止特殊换装语音延迟到离开页面后播放。\\n保留主页正常问候与手动试听；更新四张巡逻中文按钮的汉化统计。\"\n    },\n    {\n      \"kind\": \"delta\",\n      \"version\": \"37\",\n      \"note\": \"修复档案语音页单人角色长字幕被右侧列表遮挡。\\n统一单人、双人及换装字幕区域；搭配1.1.8完整显示长段落，保留全屏与原文。\"\n    },\n    {\n      \"kind\": \"delta\",\n      \"version\": \"36\",\n      \"note\": \"移除两份无用字体，减少资源占用。\\n修复档案活动剧情中镜界排名横幅。\"\n    }\n  ],\n  \"release_notes\": [\n    \"修复 1.1.9／1.1.10 的内置升级链。请先覆盖升级到真实 1.1.11，之后即可接收 1.2.x。\",\n    \"修复累计修订 v48 → v48 反复提醒：已验证的 APK 中文覆盖不再被误报为损坏，真正损坏的资源仍可修复。\",\n    \"包含此前离线启动、手机横屏布局、历史商店与中文文本修订；保留已有资源和存档，无需重新下载全部资源。\",\n    \"保留旧版升级入口与对应 1.1.11 安装包；后续发布 1.2.x 时，尚未更新的旧用户仍先获得桥接更新。\"\n  ],\n  \"corresponding_source\": {\n    \"sha256\": \"f12ebe3d57681a82935dc2e52505b4a363ba0fdd5c1fd0acfa4184f940fed941\",\n    \"size\": 124250449,\n    \"url\": \"https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.1.11-corresponding-source.zip\",\n    \"asset\": \"magireco-legacy-client-1.1.11-corresponding-source.zip\"\n  },\n  \"source_inputs\": {\n    \"frontend\": {\n      \"asset\": \"frontend-supplement-exact-r7.zip\",\n      \"size\": 335109307,\n      \"sha256\": \"1139358c5e6b8d03c4a3e71ebfe3dcf460d7d5a69da39aa743c74665bbfeb1b5\",\n      \"url\": \"https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/frontend-supplement-exact-r7.zip\"\n    },\n    \"retained_119_apk\": {\n      \"asset\": \"magireco-legacy-client-1.1.9.apk\",\n      \"size\": 94360121,\n      \"sha256\": \"bda60d8afda79d95bd4f9f5899270cc66107268008d335d744b75a486eb6a020\",\n      \"url\": \"https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.1.9.apk\"\n    },\n    \"rebuild_note\": \"public-origins.json records the historical mutable latest URL. Download the retained 1.1.9 APK above, verify its fixed hash, and pass its local file to the rebuild recipe. Do not substitute the new latest APK.\"\n  },\n  \"upgrade_bridge\": {\n    \"schema\": 1,\n    \"from_clients\": [\n      \"1.1.9\",\n      \"1.1.10\"\n    ],\n    \"supersedes_unreachable_release\": \"1.2.1\",\n    \"next_release_line\": \"1.2\"\n  }\n}\n",
+      "signature": "195eac5c5564ef94809471c805099fae1b8056b6a1fc7f12079be8ced87a98167910ea99dab7465743ad7a216f33dcab98b51ebe9b4c44d525b3eaf67cb61e49c71d7d74952d71794603dcc461d3bfef4cecdc6ea2a203489540c8011f5d09e518d008e016cea5edb64d1e509226371a0ddae873d0942b164bc000833ba910656f2942e48932b2e3d8f4bcbfd780c8917ad7398d503cc148607346a8ea7c656a1cfdc8d6882e3a6148da8bc39e65d0ee3118ff9946f933530fdbea71c921b5885fef20440aa73dfc04d541435433e907aa0e78898138724395fcd12febed86608227804cde4ba28d8137698ed937b6c5581f8b269635394e58e36ee6cffdf658399fd2dce9daa804e2b549095df206456ed114ab9acb28cacdb5da7bdf7e71e8103e744bffcd218e1fe6e6fb4a5d420ed1118b6325f9681ddc33747cfd0985a22fa279bd2f127f61ab592589c170760819d7e582055b433df8eefce64b83dbeacd933a2f398fbb4a99a20d30eec5c90540d4ade4f1ce0ce0c43a71a78ea6b8c6"
     }
   },
   "contribution_stats": {
