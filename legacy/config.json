@@ -54,7 +54,7 @@
       },
       {
         "type": "sub",
-        "text": "核心实现与全中文化【完全离线版与远离 Totentanz 的国产服务器端研究制作中】。"
+        "text": "核心实现、全中文化补全与整合，以及独立离线版技术研发与实现。"
       },
       {
         "type": "sub",
@@ -95,6 +95,72 @@
       {
         "type": "sub",
         "text": "记忆结晶简介校订：5 条（奈叶联动，依据日文原文修正既有 Wiki 译文；原译来源归属保留）。"
+      },
+      {
+        "type": "sub",
+        "text": "离线技术研发：本地业务服务、接口还原与适配、多档案存档、历史活动日历及本地时间管理。",
+        "url": "",
+        "span": ""
+      },
+      {
+        "type": "sub",
+        "text": "离线玩法实现与整合：角色养成、队伍编成、剧情与战斗、奖励结算、卡池抽取、商店兑换及任务进度。",
+        "url": "",
+        "span": ""
+      },
+      {
+        "type": "sub",
+        "text": "离线客户端技术：原生界面与本地业务桥接、运行数据构建与封装、资源复用及版本更新链整合。",
+        "url": "",
+        "span": ""
+      },
+      {
+        "type": "sub",
+        "text": "活动名称汉化与整合：423 项，完成既有译名整理、缺口补译及校订。",
+        "url": "",
+        "span": ""
+      },
+      {
+        "type": "sub",
+        "text": "历史卡池名称汉化与整合：595 项，其中缺口补译 180 项；国服及 Wiki 既有译名 415 项。",
+        "url": "",
+        "span": ""
+      },
+      {
+        "type": "sub",
+        "text": "活动横幅文字汉化：602 种，覆盖 1,209 条非空记录，包含举办时间等模板文字和活动说明。",
+        "url": "",
+        "span": ""
+      },
+      {
+        "type": "sub",
+        "text": "登录剧情公告正文汉化与整合：8 篇，其中新增全文翻译 6 篇、沿用既有中文 2 篇。",
+        "url": "",
+        "span": ""
+      },
+      {
+        "type": "sub",
+        "text": "近期图像汉化与修复：38 张，完成文字、质感及版式的修订与整合。",
+        "url": "",
+        "span": ""
+      },
+      {
+        "type": "sub",
+        "text": "每日塔任务文案汉化与整合：32 项任务，修订 98 个显示字段。",
+        "url": "",
+        "span": ""
+      },
+      {
+        "type": "sub",
+        "text": "魔女之夜任务与奖励文案汉化整合：32 项任务、114 条奖励记录，修订 365 个显示字段。",
+        "url": "",
+        "span": ""
+      },
+      {
+        "type": "sub",
+        "text": "其他显示文案整合：9 个新年商品的 19 个字段、2 个自选卡池的 16 个字段，以及 1 处公告弹窗标题。",
+        "url": "",
+        "span": ""
       },
       {
         "type": "item",
@@ -221,6 +287,18 @@
         "text": "国服原有译文不计入上述个人汉化贡献。"
       },
       {
+        "type": "sub",
+        "text": "活动与卡池名称分别按条目统计，复刻、同文复用及再次修订不增加独立译文数；国服、水银 h2oag、圆环记录 Wiki 及其他既有译名来源保留。",
+        "url": "",
+        "span": ""
+      },
+      {
+        "type": "sub",
+        "text": "近期图像 38 张为本批汉化与修复的文件数，含既有图像修订，不与累计 286 张直接相加；另有 1 张沿用原图，不计新增汉化。任务、奖励记录与显示字段分别统计，既有译文复用不计新增原创翻译。",
+        "url": "",
+        "span": ""
+      },
+      {
         "type": "head",
         "text": "MadeInMagius的其他网站作品链接"
       },
@@ -255,7 +333,7 @@
         "span": "madeinmagius-site.pages.dev"
       }
     ],
-    "footer": "MadeInMagius 中文化与整合｜协助：CyberNova／PhotonFlow、圆环记录攻略组、水银 h2oag、segfault｜详细贡献与统计见左栏｜1.0.195 起使用寒蝉全圆体 Bold 3.200与 MiSans Semibold 4.009",
+    "footer": "MadeInMagius 中文化、整合与离线技术研发｜协助：CyberNova／PhotonFlow、圆环记录攻略组、水银 h2oag、segfault｜详细贡献与统计见左栏｜1.0.195 起使用寒蝉全圆体 Bold 3.200与 MiSans Semibold 4.009",
     "github_url": "https://github.com/HiiragiNemu/ProgettoMagius-1",
     "footer_marquee": true
   },
@@ -652,6 +730,81 @@
           "receipt": "docs/story-quality/client-integration/logo-aspect-reproduction-20261003.json"
         }
       }
+    },
+    "updates_20261021": {
+      "as_of": "2026-10-21",
+      "contributor": "MadeInMagius",
+      "offline_engineering": {
+        "areas": [
+          "local_service",
+          "profiles_and_save",
+          "calendar_and_clock",
+          "growth_and_team",
+          "battle_and_settlement",
+          "gacha_and_transactions",
+          "missions_and_events",
+          "native_and_packaging"
+        ],
+        "credit": "独立离线版技术研发与实现",
+        "whole_historical_game_complete": false
+      },
+      "activity_names": {
+        "active_ids": 423,
+        "source_rows": 424,
+        "compatibility_duplicate": 1,
+        "category": "汉化整合、补译与校订"
+      },
+      "gacha_names": {
+        "historical_ids": 595,
+        "project_supplement_ids": 180,
+        "existing_source_ids": 415,
+        "official_cn_via_wiki": 76,
+        "wiki": 339
+      },
+      "banner_text": {
+        "unique_source_strings": 602,
+        "nonempty_carrier_rows": 1209,
+        "time_template_variants": 517,
+        "other_texts": 85
+      },
+      "login_story_notices": {
+        "bodies": 8,
+        "new_complete_translations": 6,
+        "existing_bodies_retained": 2
+      },
+      "recent_images": {
+        "localized_or_reworked_paths": 38,
+        "original_retained": 1,
+        "baseline_total_preserved": 286,
+        "net_new_unique_paths": null
+      },
+      "daily_tower": {
+        "mission_ids": 32,
+        "changed_display_fields": 98
+      },
+      "walpurgis": {
+        "mission_ids": 32,
+        "reward_records": 114,
+        "changed_display_fields": 365,
+        "official_cn_bindings_included": 104
+      },
+      "other_display": {
+        "new_year_shop_items": 9,
+        "shop_fields_reused": 19,
+        "selectable_gacha_fields": 16,
+        "popup_title_bindings": 1
+      },
+      "preserve_existing_totals": {
+        "story": 344,
+        "selection": 735,
+        "voice_unique": 1588,
+        "skills": 4209,
+        "frontend": 1470,
+        "images": 286,
+        "titles": 967,
+        "story_revision_fields": 11226
+      },
+      "counting_rule": "同一产出修订不重复增加总数；条目、独立译句、承载行与字段不相加。国服、水银、Wiki和其他来源归属保留。"
     }
   },
   "cn_base_mirrors": [
