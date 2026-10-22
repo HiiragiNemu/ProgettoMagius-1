@@ -824,5 +824,20 @@
       "chunks": 8,
       "enabled": true
     }
-  ]
+  ],
+  "single_line_migration": {
+    "schema": 1,
+    "mode": "true-1.2-single-apk",
+    "from": {
+      "version": "1.3.4",
+      "version_code": 1713000858,
+      "size": 462325970,
+      "sha256": "e2fb1e34f87e95ac5cb5a20f9f60e7e9fd745510805d644d8cd3bcb1aa0e70f9",
+      "source_commit": "4a1d01f4599927a889a015dc217f79e7fb0c75d8"
+    },
+    "to_line": "1.2",
+    "minimum_version": "1.2.5",
+    "minimum_code": 1713000866,
+    "old_1_3_manual_install_once": true
+  }
 }
