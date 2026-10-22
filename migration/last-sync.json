@@ -2,8 +2,8 @@
   "schema": 1,
   "status": "assets_verified",
   "source_config_blob": "8d550cf80cc773d7034c46a89fc380cdecb8c354",
-  "asset_count": 57,
-  "client_version": "1.2.5",
+  "asset_count": 58,
+  "client_version": "1.2.6",
   "assets": [
     {
       "name": "magireco-legacy-client-1.1.1-corresponding-source.zip",
@@ -99,6 +99,12 @@
       "name": "magireco-legacy-client-1.2.5-corresponding-source.zip",
       "sha256": "1ab4181530ecea69bc7be4a30df2b479f3028880eb7c238fca0b66ca699bb28c",
       "size": 126308243,
+      "unchanged": true
+    },
+    {
+      "name": "magireco-legacy-client-1.2.6-corresponding-source.zip",
+      "sha256": "764df553546a1ff89b7c98bd95441cdc59b8e4e5417297c94bd7898a8649c3d1",
+      "size": 126341510,
       "unchanged": false
     },
     {
@@ -115,8 +121,8 @@
     },
     {
       "name": "magireco-latest-legacy-client.apk",
-      "sha256": "6ac63b15fdf6271c025196ef4c70724a666efcee8ddf91aa00f57f82c54d82ff",
-      "size": 462743762,
+      "sha256": "2a66516a4c765e1a3749bd38e404d19657b7ce633a537408317f6a4a9eca60e5",
+      "size": 462776881,
       "unchanged": false
     },
     {
@@ -187,8 +193,8 @@
     },
     {
       "name": "cn_js_delta_v2.zip",
-      "sha256": "5ea4f524dc43ba96d46c9c6f338183bc913061c849fbceef82720c752cd6f206",
-      "size": 39032383,
+      "sha256": "65d6b9cab38043c35d0ea7d49a94914ff900956b0574a042848bd36ceccef4a9",
+      "size": 39051351,
       "unchanged": true
     },
     {
@@ -223,8 +229,8 @@
     },
     {
       "name": "magireco-current-legacy-client.apk",
-      "sha256": "6ac63b15fdf6271c025196ef4c70724a666efcee8ddf91aa00f57f82c54d82ff",
-      "size": 462743762,
+      "sha256": "2a66516a4c765e1a3749bd38e404d19657b7ce633a537408317f6a4a9eca60e5",
+      "size": 462776881,
       "unchanged": false
     },
     {
@@ -237,13 +243,13 @@
       "name": "magireco-legacy-client-1.2.4.apk",
       "sha256": "302303b615c7876e885492a54b1e38cdd55b25d95b6bce4023652fbcef422926",
       "size": 462325970,
-      "unchanged": false
+      "unchanged": true
     },
     {
       "name": "magireco-legacy-client-1.3.4.apk",
       "sha256": "e2fb1e34f87e95ac5cb5a20f9f60e7e9fd745510805d644d8cd3bcb1aa0e70f9",
       "size": 462325970,
-      "unchanged": false
+      "unchanged": true
     },
     {
       "name": "movie.zip",
@@ -261,13 +267,13 @@
       "name": "magireco-legacy-client-1.2.4.version.json",
       "sha256": "659f97d319210d16f7d8b237127b5fcf3793bec84d216f095d5bced35447e01f",
       "size": 34614,
-      "unchanged": false
+      "unchanged": true
     },
     {
       "name": "magireco-legacy-client-1.3.4.version.json",
       "sha256": "1d65e9ec37a68488a72f51572f0f8d548846c48493cdbc4d1cf2633f609b3bea",
       "size": 40721,
-      "unchanged": false
+      "unchanged": true
     },
     {
       "name": "cn_js_update_manifest.json",
@@ -295,8 +301,8 @@
     },
     {
       "name": "magireco-latest-legacy-client.version.json",
-      "sha256": "54adb35ce0b7a7293f48e0cc68fb68e2448cf9921e5e57d5c4ce42ed9a3becd1",
-      "size": 36081,
+      "sha256": "a29173d929eddfaa208df932fda830923f286c8035dbd3614062dcac8d17b771",
+      "size": 36231,
       "unchanged": false
     },
     {
@@ -325,8 +331,8 @@
     },
     {
       "name": "cn_js_delta_manifest_v2.json",
-      "sha256": "68911ba6a3496424c93ed01e6a89506220dfae04e1e8e3eb672a8f8abb36e973",
-      "size": 206405,
+      "sha256": "c30b7fa648f9d8f71ce3caaef5737d31debefe957028edb679a37e7fbc5755a4",
+      "size": 214854,
       "unchanged": true
     },
     {
@@ -337,18 +343,18 @@
     },
     {
       "name": "version_js_delta_v2.json",
-      "sha256": "5043dc513fce6544b076e8bf45ed0b39e952ecddb7da15245f65d9f92d18e1c7",
-      "size": 2745,
+      "sha256": "3105d9d078482c2a29674306d0205588a6af245c9d4638b2cd4dfd388d85f848",
+      "size": 1892,
       "unchanged": true
     },
     {
       "name": "magireco-current-legacy-client.version.json",
-      "sha256": "54adb35ce0b7a7293f48e0cc68fb68e2448cf9921e5e57d5c4ce42ed9a3becd1",
-      "size": 36081,
+      "sha256": "a29173d929eddfaa208df932fda830923f286c8035dbd3614062dcac8d17b771",
+      "size": 36231,
       "unchanged": false
     }
   ],
-  "checked_at": "2026-10-22T13:52:59.007494+00:00",
+  "checked_at": "2026-10-22T19:11:58.926689+00:00",
   "apk_font_replacement_verified": false,
   "existing_apk_private_cutover_verified": false
 }
