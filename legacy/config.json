@@ -33,11 +33,13 @@
     "comment": "给外部监控用，客户端不读这一段。声明有哪几份热更版本 json、以及它们各自对应的包；监控插件里不写死文件名，没有这一段就跳过热更相关探针——不知道该探什么时保持沉默，比拿一份猜的清单去报警好。",
     "version_files": [
       "version_scenario.json",
-      "version_js.json"
+      "version_js.json",
+      "version_offline.json"
     ],
     "packages": {
       "version_scenario.json": "cn_scenario_update.zip",
-      "version_js.json": "cn_js_update.zip"
+      "version_js.json": "cn_js_update.zip",
+      "version_offline.json": "cn_offline_update.zip"
     }
   },
   "ui_credits": {
@@ -828,11 +830,11 @@
   "single_line_migration": {
     "schema": 2,
     "mode": "true-1.2-single-apk",
-    "minimum_version": "1.3.3",
+    "minimum_version": "1.3.5",
     "to_line": "1.2",
     "legacy_discovery": {
-      "version": "1.3.133",
-      "display_version": "1.3.3"
+      "display_version": "1.3.5",
+      "version": "1.3.135"
     },
     "old_1_3_manual_install_once": false,
     "from": {
@@ -842,6 +844,6 @@
       "version_code": 1713000858,
       "version": "1.3.4"
     },
-    "minimum_code": 1713000887
+    "minimum_code": 1713000889
   }
 }
