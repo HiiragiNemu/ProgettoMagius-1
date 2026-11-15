@@ -1,35 +1,40 @@
 # MAGIA 客户端与运行资源
 
-## 正式客户端 1.6.2（构建号 1713001029）
+## 正式客户端 1.6.3（构建号 1713001030）
 
 本项目继续更新仓库，并同步正式 APK、资源包与完整对应源码；仓库公开或私有状态调整不代表停止维护。
 
-- [下载正式 APK](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.6.2-b1713001029.apk)
-- [下载本构建对应源码与构建材料](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magia-1.6.2-b1713001029-four-profile-corresponding-source-65484109.zip)
-- [签名版本信息](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.6.2-b1713001029.version.json)
-- [文件清单与 SHA-256](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magia-1.6.2-github-release-manifest.json) · [SHA256SUMS](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magia-1.6.2-github-SHA256SUMS.txt)
+- [下载正式 APK](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.6.3-b1713001030.apk)
+- [下载本构建对应源码与构建材料](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magia-1.6.3-b1713001030-four-profile-corresponding-source-7e2e543b.zip)
+- [签名版本信息](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magireco-legacy-client-1.6.3-b1713001030.version.json)
+- [文件清单与 SHA-256](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magia-1.6.3-github-release-manifest.json) · [SHA256SUMS](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/magia-1.6.3-github-SHA256SUMS.txt)
 
-对应源码固定于提交 `65484109a6531b288daf90b2e9ef03f29dc07f67`；源码包包含对应版权、许可与构建说明。维护选项为 1.6.2 / 1.6.1 / 1.6.0 / 1.5.9，均绑定同一维护索引。
+对应源码固定于提交 `7e2e543baa31cce2a623058bbd20640a9fbdc9ad`；源码包包含对应版权、许可与构建说明。维护选项为 1.6.3 / 1.6.2 / 1.6.1 / 1.6.0，均绑定同一维护索引。
 
 | 文件 | 字节数 | SHA-256 |
 | --- | ---: | --- |
-| APK | 139876300 | `21fa72cbe360898e10072f1ccc4c48b17389d57eb91c704967b4edceca1cb031` |
-| 对应源码 ZIP | 425151268 | `176294d81754b8e97dd0417ecab5dc1b298aadcd2854fb774cc3322b963d2eeb` |
-| 四档维护索引 | 9174 | `fb8a1d9d130d8190c9e9755f776aff01ac217bdaecfda4ddad247c7e6fbba4d4` |
+| APK | 138352485 | `5715af939db509e2a82ca2436085a9f371aad0ca0e3a4c403d9937463852aa17` |
+| 对应源码 ZIP | 480309975 | `b9d88e839dbe2b1f52d99f6da403981a251b4b23bbca1645b9c7e039c4cd1d47` |
+| 四档维护索引 | 9174 | `3294503a745bcac07d0fbef5a15d1473d74635341a6ef293926ef93f20b024c4` |
 
 ### 本次修复
 
-- 1.6.2 累计修复；覆盖安装保留已有存档、字体和资源。
-- 修复已核对的自动周回结算继续条件，以及恢复凭据所属记录不一致时的后续处理。
-- 修复训练活动角色选择页的中文展示；兼容已核对的记忆图片收集回调格式。
-- 补齐本轮已核对的活动数据绑定，以及小丘比第四节三项任务和第二 Magia 的原始数据衔接。
+- 1.6.3 累计修复；覆盖安装保留已有存档、字体和资源。
+- 修正本地相机入口的接口绑定，调整拍照请求的可选 EXIF 缩略图设置；实际拍摄由手机端确认。
+- 修正御魂的特训页签绘制，保留原活动条件与网络接口。
+- 修正记忆图片的按需加载、万圣节队伍缓存字段、属性强化的属性数值刷新及结果窗口重复创建；保留已有角色、道具、奖励和记录。
+- 诊断导出补充当前受管理存档的既有诊断信息，不改写存档；此项不代表新增玩法修复。
+- Magia Clash 的 SINGLERAID 原始数据缺口及2019年蓝宝石故障原因仍待解决，不计入本次已解决事项。
+
+- 补齐本地队伍编成页首次初始化所需的两项角色强化集合；已核对冷进入编成、返回关卡页、活动首页及主页。
+- 队伍战力 NaNPt 显示仍待处理；批量材料操作及手机实际拍摄仍待对应验证，不列为本轮已验收。
 
 ### 配对资源
 
 - [前端完整资源 v105](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/cn_js_update_v2.full105-v105.zip)。
 - [累计修订 v67](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/cn_js_delta_v2.delta67.zip)。
 - [离线数据 Pack17 v10](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/cn_offline_update.zip)。
-- [最终资源补丁 Pack18 v15](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/cn_offline_delta.zip)。
+- [最终资源补丁 Pack18 v16](https://github.com/HiiragiNemu/ProgettoMagius-1/releases/download/latest/cn_offline_delta.zip)。
 
 版本元数据、清单和归档身份按本次文件清单配对。历史不可变资产继续保留；当前泛名入口以本次签名元数据为准。请使用与实际 APK 匹配的对应源码。
 
